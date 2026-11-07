@@ -19,10 +19,10 @@
     "base": "0.1.257",
     "page": "https://nearq.itch.io/midgard-directx12",
     "patch": {
-      "version": "0.1.258",
-      "file": "patches/android_patch_0.1.258.bin",
-      "size": 2157660,
-      "sha256": "b9244d311c96f548b58f9f6eb4697ee2c4dd4a091ac7ba252bb2eacf9f759266"
+      "version": "0.1.259",
+      "file": "patches/android_patch_0.1.259.bin",
+      "size": 2530540,
+      "sha256": "66e25ce53af77c036aad045e81d7ef80c193be767d9f398415a3a906b2863882"
     },
     "legacy": {
       "0.1.251": {
