@@ -2,10 +2,10 @@
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.261",
-    "file": "patches/patch_0.1.261.bin",
-    "size": 3304684,
-    "sha256": "10c3f6c2f232f8832bac9c0676c24b3da63456130d11adc66ff07b6e5a04115b"
+    "version": "0.1.262",
+    "file": "patches/patch_0.1.262.bin",
+    "size": 3326284,
+    "sha256": "c146573cf9de42bf96f7c63e785d3c7cefedc17b67ee10f80c92dce3de422f1b"
   },
   "legacy": {
     "0.1.219": {
@@ -46,6 +46,23 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.262",
+      "items": [
+        {
+          "t": "new",
+          "es": "Auto-vender: casilla Moradas, solo para la partida actual (se apaga al empezar otra).",
+          "en": "Auto-sell: a Purple box, only for the current run (it turns off when the next one starts).",
+          "pt": "Auto-vender: caixa Roxos, s\u00f3 para a partida atual (desliga ao come\u00e7ar outra)."
+        },
+        {
+          "t": "fix",
+          "es": "Renacer: en Valhalla ya puedes caminar con el joystick del celular y con clic.",
+          "en": "Rebirth: in Valhalla you can now walk with the phone's joystick and by clicking.",
+          "pt": "Renascer: em Valhalla agora d\u00e1 para andar com o joystick do celular e com clique."
+        }
+      ]
+    },
     {
       "version": "0.1.261",
       "items": [
@@ -326,47 +343,6 @@
           "es": "Invitar a party a alguien de tu canal ya no falla a veces.",
           "en": "Inviting someone from your channel to a party no longer fails at times.",
           "pt": "Convidar algu\u00e9m do seu canal para a party n\u00e3o falha mais \u00e0s vezes."
-        }
-      ]
-    },
-    {
-      "version": "0.1.250",
-      "items": [
-        {
-          "t": "new",
-          "es": "Al vencer a Naght Sieger en el piso 100, toda la party gana las Alas de la Torre (una vez por clase) y no se pueden comerciar.",
-          "en": "Beating Naght Sieger on floor 100 gives the whole party the Tower Wings (once per class), and they can't be traded.",
-          "pt": "Ao vencer Naght Sieger no andar 100, toda a party ganha as Asas da Torre (uma vez por classe), e elas n\u00e3o podem ser trocadas."
-        },
-        {
-          "t": "new",
-          "es": "Las bendiciones y maldiciones de la ruleta de Lucile aparecen en tu fila de efectos, para toda la party.",
-          "en": "Lucile's wheel blessings and curses show in your buff row, for the whole party.",
-          "pt": "As b\u00ean\u00e7\u00e3os e maldi\u00e7\u00f5es da roleta da Lucile aparecem na sua fileira de efeitos, para toda a party."
-        },
-        {
-          "t": "fix",
-          "es": "En co-op, el informe final de quien se une muestra qu\u00e9 lo derrot\u00f3, y un cofre ya no tapa la bendici\u00f3n de Lucile (espera su turno).",
-          "en": "In co-op, the joiner's end report shows what defeated them, and a chest no longer covers Lucile's blessing (it waits its turn).",
-          "pt": "No co-op, o relat\u00f3rio final de quem entra mostra o que o derrotou, e um ba\u00fa n\u00e3o cobre mais a b\u00ean\u00e7\u00e3o da Lucile (ele espera a vez)."
-        },
-        {
-          "t": "up",
-          "es": "En la Endless Tower ves m\u00e1s efectos de tus compa\u00f1eros, y en co-op los autocasts muy r\u00e1pidos dibujan menos rayos (pegan igual).",
-          "en": "In the Endless Tower you see more of your teammates' effects, and in co-op very fast autocasts draw fewer bolts (same damage).",
-          "pt": "Na Endless Tower voc\u00ea v\u00ea mais efeitos dos companheiros, e no co-op autocasts muito r\u00e1pidos desenham menos raios (mesmo dano)."
-        },
-        {
-          "t": "up",
-          "es": "Las monedas del Gunslinger son monedas de oro que giran; el nombre vac\u00edo al crear personaje brilla; botones desactivados m\u00e1s limpios y login con sombra m\u00e1s suave.",
-          "en": "Gunslinger coins are spinning gold coins; the empty name field in character creation glows; cleaner disabled buttons and a softer login shadow.",
-          "pt": "As moedas do Gunslinger s\u00e3o moedas de ouro girando; o nome vazio na cria\u00e7\u00e3o de personagem brilha; bot\u00f5es desativados mais limpos e login com sombra mais suave."
-        },
-        {
-          "t": "fix",
-          "es": "Menos errores internos en co-op (trampas de otros jugadores, ventanas cerradas).",
-          "en": "Fewer internal errors in co-op (other players' traps, closed windows).",
-          "pt": "Menos erros internos no co-op (armadilhas de outros jogadores, janelas fechadas)."
         }
       ]
     }
