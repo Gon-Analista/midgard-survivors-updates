@@ -1,6 +1,12 @@
 {
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
+  "patch": {
+    "version": "0.1.260",
+    "file": "patches/patch_0.1.260.bin",
+    "size": 3105324,
+    "sha256": "94210d5bdd99e3ed3dc8478dadc4d6bb63dd521b50f9625d5c4d3b9ede95d589"
+  },
   "legacy": {
     "0.1.219": {
       "version": "0.1.259",
@@ -34,6 +40,53 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.260",
+      "items": [
+        {
+          "t": "new",
+          "es": "Guardado en la nube (Opciones > Juego): juega en PC y celular con la misma partida. Vincula tus dispositivos con un c\u00f3digo.",
+          "en": "Cloud save (Options > Game): play on PC and phone with the same save. Link your devices with a code.",
+          "pt": "Salvamento na nuvem (Op\u00e7\u00f5es > Jogo): jogue no PC e no celular com o mesmo salvamento. Vincule seus dispositivos com um c\u00f3digo."
+        },
+        {
+          "t": "new",
+          "es": "Gr\u00e1ficos: tama\u00f1o de ventana, nitidez de la interfaz (suave por defecto) y tama\u00f1o de la interfaz.",
+          "en": "Graphics: window size, interface sharpness (smooth by default) and interface size.",
+          "pt": "Gr\u00e1ficos: tamanho da janela, nitidez da interface (suave por padr\u00e3o) e tamanho da interface."
+        },
+        {
+          "t": "up",
+          "es": "Los primeros minutos de Prontera Field y Culvert son m\u00e1s amables, y su MVP tambi\u00e9n (Lord of Vermilion ya no mata de un golpe).",
+          "en": "The first minutes of Prontera Field and Culvert are gentler, and so is their MVP (Lord of Vermilion no longer one-shots).",
+          "pt": "Os primeiros minutos de Prontera Field e Culvert s\u00e3o mais tranquilos, e o MVP deles tamb\u00e9m (Lord of Vermilion n\u00e3o mata mais de um golpe)."
+        },
+        {
+          "t": "up",
+          "es": "Chat: hora en cada mensaje, recuerda a qui\u00e9n susurras, flechas para tus mensajes anteriores, /sit, emociones cortas (/lv, /swt, /!...) y clic en un nombre para susurrarle. Android: bot\u00f3n Escribir y el h\u00e9roe solo camina con el joystick.",
+          "en": "Chat: time on each message, it remembers who you whisper, arrows for your previous messages, /sit, short emotes (/lv, /swt, /!...) and click a name to whisper. Android: Write button, and the hero only walks with the joystick.",
+          "pt": "Chat: hora em cada mensagem, lembra com quem voc\u00ea sussurra, setas para suas mensagens anteriores, /sit, emo\u00e7\u00f5es curtas (/lv, /swt, /!...) e clique num nome para sussurrar. Android: bot\u00e3o Escrever e o her\u00f3i s\u00f3 anda com o joystick."
+        },
+        {
+          "t": "up",
+          "es": "Fin de partida: 3 objetos gratis al almac\u00e9n si ganas, y el equipo que no te llevas se vende solo. Los legendarios son un poco m\u00e1s raros.",
+          "en": "End of a run: 3 free items to the storage if you win, and the gear you don't take is sold automatically. Legendaries are a bit rarer.",
+          "pt": "Fim de partida: 3 itens gr\u00e1tis ao armaz\u00e9m se vencer, e o equipamento que voc\u00ea n\u00e3o levar \u00e9 vendido sozinho. Os lend\u00e1rios ficaram um pouco mais raros."
+        },
+        {
+          "t": "fix",
+          "es": "Co-op: la votaci\u00f3n del bot\u00edn legendario va antes que las subidas de nivel, tiene m\u00e1s tiempo y muestra la tarjeta del objeto.",
+          "en": "Co-op: the legendary loot vote comes before the level-ups, has more time and shows the item's card.",
+          "pt": "Co-op: a vota\u00e7\u00e3o do saque lend\u00e1rio vem antes das subidas de n\u00edvel, tem mais tempo e mostra o cart\u00e3o do item."
+        },
+        {
+          "t": "fix",
+          "es": "Nombres de Prontera m\u00e1s legibles, los pies ya no se hunden con la c\u00e1mara cerca, las ventanas caben en celulares chicos y el medidor muestra el bonus de Mysteltainn.",
+          "en": "More readable names in Prontera, feet no longer sink with the camera close, windows fit on small phones and the meter shows Mysteltainn's bonus.",
+          "pt": "Nomes de Prontera mais leg\u00edveis, os p\u00e9s n\u00e3o afundam mais com a c\u00e2mera perto, as janelas cabem em celulares pequenos e o medidor mostra o b\u00f4nus de Mysteltainn."
+        }
+      ]
+    },
     {
       "version": "0.1.259",
       "items": [
@@ -316,47 +369,6 @@
           "pt": "O l\u00edder confirma antes de encerrar a partida para toda a party."
         }
       ]
-    },
-    {
-      "version": "0.1.248",
-      "items": [
-        {
-          "t": "new",
-          "es": "Al invitar o unirte a una party, la barra de la sala aparece al instante con una carga para saber c\u00f3mo va.",
-          "en": "When you invite or join a party, the room bar shows up at once with a loader so you know how it's going.",
-          "pt": "Ao convidar ou entrar numa party, a barra da sala aparece na hora com um carregamento para saber como vai."
-        },
-        {
-          "t": "new",
-          "es": "La party sigue al l\u00edder a la Endless Tower (y de vuelta a Prontera).",
-          "en": "The party follows the leader to the Endless Tower (and back to Prontera).",
-          "pt": "A party segue o l\u00edder at\u00e9 a Endless Tower (e de volta a Prontera)."
-        },
-        {
-          "t": "fix",
-          "es": "En co-op, los que se unen ven el carro del Chef, pueden recoger ramas y objetos de doma, ven cargarse los altares y el Hipnotizador, y ven el aura real de cada uno.",
-          "en": "In co-op, joiners see the Chef's cart, can pick up branches and taming items, see altars and the Hypnotist charge, and see everyone's real aura.",
-          "pt": "No co-op, quem entra v\u00ea o carrinho do Chef, pode pegar galhos e itens de doma, v\u00ea os altares e o Hipnotizador carregando e a aura real de cada um."
-        },
-        {
-          "t": "up",
-          "es": "Las ventanas m\u00e1s altas que la pantalla (como la de Lucile) se achican para verse enteras; los avisos de Lydia salen en una ventana limpia y, sin ser el l\u00edder, el portal muestra tu sala.",
-          "en": "Windows taller than the screen (like Lucile's) shrink to fit; Lydia's notices show in a clean window and, when you're not the leader, the portal shows your room.",
-          "pt": "Janelas mais altas que a tela (como a da Lucile) diminuem para caber; os avisos da Lydia aparecem numa janela limpa e, sem ser o l\u00edder, o portal mostra sua sala."
-        },
-        {
-          "t": "fix",
-          "es": "El aura de renacido ya no atraviesa tus zapatos ni se corta en los cerros.",
-          "en": "The rebirth aura no longer cuts through your shoes or gets cut by hills.",
-          "pt": "A aura de renascido n\u00e3o atravessa mais seus sapatos nem \u00e9 cortada pelos morros."
-        }
-      ]
     }
-  ],
-  "broadcast": {
-    "id": "1794082208",
-    "es": "\u00a1Hola! Soy el dev. \u00a1Espero que est\u00e9n disfrutando del juego! Me hace mucha ilusi\u00f3n que haya tanta gente jugando ahora mismo. En un rato subir\u00e9 una actualizaci\u00f3n con varios arreglos.",
-    "en": "Hi! I'm the dev. I hope you're enjoying the game! I'm so happy to see so many people playing right now. In a little while I'll release an update with several fixes.",
-    "pt": "Ol\u00e1! Sou o dev. Espero que voc\u00eas estejam curtindo o jogo! Fico muito feliz de ver tanta gente jogando agora. Daqui a pouco vou lan\u00e7ar uma atualiza\u00e7\u00e3o com v\u00e1rias corre\u00e7\u00f5es."
-  }
+  ]
 }
