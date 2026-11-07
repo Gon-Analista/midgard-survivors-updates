@@ -2,10 +2,10 @@
   "base": "0.1.219",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.254",
-    "file": "patches/patch_0.1.254.bin",
-    "size": 7152828,
-    "sha256": "044ce275b1bb40bd751675daee9351d8b2191f0d7ab9997a31fce1ad83f3b4a7"
+    "version": "0.1.255",
+    "file": "patches/patch_0.1.255.bin",
+    "size": 7155628,
+    "sha256": "3e4c4eda1852e41ab3df83d611492808f1be6d8ae7142bf745aa216a5ac0dfa8"
   },
   "android": {
     "base": "0.1.251",
@@ -18,6 +18,35 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.255",
+      "items": [
+        {
+          "t": "up",
+          "es": "Taekwon: tus Pu\u00f1os aparecen en el equipo inicial y tambi\u00e9n en la mano izquierda, que no lleva otra cosa.",
+          "en": "Taekwon: your Fists show in the starting gear and in the off-hand too, which holds nothing else.",
+          "pt": "Taekwon: seus Punhos aparecem no equipamento inicial e tamb\u00e9m na m\u00e3o esquerda, que n\u00e3o leva outra coisa."
+        },
+        {
+          "t": "fix",
+          "es": "El c\u00edrculo de Warmth of the Sun / Stars es m\u00e1s sutil, y ese c\u00edrculo, el de Gospel, los de las canciones y el brillo de Critical Explosion siguen la opacidad de \u00abTus efectos\u00bb al momento (tambi\u00e9n al cambiarla en plena partida o al llegar un jefe).",
+          "en": "The Warmth of the Sun / Stars circle is subtler, and it, Gospel's ring, the songs' circles and Critical Explosion's glow follow the \"Your effects\" opacity right away (also when you change it mid-run or a boss arrives).",
+          "pt": "O c\u00edrculo de Warmth of the Sun / Stars est\u00e1 mais sutil, e ele, o anel de Gospel, os c\u00edrculos das m\u00fasicas e o brilho de Critical Explosion seguem a opacidade de \u00abSeus efeitos\u00bb na hora (tamb\u00e9m ao mud\u00e1-la no meio da partida ou quando chega um chefe)."
+        },
+        {
+          "t": "new",
+          "es": "Android: las listas (opciones, r\u00e9cords, almac\u00e9n...) se arrastran con el dedo desde cualquier parte, y un toque en los r\u00e9cords abre al jugador solo al levantar el dedo.",
+          "en": "Android: lists (options, records, storage...) can be dragged with your finger from anywhere, and a tap on the records opens a player only when you lift your finger.",
+          "pt": "Android: as listas (op\u00e7\u00f5es, recordes, armaz\u00e9m...) podem ser arrastadas com o dedo de qualquer lugar, e um toque nos recordes abre o jogador s\u00f3 ao levantar o dedo."
+        },
+        {
+          "t": "fix",
+          "es": "Android: sin teclas del teclado en los textos ni en los botones, el bot\u00f3n Abrir de las mejoras guardadas es m\u00e1s grande, y el juego busca actualizaciones al volver a la app.",
+          "en": "Android: no keyboard keys in texts or buttons, a bigger Open button for saved level-ups, and the game checks for updates when you come back to the app.",
+          "pt": "Android: sem teclas do teclado nos textos nem nos bot\u00f5es, o bot\u00e3o Abrir das melhorias guardadas ficou maior, e o jogo procura atualiza\u00e7\u00f5es ao voltar ao app."
+        }
+      ]
+    },
     {
       "version": "0.1.254",
       "items": [
@@ -436,17 +465,6 @@
           "es": "El men\u00fa ahora indica que el juego est\u00e1 en Beta junto a la versi\u00f3n.",
           "en": "The menu now shows the game is in Beta next to the version.",
           "pt": "O menu agora mostra que o jogo est\u00e1 em Beta ao lado da vers\u00e3o."
-        }
-      ]
-    },
-    {
-      "version": "0.1.243",
-      "items": [
-        {
-          "t": "up",
-          "es": "El bot\u00f3n de Discord ahora muestra su \u00edcono.",
-          "en": "The Discord button now shows its icon.",
-          "pt": "O bot\u00e3o do Discord agora mostra o \u00edcone dele."
         }
       ]
     }
