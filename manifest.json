@@ -1,6 +1,12 @@
 {
   "base": "0.1.257",
   "page": "https://nearq.itch.io/midgard-survivors",
+  "patch": {
+    "version": "0.1.258",
+    "file": "patches/patch_0.1.258.bin",
+    "size": 2153900,
+    "sha256": "419ba4c2eb349b011c593184c75fa83909442b84a0f194f86deda4dddd91e191"
+  },
   "legacy": {
     "0.1.219": {
       "version": "0.1.257",
@@ -22,6 +28,17 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.258",
+      "items": [
+        {
+          "t": "up",
+          "es": "El chef de Prontera ahora se llama Klaws.",
+          "en": "Prontera's chef is now called Klaws.",
+          "pt": "O chef de Prontera agora se chama Klaws."
+        }
+      ]
+    },
     {
       "version": "0.1.257",
       "items": [
@@ -356,59 +373,6 @@
           "es": "Sin las bolitas grises del aura en la selecci\u00f3n de personaje; el bot\u00f3n de emociones del mismo tama\u00f1o que el de minimizar.",
           "en": "No more grey aura bubbles in character select; the emote button is the same size as the minimize one.",
           "pt": "Sem as bolinhas cinzas da aura na sele\u00e7\u00e3o de personagem; o bot\u00e3o de emo\u00e7\u00f5es do mesmo tamanho que o de minimizar."
-        }
-      ]
-    },
-    {
-      "version": "0.1.246",
-      "items": [
-        {
-          "t": "fix",
-          "es": "La party y la sala por c\u00f3digo entre jugadores que est\u00e1n en el mismo canal de Prontera ahora conectan.",
-          "en": "Parties and joining a room by code now connect between players in the same Prontera channel.",
-          "pt": "A party e entrar em uma sala por c\u00f3digo agora conectam entre jogadores do mesmo canal de Prontera."
-        },
-        {
-          "t": "new",
-          "es": "Los dem\u00e1s jugadores ahora ven tu aura y tus looks de renacido en Prontera.",
-          "en": "Other players now see your rebirth aura and looks in Prontera.",
-          "pt": "Os outros jogadores agora veem sua aura e seus visuais de renascido em Prontera."
-        },
-        {
-          "t": "up",
-          "es": "Juperos Railgun dispara un rayo mucho m\u00e1s espectacular, y las habilidades de disparo (Banishing Buster y otras) dejan un trazo desde el arma y un impacto que se ve bien.",
-          "en": "Juperos Railgun fires a far more spectacular beam, and shooting skills (Banishing Buster and others) leave a trail from the gun and a clear impact.",
-          "pt": "Juperos Railgun dispara um raio muito mais espetacular, e as habilidades de tiro (Banishing Buster e outras) deixam um rastro da arma e um impacto bem vis\u00edvel."
-        },
-        {
-          "t": "up",
-          "es": "Emociones dentro del chat (la carita), solo las que tienen sentido y del mismo tama\u00f1o. El chat queda sobre los letreros de las tiendas.",
-          "en": "Emotes inside the chat (the smiley), only the ones that make sense and all the same size. The chat stays above the shop signs.",
-          "pt": "Emo\u00e7\u00f5es dentro do chat (a carinha), s\u00f3 as que fazem sentido e do mesmo tamanho. O chat fica acima das placas das lojas."
-        },
-        {
-          "t": "up",
-          "es": "Prontera m\u00e1s \u00e1gil: quien se desconecta desaparece en segundos con su efecto, y quien llega aparece donde est\u00e1.",
-          "en": "Snappier Prontera: players who disconnect vanish within seconds with their effect, and newcomers appear where they stand.",
-          "pt": "Prontera mais \u00e1gil: quem se desconecta some em segundos com seu efeito, e quem chega aparece onde est\u00e1."
-        },
-        {
-          "t": "up",
-          "es": "Con la c\u00e1mara cerca, los personajes quedan en el suelo, los nombres se achican y no cruzan a tu personaje.",
-          "en": "With the camera close, characters stay on the ground and names shrink without crossing your character.",
-          "pt": "Com a c\u00e2mera perto, os personagens ficam no ch\u00e3o e os nomes diminuem sem cruzar seu personagem."
-        },
-        {
-          "t": "fix",
-          "es": "En algunas gr\u00e1ficas Intel con DirectX 12, las emociones y los sprites sal\u00edan con cuadros oscuros.",
-          "en": "On some Intel graphics with DirectX 12, emotes and sprites showed dark squares.",
-          "pt": "Em algumas placas Intel com DirectX 12, emo\u00e7\u00f5es e sprites apareciam com quadrados escuros."
-        },
-        {
-          "t": "fix",
-          "es": "La gu\u00eda de la Kafra ya no desaparece al maximizar la ventana, las alas quedan centradas en Ver equipo y las vistas previas no parpadean en negro al cambiar de p\u00e1gina.",
-          "en": "The Kafra's guide no longer vanishes when maximizing the window, wings are centered in View equipment and previews no longer flash black when changing page.",
-          "pt": "O guia da Kafra n\u00e3o some mais ao maximizar a janela, as asas ficam centralizadas em Ver equipamento e as pr\u00e9vias n\u00e3o piscam em preto ao trocar de p\u00e1gina."
         }
       ]
     }
