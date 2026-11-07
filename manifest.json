@@ -2,10 +2,10 @@
   "base": "0.1.257",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.258",
-    "file": "patches/patch_0.1.258.bin",
-    "size": 2153900,
-    "sha256": "419ba4c2eb349b011c593184c75fa83909442b84a0f194f86deda4dddd91e191"
+    "version": "0.1.259",
+    "file": "patches/patch_0.1.259.bin",
+    "size": 2526828,
+    "sha256": "e051e9e7b1144a2403e9c942937fb231a70ed97678dd5b7a75fe2c9a381e52ef"
   },
   "legacy": {
     "0.1.219": {
@@ -34,6 +34,17 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.259",
+      "items": [
+        {
+          "t": "new",
+          "es": "Nuevo peinado: calvo (el 43), para todas las clases menos los Doram.",
+          "en": "New hairstyle: bald (number 43), for every class except the Doram.",
+          "pt": "Novo penteado: careca (o 43), para todas as classes menos os Doram."
+        }
+      ]
+    },
     {
       "version": "0.1.258",
       "items": [
@@ -338,47 +349,6 @@
           "es": "El aura de renacido ya no atraviesa tus zapatos ni se corta en los cerros.",
           "en": "The rebirth aura no longer cuts through your shoes or gets cut by hills.",
           "pt": "A aura de renascido n\u00e3o atravessa mais seus sapatos nem \u00e9 cortada pelos morros."
-        }
-      ]
-    },
-    {
-      "version": "0.1.247",
-      "items": [
-        {
-          "t": "fix",
-          "es": "La party entre jugadores del mismo canal de Prontera: el canal espera a que la sala conecte antes de volver.",
-          "en": "Parties between players in the same Prontera channel: the channel waits for the room to connect before coming back.",
-          "pt": "A party entre jogadores do mesmo canal de Prontera: o canal espera a sala conectar antes de voltar."
-        },
-        {
-          "t": "new",
-          "es": "Buscar party r\u00e1pido tiene votaci\u00f3n en vivo: empezar con los que hay o esperar a 4.",
-          "en": "Quick party search now has a live vote: start with who's here or wait for 4.",
-          "pt": "A busca r\u00e1pida de party agora tem vota\u00e7\u00e3o ao vivo: come\u00e7ar com quem tem ou esperar 4."
-        },
-        {
-          "t": "up",
-          "es": "Tracking ahora es un tiro pesado al monstruo m\u00e1s fuerte (jefes y MVP primero) y Banishing Buster atraviesa en l\u00ednea recta a todos y los empuja.",
-          "en": "Tracking is now a heavy shot at the toughest monster (bosses and MVPs first) and Banishing Buster goes straight through everything in a line, knocking it back.",
-          "pt": "Tracking agora \u00e9 um tiro pesado no monstro mais forte (chefes e MVPs primeiro) e Banishing Buster atravessa todos em linha reta e os empurra."
-        },
-        {
-          "t": "up",
-          "es": "Ventana del Super Novice redise\u00f1ada (ranuras del set, pesta\u00f1as y una tarjeta por clase) y Preparaci\u00f3n con tu h\u00e9roe caminando y las tarjetas en dos columnas.",
-          "en": "Redesigned Super Novice window (set slots, tabs and a card per class) and Preparation with your hero walking and the cards in two columns.",
-          "pt": "Janela do Super Novice redesenhada (espa\u00e7os do set, abas e um cart\u00e3o por classe) e Prepara\u00e7\u00e3o com seu her\u00f3i andando e os cart\u00f5es em duas colunas."
-        },
-        {
-          "t": "fix",
-          "es": "Volver a los men\u00fas ya no hace que tu personaje aparezca y desaparezca en bucle para los dem\u00e1s en Prontera.",
-          "en": "Going back to the menus no longer makes your character appear and vanish in a loop for others in Prontera.",
-          "pt": "Voltar aos menus n\u00e3o faz mais seu personagem aparecer e sumir em loop para os outros em Prontera."
-        },
-        {
-          "t": "fix",
-          "es": "Sin las bolitas grises del aura en la selecci\u00f3n de personaje; el bot\u00f3n de emociones del mismo tama\u00f1o que el de minimizar.",
-          "en": "No more grey aura bubbles in character select; the emote button is the same size as the minimize one.",
-          "pt": "Sem as bolinhas cinzas da aura na sele\u00e7\u00e3o de personagem; o bot\u00e3o de emo\u00e7\u00f5es do mesmo tamanho que o de minimizar."
         }
       ]
     }
