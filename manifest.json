@@ -2,10 +2,10 @@
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.260",
-    "file": "patches/patch_0.1.260.bin",
-    "size": 3105324,
-    "sha256": "94210d5bdd99e3ed3dc8478dadc4d6bb63dd521b50f9625d5c4d3b9ede95d589"
+    "version": "0.1.261",
+    "file": "patches/patch_0.1.261.bin",
+    "size": 3304684,
+    "sha256": "10c3f6c2f232f8832bac9c0676c24b3da63456130d11adc66ff07b6e5a04115b"
   },
   "legacy": {
     "0.1.219": {
@@ -46,6 +46,53 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.261",
+      "items": [
+        {
+          "t": "new",
+          "es": "Prontera: tu mascota te sigue por la plaza, chiquitita, y en los canales online ves las de los dem\u00e1s.",
+          "en": "Prontera: your pet follows you around the plaza, tiny, and in the online channels you see everyone else's.",
+          "pt": "Prontera: seu mascote te segue pela pra\u00e7a, pequenininho, e nos canais online voc\u00ea v\u00ea os dos outros."
+        },
+        {
+          "t": "new",
+          "es": "Cu\u00e1ntos jugadores hay en l\u00ednea, en la pantalla de inicio y en la web.",
+          "en": "How many players are online, on the login screen and on the website.",
+          "pt": "Quantos jogadores est\u00e3o online, na tela inicial e no site."
+        },
+        {
+          "t": "new",
+          "es": "\u00c1lbum: un (?) junto a Eternas explica qu\u00e9 son las Cartas Eternas.",
+          "en": "Album: a (?) next to Eternal explains what Eternal Cards are.",
+          "pt": "\u00c1lbum: um (?) ao lado de Eternas explica o que s\u00e3o as Cartas Eternas."
+        },
+        {
+          "t": "up",
+          "es": "Legendarios m\u00e1s raros: el cofre de Satan Morroc da m\u00e1s o menos la mitad, y los dem\u00e1s cofres un poco menos.",
+          "en": "Rarer legendaries: Satan Morroc's chest gives about half as many, and other chests a bit fewer.",
+          "pt": "Lend\u00e1rios mais raros: o ba\u00fa de Satan Morroc d\u00e1 mais ou menos a metade, e os outros ba\u00fas um pouco menos."
+        },
+        {
+          "t": "fix",
+          "es": "Co-op: tras cambiar el idioma o bajar el guardado de la nube ya no falla la conexi\u00f3n con Epic.",
+          "en": "Co-op: changing the language or loading your cloud save no longer breaks the connection to Epic.",
+          "pt": "Co-op: mudar o idioma ou baixar o salvamento da nuvem n\u00e3o quebra mais a conex\u00e3o com a Epic."
+        },
+        {
+          "t": "fix",
+          "es": "Cavalier Mastery solo aparece si ya tienes Peco Peco Ride (sin montar no hac\u00eda nada).",
+          "en": "Cavalier Mastery only shows up once you have Peco Peco Ride (it did nothing without the mount).",
+          "pt": "Cavalier Mastery s\u00f3 aparece se voc\u00ea j\u00e1 tiver Peco Peco Ride (sem montaria n\u00e3o fazia nada)."
+        },
+        {
+          "t": "fix",
+          "es": "El cofre de Satan Morroc ya no se llama \u00abTesoro del Poring Dorado\u00bb.",
+          "en": "Satan Morroc's chest is no longer called \"Golden Poring's Treasure\".",
+          "pt": "O ba\u00fa de Satan Morroc n\u00e3o se chama mais \"Tesouro do Poring Dourado\"."
+        }
+      ]
+    },
     {
       "version": "0.1.260",
       "items": [
@@ -320,59 +367,6 @@
           "es": "Menos errores internos en co-op (trampas de otros jugadores, ventanas cerradas).",
           "en": "Fewer internal errors in co-op (other players' traps, closed windows).",
           "pt": "Menos erros internos no co-op (armadilhas de outros jogadores, janelas fechadas)."
-        }
-      ]
-    },
-    {
-      "version": "0.1.249",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Hacer party en Prontera ya no saca a nadie del canal: si el due\u00f1o del canal est\u00e1 en tu party, el canal te llega a trav\u00e9s de la sala y sigues viendo a todos.",
-          "en": "Forming a party in Prontera no longer kicks anyone out of the channel: if the channel's owner is in your party, the channel reaches you through the room and you keep seeing everyone.",
-          "pt": "Formar party em Prontera n\u00e3o tira mais ningu\u00e9m do canal: se o dono do canal est\u00e1 na sua party, o canal chega pela sala e voc\u00ea continua vendo todos."
-        },
-        {
-          "t": "new",
-          "es": "La ruleta de Lucile ahora tiene 4 giros, y en party cada uno gira en su turno mientras los dem\u00e1s lo ven.",
-          "en": "Lucile's wheel now has 4 spins, and in a party everyone spins on their turn while the others watch.",
-          "pt": "A roleta da Lucile agora tem 4 giros, e na party cada um gira na sua vez enquanto os outros assistem."
-        },
-        {
-          "t": "fix",
-          "es": "Endless Tower en party: todos ven el c\u00edrculo de los eventos, la l\u00ednea del evento en el HUD y el Emperium gigante; cualquiera puede hablar con Lucile en el descanso para recibir su regalo.",
-          "en": "Endless Tower in a party: everyone sees the event circle, the event line on the HUD and the giant Emperium; anyone can talk to Lucile at the rest stop to get their gift.",
-          "pt": "Endless Tower em party: todos veem o c\u00edrculo dos eventos, a linha do evento no HUD e o Emperium gigante; qualquer um pode falar com a Lucile no descanso para receber o presente."
-        },
-        {
-          "t": "up",
-          "es": "Los eventos de la torre escalan con la party (Poring Dorados, Emboscada, Sobrevive) y el c\u00edrculo ya no tapa a los personajes y sale donde hay m\u00e1s espacio.",
-          "en": "Tower events scale with the party (Golden Porings, Ambush, Survive), and the circle no longer covers the characters and appears where there's more room.",
-          "pt": "Os eventos da torre escalam com a party (Porings Dourados, Emboscada, Sobreviva), e o c\u00edrculo n\u00e3o cobre mais os personagens e aparece onde h\u00e1 mais espa\u00e7o."
-        },
-        {
-          "t": "fix",
-          "es": "Las emociones se ven en la party, y el bot\u00f3n de emociones tiene el mismo tama\u00f1o que el de al lado.",
-          "en": "Emotes show in your party, and the emote button is the same size as the one next to it.",
-          "pt": "As emo\u00e7\u00f5es aparecem na party, e o bot\u00e3o de emo\u00e7\u00f5es tem o mesmo tamanho que o do lado."
-        },
-        {
-          "t": "fix",
-          "es": "Buscar party r\u00e1pido: un solo bot\u00f3n \u00abVotar para empezar\u00bb, los que entran se ven llegar, dos que buscan solos se juntan y se puede buscar otra vez tras cerrar la sala.",
-          "en": "Quick party search: a single \"Vote to start\" button, incoming players show as they arrive, two lone searchers get matched, and you can search again after closing the room.",
-          "pt": "Busca r\u00e1pida de party: um \u00fanico bot\u00e3o \u00abVotar para come\u00e7ar\u00bb, quem entra aparece chegando, dois buscando sozinhos se juntam e d\u00e1 para buscar de novo ap\u00f3s fechar a sala."
-        },
-        {
-          "t": "up",
-          "es": "Todos ven la misma gente en Prontera, las ramas invocan junto a quien las toma y los objetos brillan tambi\u00e9n para los que se unen; el guardado est\u00e1 protegido contra ediciones.",
-          "en": "Everyone sees the same crowd in Prontera, branches summon next to whoever picks them up and drops glow for joiners too; the save is protected against editing.",
-          "pt": "Todos veem as mesmas pessoas em Prontera, os galhos invocam ao lado de quem os pega e os itens brilham tamb\u00e9m para quem entra; o save est\u00e1 protegido contra edi\u00e7\u00f5es."
-        },
-        {
-          "t": "fix",
-          "es": "El l\u00edder confirma antes de terminar la partida para toda la party.",
-          "en": "The leader confirms before ending the run for the whole party.",
-          "pt": "O l\u00edder confirma antes de encerrar a partida para toda a party."
         }
       ]
     }
