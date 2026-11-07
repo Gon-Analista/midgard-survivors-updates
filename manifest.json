@@ -1,0 +1,454 @@
+{
+  "base": "0.1.219",
+  "page": "https://nearq.itch.io/midgard-survivors",
+  "patch": {
+    "version": "0.1.254",
+    "file": "patches/patch_0.1.254.bin",
+    "size": 7152828,
+    "sha256": "044ce275b1bb40bd751675daee9351d8b2191f0d7ab9997a31fce1ad83f3b4a7"
+  },
+  "android": {
+    "base": "0.1.251",
+    "page": "https://nearq.itch.io/midgard-directx12",
+    "patch": {
+      "version": "0.1.254",
+      "file": "patches/android_patch_0.1.254.bin",
+      "size": 2570492,
+      "sha256": "0c440fe8e35293ca9ef49bac9247d15d0a7db6c26a102637144038291dd91939"
+    }
+  },
+  "notes": [
+    {
+      "version": "0.1.254",
+      "items": [
+        {
+          "t": "up",
+          "es": "Prontera admite hasta 100 canales (antes 50). Si un d\u00eda se llenan todos, el juego espera un rato antes de volver a probar en vez de insistir cada pocos segundos.",
+          "en": "Prontera now allows up to 100 channels (50 before). If they are ever all full, the game waits a while before trying again instead of retrying every few seconds.",
+          "pt": "Prontera agora aceita at\u00e9 100 canais (antes 50). Se um dia todos encherem, o jogo espera um pouco antes de tentar de novo em vez de insistir a cada poucos segundos."
+        },
+        {
+          "t": "fix",
+          "es": "Crear personaje: el brillo de la caja del nombre queda justo sobre la caja y se ve m\u00e1s limpio.",
+          "en": "Character creation: the glow on the name box now sits right on the box and looks cleaner.",
+          "pt": "Cria\u00e7\u00e3o de personagem: o brilho da caixa do nome fica certinho sobre a caixa e mais limpo."
+        }
+      ]
+    },
+    {
+      "version": "0.1.253",
+      "items": [
+        {
+          "t": "new",
+          "es": "Ver equipo muestra el Rebirth del jugador sobre su personaje, como en la selecci\u00f3n de personaje.",
+          "en": "View equipment shows the player's Rebirth over their character, as in the character select.",
+          "pt": "Ver equipamento mostra o Rebirth do jogador sobre o personagem, como na sele\u00e7\u00e3o de personagem."
+        },
+        {
+          "t": "new",
+          "es": "Si el due\u00f1o del canal se va, abajo al centro aparece \u00abReconectando con el canal...\u00bb mientras se pasa a otro.",
+          "en": "If the channel's owner leaves, \"Reconnecting to the channel...\" shows at the bottom centre while it moves to someone else.",
+          "pt": "Se o dono do canal sair, aparece \u00abReconectando ao canal...\u00bb embaixo, no centro, enquanto ele passa para outro."
+        },
+        {
+          "t": "new",
+          "es": "Android: el chat de Prontera va arriba a la izquierda (el joystick queda libre y el teclado no tapa lo que escribes) y puedes acercar o alejar la c\u00e1mara pellizcando con dos dedos.",
+          "en": "Android: Prontera's chat sits at the top left (the joystick stays free and the keyboard no longer covers what you type), and you can pinch with two fingers to zoom the camera.",
+          "pt": "Android: o chat de Prontera fica no canto superior esquerdo (o joystick fica livre e o teclado n\u00e3o cobre o que voc\u00ea digita), e d\u00e1 para aproximar ou afastar a c\u00e2mera fazendo pin\u00e7a com dois dedos."
+        },
+        {
+          "t": "up",
+          "es": "Los canales de Prontera son de hasta 12 jugadores (y hay hasta 50 canales).",
+          "en": "Prontera channels hold up to 12 players (and there are up to 50 channels).",
+          "pt": "Os canais de Prontera t\u00eam at\u00e9 12 jogadores (e h\u00e1 at\u00e9 50 canais)."
+        },
+        {
+          "t": "fix",
+          "es": "Las llamas de Sight y las luces de Bio Lab de Rebirth Lv ya no cruzan por delante de tu personaje cuando pasan por detr\u00e1s.",
+          "en": "The Rebirth Lv Sight flames and Bio Lab lights no longer cross in front of your character when they pass behind it.",
+          "pt": "As chamas de Sight e as luzes de Bio Lab do Rebirth Lv n\u00e3o passam mais na frente do seu personagem quando est\u00e3o atr\u00e1s dele."
+        },
+        {
+          "t": "fix",
+          "es": "Los puntos suspensivos se ven bien (antes quedaban a media altura) y sentarse ya no hace ruido.",
+          "en": "Ellipses look right (they used to sit at mid-height), and sitting down no longer makes a sound.",
+          "pt": "As retic\u00eancias aparecem direito (antes ficavam no meio da altura) e sentar n\u00e3o faz mais barulho."
+        }
+      ]
+    },
+    {
+      "version": "0.1.252",
+      "items": [
+        {
+          "t": "up",
+          "es": "Los canales de Prontera son ahora de hasta 16 jugadores (y hay m\u00e1s canales): la plaza se entiende mejor y el canal va m\u00e1s fluido.",
+          "en": "Prontera channels now hold up to 16 players (and there are more channels): the plaza is easier to read and the channel runs smoother.",
+          "pt": "Os canais de Prontera agora t\u00eam at\u00e9 16 jogadores (e h\u00e1 mais canais): a pra\u00e7a fica mais f\u00e1cil de ler e o canal roda mais liso."
+        },
+        {
+          "t": "fix",
+          "es": "Entrar a un canal lleno o que llegue alguien ya no congela el juego un momento: los jugadores aparecen a medida que se cargan.",
+          "en": "Entering a full channel, or someone arriving, no longer freezes the game for a moment: players appear as they load.",
+          "pt": "Entrar num canal cheio, ou algu\u00e9m chegar, n\u00e3o trava mais o jogo por um momento: os jogadores aparecem conforme carregam."
+        },
+        {
+          "t": "fix",
+          "es": "Cuando el due\u00f1o del canal se va, los dem\u00e1s jugadores ya no desaparecen y vuelven a aparecer.",
+          "en": "When the channel's owner leaves, the other players no longer vanish and reappear.",
+          "pt": "Quando o dono do canal sai, os outros jogadores n\u00e3o somem e reaparecem mais."
+        },
+        {
+          "t": "fix",
+          "es": "El chat de Prontera ya no da tirones cuando mucha gente escribe a la vez.",
+          "en": "Prontera's chat no longer stutters when many people type at once.",
+          "pt": "O chat de Prontera n\u00e3o engasga mais quando muita gente escreve ao mesmo tempo."
+        }
+      ]
+    },
+    {
+      "version": "0.1.251",
+      "items": [
+        {
+          "t": "new",
+          "es": "En Prontera puedes sentarte: tecla X, la X del control o el bot\u00f3n \u00abSentarse\u00bb junto al chat. Caminar te levanta.",
+          "en": "You can sit in Prontera: the X key, the controller's X or the \"Sit\" button by the chat. Walking stands you up.",
+          "pt": "Em Prontera d\u00e1 para sentar: tecla X, o X do controle ou o bot\u00e3o \u00abSentar\u00bb junto ao chat. Andar levanta voc\u00ea."
+        },
+        {
+          "t": "new",
+          "es": "Android: la app ahora se actualiza sola (despu\u00e9s de instalar este APK una vez) y comparte los canales de Prontera con PC.",
+          "en": "Android: the app now updates itself (after installing this APK once) and shares the Prontera channels with PC.",
+          "pt": "Android: o app agora se atualiza sozinho (depois de instalar este APK uma vez) e compartilha os canais de Prontera com o PC."
+        },
+        {
+          "t": "fix",
+          "es": "Invitar a party a alguien de tu canal ya no falla a veces.",
+          "en": "Inviting someone from your channel to a party no longer fails at times.",
+          "pt": "Convidar algu\u00e9m do seu canal para a party n\u00e3o falha mais \u00e0s vezes."
+        }
+      ]
+    },
+    {
+      "version": "0.1.250",
+      "items": [
+        {
+          "t": "new",
+          "es": "Al vencer a Naght Sieger en el piso 100, toda la party gana las Alas de la Torre (una vez por clase) y no se pueden comerciar.",
+          "en": "Beating Naght Sieger on floor 100 gives the whole party the Tower Wings (once per class), and they can't be traded.",
+          "pt": "Ao vencer Naght Sieger no andar 100, toda a party ganha as Asas da Torre (uma vez por classe), e elas n\u00e3o podem ser trocadas."
+        },
+        {
+          "t": "new",
+          "es": "Las bendiciones y maldiciones de la ruleta de Lucile aparecen en tu fila de efectos, para toda la party.",
+          "en": "Lucile's wheel blessings and curses show in your buff row, for the whole party.",
+          "pt": "As b\u00ean\u00e7\u00e3os e maldi\u00e7\u00f5es da roleta da Lucile aparecem na sua fileira de efeitos, para toda a party."
+        },
+        {
+          "t": "fix",
+          "es": "En co-op, el informe final de quien se une muestra qu\u00e9 lo derrot\u00f3, y un cofre ya no tapa la bendici\u00f3n de Lucile (espera su turno).",
+          "en": "In co-op, the joiner's end report shows what defeated them, and a chest no longer covers Lucile's blessing (it waits its turn).",
+          "pt": "No co-op, o relat\u00f3rio final de quem entra mostra o que o derrotou, e um ba\u00fa n\u00e3o cobre mais a b\u00ean\u00e7\u00e3o da Lucile (ele espera a vez)."
+        },
+        {
+          "t": "up",
+          "es": "En la Endless Tower ves m\u00e1s efectos de tus compa\u00f1eros, y en co-op los autocasts muy r\u00e1pidos dibujan menos rayos (pegan igual).",
+          "en": "In the Endless Tower you see more of your teammates' effects, and in co-op very fast autocasts draw fewer bolts (same damage).",
+          "pt": "Na Endless Tower voc\u00ea v\u00ea mais efeitos dos companheiros, e no co-op autocasts muito r\u00e1pidos desenham menos raios (mesmo dano)."
+        },
+        {
+          "t": "up",
+          "es": "Las monedas del Gunslinger son monedas de oro que giran; el nombre vac\u00edo al crear personaje brilla; botones desactivados m\u00e1s limpios y login con sombra m\u00e1s suave.",
+          "en": "Gunslinger coins are spinning gold coins; the empty name field in character creation glows; cleaner disabled buttons and a softer login shadow.",
+          "pt": "As moedas do Gunslinger s\u00e3o moedas de ouro girando; o nome vazio na cria\u00e7\u00e3o de personagem brilha; bot\u00f5es desativados mais limpos e login com sombra mais suave."
+        },
+        {
+          "t": "fix",
+          "es": "Menos errores internos en co-op (trampas de otros jugadores, ventanas cerradas).",
+          "en": "Fewer internal errors in co-op (other players' traps, closed windows).",
+          "pt": "Menos erros internos no co-op (armadilhas de outros jogadores, janelas fechadas)."
+        }
+      ]
+    },
+    {
+      "version": "0.1.249",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Hacer party en Prontera ya no saca a nadie del canal: si el due\u00f1o del canal est\u00e1 en tu party, el canal te llega a trav\u00e9s de la sala y sigues viendo a todos.",
+          "en": "Forming a party in Prontera no longer kicks anyone out of the channel: if the channel's owner is in your party, the channel reaches you through the room and you keep seeing everyone.",
+          "pt": "Formar party em Prontera n\u00e3o tira mais ningu\u00e9m do canal: se o dono do canal est\u00e1 na sua party, o canal chega pela sala e voc\u00ea continua vendo todos."
+        },
+        {
+          "t": "new",
+          "es": "La ruleta de Lucile ahora tiene 4 giros, y en party cada uno gira en su turno mientras los dem\u00e1s lo ven.",
+          "en": "Lucile's wheel now has 4 spins, and in a party everyone spins on their turn while the others watch.",
+          "pt": "A roleta da Lucile agora tem 4 giros, e na party cada um gira na sua vez enquanto os outros assistem."
+        },
+        {
+          "t": "fix",
+          "es": "Endless Tower en party: todos ven el c\u00edrculo de los eventos, la l\u00ednea del evento en el HUD y el Emperium gigante; cualquiera puede hablar con Lucile en el descanso para recibir su regalo.",
+          "en": "Endless Tower in a party: everyone sees the event circle, the event line on the HUD and the giant Emperium; anyone can talk to Lucile at the rest stop to get their gift.",
+          "pt": "Endless Tower em party: todos veem o c\u00edrculo dos eventos, a linha do evento no HUD e o Emperium gigante; qualquer um pode falar com a Lucile no descanso para receber o presente."
+        },
+        {
+          "t": "up",
+          "es": "Los eventos de la torre escalan con la party (Poring Dorados, Emboscada, Sobrevive) y el c\u00edrculo ya no tapa a los personajes y sale donde hay m\u00e1s espacio.",
+          "en": "Tower events scale with the party (Golden Porings, Ambush, Survive), and the circle no longer covers the characters and appears where there's more room.",
+          "pt": "Os eventos da torre escalam com a party (Porings Dourados, Emboscada, Sobreviva), e o c\u00edrculo n\u00e3o cobre mais os personagens e aparece onde h\u00e1 mais espa\u00e7o."
+        },
+        {
+          "t": "fix",
+          "es": "Las emociones se ven en la party, y el bot\u00f3n de emociones tiene el mismo tama\u00f1o que el de al lado.",
+          "en": "Emotes show in your party, and the emote button is the same size as the one next to it.",
+          "pt": "As emo\u00e7\u00f5es aparecem na party, e o bot\u00e3o de emo\u00e7\u00f5es tem o mesmo tamanho que o do lado."
+        },
+        {
+          "t": "fix",
+          "es": "Buscar party r\u00e1pido: un solo bot\u00f3n \u00abVotar para empezar\u00bb, los que entran se ven llegar, dos que buscan solos se juntan y se puede buscar otra vez tras cerrar la sala.",
+          "en": "Quick party search: a single \"Vote to start\" button, incoming players show as they arrive, two lone searchers get matched, and you can search again after closing the room.",
+          "pt": "Busca r\u00e1pida de party: um \u00fanico bot\u00e3o \u00abVotar para come\u00e7ar\u00bb, quem entra aparece chegando, dois buscando sozinhos se juntam e d\u00e1 para buscar de novo ap\u00f3s fechar a sala."
+        },
+        {
+          "t": "up",
+          "es": "Todos ven la misma gente en Prontera, las ramas invocan junto a quien las toma y los objetos brillan tambi\u00e9n para los que se unen; el guardado est\u00e1 protegido contra ediciones.",
+          "en": "Everyone sees the same crowd in Prontera, branches summon next to whoever picks them up and drops glow for joiners too; the save is protected against editing.",
+          "pt": "Todos veem as mesmas pessoas em Prontera, os galhos invocam ao lado de quem os pega e os itens brilham tamb\u00e9m para quem entra; o save est\u00e1 protegido contra edi\u00e7\u00f5es."
+        },
+        {
+          "t": "fix",
+          "es": "El l\u00edder confirma antes de terminar la partida para toda la party.",
+          "en": "The leader confirms before ending the run for the whole party.",
+          "pt": "O l\u00edder confirma antes de encerrar a partida para toda a party."
+        }
+      ]
+    },
+    {
+      "version": "0.1.248",
+      "items": [
+        {
+          "t": "new",
+          "es": "Al invitar o unirte a una party, la barra de la sala aparece al instante con una carga para saber c\u00f3mo va.",
+          "en": "When you invite or join a party, the room bar shows up at once with a loader so you know how it's going.",
+          "pt": "Ao convidar ou entrar numa party, a barra da sala aparece na hora com um carregamento para saber como vai."
+        },
+        {
+          "t": "new",
+          "es": "La party sigue al l\u00edder a la Endless Tower (y de vuelta a Prontera).",
+          "en": "The party follows the leader to the Endless Tower (and back to Prontera).",
+          "pt": "A party segue o l\u00edder at\u00e9 a Endless Tower (e de volta a Prontera)."
+        },
+        {
+          "t": "fix",
+          "es": "En co-op, los que se unen ven el carro del Chef, pueden recoger ramas y objetos de doma, ven cargarse los altares y el Hipnotizador, y ven el aura real de cada uno.",
+          "en": "In co-op, joiners see the Chef's cart, can pick up branches and taming items, see altars and the Hypnotist charge, and see everyone's real aura.",
+          "pt": "No co-op, quem entra v\u00ea o carrinho do Chef, pode pegar galhos e itens de doma, v\u00ea os altares e o Hipnotizador carregando e a aura real de cada um."
+        },
+        {
+          "t": "up",
+          "es": "Las ventanas m\u00e1s altas que la pantalla (como la de Lucile) se achican para verse enteras; los avisos de Lydia salen en una ventana limpia y, sin ser el l\u00edder, el portal muestra tu sala.",
+          "en": "Windows taller than the screen (like Lucile's) shrink to fit; Lydia's notices show in a clean window and, when you're not the leader, the portal shows your room.",
+          "pt": "Janelas mais altas que a tela (como a da Lucile) diminuem para caber; os avisos da Lydia aparecem numa janela limpa e, sem ser o l\u00edder, o portal mostra sua sala."
+        },
+        {
+          "t": "fix",
+          "es": "El aura de renacido ya no atraviesa tus zapatos ni se corta en los cerros.",
+          "en": "The rebirth aura no longer cuts through your shoes or gets cut by hills.",
+          "pt": "A aura de renascido n\u00e3o atravessa mais seus sapatos nem \u00e9 cortada pelos morros."
+        }
+      ]
+    },
+    {
+      "version": "0.1.247",
+      "items": [
+        {
+          "t": "fix",
+          "es": "La party entre jugadores del mismo canal de Prontera: el canal espera a que la sala conecte antes de volver.",
+          "en": "Parties between players in the same Prontera channel: the channel waits for the room to connect before coming back.",
+          "pt": "A party entre jogadores do mesmo canal de Prontera: o canal espera a sala conectar antes de voltar."
+        },
+        {
+          "t": "new",
+          "es": "Buscar party r\u00e1pido tiene votaci\u00f3n en vivo: empezar con los que hay o esperar a 4.",
+          "en": "Quick party search now has a live vote: start with who's here or wait for 4.",
+          "pt": "A busca r\u00e1pida de party agora tem vota\u00e7\u00e3o ao vivo: come\u00e7ar com quem tem ou esperar 4."
+        },
+        {
+          "t": "up",
+          "es": "Tracking ahora es un tiro pesado al monstruo m\u00e1s fuerte (jefes y MVP primero) y Banishing Buster atraviesa en l\u00ednea recta a todos y los empuja.",
+          "en": "Tracking is now a heavy shot at the toughest monster (bosses and MVPs first) and Banishing Buster goes straight through everything in a line, knocking it back.",
+          "pt": "Tracking agora \u00e9 um tiro pesado no monstro mais forte (chefes e MVPs primeiro) e Banishing Buster atravessa todos em linha reta e os empurra."
+        },
+        {
+          "t": "up",
+          "es": "Ventana del Super Novice redise\u00f1ada (ranuras del set, pesta\u00f1as y una tarjeta por clase) y Preparaci\u00f3n con tu h\u00e9roe caminando y las tarjetas en dos columnas.",
+          "en": "Redesigned Super Novice window (set slots, tabs and a card per class) and Preparation with your hero walking and the cards in two columns.",
+          "pt": "Janela do Super Novice redesenhada (espa\u00e7os do set, abas e um cart\u00e3o por classe) e Prepara\u00e7\u00e3o com seu her\u00f3i andando e os cart\u00f5es em duas colunas."
+        },
+        {
+          "t": "fix",
+          "es": "Volver a los men\u00fas ya no hace que tu personaje aparezca y desaparezca en bucle para los dem\u00e1s en Prontera.",
+          "en": "Going back to the menus no longer makes your character appear and vanish in a loop for others in Prontera.",
+          "pt": "Voltar aos menus n\u00e3o faz mais seu personagem aparecer e sumir em loop para os outros em Prontera."
+        },
+        {
+          "t": "fix",
+          "es": "Sin las bolitas grises del aura en la selecci\u00f3n de personaje; el bot\u00f3n de emociones del mismo tama\u00f1o que el de minimizar.",
+          "en": "No more grey aura bubbles in character select; the emote button is the same size as the minimize one.",
+          "pt": "Sem as bolinhas cinzas da aura na sele\u00e7\u00e3o de personagem; o bot\u00e3o de emo\u00e7\u00f5es do mesmo tamanho que o de minimizar."
+        }
+      ]
+    },
+    {
+      "version": "0.1.246",
+      "items": [
+        {
+          "t": "fix",
+          "es": "La party y la sala por c\u00f3digo entre jugadores que est\u00e1n en el mismo canal de Prontera ahora conectan.",
+          "en": "Parties and joining a room by code now connect between players in the same Prontera channel.",
+          "pt": "A party e entrar em uma sala por c\u00f3digo agora conectam entre jogadores do mesmo canal de Prontera."
+        },
+        {
+          "t": "new",
+          "es": "Los dem\u00e1s jugadores ahora ven tu aura y tus looks de renacido en Prontera.",
+          "en": "Other players now see your rebirth aura and looks in Prontera.",
+          "pt": "Os outros jogadores agora veem sua aura e seus visuais de renascido em Prontera."
+        },
+        {
+          "t": "up",
+          "es": "Juperos Railgun dispara un rayo mucho m\u00e1s espectacular, y las habilidades de disparo (Banishing Buster y otras) dejan un trazo desde el arma y un impacto que se ve bien.",
+          "en": "Juperos Railgun fires a far more spectacular beam, and shooting skills (Banishing Buster and others) leave a trail from the gun and a clear impact.",
+          "pt": "Juperos Railgun dispara um raio muito mais espetacular, e as habilidades de tiro (Banishing Buster e outras) deixam um rastro da arma e um impacto bem vis\u00edvel."
+        },
+        {
+          "t": "up",
+          "es": "Emociones dentro del chat (la carita), solo las que tienen sentido y del mismo tama\u00f1o. El chat queda sobre los letreros de las tiendas.",
+          "en": "Emotes inside the chat (the smiley), only the ones that make sense and all the same size. The chat stays above the shop signs.",
+          "pt": "Emo\u00e7\u00f5es dentro do chat (a carinha), s\u00f3 as que fazem sentido e do mesmo tamanho. O chat fica acima das placas das lojas."
+        },
+        {
+          "t": "up",
+          "es": "Prontera m\u00e1s \u00e1gil: quien se desconecta desaparece en segundos con su efecto, y quien llega aparece donde est\u00e1.",
+          "en": "Snappier Prontera: players who disconnect vanish within seconds with their effect, and newcomers appear where they stand.",
+          "pt": "Prontera mais \u00e1gil: quem se desconecta some em segundos com seu efeito, e quem chega aparece onde est\u00e1."
+        },
+        {
+          "t": "up",
+          "es": "Con la c\u00e1mara cerca, los personajes quedan en el suelo, los nombres se achican y no cruzan a tu personaje.",
+          "en": "With the camera close, characters stay on the ground and names shrink without crossing your character.",
+          "pt": "Com a c\u00e2mera perto, os personagens ficam no ch\u00e3o e os nomes diminuem sem cruzar seu personagem."
+        },
+        {
+          "t": "fix",
+          "es": "En algunas gr\u00e1ficas Intel con DirectX 12, las emociones y los sprites sal\u00edan con cuadros oscuros.",
+          "en": "On some Intel graphics with DirectX 12, emotes and sprites showed dark squares.",
+          "pt": "Em algumas placas Intel com DirectX 12, emo\u00e7\u00f5es e sprites apareciam com quadrados escuros."
+        },
+        {
+          "t": "fix",
+          "es": "La gu\u00eda de la Kafra ya no desaparece al maximizar la ventana, las alas quedan centradas en Ver equipo y las vistas previas no parpadean en negro al cambiar de p\u00e1gina.",
+          "en": "The Kafra's guide no longer vanishes when maximizing the window, wings are centered in View equipment and previews no longer flash black when changing page.",
+          "pt": "O guia da Kafra n\u00e3o some mais ao maximizar a janela, as asas ficam centralizadas em Ver equipamento e as pr\u00e9vias n\u00e3o piscam em preto ao trocar de p\u00e1gina."
+        }
+      ]
+    },
+    {
+      "version": "0.1.245",
+      "items": [
+        {
+          "t": "new",
+          "es": "Emociones en Prontera: un bot\u00f3n junto al chat con todas las del juego, o escr\u00edbelas (/heh, /love, /go...). Los dem\u00e1s jugadores del canal las ven.",
+          "en": "Emotes in Prontera: a button next to the chat with all of them, or type them (/heh, /love, /go...). Other players in the channel see them.",
+          "pt": "Emo\u00e7\u00f5es em Prontera: um bot\u00e3o ao lado do chat com todas elas, ou digite (/heh, /love, /go...). Os outros jogadores do canal as veem."
+        },
+        {
+          "t": "new",
+          "es": "Juego con control: mu\u00e9vete y gira la c\u00e1mara con los sticks; en las ventanas el stick mueve el puntero y A hace clic. Los botones est\u00e1n en Opciones > Controles.",
+          "en": "Controller support: move and turn the camera with the sticks; in windows the stick moves the pointer and A clicks. The buttons are in Options > Controls.",
+          "pt": "Suporte a controle: mova-se e gire a c\u00e2mera com os anal\u00f3gicos; nas janelas o anal\u00f3gico move o ponteiro e A clica. Os bot\u00f5es est\u00e3o em Op\u00e7\u00f5es > Controles."
+        },
+        {
+          "t": "new",
+          "es": "Zoom mucho m\u00e1s cercano: la c\u00e1mara baja hasta ver el horizonte y el cielo.",
+          "en": "Much closer zoom: the camera lowers until you see the horizon and the sky.",
+          "pt": "Zoom muito mais pr\u00f3ximo: a c\u00e2mera desce at\u00e9 ver o horizonte e o c\u00e9u."
+        },
+        {
+          "t": "up",
+          "es": "Opciones redise\u00f1adas en pesta\u00f1as (Sonido, Gr\u00e1ficos, Juego, Idioma, Controles).",
+          "en": "Options redesigned in tabs (Sound, Graphics, Game, Language, Controls).",
+          "pt": "Op\u00e7\u00f5es redesenhadas em abas (Som, Gr\u00e1ficos, Jogo, Idioma, Controles)."
+        },
+        {
+          "t": "up",
+          "es": "Ver equipo muestra al personaje al centro y su % de logros.",
+          "en": "View equipment shows the character in the middle and their achievement %.",
+          "pt": "Ver equipamento mostra o personagem no centro e sua % de conquistas."
+        },
+        {
+          "t": "up",
+          "es": "Frenes\u00ed ahora da x1.3 de velocidad y los niveles de peligro son un poco m\u00e1s dif\u00edciles.",
+          "en": "Frenzy now gives x1.3 speed and the danger levels are a bit harder.",
+          "pt": "Frenesi agora d\u00e1 velocidade x1.3 e os n\u00edveis de perigo est\u00e3o um pouco mais dif\u00edceis."
+        },
+        {
+          "t": "up",
+          "es": "El chat se abre solo al escribir o recibir un susurro, y \u00abDev\u00bb se ve m\u00e1s peque\u00f1o.",
+          "en": "The chat opens by itself when you write or get a whisper, and \"Dev\" looks smaller.",
+          "pt": "O chat abre sozinho ao escrever ou receber um sussurro, e \"Dev\" aparece menor."
+        },
+        {
+          "t": "up",
+          "es": "Lydia solo ofrece un canal nuevo cuando los abiertos van por la mitad.",
+          "en": "Lydia only offers a new channel once the open ones are half full.",
+          "pt": "Lydia s\u00f3 oferece um canal novo quando os abertos est\u00e3o pela metade."
+        },
+        {
+          "t": "fix",
+          "es": "La invitaci\u00f3n a party y entrar a una sala por c\u00f3digo fallaban entre jugadores que ya estaban juntos en Prontera.",
+          "en": "Party invites and joining a room by code failed between players already together in Prontera.",
+          "pt": "Convites de party e entrar em uma sala por c\u00f3digo falhavam entre jogadores que j\u00e1 estavam juntos em Prontera."
+        },
+        {
+          "t": "fix",
+          "es": "La silueta del personaje ya no queda flotando sobre \u00e9l al cambiar de equipo.",
+          "en": "The character's silhouette no longer floats above them after changing equipment.",
+          "pt": "A silhueta do personagem n\u00e3o fica mais flutuando acima dele ao trocar de equipamento."
+        },
+        {
+          "t": "fix",
+          "es": "Selecci\u00f3n de personaje m\u00e1s fluida y tarjetas de cambio de oficio alineadas.",
+          "en": "Smoother character select and aligned job change cards.",
+          "pt": "Sele\u00e7\u00e3o de personagem mais fluida e cartas de mudan\u00e7a de classe alinhadas."
+        }
+      ]
+    },
+    {
+      "version": "0.1.244",
+      "items": [
+        {
+          "t": "new",
+          "es": "El desarrollador ahora se distingue en Prontera y en co-op: nombre y chat en rosado con \u00abDev\u00bb y un aura arco\u00edris. Nadie m\u00e1s puede usar \u00abnearQ\u00bb en su nombre.",
+          "en": "The developer now stands out in Prontera and co-op: pink name and chat with \"Dev\" and a rainbow aura. No one else can use \"nearQ\" in their name.",
+          "pt": "O desenvolvedor agora se destaca em Prontera e no co-op: nome e chat em rosa com \"Dev\" e uma aura arco-\u00edris. Ningu\u00e9m mais pode usar \"nearQ\" no nome."
+        },
+        {
+          "t": "up",
+          "es": "El men\u00fa ahora indica que el juego est\u00e1 en Beta junto a la versi\u00f3n.",
+          "en": "The menu now shows the game is in Beta next to the version.",
+          "pt": "O menu agora mostra que o jogo est\u00e1 em Beta ao lado da vers\u00e3o."
+        }
+      ]
+    },
+    {
+      "version": "0.1.243",
+      "items": [
+        {
+          "t": "up",
+          "es": "El bot\u00f3n de Discord ahora muestra su \u00edcono.",
+          "en": "The Discord button now shows its icon.",
+          "pt": "O bot\u00e3o do Discord agora mostra o \u00edcone dele."
+        }
+      ]
+    }
+  ]
+}
