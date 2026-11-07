@@ -16,20 +16,20 @@
     }
   },
   "android": {
-    "base": "0.1.257",
+    "base": "0.1.259",
     "page": "https://nearq.itch.io/midgard-directx12",
-    "patch": {
-      "version": "0.1.259",
-      "file": "patches/android_patch_0.1.259.bin",
-      "size": 2530540,
-      "sha256": "66e25ce53af77c036aad045e81d7ef80c193be767d9f398415a3a906b2863882"
-    },
     "legacy": {
       "0.1.251": {
-        "version": "0.1.257",
-        "file": "patches/android_bridge_0.1.251_to_0.1.257.bin",
-        "size": 3560860,
-        "sha256": "3896353d29b0bee5a870692c7ba12eb85f079316415cc0f580f406c17d8bb56f"
+        "version": "0.1.259",
+        "file": "patches/android_bridge_0.1.251_to_0.1.259.bin",
+        "size": 3626108,
+        "sha256": "770ddf75ec2e49cbe1e60d4071405aef66ed172b8b098693fc3eaeaa8ce7cfde"
+      },
+      "0.1.257": {
+        "version": "0.1.259",
+        "file": "patches/android_bridge_0.1.257_to_0.1.259.bin",
+        "size": 2541340,
+        "sha256": "aeff25edc42796dc1c5f7d90a057f4c304d1454be87445c878f2a5ffa48214fb"
       }
     }
   },
