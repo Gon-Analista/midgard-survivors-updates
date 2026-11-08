@@ -2,10 +2,10 @@
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.264",
-    "file": "patches/patch_0.1.264.bin",
-    "size": 4938348,
-    "sha256": "532ee073edc9753c09fda27334695c6ba19502fa6fb1fe1f15265db09abe9997"
+    "version": "0.1.265",
+    "file": "patches/patch_0.1.265.bin",
+    "size": 5404156,
+    "sha256": "7df005ec9a9252c5a28ca7a9e8bc2061f1d3bde95ff44d77b57a7cffd045f558"
   },
   "legacy": {
     "0.1.219": {
@@ -46,6 +46,137 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.265",
+      "items": [
+        {
+          "t": "new",
+          "es": "Cuentas: crea una cuenta con usuario y contrase\u00f1a para guardar tu progreso en la nube y jugar en PC y celular (pantalla de t\u00edtulo \u2192 Cuenta). Preguntas de seguridad opcionales para recuperar la contrase\u00f1a.",
+          "en": "Accounts: create one with a username and password to keep your progress in the cloud and play on PC and phone (title screen \u2192 Account). Optional security questions to recover your password.",
+          "pt": "Contas: crie uma com usu\u00e1rio e senha para guardar seu progresso na nuvem e jogar no PC e no celular (tela de t\u00edtulo \u2192 Conta). Perguntas de seguran\u00e7a opcionais para recuperar a senha."
+        },
+        {
+          "t": "new",
+          "es": "Loadouts completos por clase en la Preparaci\u00f3n: equipo inicial, cartas, mascota, platos, pactos y plagio de un clic (hasta 8). Sets de platos en la cocina de Klaws.",
+          "en": "Full loadouts per class on the Preparation screen: starting gear, cards, pet, dishes, pacts and plagiarism in one click (up to 8). Dish sets in Klaws's kitchen.",
+          "pt": "Loadouts completos por classe na Prepara\u00e7\u00e3o: equipamento inicial, cartas, mascote, pratos, pactos e pl\u00e1gio com um clique (at\u00e9 8). Conjuntos de pratos na cozinha do Klaws."
+        },
+        {
+          "t": "new",
+          "es": "Almac\u00e9n Kafra: Auto-equipar lo mejor (con Deshacer), Modo vender (un toque vende, tambi\u00e9n en Android), Ordenar y la pesta\u00f1a \u2605 En uso.",
+          "en": "Kafra Storage: Auto-equip best (with Undo), Sell mode (one tap sells, Android too), Sort and the \u2605 In use tab.",
+          "pt": "Armaz\u00e9m Kafra: Equipar o melhor (com Desfazer), Modo vender (um toque vende, tamb\u00e9m no Android), Organizar e a aba \u2605 Em uso."
+        },
+        {
+          "t": "new",
+          "es": "\u00c1lbum: pesta\u00f1a Historial con tus \u00faltimas 50 partidas.",
+          "en": "Album: History tab with your last 50 runs.",
+          "pt": "\u00c1lbum: aba Hist\u00f3rico com suas \u00faltimas 50 partidas."
+        },
+        {
+          "t": "new",
+          "es": "La ventana del jefe muestra su elemento y a qu\u00e9 es d\u00e9bil.",
+          "en": "The boss window shows its element and what it's weak to.",
+          "pt": "A janela do chefe mostra o elemento dele e contra o que \u00e9 fraco."
+        },
+        {
+          "t": "new",
+          "es": "Opci\u00f3n Instrucciones de los MVP (Combate): apagada, el aviso solo dice el nombre del ataque.",
+          "en": "MVP instructions option (Combat): when off, the warning only shows the attack's name.",
+          "pt": "Op\u00e7\u00e3o Instru\u00e7\u00f5es dos MVP (Combate): desligada, o aviso s\u00f3 mostra o nome do ataque."
+        },
+        {
+          "t": "new",
+          "es": "Inventario: 48 huecos y bot\u00f3n Repetidos para vender las copias (queda la mejor).",
+          "en": "Inventory: 48 slots and a Duplicates button to sell copies (the best stays).",
+          "pt": "Invent\u00e1rio: 48 espa\u00e7os e bot\u00e3o Repetidos para vender as c\u00f3pias (a melhor fica)."
+        },
+        {
+          "t": "up",
+          "es": "Doble ataque y Chain Action sin tope: cada 100% es un golpe extra seguro y el resto, la chance de otro (250%: triple seguro y 50% de cu\u00e1druple).",
+          "en": "Double Attack and Chain Action have no cap: every 100% is a guaranteed extra hit and the rest is the chance of one more (250%: always triple, 50% quadruple).",
+          "pt": "Ataque Duplo e Chain Action sem limite: cada 100% \u00e9 um golpe extra garantido e o resto, a chance de outro (250%: triplo garantido e 50% de qu\u00e1druplo)."
+        },
+        {
+          "t": "up",
+          "es": "Arrow Vulcan en crescendo: cada flecha pega m\u00e1s que la anterior y la \u00faltima estalla alrededor.",
+          "en": "Arrow Vulcan in crescendo: each arrow hits harder than the last and the final one bursts around the target.",
+          "pt": "Arrow Vulcan em crescendo: cada flecha acerta mais forte que a anterior e a \u00faltima explode ao redor."
+        },
+        {
+          "t": "up",
+          "es": "Cofres m\u00e1s r\u00e1pidos: Continuar funciona al instante, los objetos salen antes, y un cofre que se auto-vende entero no abre ventana.",
+          "en": "Faster chests: Continue works right away, items show up quicker, and a chest that gets fully auto-sold doesn't open a window.",
+          "pt": "Ba\u00fas mais r\u00e1pidos: Continuar funciona na hora, os itens aparecem antes e um ba\u00fa todo auto-vendido n\u00e3o abre janela."
+        },
+        {
+          "t": "up",
+          "es": "Al abrirse el portal del MVP, las cartas del suelo vuelan hacia ti.",
+          "en": "When the MVP portal opens, cards on the ground fly to you.",
+          "pt": "Quando o portal do MVP abre, as cartas no ch\u00e3o voam at\u00e9 voc\u00ea."
+        },
+        {
+          "t": "up",
+          "es": "Elegir al azar: de tu lista de prioridad toma la mejora m\u00e1s rara y, si empatan, la de m\u00e1s arriba.",
+          "en": "Pick at random: from your priority list it takes the rarest upgrade, and on a tie the higher one.",
+          "pt": "Escolher ao acaso: da sua lista de prioridade pega a melhoria mais rara e, se empatar, a de cima."
+        },
+        {
+          "t": "fix",
+          "es": "Co-op: la build para la Endless Tower de quien se une ya guarda la vida de Immortal Stew y la Ra\u00edz de la Vida, y los stacks de Mysteltainn.",
+          "en": "Co-op: party members' Endless Tower builds now keep Immortal Stew and Root of Life max HP, and Mysteltainn stacks.",
+          "pt": "Co-op: a build da Endless Tower de quem entra no grupo agora guarda a vida do Immortal Stew e da Raiz da Vida, e os stacks da Mysteltainn."
+        },
+        {
+          "t": "fix",
+          "es": "Co-op: Call Homunculus elegido al cambiar de oficio ya invoca al Hom\u00fanculo de quien se une.",
+          "en": "Co-op: Call Homunculus picked at the job change now summons the joiner's Homunculus.",
+          "pt": "Co-op: Call Homunculus escolhido na troca de classe agora invoca o Hom\u00fanculo de quem entra."
+        },
+        {
+          "t": "fix",
+          "es": "Co-op: quien se desconecta durante el reparto del cofre ya no se queda con el bot\u00edn.",
+          "en": "Co-op: a player who disconnects during a chest roll no longer takes the loot with them.",
+          "pt": "Co-op: quem cai durante o sorteio do ba\u00fa n\u00e3o fica mais com o saque."
+        },
+        {
+          "t": "fix",
+          "es": "Los combos elementales del Wizard funcionan en la Endless Tower.",
+          "en": "The Wizard's elemental combos work in the Endless Tower.",
+          "pt": "Os combos elementais do Wizard funcionam na Endless Tower."
+        },
+        {
+          "t": "fix",
+          "es": "El aviso de carta ya no cierra la ventana del Hipnotizador ni la de subida de nivel.",
+          "en": "The card prompt no longer closes the Hypnotist or level-up window.",
+          "pt": "O aviso de carta n\u00e3o fecha mais a janela do Hipnotizador nem a de subir de n\u00edvel."
+        },
+        {
+          "t": "fix",
+          "es": "Escribir en el chat o en un reporte ya no mueve al personaje ni abre atajos.",
+          "en": "Typing in chat or a report no longer moves your character or triggers shortcuts.",
+          "pt": "Digitar no chat ou num relat\u00f3rio n\u00e3o move mais o personagem nem ativa atalhos."
+        },
+        {
+          "t": "fix",
+          "es": "La Dancer con los primeros tintes conserva su piel; el cambio de oficio avisa si tu arma vuelve a la bolsa (Grimtooth del Rogue).",
+          "en": "The Dancer keeps her skin with the first dyes; the job change warns if your weapon goes back to the bag (Rogue's Grimtooth).",
+          "pt": "A Dancer mant\u00e9m a pele com as primeiras tinturas; a troca de classe avisa se sua arma volta para a bolsa (Grimtooth do Rogue)."
+        },
+        {
+          "t": "fix",
+          "es": "Las Sword Wings con el almac\u00e9n lleno ya se guardan (y vuelven las que se perdieron); los regalos de Lucile no se repiten tras reiniciar; los objetos llevados al almac\u00e9n al final entran tambi\u00e9n en la build de la torre.",
+          "en": "Sword Wings found with a full storage are now kept (lost ones come back); Lucile's gifts no longer repeat after a restart; items kept at the end report also go into the tower build.",
+          "pt": "As Sword Wings com o armaz\u00e9m cheio agora ficam guardadas (as perdidas voltam); os presentes da Lucile n\u00e3o se repetem ap\u00f3s reiniciar; os itens levados ao armaz\u00e9m no fim tamb\u00e9m entram na build da torre."
+        },
+        {
+          "t": "fix",
+          "es": "Logro Polifac\u00e9tico ya no se da con una sola clase.",
+          "en": "The Jack of All Trades achievement no longer unlocks with a single class.",
+          "pt": "A conquista Polivalente n\u00e3o \u00e9 mais concedida com uma s\u00f3 classe."
+        }
+      ]
+    },
     {
       "version": "0.1.264",
       "items": [
@@ -362,47 +493,6 @@
           "es": "Crear personaje: el brillo de la caja del nombre queda justo sobre la caja y se ve m\u00e1s limpio.",
           "en": "Character creation: the glow on the name box now sits right on the box and looks cleaner.",
           "pt": "Cria\u00e7\u00e3o de personagem: o brilho da caixa do nome fica certinho sobre a caixa e mais limpo."
-        }
-      ]
-    },
-    {
-      "version": "0.1.253",
-      "items": [
-        {
-          "t": "new",
-          "es": "Ver equipo muestra el Rebirth del jugador sobre su personaje, como en la selecci\u00f3n de personaje.",
-          "en": "View equipment shows the player's Rebirth over their character, as in the character select.",
-          "pt": "Ver equipamento mostra o Rebirth do jogador sobre o personagem, como na sele\u00e7\u00e3o de personagem."
-        },
-        {
-          "t": "new",
-          "es": "Si el due\u00f1o del canal se va, abajo al centro aparece \u00abReconectando con el canal...\u00bb mientras se pasa a otro.",
-          "en": "If the channel's owner leaves, \"Reconnecting to the channel...\" shows at the bottom centre while it moves to someone else.",
-          "pt": "Se o dono do canal sair, aparece \u00abReconectando ao canal...\u00bb embaixo, no centro, enquanto ele passa para outro."
-        },
-        {
-          "t": "new",
-          "es": "Android: el chat de Prontera va arriba a la izquierda (el joystick queda libre y el teclado no tapa lo que escribes) y puedes acercar o alejar la c\u00e1mara pellizcando con dos dedos.",
-          "en": "Android: Prontera's chat sits at the top left (the joystick stays free and the keyboard no longer covers what you type), and you can pinch with two fingers to zoom the camera.",
-          "pt": "Android: o chat de Prontera fica no canto superior esquerdo (o joystick fica livre e o teclado n\u00e3o cobre o que voc\u00ea digita), e d\u00e1 para aproximar ou afastar a c\u00e2mera fazendo pin\u00e7a com dois dedos."
-        },
-        {
-          "t": "up",
-          "es": "Los canales de Prontera son de hasta 12 jugadores (y hay hasta 50 canales).",
-          "en": "Prontera channels hold up to 12 players (and there are up to 50 channels).",
-          "pt": "Os canais de Prontera t\u00eam at\u00e9 12 jogadores (e h\u00e1 at\u00e9 50 canais)."
-        },
-        {
-          "t": "fix",
-          "es": "Las llamas de Sight y las luces de Bio Lab de Rebirth Lv ya no cruzan por delante de tu personaje cuando pasan por detr\u00e1s.",
-          "en": "The Rebirth Lv Sight flames and Bio Lab lights no longer cross in front of your character when they pass behind it.",
-          "pt": "As chamas de Sight e as luzes de Bio Lab do Rebirth Lv n\u00e3o passam mais na frente do seu personagem quando est\u00e3o atr\u00e1s dele."
-        },
-        {
-          "t": "fix",
-          "es": "Los puntos suspensivos se ven bien (antes quedaban a media altura) y sentarse ya no hace ruido.",
-          "en": "Ellipses look right (they used to sit at mid-height), and sitting down no longer makes a sound.",
-          "pt": "As retic\u00eancias aparecem direito (antes ficavam no meio da altura) e sentar n\u00e3o faz mais barulho."
         }
       ]
     }
