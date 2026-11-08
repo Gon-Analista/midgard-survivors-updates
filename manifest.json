@@ -2,10 +2,10 @@
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.263",
-    "file": "patches/patch_0.1.263.bin",
-    "size": 3422220,
-    "sha256": "3a1e550e00d962ae3b495507a944b50161867dc4d2009012af09cfbefa1768a6"
+    "version": "0.1.264",
+    "file": "patches/patch_0.1.264.bin",
+    "size": 4938348,
+    "sha256": "532ee073edc9753c09fda27334695c6ba19502fa6fb1fe1f15265db09abe9997"
   },
   "legacy": {
     "0.1.219": {
@@ -46,6 +46,59 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.264",
+      "items": [
+        {
+          "t": "new",
+          "es": "Peligro 1, 2 y 3: tu da\u00f1o sube un 40%, 30% y 20% mientras consigues equipo y stats (se ve en Preparaci\u00f3n).",
+          "en": "Danger 1, 2 and 3: your damage goes up 40%, 30% and 20% while you gather gear and stats (shown in Preparation).",
+          "pt": "Perigo 1, 2 e 3: seu dano sobe 40%, 30% e 20% enquanto voc\u00ea junta equipamento e stats (aparece na Prepara\u00e7\u00e3o)."
+        },
+        {
+          "t": "new",
+          "es": "Mago: Stone Curse reemplaza a Cold Bolt. Petrifica y remata con fuego (x1.5).",
+          "en": "Mage: Stone Curse replaces Cold Bolt. Petrify and finish with fire (x1.5).",
+          "pt": "Mago: Stone Curse substitui Cold Bolt. Petrifique e finalize com fogo (x1,5)."
+        },
+        {
+          "t": "new",
+          "es": "Los MVP no se congelan ni se petrifican, pero el intento los marca unos segundos: el viento (hielo) y el fuego (piedra) les pegan como combo.",
+          "en": "MVPs can't be frozen or petrified, but the attempt marks them for a few seconds: wind (ice) and fire (stone) hit them as a combo.",
+          "pt": "Os MVPs n\u00e3o congelam nem petrificam, mas a tentativa os marca por alguns segundos: vento (gelo) e fogo (pedra) acertam como combo."
+        },
+        {
+          "t": "up",
+          "es": "Meteor Storm pega un 60% m\u00e1s.",
+          "en": "Meteor Storm deals 60% more damage.",
+          "pt": "Meteor Storm causa 60% mais dano."
+        },
+        {
+          "t": "fix",
+          "es": "Summoner: los Pickies ya no desaparecen antes de estallar cuando tienes muchos Tarous, y Picky Peck pega un 30% m\u00e1s.",
+          "en": "Summoner: Pickies no longer vanish before bursting when you have many Tarous, and Picky Peck deals 30% more damage.",
+          "pt": "Summoner: os Pickies n\u00e3o somem mais antes de explodir quando voc\u00ea tem muitos Tarous, e Picky Peck causa 30% mais dano."
+        },
+        {
+          "t": "up",
+          "es": "Envenom Nv10 hace estallar 2 tics del veneno (antes 3,5): era la mitad del da\u00f1o de todo Thief.",
+          "en": "Envenom Lv10 bursts 2 ticks of poison (was 3.5): it was half of every Thief's damage.",
+          "pt": "Envenom Nv10 detona 2 tiques do veneno (antes 3,5): era metade do dano de todo Thief."
+        },
+        {
+          "t": "new",
+          "es": "Fin de partida: la build para la Endless Tower se guarda sola (un clic la quita); se guardan las 10 m\u00e1s recientes.",
+          "en": "End of a run: the build for the Endless Tower saves itself (one click removes it); the 10 most recent are kept.",
+          "pt": "Fim de partida: a build para a Endless Tower se salva sozinha (um clique a remove); as 10 mais recentes ficam guardadas."
+        },
+        {
+          "t": "fix",
+          "es": "Endless Tower: tras cada MVP vuelve la m\u00fasica del tramo en que est\u00e1s. Las skills solo prometen un combo si tu clase puede causar ese estado.",
+          "en": "Endless Tower: after each MVP the music of your current stretch comes back. Skills only promise a combo if your class can cause that status.",
+          "pt": "Endless Tower: depois de cada MVP volta a m\u00fasica do trecho em que voc\u00ea est\u00e1. As skills s\u00f3 prometem um combo se sua classe puder causar esse estado."
+        }
+      ]
+    },
     {
       "version": "0.1.263",
       "items": [
@@ -350,35 +403,6 @@
           "es": "Los puntos suspensivos se ven bien (antes quedaban a media altura) y sentarse ya no hace ruido.",
           "en": "Ellipses look right (they used to sit at mid-height), and sitting down no longer makes a sound.",
           "pt": "As retic\u00eancias aparecem direito (antes ficavam no meio da altura) e sentar n\u00e3o faz mais barulho."
-        }
-      ]
-    },
-    {
-      "version": "0.1.252",
-      "items": [
-        {
-          "t": "up",
-          "es": "Los canales de Prontera son ahora de hasta 16 jugadores (y hay m\u00e1s canales): la plaza se entiende mejor y el canal va m\u00e1s fluido.",
-          "en": "Prontera channels now hold up to 16 players (and there are more channels): the plaza is easier to read and the channel runs smoother.",
-          "pt": "Os canais de Prontera agora t\u00eam at\u00e9 16 jogadores (e h\u00e1 mais canais): a pra\u00e7a fica mais f\u00e1cil de ler e o canal roda mais liso."
-        },
-        {
-          "t": "fix",
-          "es": "Entrar a un canal lleno o que llegue alguien ya no congela el juego un momento: los jugadores aparecen a medida que se cargan.",
-          "en": "Entering a full channel, or someone arriving, no longer freezes the game for a moment: players appear as they load.",
-          "pt": "Entrar num canal cheio, ou algu\u00e9m chegar, n\u00e3o trava mais o jogo por um momento: os jogadores aparecem conforme carregam."
-        },
-        {
-          "t": "fix",
-          "es": "Cuando el due\u00f1o del canal se va, los dem\u00e1s jugadores ya no desaparecen y vuelven a aparecer.",
-          "en": "When the channel's owner leaves, the other players no longer vanish and reappear.",
-          "pt": "Quando o dono do canal sai, os outros jogadores n\u00e3o somem e reaparecem mais."
-        },
-        {
-          "t": "fix",
-          "es": "El chat de Prontera ya no da tirones cuando mucha gente escribe a la vez.",
-          "en": "Prontera's chat no longer stutters when many people type at once.",
-          "pt": "O chat de Prontera n\u00e3o engasga mais quando muita gente escreve ao mesmo tempo."
         }
       ]
     }
