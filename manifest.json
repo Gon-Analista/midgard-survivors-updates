@@ -2,10 +2,10 @@
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.262",
-    "file": "patches/patch_0.1.262.bin",
-    "size": 3326284,
-    "sha256": "c146573cf9de42bf96f7c63e785d3c7cefedc17b67ee10f80c92dce3de422f1b"
+    "version": "0.1.263",
+    "file": "patches/patch_0.1.263.bin",
+    "size": 3422220,
+    "sha256": "3a1e550e00d962ae3b495507a944b50161867dc4d2009012af09cfbefa1768a6"
   },
   "legacy": {
     "0.1.219": {
@@ -46,6 +46,65 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.263",
+      "items": [
+        {
+          "t": "new",
+          "es": "Opci\u00f3n \u00abCantidad de efectos\u00bb (Todos / Reducidos / M\u00ednimos) para ganar FPS; los avisos de los MVP siempre se ven.",
+          "en": "\"Amount of effects\" option (All / Reduced / Minimal) for more FPS; MVP warnings always show.",
+          "pt": "Op\u00e7\u00e3o \"Quantidade de efeitos\" (Todos / Reduzidos / M\u00ednimos) para ganhar FPS; os avisos dos MVPs sempre aparecem."
+        },
+        {
+          "t": "new",
+          "es": "Control: la cruceta salta de bot\u00f3n en bot\u00f3n en las ventanas y A lo aprieta.",
+          "en": "Controller: the D-pad jumps from button to button in windows and A presses it.",
+          "pt": "Controle: o direcional pula de bot\u00e3o em bot\u00e3o nas janelas e A aperta."
+        },
+        {
+          "t": "new",
+          "es": "Fin de partida: pulsa otra vez un objeto que te llevaste para devolverlo y elegir otro.",
+          "en": "End of a run: press an item you took again to put it back and pick another one.",
+          "pt": "Fim de partida: pressione de novo um item que voc\u00ea levou para devolv\u00ea-lo e escolher outro."
+        },
+        {
+          "t": "up",
+          "es": "El \u00c1rea por encima del m\u00e1ximo se convierte en da\u00f1o de habilidades (cada 1% sobrante, +0,5%).",
+          "en": "Area past its cap turns into skill damage (+0.5% for every extra 1%).",
+          "pt": "A \u00c1rea acima do m\u00e1ximo vira dano de habilidades (+0,5% para cada 1% extra)."
+        },
+        {
+          "t": "up",
+          "es": "Las multitudes se fusionan antes: menos monstruos en pantalla, la misma pelea, m\u00e1s FPS.",
+          "en": "Crowds merge sooner: fewer monsters on screen, the same fight, more FPS.",
+          "pt": "As multid\u00f5es se fundem antes: menos monstros na tela, a mesma luta, mais FPS."
+        },
+        {
+          "t": "up",
+          "es": "Mysteltainn: +1% a Bash cada 2 monstruos (antes cada 1).",
+          "en": "Mysteltainn: +1% to Bash every 2 monsters (was every 1).",
+          "pt": "Mysteltainn: +1% para Golpe Fulminante a cada 2 monstros (antes a cada 1)."
+        },
+        {
+          "t": "up",
+          "es": "Super Novice: hay que armar el set antes de salir. Las mascotas siguen un poco m\u00e1s lejos en Prontera.",
+          "en": "Super Novice: you need to build your set before heading out. Pets follow a bit farther in Prontera.",
+          "pt": "Super Novice: \u00e9 preciso montar o set antes de sair. Os mascotes seguem um pouco mais longe em Prontera."
+        },
+        {
+          "t": "fix",
+          "es": "MVP: ya no quedas atrapado en un barranco tras Eddga; la salida aparece lejos del cofre.",
+          "en": "MVP: no more getting stuck on a cliff after Eddga; the exit appears away from the chest.",
+          "pt": "MVP: voc\u00ea n\u00e3o fica mais preso num penhasco depois do Eddga; a sa\u00edda aparece longe do ba\u00fa."
+        },
+        {
+          "t": "fix",
+          "es": "Los altares y el Hipnotizador ya no aparecen uno encima del otro. Barra de EXP con nivel de 3 cifras. Epic reintenta conectarse si Windows no guarda tu identificaci\u00f3n.",
+          "en": "Altars and the Hypnotist no longer appear on top of each other. EXP bar with 3-digit levels. Epic tries to connect even if Windows doesn't save your ID.",
+          "pt": "Altares e o Hipnotizador n\u00e3o aparecem mais um em cima do outro. Barra de EXP com n\u00edvel de 3 d\u00edgitos. A Epic tenta conectar mesmo se o Windows n\u00e3o salvar sua identifica\u00e7\u00e3o."
+        }
+      ]
+    },
     {
       "version": "0.1.262",
       "items": [
@@ -320,29 +379,6 @@
           "es": "El chat de Prontera ya no da tirones cuando mucha gente escribe a la vez.",
           "en": "Prontera's chat no longer stutters when many people type at once.",
           "pt": "O chat de Prontera n\u00e3o engasga mais quando muita gente escreve ao mesmo tempo."
-        }
-      ]
-    },
-    {
-      "version": "0.1.251",
-      "items": [
-        {
-          "t": "new",
-          "es": "En Prontera puedes sentarte: tecla X, la X del control o el bot\u00f3n \u00abSentarse\u00bb junto al chat. Caminar te levanta.",
-          "en": "You can sit in Prontera: the X key, the controller's X or the \"Sit\" button by the chat. Walking stands you up.",
-          "pt": "Em Prontera d\u00e1 para sentar: tecla X, o X do controle ou o bot\u00e3o \u00abSentar\u00bb junto ao chat. Andar levanta voc\u00ea."
-        },
-        {
-          "t": "new",
-          "es": "Android: la app ahora se actualiza sola (despu\u00e9s de instalar este APK una vez) y comparte los canales de Prontera con PC.",
-          "en": "Android: the app now updates itself (after installing this APK once) and shares the Prontera channels with PC.",
-          "pt": "Android: o app agora se atualiza sozinho (depois de instalar este APK uma vez) e compartilha os canais de Prontera com o PC."
-        },
-        {
-          "t": "fix",
-          "es": "Invitar a party a alguien de tu canal ya no falla a veces.",
-          "en": "Inviting someone from your channel to a party no longer fails at times.",
-          "pt": "Convidar algu\u00e9m do seu canal para a party n\u00e3o falha mais \u00e0s vezes."
         }
       ]
     }
