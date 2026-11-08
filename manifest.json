@@ -2,10 +2,10 @@
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.265",
-    "file": "patches/patch_0.1.265.bin",
-    "size": 5404156,
-    "sha256": "7df005ec9a9252c5a28ca7a9e8bc2061f1d3bde95ff44d77b57a7cffd045f558"
+    "version": "0.1.266",
+    "file": "patches/patch_0.1.266.bin",
+    "size": 5405580,
+    "sha256": "1b3544d82dc393b6105124c56e0fb36c1a3fe006fa3b7e2a91acc0882370b8a7"
   },
   "legacy": {
     "0.1.219": {
@@ -46,6 +46,23 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.266",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Android: la 0.1.265 dejaba la pantalla en gris al abrir. Arreglado.",
+          "en": "Android: 0.1.265 got stuck on a gray screen at startup. Fixed.",
+          "pt": "Android: a 0.1.265 travava numa tela cinza ao abrir. Corrigido."
+        },
+        {
+          "t": "fix",
+          "es": "Equipo inicial: con katar ya no se puede poner escudo (el katar ocupa las dos manos).",
+          "en": "Starting gear: a shield can no longer be equipped with a katar (it takes both hands).",
+          "pt": "Equipamento inicial: n\u00e3o d\u00e1 mais para usar escudo com katar (ele ocupa as duas m\u00e3os)."
+        }
+      ]
+    },
     {
       "version": "0.1.265",
       "items": [
@@ -476,23 +493,6 @@
           "es": "Android: sin teclas del teclado en los textos ni en los botones, el bot\u00f3n Abrir de las mejoras guardadas es m\u00e1s grande, y el juego busca actualizaciones al volver a la app.",
           "en": "Android: no keyboard keys in texts or buttons, a bigger Open button for saved level-ups, and the game checks for updates when you come back to the app.",
           "pt": "Android: sem teclas do teclado nos textos nem nos bot\u00f5es, o bot\u00e3o Abrir das melhorias guardadas ficou maior, e o jogo procura atualiza\u00e7\u00f5es ao voltar ao app."
-        }
-      ]
-    },
-    {
-      "version": "0.1.254",
-      "items": [
-        {
-          "t": "up",
-          "es": "Prontera admite hasta 100 canales (antes 50). Si un d\u00eda se llenan todos, el juego espera un rato antes de volver a probar en vez de insistir cada pocos segundos.",
-          "en": "Prontera now allows up to 100 channels (50 before). If they are ever all full, the game waits a while before trying again instead of retrying every few seconds.",
-          "pt": "Prontera agora aceita at\u00e9 100 canais (antes 50). Se um dia todos encherem, o jogo espera um pouco antes de tentar de novo em vez de insistir a cada poucos segundos."
-        },
-        {
-          "t": "fix",
-          "es": "Crear personaje: el brillo de la caja del nombre queda justo sobre la caja y se ve m\u00e1s limpio.",
-          "en": "Character creation: the glow on the name box now sits right on the box and looks cleaner.",
-          "pt": "Cria\u00e7\u00e3o de personagem: o brilho da caixa do nome fica certinho sobre a caixa e mais limpo."
         }
       ]
     }
