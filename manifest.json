@@ -51,9 +51,9 @@
       "items": [
         {
           "t": "fix",
-          "es": "Android: la 0.1.265 dejaba la pantalla en gris al abrir. Arreglado.",
-          "en": "Android: 0.1.265 got stuck on a gray screen at startup. Fixed.",
-          "pt": "Android: a 0.1.265 travava numa tela cinza ao abrir. Corrigido."
+          "es": "Parche peque\u00f1o para un error cr\u00edtico en Android: la 0.1.265 se quedaba en una pantalla gris al abrir. Ya est\u00e1 arreglado.",
+          "en": "Small patch for a critical Android error: 0.1.265 got stuck on a gray screen at startup. It's fixed now.",
+          "pt": "Patch pequeno para um erro cr\u00edtico no Android: a 0.1.265 travava numa tela cinza ao abrir. J\u00e1 est\u00e1 corrigido."
         },
         {
           "t": "fix",
