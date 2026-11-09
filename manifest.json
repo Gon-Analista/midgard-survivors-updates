@@ -2,10 +2,10 @@
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.267",
-    "file": "patches/patch_0.1.267.bin",
-    "size": 31074764,
-    "sha256": "d031f179b4cf1955a4bbb100f0899179d0f6cc83e0ee2e9dd156fd2d26591121"
+    "version": "0.1.268",
+    "file": "patches/patch_0.1.268.bin",
+    "size": 31077804,
+    "sha256": "70e28c7d1cb498f7f9c5292614f2ae2e13937795392e65c964bacd82725b3ac0"
   },
   "legacy": {
     "0.1.219": {
@@ -46,6 +46,29 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.268",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Emperium Festival: los r\u00e9cords ya se suben al ranking.",
+          "en": "Emperium Festival: scores now reach the ranking.",
+          "pt": "Festival do Emperium: as pontua\u00e7\u00f5es agora chegam ao ranking."
+        },
+        {
+          "t": "fix",
+          "es": "Fire Wall y las trampas del Hunter ya da\u00f1an al Emperium (y a todo lo que no se mueve): ahora aparecen encima de \u00e9l.",
+          "en": "Fire Wall and Hunter traps now hit the Emperium (and anything that doesn't move): they now appear right on it.",
+          "pt": "Fire Wall e as armadilhas do Hunter agora acertam o Emperium (e tudo que n\u00e3o se move): agora aparecem em cima dele."
+        },
+        {
+          "t": "fix",
+          "es": "Emperium Festival: el veneno calcula su % de vida sobre el primer Emperium. Antes crec\u00eda solo con cada Emperium roto.",
+          "en": "Emperium Festival: poison's % of HP is based on the first Emperium. Before, it grew on its own with every Emperium broken.",
+          "pt": "Festival do Emperium: a % de vida do veneno \u00e9 calculada sobre o primeiro Emperium. Antes crescia sozinha a cada Emperium quebrado."
+        }
+      ]
+    },
     {
       "version": "0.1.267",
       "items": [
@@ -578,17 +601,6 @@
           "es": "Las actualizaciones llegan desde nuestro propio servidor (m\u00e1s r\u00e1pidas), con GitHub de respaldo.",
           "en": "Updates now come from our own server (faster), with GitHub as a backup.",
           "pt": "As atualiza\u00e7\u00f5es agora v\u00eam do nosso pr\u00f3prio servidor (mais r\u00e1pidas), com o GitHub de reserva."
-        }
-      ]
-    },
-    {
-      "version": "0.1.256",
-      "items": [
-        {
-          "t": "up",
-          "es": "Acid Terror renovado: lanzas un frasco de \u00e1cido al monstruo m\u00e1s fuerte (jefes primero), que estalla y lo corroe en varios golpes seguidos, cada uno con su n\u00famero, su salpicadura y su sonido. El \u00faltimo lo marca con \u00c1cido y deja un charquito. En Nv 5: 5 golpes y 3 frascos.",
-          "en": "Acid Terror reworked: you throw a bottle of acid at the strongest monster (bosses first); it shatters and eats at it in several hits in a row, each with its own number, splash and sound. The last one marks it with Acid and leaves a small puddle. At Lv 5: 5 hits and 3 bottles.",
-          "pt": "Acid Terror renovado: voc\u00ea joga um frasco de \u00e1cido no monstro mais forte (chefes primeiro), que estoura e o corr\u00f3i em v\u00e1rios golpes seguidos, cada um com seu n\u00famero, respingo e som. O \u00faltimo o marca com \u00c1cido e deixa uma pocinha. No Nv 5: 5 golpes e 3 frascos."
         }
       ]
     }
