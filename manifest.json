@@ -2,10 +2,10 @@
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.266",
-    "file": "patches/patch_0.1.266.bin",
-    "size": 5405580,
-    "sha256": "1b3544d82dc393b6105124c56e0fb36c1a3fe006fa3b7e2a91acc0882370b8a7"
+    "version": "0.1.267",
+    "file": "patches/patch_0.1.267.bin",
+    "size": 31074764,
+    "sha256": "d031f179b4cf1955a4bbb100f0899179d0f6cc83e0ee2e9dd156fd2d26591121"
   },
   "legacy": {
     "0.1.219": {
@@ -46,6 +46,131 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.267",
+      "items": [
+        {
+          "t": "new",
+          "es": "Emperium Festival en Comodo: nearQ te lleva a la playa a romper Emperiums con tus builds guardadas (no se gastan), solo o en grupo, con r\u00e9cords del mes.",
+          "en": "Emperium Festival in Comodo: nearQ takes you to the beach to break Emperiums with your saved builds (never spent), solo or in a party, with monthly records.",
+          "pt": "Festival do Emperium em Comodo: o nearQ te leva \u00e0 praia para quebrar Emperiums com suas builds salvas (n\u00e3o s\u00e3o gastas), sozinho ou em grupo, com recordes do m\u00eas."
+        },
+        {
+          "t": "new",
+          "es": "Nuevo libro de Habilidades (men\u00fa de pausa y \u00c1lbum): todas las habilidades y pasivas de tu clase por camino, las copiadas con Plagiarism y las evoluciones.",
+          "en": "New Skills book (pause menu and Album): every skill and passive of your class by path, the ones copied with Plagiarism and the evolutions.",
+          "pt": "Novo livro de Habilidades (menu de pausa e \u00c1lbum): todas as habilidades e passivas da sua classe por caminho, as copiadas com Plagiarism e as evolu\u00e7\u00f5es."
+        },
+        {
+          "t": "new",
+          "es": "Fin de partida: lista de las cartas que conseguiste, con las nuevas marcadas.",
+          "en": "End of run: a list of the cards you got, the new ones marked.",
+          "pt": "Fim de partida: lista das cartas que voc\u00ea conseguiu, com as novas marcadas."
+        },
+        {
+          "t": "new",
+          "es": "Prontera: carteles de SE BUSCA donde faltan NPCs, con el mapa donde se les vio por \u00faltima vez.",
+          "en": "Prontera: MISSING posters where NPCs are still away, with the map they were last seen in.",
+          "pt": "Prontera: cartazes de DESAPARECIDO onde faltam NPCs, com o mapa onde foram vistos pela \u00faltima vez."
+        },
+        {
+          "t": "new",
+          "es": "Opci\u00f3n Efectos de compa\u00f1eros (co-op): baja u oculta las habilidades de los dem\u00e1s en tu pantalla.",
+          "en": "Party effects option (co-op): fade or hide the others' skills on your screen.",
+          "pt": "Op\u00e7\u00e3o Efeitos dos companheiros (co-op): reduz ou esconde as habilidades dos outros na sua tela."
+        },
+        {
+          "t": "new",
+          "es": "El equipo inicial del Thief y el Ninja acepta una segunda arma en la mano izquierda: se pone sola al llegar a Assassin o Kagerou.",
+          "en": "Thief and Ninja starting gear takes a second weapon in the left hand: it equips itself once you become Assassin or Kagerou.",
+          "pt": "O equipamento inicial do Thief e do Ninja aceita uma segunda arma na m\u00e3o esquerda: ela se equipa sozinha ao virar Assassin ou Kagerou."
+        },
+        {
+          "t": "new",
+          "es": "El Refinador y el Engarzador muestran en qu\u00e9 equipo inicial est\u00e1 cada pieza.",
+          "en": "The Refiner and the Socket Enchanter show which starting gear each piece is in.",
+          "pt": "O Refinador e o Engarzador mostram em qual equipamento inicial est\u00e1 cada pe\u00e7a."
+        },
+        {
+          "t": "up",
+          "es": "Mucho mejor rendimiento en partidas largas: la memoria de video ya no crece sin parar, los monstruos nuevos se cargan antes de aparecer y fuera de la ventana el juego va a 30 FPS.",
+          "en": "Much better performance in long runs: video memory no longer keeps growing, new monsters load before they show up, and the game runs at 30 FPS while in the background.",
+          "pt": "Desempenho muito melhor em partidas longas: a mem\u00f3ria de v\u00eddeo n\u00e3o cresce mais sem parar, monstros novos carregam antes de aparecer e fora da janela o jogo roda a 30 FPS."
+        },
+        {
+          "t": "up",
+          "es": "M\u00e1ximo de monstruos: 250 solo y 400 en co-op; se fusionan antes.",
+          "en": "Monster cap: 250 solo and 400 in co-op; they merge sooner.",
+          "pt": "Limite de monstros: 250 solo e 400 no co-op; eles se fundem antes."
+        },
+        {
+          "t": "up",
+          "es": "Venom Dust deja una nube t\u00f3xica que da\u00f1a y vuelve a envenenar. Veneno +17% (0,35% de vida por segundo).",
+          "en": "Venom Dust leaves a toxic cloud that hurts and poisons again. Poison +17% (0.35% HP per second).",
+          "pt": "Venom Dust deixa uma nuvem t\u00f3xica que fere e envenena de novo. Veneno +17% (0,35% de vida por segundo)."
+        },
+        {
+          "t": "up",
+          "es": "Envenom Nv10: estalla 1 tic de veneno (antes 2) y su veneno baja de 7 a 6.",
+          "en": "Envenom Lv10: bursts 1 tick of poison (was 2) and its poison goes from 7 to 6.",
+          "pt": "Envenom Nv10: detona 1 tique de veneno (antes 2) e seu veneno cai de 7 para 6."
+        },
+        {
+          "t": "up",
+          "es": "Mysteltainn: +1% de Bash cada 3 monstruos (antes 2).",
+          "en": "Mysteltainn: +1% Bash every 3 monsters (was 2).",
+          "pt": "Mysteltainn: +1% de Bash a cada 3 monstros (antes 2)."
+        },
+        {
+          "t": "up",
+          "es": "Ninja: las sombras de Mirror Image ya no anulan los golpes enormes (los de MVP): solo los reducen a la mitad.",
+          "en": "Ninja: Mirror Image shadows no longer cancel huge blows (MVP ones): they only halve them.",
+          "pt": "Ninja: as sombras de Mirror Image n\u00e3o anulam mais golpes enormes (de MVP): s\u00f3 os reduzem pela metade."
+        },
+        {
+          "t": "up",
+          "es": "Murasame y Mirror Image Nv10 lanzan muchos menos proyectiles con el mismo da\u00f1o (ya no congelan el juego).",
+          "en": "Murasame and Mirror Image Lv10 throw far fewer projectiles for the same damage (no more freezes).",
+          "pt": "Murasame e Mirror Image Nv10 lan\u00e7am bem menos proj\u00e9teis com o mesmo dano (n\u00e3o travam mais o jogo)."
+        },
+        {
+          "t": "up",
+          "es": "El sobrante de Doble ataque sobre 100% da golpes extra con cualquier fuente.",
+          "en": "Double Attack past 100% gives extra hits from any source.",
+          "pt": "Ataque Duplo acima de 100% d\u00e1 golpes extras de qualquer fonte."
+        },
+        {
+          "t": "up",
+          "es": "Las haza\u00f1as en Prontera (+10, segundo hueco de legendaria) se anuncian a todo el canal.",
+          "en": "Feats in Prontera (+10, a legendary's second socket) are announced to the whole channel.",
+          "pt": "Fa\u00e7anhas em Prontera (+10, segundo encaixe de lend\u00e1ria) s\u00e3o anunciadas para todo o canal."
+        },
+        {
+          "t": "up",
+          "es": "M\u00e1s vistosos: el Terremoto del Orc Lord, el Emperium en 3D y la curaci\u00f3n de Sangre Vamp\u00edrica.",
+          "en": "Flashier: the Orc Lord's Earthquake, the 3D Emperium and Vampiric Blood's healing.",
+          "pt": "Mais vistosos: o Terremoto do Orc Lord, o Emperium em 3D e a cura de Sangue Vamp\u00edrico."
+        },
+        {
+          "t": "fix",
+          "es": "El suelo ya no se tapa de color al lanzar el mismo hechizo de suelo muchas veces en el mismo sitio.",
+          "en": "The ground no longer turns into a solid colour when the same ground spell is cast many times on one spot.",
+          "pt": "O ch\u00e3o n\u00e3o fica mais coberto de cor ao lan\u00e7ar a mesma magia de ch\u00e3o v\u00e1rias vezes no mesmo lugar."
+        },
+        {
+          "t": "fix",
+          "es": "Los regalos de Lucile se contaban de nuevo tras reiniciar: los huecos de legendaria del equipo inicial ahora son los correctos.",
+          "en": "Lucile's gifts were counted again after a restart: the starting gear's legendary slots are now right.",
+          "pt": "Os presentes da Lucile eram contados de novo ap\u00f3s reiniciar: os espa\u00e7os de lend\u00e1ria do equipamento inicial agora est\u00e3o corretos."
+        },
+        {
+          "t": "fix",
+          "es": "Los charcos de los MVP ya no matan de un golpe en peleas largas, y botones seleccionados ya no ponen el texto en blanco.",
+          "en": "MVP pools no longer one-shot you in long fights, and selected buttons no longer turn their text white.",
+          "pt": "As po\u00e7as dos MVP n\u00e3o matam mais de um golpe em lutas longas, e bot\u00f5es selecionados n\u00e3o deixam mais o texto branco."
+        }
+      ]
+    },
     {
       "version": "0.1.266",
       "items": [
@@ -464,35 +589,6 @@
           "es": "Acid Terror renovado: lanzas un frasco de \u00e1cido al monstruo m\u00e1s fuerte (jefes primero), que estalla y lo corroe en varios golpes seguidos, cada uno con su n\u00famero, su salpicadura y su sonido. El \u00faltimo lo marca con \u00c1cido y deja un charquito. En Nv 5: 5 golpes y 3 frascos.",
           "en": "Acid Terror reworked: you throw a bottle of acid at the strongest monster (bosses first); it shatters and eats at it in several hits in a row, each with its own number, splash and sound. The last one marks it with Acid and leaves a small puddle. At Lv 5: 5 hits and 3 bottles.",
           "pt": "Acid Terror renovado: voc\u00ea joga um frasco de \u00e1cido no monstro mais forte (chefes primeiro), que estoura e o corr\u00f3i em v\u00e1rios golpes seguidos, cada um com seu n\u00famero, respingo e som. O \u00faltimo o marca com \u00c1cido e deixa uma pocinha. No Nv 5: 5 golpes e 3 frascos."
-        }
-      ]
-    },
-    {
-      "version": "0.1.255",
-      "items": [
-        {
-          "t": "up",
-          "es": "Taekwon: tus Pu\u00f1os aparecen en el equipo inicial y tambi\u00e9n en la mano izquierda, que no lleva otra cosa.",
-          "en": "Taekwon: your Fists show in the starting gear and in the off-hand too, which holds nothing else.",
-          "pt": "Taekwon: seus Punhos aparecem no equipamento inicial e tamb\u00e9m na m\u00e3o esquerda, que n\u00e3o leva outra coisa."
-        },
-        {
-          "t": "fix",
-          "es": "El c\u00edrculo de Warmth of the Sun / Stars es m\u00e1s sutil, y ese c\u00edrculo, el de Gospel, los de las canciones y el brillo de Critical Explosion siguen la opacidad de \u00abTus efectos\u00bb al momento (tambi\u00e9n al cambiarla en plena partida o al llegar un jefe).",
-          "en": "The Warmth of the Sun / Stars circle is subtler, and it, Gospel's ring, the songs' circles and Critical Explosion's glow follow the \"Your effects\" opacity right away (also when you change it mid-run or a boss arrives).",
-          "pt": "O c\u00edrculo de Warmth of the Sun / Stars est\u00e1 mais sutil, e ele, o anel de Gospel, os c\u00edrculos das m\u00fasicas e o brilho de Critical Explosion seguem a opacidade de \u00abSeus efeitos\u00bb na hora (tamb\u00e9m ao mud\u00e1-la no meio da partida ou quando chega um chefe)."
-        },
-        {
-          "t": "new",
-          "es": "Android: las listas (opciones, r\u00e9cords, almac\u00e9n...) se arrastran con el dedo desde cualquier parte, y un toque en los r\u00e9cords abre al jugador solo al levantar el dedo.",
-          "en": "Android: lists (options, records, storage...) can be dragged with your finger from anywhere, and a tap on the records opens a player only when you lift your finger.",
-          "pt": "Android: as listas (op\u00e7\u00f5es, recordes, armaz\u00e9m...) podem ser arrastadas com o dedo de qualquer lugar, e um toque nos recordes abre o jogador s\u00f3 ao levantar o dedo."
-        },
-        {
-          "t": "fix",
-          "es": "Android: sin teclas del teclado en los textos ni en los botones, el bot\u00f3n Abrir de las mejoras guardadas es m\u00e1s grande, y el juego busca actualizaciones al volver a la app.",
-          "en": "Android: no keyboard keys in texts or buttons, a bigger Open button for saved level-ups, and the game checks for updates when you come back to the app.",
-          "pt": "Android: sem teclas do teclado nos textos nem nos bot\u00f5es, o bot\u00e3o Abrir das melhorias guardadas ficou maior, e o jogo procura atualiza\u00e7\u00f5es ao voltar ao app."
         }
       ]
     }
