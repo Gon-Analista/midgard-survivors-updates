@@ -832,5 +832,11 @@
         }
       ]
     }
-  ]
+  ],
+  "broadcast": {
+    "id": "1794279816",
+    "es": "Votaci\u00f3n en nuestro Discord: \u00bfreiniciamos los rankings ma\u00f1ana o esperamos a fin de mes? Vota en discord.gg/YD4mqwysRb",
+    "en": "Vote on our Discord: should the leaderboards reset tomorrow or wait until the end of the month? Vote at discord.gg/YD4mqwysRb",
+    "pt": "Vota\u00e7\u00e3o no nosso Discord: reiniciamos os rankings amanh\u00e3 ou esperamos o fim do m\u00eas? Vote em discord.gg/YD4mqwysRb"
+  }
 }
