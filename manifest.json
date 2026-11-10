@@ -2,10 +2,10 @@
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.268",
-    "file": "patches/patch_0.1.268.bin",
-    "size": 31077804,
-    "sha256": "70e28c7d1cb498f7f9c5292614f2ae2e13937795392e65c964bacd82725b3ac0"
+    "version": "0.1.269",
+    "file": "patches/patch_0.1.269.bin",
+    "size": 31467228,
+    "sha256": "32ea007af2ac73bc8800540dbe6cd8d17ff2c9523a5e3bd8601de2a08d1621d1"
   },
   "legacy": {
     "0.1.219": {
@@ -46,6 +46,197 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.269",
+      "items": [
+        {
+          "t": "new",
+          "es": "Lista de amigos y t\u00edtulos de cuenta sobre tu nombre.",
+          "en": "Friends list and account titles over your name.",
+          "pt": "Lista de amigos e t\u00edtulos de conta sobre o seu nome."
+        },
+        {
+          "t": "new",
+          "es": "Ventana de Gu\u00eda, bloquear objetos, filtros del inventario y 16 pactos nuevos de Gray en pesta\u00f1as.",
+          "en": "Guide window, item lock, inventory filters and 16 new Gray pacts in tabs.",
+          "pt": "Janela de Guia, travar itens, filtros do invent\u00e1rio e 16 novos pactos do Gray em abas."
+        },
+        {
+          "t": "new",
+          "es": "El veneno se ve mejor: los monstruos hierven en verde y revientan al morir.",
+          "en": "Poison looks better: monsters seethe green and burst when they die.",
+          "pt": "O veneno est\u00e1 mais bonito: os monstros fervem em verde e explodem ao morrer."
+        },
+        {
+          "t": "new",
+          "es": "Android: opciones de joystick libre y joysticks ocultos.",
+          "en": "Android: free joystick and hidden joysticks options.",
+          "pt": "Android: op\u00e7\u00f5es de joystick livre e joysticks ocultos."
+        },
+        {
+          "t": "new",
+          "es": "En la partida, lo que encuentras mejor que lo puesto se equipa solo (se puede apagar) y \u00abEquipar lo mejor\u00bb lo hace de una vez.",
+          "en": "In a run, gear better than what you wear equips itself (can be turned off) and \"Equip the best\" does it all at once.",
+          "pt": "Na partida, o que voc\u00ea encontra melhor que o equipado se equipa sozinho (d\u00e1 para desligar) e \"Equipar o melhor\" faz tudo de uma vez."
+        },
+        {
+          "t": "new",
+          "es": "Ventana de estado: pasa el rat\u00f3n o toca cada valor para ver qu\u00e9 hace (cr\u00edtico y ASPD pasados del tope, topes de esquiva y bloqueo...).",
+          "en": "Status window: hover or tap any value to see what it does (crit and ASPD past the cap, flee and block caps...).",
+          "pt": "Janela de status: passe o mouse ou toque em cada valor para ver o que faz (cr\u00edtico e ASPD acima do limite, limites de esquiva e bloqueio...)."
+        },
+        {
+          "t": "new",
+          "es": "\u00c1lbum: orden por rareza; selecci\u00f3n de personaje: flechas para ordenar tus clases.",
+          "en": "Album: sort by rarity; character select: arrows to reorder your classes.",
+          "pt": "\u00c1lbum: ordem por raridade; sele\u00e7\u00e3o de personagem: setas para ordenar suas classes."
+        },
+        {
+          "t": "new",
+          "es": "Control: RB pide nuevas opciones y LB destierra una al subir de nivel.",
+          "en": "Controller: RB rerolls and LB banishes an option when leveling up.",
+          "pt": "Controle: RB sorteia novas op\u00e7\u00f5es e LB bane uma ao subir de n\u00edvel."
+        },
+        {
+          "t": "up",
+          "es": "Veneno y Coma ya no quitan un % de la vida del monstruo: escalan con tu build. El veneno hace x4 a jefes y MVP (hasta x10 en Infierno 10) y Envenom EX vuelve a su fuerza.",
+          "en": "Poison and Coma no longer take a % of the monster's HP: they scale with your build. Poison deals x4 to bosses and MVPs (up to x10 on Hell 10) and Envenom EX is back to its old strength.",
+          "pt": "Veneno e Coma n\u00e3o tiram mais uma % da vida do monstro: escalam com a sua build. O veneno causa x4 em chefes e MVPs (at\u00e9 x10 no Inferno 10) e o Envenom EX volta \u00e0 for\u00e7a de antes."
+        },
+        {
+          "t": "up",
+          "es": "Endless Tower: +2% de da\u00f1o por piso, acumulativo (x2.7 en el piso 50, x7.2 en el 100).",
+          "en": "Endless Tower: +2% damage per floor, compounding (x2.7 on floor 50, x7.2 on floor 100).",
+          "pt": "Endless Tower: +2% de dano por andar, acumulativo (x2.7 no andar 50, x7.2 no 100)."
+        },
+        {
+          "t": "up",
+          "es": "Atributos: las habilidades f\u00edsicas usan FUE e INT solo las m\u00e1gicas. Tus builds guardadas de la torre se convierten solas.",
+          "en": "Stats: physical skills use STR, INT is for magic skills only. Your saved tower builds are converted automatically.",
+          "pt": "Atributos: as habilidades f\u00edsicas usam FOR e a INT s\u00f3 as m\u00e1gicas. Suas builds salvas da torre s\u00e3o convertidas sozinhas."
+        },
+        {
+          "t": "up",
+          "es": "Priest: +40% de da\u00f1o en Holy Light, Magnus y Sanctuary; nueva pasiva Judgment of Asgard (marcas de Juicio que suben el da\u00f1o sagrado); Aspersio pasa a ser pasiva.",
+          "en": "Priest: +40% damage on Holy Light, Magnus and Sanctuary; new passive Judgment of Asgard (Judgment marks that raise holy damage); Aspersio is now a passive.",
+          "pt": "Priest: +40% de dano em Holy Light, Magnus e Sanctuary; nova passiva Judgment of Asgard (marcas de Julgamento que aumentam o dano sagrado); Aspersio agora \u00e9 passiva."
+        },
+        {
+          "t": "up",
+          "es": "Sage y Professor: Double Casting, m\u00e1s da\u00f1o y Spider Web hace que el fuego pegue el doble.",
+          "en": "Sage and Professor: Double Casting, more damage, and Spider Web makes fire hit twice as hard.",
+          "pt": "Sage e Professor: Double Casting, mais dano e Spider Web faz o fogo acertar o dobro."
+        },
+        {
+          "t": "up",
+          "es": "Cofres corruptos: abrirlo da una Marca de Hel (+da\u00f1o), purificarlo una Pluma de Valquiria (+vida); los monstruos se endurecen.",
+          "en": "Corrupt Chests: opening gives a Mark of Hel (+damage), purifying a Valkyrie's Feather (+HP); monsters get tougher.",
+          "pt": "Ba\u00fas corrompidos: abrir d\u00e1 uma Marca de Hel (+dano), purificar uma Pena de Valqu\u00edria (+vida); os monstros ficam mais fortes."
+        },
+        {
+          "t": "up",
+          "es": "Almac\u00e9n de 250 espacios, ordenar por rareza y elegir qu\u00e9 sale cuando est\u00e1 lleno.",
+          "en": "Storage up to 250 slots, sort by rarity and choose what goes when it's full.",
+          "pt": "Armaz\u00e9m de 250 espa\u00e7os, ordenar por raridade e escolher o que sai quando est\u00e1 cheio."
+        },
+        {
+          "t": "up",
+          "es": "Control: en el inventario A equipa y X muestra el objeto; la carta del objeto aparece al pasar.",
+          "en": "Controller: in the inventory A equips and X shows the item; the item card shows as you move over it.",
+          "pt": "Controle: no invent\u00e1rio A equipa e X mostra o item; o card do item aparece ao passar."
+        },
+        {
+          "t": "up",
+          "es": "Todos los accesorios se pueden refinar, y las armas legendarias de clase sirven en los dos caminos del oficio.",
+          "en": "Every accessory can be refined, and class legendary weapons work on both job paths.",
+          "pt": "Todos os acess\u00f3rios podem ser refinados, e as armas lend\u00e1rias de classe servem nos dois caminhos da classe."
+        },
+        {
+          "t": "up",
+          "es": "Las habilidades evolucionadas se llaman \u00abEX\u00bb (Bash EX, Storm Gust EX...).",
+          "en": "Evolved skills are now called \"EX\" (Bash EX, Storm Gust EX...).",
+          "pt": "As habilidades evolu\u00eddas agora se chamam \"EX\" (Bash EX, Storm Gust EX...)."
+        },
+        {
+          "t": "up",
+          "es": "MVP: la esquiva, el bloqueo y los escudos rinden menos contra ellos (el Lucky sigue igual).",
+          "en": "MVPs: flee, block and shields work less against them (Lucky stays the same).",
+          "pt": "MVPs: esquiva, bloqueio e escudos rendem menos contra eles (o Lucky continua igual)."
+        },
+        {
+          "t": "up",
+          "es": "Infierno: sus peligros atraviesan m\u00e1s los escudos y el bloqueo, y quedarse quieto los empeora. \u00a1Mu\u00e9vete!",
+          "en": "Hell: its hazards go through shields and block more, and standing still makes them worse. Move!",
+          "pt": "Inferno: os perigos atravessam mais os escudos e o bloqueio, e ficar parado piora. Mexa-se!"
+        },
+        {
+          "t": "up",
+          "es": "Emperium Festival: el ranking ordena por Emperiums rotos y el da\u00f1o desempata.",
+          "en": "Emperium Festival: the ranking goes by Emperiums broken, damage breaks ties.",
+          "pt": "Festival do Emperium: o ranking ordena por Emperiums quebrados e o dano desempata."
+        },
+        {
+          "t": "up",
+          "es": "Guardado en la nube m\u00e1s seguro: copia local antes de cargar la nube y aviso en rojo si una opci\u00f3n borra m\u00e1s progreso.",
+          "en": "Safer cloud saves: a local copy before loading the cloud, and a red warning if a choice would erase more progress.",
+          "pt": "Salvamento na nuvem mais seguro: c\u00f3pia local antes de carregar a nuvem e aviso em vermelho se uma op\u00e7\u00e3o apagar mais progresso."
+        },
+        {
+          "t": "up",
+          "es": "Textos m\u00e1s claros: dicen si afectan al ataque b\u00e1sico, a las habilidades o a los procs.",
+          "en": "Clearer texts: they say whether they affect the basic attack, skills or procs.",
+          "pt": "Textos mais claros: dizem se afetam o ataque b\u00e1sico, as habilidades ou os procs."
+        },
+        {
+          "t": "fix",
+          "es": "Los FPS ya no caen tras una sesi\u00f3n larga en Prontera online (memoria de video).",
+          "en": "FPS no longer drops after a long session in online Prontera (video memory).",
+          "pt": "O FPS n\u00e3o cai mais ap\u00f3s uma sess\u00e3o longa na Prontera online (mem\u00f3ria de v\u00eddeo)."
+        },
+        {
+          "t": "fix",
+          "es": "Asura Strike ya no sacude la pantalla con la opci\u00f3n apagada; la ruleta de Lucile se gira toc\u00e1ndola.",
+          "en": "Asura Strike no longer shakes the screen with the option off; Lucile's wheel spins with a tap.",
+          "pt": "Asura Strike n\u00e3o treme mais a tela com a op\u00e7\u00e3o desligada; a roleta da Lucile gira com um toque."
+        },
+        {
+          "t": "fix",
+          "es": "Aegis of Reginleif: bloquear ya no te quita una moneda; la c\u00e1mara ya no gira sola tras subir de nivel.",
+          "en": "Aegis of Reginleif: blocking no longer costs a coin; the camera no longer keeps turning after a level-up.",
+          "pt": "Aegis of Reginleif: bloquear n\u00e3o tira mais uma moeda; a c\u00e2mera n\u00e3o gira mais sozinha depois de subir de n\u00edvel."
+        },
+        {
+          "t": "fix",
+          "es": "Contra MVP con escudo, las habilidades van primero por quienes lo protegen (los rayos del Wizard parec\u00edan no hacer da\u00f1o).",
+          "en": "Against shielded MVPs, skills go for their guards first (Wizard bolts seemed to do no damage).",
+          "pt": "Contra MVPs com escudo, as habilidades v\u00e3o primeiro em quem os protege (os raios do Wizard pareciam n\u00e3o causar dano)."
+        },
+        {
+          "t": "fix",
+          "es": "Un arma en la mano izquierda del equipo inicial empieza en la derecha si est\u00e1 vac\u00eda, y si espera al segundo oficio se avisa.",
+          "en": "A weapon in the starting gear's left hand starts in the right one if it is empty, and if it waits for the second job you are told.",
+          "pt": "Uma arma na m\u00e3o esquerda do equipamento inicial come\u00e7a na direita se ela estiver vazia, e se esperar a segunda classe voc\u00ea \u00e9 avisado."
+        },
+        {
+          "t": "fix",
+          "es": "Control: el stick ya no hace saltar la opci\u00f3n elegida al soltarlo.",
+          "en": "Controller: the stick no longer makes the selected option jump when released.",
+          "pt": "Controle: o anal\u00f3gico n\u00e3o faz mais a op\u00e7\u00e3o escolhida pular ao soltar."
+        },
+        {
+          "t": "fix",
+          "es": "Celular: mantener el dedo en el almac\u00e9n solo muestra la pieza, y vender una legendaria o \u00fanica pide un segundo toque.",
+          "en": "Phones: holding a finger on storage only shows the piece, and selling a legendary or unique asks for a second tap.",
+          "pt": "Celular: segurar o dedo no armaz\u00e9m s\u00f3 mostra a pe\u00e7a, e vender uma lend\u00e1ria ou \u00fanica pede um segundo toque."
+        },
+        {
+          "t": "up",
+          "es": "Pacto del Contraataque: 20% de los golpes (10% de un MVP) y responde con 4 veces tu ataque b\u00e1sico.",
+          "en": "Pact of the Counter: 20% of blows (10% from an MVP), and it answers with 4 times your basic attack.",
+          "pt": "Pacto do Contra-ataque: 20% dos golpes (10% de um MVP) e responde com 4 vezes o seu ataque b\u00e1sico."
+        }
+      ]
+    },
     {
       "version": "0.1.268",
       "items": [
@@ -584,23 +775,6 @@
           "es": "El chef de Prontera ahora se llama Klaws.",
           "en": "Prontera's chef is now called Klaws.",
           "pt": "O chef de Prontera agora se chama Klaws."
-        }
-      ]
-    },
-    {
-      "version": "0.1.257",
-      "items": [
-        {
-          "t": "new",
-          "es": "Android: la primera vez que aprendes una skill que se puede apagar (Flying Kick, Back Stab...), un aviso sobre su \u00edcono te dice que lo toques para apagarla o prenderla.",
-          "en": "Android: the first time you learn a skill that can be switched off (Flying Kick, Back Stab...), a tip over its icon tells you to tap it to turn it off or on.",
-          "pt": "Android: na primeira vez que voc\u00ea aprende uma skill que pode ser desligada (Flying Kick, Back Stab...), um aviso sobre o \u00edcone diz para toc\u00e1-lo para deslig\u00e1-la ou lig\u00e1-la."
-        },
-        {
-          "t": "up",
-          "es": "Las actualizaciones llegan desde nuestro propio servidor (m\u00e1s r\u00e1pidas), con GitHub de respaldo.",
-          "en": "Updates now come from our own server (faster), with GitHub as a backup.",
-          "pt": "As atualiza\u00e7\u00f5es agora v\u00eam do nosso pr\u00f3prio servidor (mais r\u00e1pidas), com o GitHub de reserva."
         }
       ]
     }
