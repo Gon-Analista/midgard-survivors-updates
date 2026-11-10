@@ -2,10 +2,10 @@
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.269",
-    "file": "patches/patch_0.1.269.bin",
-    "size": 31467228,
-    "sha256": "32ea007af2ac73bc8800540dbe6cd8d17ff2c9523a5e3bd8601de2a08d1621d1"
+    "version": "0.1.270",
+    "file": "patches/patch_0.1.270.bin",
+    "size": 31496124,
+    "sha256": "723f19b577869236e36bd2e2fd7672cd0bde0bb936d16934f097bbc7327473f5"
   },
   "legacy": {
     "0.1.219": {
@@ -46,6 +46,71 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.270",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Pactos de Gray: ya no se pueden tomar todos a la vez (con 20 pactos, los que pasaban de tus ranuras sal\u00edan gratis).",
+          "en": "Gray's pacts: you can no longer take them all at once (with 20 pacts, the ones past your skill slots came free).",
+          "pt": "Pactos do Gray: n\u00e3o d\u00e1 mais para pegar todos de uma vez (com 20 pactos, os que passavam dos seus espa\u00e7os sa\u00edam de gra\u00e7a)."
+        },
+        {
+          "t": "up",
+          "es": "Pactos de Gray: ya no cuestan ranuras de habilidad; puedes tener hasta 3 a la vez.",
+          "en": "Gray's pacts: they no longer cost skill slots; you can have up to 3 at once.",
+          "pt": "Pactos do Gray: n\u00e3o custam mais espa\u00e7os de habilidade; voc\u00ea pode ter at\u00e9 3 ao mesmo tempo."
+        },
+        {
+          "t": "new",
+          "es": "Soledad y Devoci\u00f3n se ven en la barra de habilidades: cada ranura libre brilla con su bonus. Obsesi\u00f3n marca tu \u00fanica habilidad de ataque con x2.",
+          "en": "Solitude and Devotion show on the skill bar: every free slot glows with its bonus. Obsession marks your only attack skill with x2.",
+          "pt": "Solid\u00e3o e Devo\u00e7\u00e3o aparecem na barra de habilidades: cada espa\u00e7o livre brilha com o b\u00f4nus. Obsess\u00e3o marca sua \u00fanica habilidade de ataque com x2."
+        },
+        {
+          "t": "up",
+          "es": "M\u00e1s FPS con hordas grandes: el juego calcula los monstruos casi el doble de r\u00e1pido.",
+          "en": "Higher FPS with big hordes: monsters are processed almost twice as fast.",
+          "pt": "Mais FPS com hordas grandes: os monstros s\u00e3o processados quase duas vezes mais r\u00e1pido."
+        },
+        {
+          "t": "fix",
+          "es": "Al evolucionar, la habilidad EX conserva los niveles que subiste pasado el tope.",
+          "en": "When a skill evolves, the EX keeps the levels you raised it past its cap.",
+          "pt": "Ao evoluir, a habilidade EX mant\u00e9m os n\u00edveis que voc\u00ea subiu al\u00e9m do limite."
+        },
+        {
+          "t": "new",
+          "es": "Almac\u00e9n Kafra: buscador, orden por set y pesta\u00f1a 'Mi build' con el equipo inicial de tu h\u00e9roe.",
+          "en": "Kafra Storage: search, sort by set and a 'My build' tab with your hero's starting gear.",
+          "pt": "Armaz\u00e9m Kafra: busca, ordenar por set e aba 'Minha build' com o equipamento inicial do seu her\u00f3i."
+        },
+        {
+          "t": "up",
+          "es": "Comparar equipo: lo que mejora en verde y lo que empeora en rojo.",
+          "en": "Gear comparison: what improves in green, what gets worse in red.",
+          "pt": "Comparar equipamento: o que melhora em verde e o que piora em vermelho."
+        },
+        {
+          "t": "fix",
+          "es": "Afinidad y Bradium Shield tambi\u00e9n valen contra la marca de congelado o petrificado de jefes y MVP.",
+          "en": "Affinity and Bradium Shield also work against the frozen or petrified mark on bosses and MVPs.",
+          "pt": "Afinidade e Bradium Shield tamb\u00e9m valem contra a marca de congelado ou petrificado de chefes e MVPs."
+        },
+        {
+          "t": "fix",
+          "es": "Los consejos de las pantallas de carga y lo que hace cada jugador en Prontera ya salen en tu idioma.",
+          "en": "Loading screen tips and what each player is doing in Prontera now show in your language.",
+          "pt": "As dicas das telas de carregamento e o que cada jogador est\u00e1 fazendo em Prontera agora aparecem no seu idioma."
+        },
+        {
+          "t": "up",
+          "es": "T\u00edtulos: los especiales llegan a todos tus dispositivos con la nube, y los que a\u00fan no tienes se ven en gris.",
+          "en": "Titles: special titles reach all your devices with cloud save, and the ones you don't have yet show in grey.",
+          "pt": "T\u00edtulos: os especiais chegam a todos os seus dispositivos com a nuvem, e os que voc\u00ea ainda n\u00e3o tem aparecem em cinza."
+        }
+      ]
+    },
     {
       "version": "0.1.269",
       "items": [
@@ -764,17 +829,6 @@
           "es": "Nuevo peinado: calvo (el 43), para todas las clases menos los Doram.",
           "en": "New hairstyle: bald (number 43), for every class except the Doram.",
           "pt": "Novo penteado: careca (o 43), para todas as classes menos os Doram."
-        }
-      ]
-    },
-    {
-      "version": "0.1.258",
-      "items": [
-        {
-          "t": "up",
-          "es": "El chef de Prontera ahora se llama Klaws.",
-          "en": "Prontera's chef is now called Klaws.",
-          "pt": "O chef de Prontera agora se chama Klaws."
         }
       ]
     }
