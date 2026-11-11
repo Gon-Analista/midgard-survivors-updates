@@ -2,10 +2,10 @@
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.271",
-    "file": "patches/patch_0.1.271.bin",
-    "size": 52392012,
-    "sha256": "584d5b9466f976b5b4d17a1d7d1113dffb0ed9f687e3bcd24c20472b9f4db8fa"
+    "version": "0.1.272",
+    "file": "patches/patch_0.1.272.bin",
+    "size": 52399932,
+    "sha256": "ac01ef30650a67ccd4cc081cd74b785995ffc8d11bf6911b877bbb85e885be34"
   },
   "legacy": {
     "0.1.219": {
@@ -46,6 +46,48 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.272",
+      "date": "2026-11-10",
+      "items": [
+        {
+          "t": "new",
+          "es": "Cartas de minijefes con garant\u00eda: si matas 5 veces a un minijefe sin que suelte su carta, la siguiente vez la suelta seguro.",
+          "en": "Mini-boss cards have a pity: kill a mini-boss 5 times without its card and the next kill drops it for sure.",
+          "pt": "Cartas de minichefes com garantia: se voc\u00ea matar um minichefe 5 vezes sem a carta, a pr\u00f3xima vez ela cai com certeza."
+        },
+        {
+          "t": "fix",
+          "es": "Nakurusa: las armas +10 ya aparecen para darles grado. El grado ahora pide un arma +10.",
+          "en": "Nakurusa: +10 weapons now show up for grading. Grading now needs a +10 weapon.",
+          "pt": "Nakurusa: as armas +10 agora aparecem para receber grau. O grau agora pede uma arma +10."
+        },
+        {
+          "t": "up",
+          "es": "Nakurusa tiene un men\u00fa propio: elige Refinar, Grado del arma o Transmutar, y cambia entre Refinar y Grado con pesta\u00f1as.",
+          "en": "Nakurusa has its own menu: pick Refine, Weapon grade or Transmute, and switch between Refine and Grade with tabs.",
+          "pt": "Nakurusa tem um menu pr\u00f3prio: escolha Refinar, Grau da arma ou Transmutar, e alterne entre Refinar e Grau com abas."
+        },
+        {
+          "t": "fix",
+          "es": "La letra del grado ya no se corta en la primera fila del almac\u00e9n.",
+          "en": "The grade letter is no longer cut off on the storage's first row.",
+          "pt": "A letra do grau n\u00e3o \u00e9 mais cortada na primeira linha do armaz\u00e9m."
+        },
+        {
+          "t": "up",
+          "es": "Los cr\u00edticos m\u00e1gicos grandes tambi\u00e9n se ven en azul, y el carcaj dice cu\u00e1ntos tipos de munici\u00f3n tienes y de d\u00f3nde salen los dem\u00e1s.",
+          "en": "Big magic crits are blue too, and the quiver shows how many ammo types you have and where to get the rest.",
+          "pt": "Cr\u00edticos m\u00e1gicos grandes tamb\u00e9m ficam azuis, e a aljava mostra quantos tipos de muni\u00e7\u00e3o voc\u00ea tem e de onde v\u00eam os outros."
+        },
+        {
+          "t": "fix",
+          "es": "La Kafra de Discord responde en el idioma de tu pregunta.",
+          "en": "The Discord Kafra answers in the language of your question.",
+          "pt": "A Kafra do Discord responde no idioma da sua pergunta."
+        }
+      ]
+    },
     {
       "version": "0.1.271",
       "date": "2026-11-10",
@@ -904,54 +946,6 @@
           "es": "El cofre de Satan Morroc ya no se llama \u00abTesoro del Poring Dorado\u00bb.",
           "en": "Satan Morroc's chest is no longer called \"Golden Poring's Treasure\".",
           "pt": "O ba\u00fa de Satan Morroc n\u00e3o se chama mais \"Tesouro do Poring Dourado\"."
-        }
-      ]
-    },
-    {
-      "version": "0.1.260",
-      "date": "2026-11-07",
-      "items": [
-        {
-          "t": "new",
-          "es": "Guardado en la nube (Opciones > Juego): juega en PC y celular con la misma partida. Vincula tus dispositivos con un c\u00f3digo.",
-          "en": "Cloud save (Options > Game): play on PC and phone with the same save. Link your devices with a code.",
-          "pt": "Salvamento na nuvem (Op\u00e7\u00f5es > Jogo): jogue no PC e no celular com o mesmo salvamento. Vincule seus dispositivos com um c\u00f3digo."
-        },
-        {
-          "t": "new",
-          "es": "Gr\u00e1ficos: tama\u00f1o de ventana, nitidez de la interfaz (suave por defecto) y tama\u00f1o de la interfaz.",
-          "en": "Graphics: window size, interface sharpness (smooth by default) and interface size.",
-          "pt": "Gr\u00e1ficos: tamanho da janela, nitidez da interface (suave por padr\u00e3o) e tamanho da interface."
-        },
-        {
-          "t": "up",
-          "es": "Los primeros minutos de Prontera Field y Culvert son m\u00e1s amables, y su MVP tambi\u00e9n (Lord of Vermilion ya no mata de un golpe).",
-          "en": "The first minutes of Prontera Field and Culvert are gentler, and so is their MVP (Lord of Vermilion no longer one-shots).",
-          "pt": "Os primeiros minutos de Prontera Field e Culvert s\u00e3o mais tranquilos, e o MVP deles tamb\u00e9m (Lord of Vermilion n\u00e3o mata mais de um golpe)."
-        },
-        {
-          "t": "up",
-          "es": "Chat: hora en cada mensaje, recuerda a qui\u00e9n susurras, flechas para tus mensajes anteriores, /sit, emociones cortas (/lv, /swt, /!...) y clic en un nombre para susurrarle. Android: bot\u00f3n Escribir y el h\u00e9roe solo camina con el joystick.",
-          "en": "Chat: time on each message, it remembers who you whisper, arrows for your previous messages, /sit, short emotes (/lv, /swt, /!...) and click a name to whisper. Android: Write button, and the hero only walks with the joystick.",
-          "pt": "Chat: hora em cada mensagem, lembra com quem voc\u00ea sussurra, setas para suas mensagens anteriores, /sit, emo\u00e7\u00f5es curtas (/lv, /swt, /!...) e clique num nome para sussurrar. Android: bot\u00e3o Escrever e o her\u00f3i s\u00f3 anda com o joystick."
-        },
-        {
-          "t": "up",
-          "es": "Fin de partida: 3 objetos gratis al almac\u00e9n si ganas, y el equipo que no te llevas se vende solo. Los legendarios son un poco m\u00e1s raros.",
-          "en": "End of a run: 3 free items to the storage if you win, and the gear you don't take is sold automatically. Legendaries are a bit rarer.",
-          "pt": "Fim de partida: 3 itens gr\u00e1tis ao armaz\u00e9m se vencer, e o equipamento que voc\u00ea n\u00e3o levar \u00e9 vendido sozinho. Os lend\u00e1rios ficaram um pouco mais raros."
-        },
-        {
-          "t": "fix",
-          "es": "Co-op: la votaci\u00f3n del bot\u00edn legendario va antes que las subidas de nivel, tiene m\u00e1s tiempo y muestra la tarjeta del objeto.",
-          "en": "Co-op: the legendary loot vote comes before the level-ups, has more time and shows the item's card.",
-          "pt": "Co-op: a vota\u00e7\u00e3o do saque lend\u00e1rio vem antes das subidas de n\u00edvel, tem mais tempo e mostra o cart\u00e3o do item."
-        },
-        {
-          "t": "fix",
-          "es": "Nombres de Prontera m\u00e1s legibles, los pies ya no se hunden con la c\u00e1mara cerca, las ventanas caben en celulares chicos y el medidor muestra el bonus de Mysteltainn.",
-          "en": "More readable names in Prontera, feet no longer sink with the camera close, windows fit on small phones and the meter shows Mysteltainn's bonus.",
-          "pt": "Nomes de Prontera mais leg\u00edveis, os p\u00e9s n\u00e3o afundam mais com a c\u00e2mera perto, as janelas cabem em celulares pequenos e o medidor mostra o b\u00f4nus de Mysteltainn."
         }
       ]
     }
