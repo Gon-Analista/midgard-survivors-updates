@@ -1,6 +1,12 @@
 {
   "base": "0.1.272",
   "page": "https://nearq.itch.io/midgard-survivors",
+  "patch": {
+    "version": "0.1.273",
+    "file": "patches/patch_0.1.273.bin",
+    "size": 7217292,
+    "sha256": "c369aee806f9dc8ece06cb392e8c76fdd4474581fbec6dffa177a959588fc826"
+  },
   "legacy": {
     "0.1.219": {
       "version": "0.1.272",
@@ -53,6 +59,273 @@
   },
   "notes": [
     {
+      "version": "0.1.273",
+      "items": [
+        {
+          "t": "new",
+          "es": "Soul Strike llega al Mage: esp\u00edritus fantasma que vuelan al monstruo m\u00e1s fuerte (jefes y MVP primero), con su sonido original. Con Wizard y High Wizard detonan solos las marcas de elemento; su EX lanza el doble y deja al monstruo pose\u00eddo (la siguiente reacci\u00f3n pega +25%). Cold Bolt vuelve a la lista del Mage, m\u00e1s fuerte.",
+          "en": "Soul Strike comes to the Mage: ghost spirits that fly to the strongest monster (bosses and MVPs first), with its original sound. With Wizard and High Wizard they detonate elemental marks on their own; its EX fires twice as many and leaves the monster possessed (the next reaction deals +25%). Cold Bolt is back in the Mage's list, stronger.",
+          "pt": "Soul Strike chega ao Mago: esp\u00edritos fantasmas que voam at\u00e9 o monstro mais forte (chefes e MVPs primeiro), com o som original. Com Wizard e High Wizard eles detonam sozinhos as marcas de elemento; a EX lan\u00e7a o dobro e deixa o monstro possu\u00eddo (a pr\u00f3xima rea\u00e7\u00e3o causa +25%). Cold Bolt volta \u00e0 lista do Mago, mais forte.",
+          "ru": "Soul Strike \u0443 \u041c\u0430\u0433\u0430: \u043f\u0440\u0438\u0437\u0440\u0430\u0447\u043d\u044b\u0435 \u0434\u0443\u0445\u0438 \u043b\u0435\u0442\u044f\u0442 \u043a \u0441\u0430\u043c\u043e\u043c\u0443 \u0441\u0438\u043b\u044c\u043d\u043e\u043c\u0443 \u043c\u043e\u043d\u0441\u0442\u0440\u0443 (\u0441\u043d\u0430\u0447\u0430\u043b\u0430 \u0431\u043e\u0441\u0441\u044b \u0438 MVP), \u0441 \u043e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u043c \u0437\u0432\u0443\u043a\u043e\u043c. \u0423 Wizard \u0438 High Wizard \u043e\u043d\u0438 \u0441\u0430\u043c\u0438 \u0432\u0437\u0440\u044b\u0432\u0430\u044e\u0442 \u0441\u0442\u0438\u0445\u0438\u0439\u043d\u044b\u0435 \u043c\u0435\u0442\u043a\u0438; EX \u0432\u044b\u043f\u0443\u0441\u043a\u0430\u0435\u0442 \u0432\u0434\u0432\u043e\u0435 \u0431\u043e\u043b\u044c\u0448\u0435 \u0434\u0443\u0445\u043e\u0432 \u0438 \u0432\u0441\u0435\u043b\u044f\u0435\u0442\u0441\u044f \u0432 \u043c\u043e\u043d\u0441\u0442\u0440\u0430 (\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0430\u044f \u0440\u0435\u0430\u043a\u0446\u0438\u044f \u043d\u0430\u043d\u043e\u0441\u0438\u0442 +25%). Cold Bolt \u0432\u0435\u0440\u043d\u0443\u043b\u0441\u044f \u0432 \u0441\u043f\u0438\u0441\u043e\u043a \u041c\u0430\u0433\u0430 \u0438 \u0441\u0442\u0430\u043b \u0441\u0438\u043b\u044c\u043d\u0435\u0435.",
+          "de": "Soul Strike f\u00fcr den Mage: Geistergeister fliegen zum st\u00e4rksten Monster (Bosse und MVPs zuerst), mit dem Originalsound. Beim Wizard und High Wizard z\u00fcnden sie Elementmarken von selbst; die EX-Version schie\u00dft doppelt so viele und l\u00e4sst das Monster besessen zur\u00fcck (die n\u00e4chste Reaktion macht +25%). Cold Bolt ist zur\u00fcck in der Liste des Mage, st\u00e4rker.",
+          "zh": "Soul Strike \u52a0\u5165\u9b54\u6cd5\u5e2b\uff1a\u5e7d\u9748\u4e4b\u9b42\u98db\u5411\u6700\u5f37\u7684\u602a\u7269\uff08\u9996\u9818\u8207 MVP \u512a\u5148\uff09\uff0c\u4f7f\u7528\u539f\u7248\u97f3\u6548\u3002Wizard \u8207 High Wizard \u7684\u9748\u9b42\u6703\u81ea\u884c\u5f15\u7206\u5143\u7d20\u6a19\u8a18\uff1bEX \u6578\u91cf\u52a0\u500d\uff0c\u4e26\u8b93\u602a\u7269\u88ab\u9644\u8eab\uff08\u4e0b\u4e00\u6b21\u53cd\u61c9\u50b7\u5bb3 +25%\uff09\u3002Cold Bolt \u56de\u5230\u9b54\u6cd5\u5e2b\u7684\u6280\u80fd\u5217\u8868\uff0c\u4e26\u4e14\u66f4\u5f37\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Destierros y favoritas: antes de la partida eliges por clase qu\u00e9 habilidades o atributos no quieres ver (cada uno gasta un Holy Water del Sabio al empezar) y hasta 2 favoritas que salen el doble de seguido. Se abre en la Preparaci\u00f3n o en la pausa.",
+          "en": "Banishes and favourites: before the run you choose, per class, which skills or attributes you don't want to see (each one spends one of the Sage's Holy Water at the start) and up to 2 favourites that show up twice as often. Open it from Preparation or the pause.",
+          "pt": "Banimentos e favoritas: antes da partida voc\u00ea escolhe, por classe, quais habilidades ou atributos n\u00e3o quer ver (cada um gasta uma Holy Water do S\u00e1bio no come\u00e7o) e at\u00e9 2 favoritas que aparecem com o dobro da frequ\u00eancia. Abra na Prepara\u00e7\u00e3o ou na pausa.",
+          "ru": "\u0418\u0437\u0433\u043d\u0430\u043d\u0438\u044f \u0438 \u0438\u0437\u0431\u0440\u0430\u043d\u043d\u043e\u0435: \u043f\u0435\u0440\u0435\u0434 \u0437\u0430\u0431\u0435\u0433\u043e\u043c \u0434\u043b\u044f \u043a\u0430\u0436\u0434\u043e\u0433\u043e \u043a\u043b\u0430\u0441\u0441\u0430 \u0432\u044b\u0431\u0438\u0440\u0430\u0435\u0448\u044c \u043d\u0430\u0432\u044b\u043a\u0438 \u0438\u043b\u0438 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043d\u0435 \u0445\u043e\u0447\u0435\u0448\u044c \u0432\u0438\u0434\u0435\u0442\u044c (\u043a\u0430\u0436\u0434\u043e\u0435 \u0442\u0440\u0430\u0442\u0438\u0442 \u043e\u0434\u043d\u0443 Holy Water \u041c\u0443\u0434\u0440\u0435\u0446\u0430 \u0432 \u043d\u0430\u0447\u0430\u043b\u0435), \u0438 \u0434\u043e 2 \u0438\u0437\u0431\u0440\u0430\u043d\u043d\u044b\u0445, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0432\u044b\u043f\u0430\u0434\u0430\u044e\u0442 \u0432\u0434\u0432\u043e\u0435 \u0447\u0430\u0449\u0435. \u041e\u0442\u043a\u0440\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0432 \u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0435 \u0438\u043b\u0438 \u0432 \u043f\u0430\u0443\u0437\u0435.",
+          "de": "Verbannungen und Favoriten: Vor dem Lauf w\u00e4hlst du pro Klasse, welche F\u00e4higkeiten oder Attribute du nicht sehen willst (jede kostet zu Beginn ein Holy Water des Weisen), und bis zu 2 Favoriten, die doppelt so oft erscheinen. Zu \u00f6ffnen in der Vorbereitung oder in der Pause.",
+          "zh": "\u653e\u9010\u8207\u6700\u611b\uff1a\u958b\u5c40\u524d\u53ef\u4f9d\u8077\u696d\u9078\u64c7\u4e0d\u60f3\u770b\u5230\u7684\u6280\u80fd\u6216\u5c6c\u6027\uff08\u6bcf\u9805\u5728\u958b\u5c40\u6642\u6d88\u8017\u4e00\u74f6\u8ce2\u8005\u7684 Holy Water\uff09\uff0c\u4ee5\u53ca\u6700\u591a 2 \u500b\u51fa\u73fe\u6a5f\u7387\u52a0\u500d\u7684\u6700\u611b\u6280\u80fd\u3002\u53ef\u5728\u6e96\u5099\u756b\u9762\u6216\u66ab\u505c\u9078\u55ae\u958b\u555f\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Velocidad x2: toda la partida al doble de r\u00e1pido, el MVP tambi\u00e9n, para ahorrar tiempo (en la pausa o en la Preparaci\u00f3n). No cambia premios ni r\u00e9cords: cuentan el tiempo de juego. En grupo decide el l\u00edder.",
+          "en": "Speed x2: the whole run twice as fast, the MVP too, to save time (in the pause or Preparation). It changes no rewards or records: they count game time. In a party the leader decides.",
+          "pt": "Velocidade x2: a partida inteira duas vezes mais r\u00e1pida, o MVP tamb\u00e9m, para economizar tempo (na pausa ou na Prepara\u00e7\u00e3o). N\u00e3o muda pr\u00eamios nem recordes: contam o tempo de jogo. Em grupo, o l\u00edder decide.",
+          "ru": "\u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c x2: \u0432\u0435\u0441\u044c \u0437\u0430\u0431\u0435\u0433 \u0438\u0434\u0435\u0442 \u0432\u0434\u0432\u043e\u0435 \u0431\u044b\u0441\u0442\u0440\u0435\u0435, MVP \u0442\u043e\u0436\u0435, \u0447\u0442\u043e\u0431\u044b \u0441\u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0442\u044c \u0432\u0440\u0435\u043c\u044f (\u0432 \u043f\u0430\u0443\u0437\u0435 \u0438\u043b\u0438 \u0432 \u041f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0435). \u041d\u0430\u0433\u0440\u0430\u0434\u044b \u0438 \u0440\u0435\u043a\u043e\u0440\u0434\u044b \u043d\u0435 \u043c\u0435\u043d\u044f\u044e\u0442\u0441\u044f: \u0443\u0447\u0438\u0442\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0438\u0433\u0440\u043e\u0432\u043e\u0435 \u0432\u0440\u0435\u043c\u044f. \u0412 \u0433\u0440\u0443\u043f\u043f\u0435 \u0440\u0435\u0448\u0430\u0435\u0442 \u043b\u0438\u0434\u0435\u0440.",
+          "de": "Tempo x2: Der ganze Lauf doppelt so schnell, auch der MVP, um Zeit zu sparen (in der Pause oder der Vorbereitung). Belohnungen und Rekorde \u00e4ndern sich nicht: Sie z\u00e4hlen die Spielzeit. In der Gruppe entscheidet der Anf\u00fchrer.",
+          "zh": "\u901f\u5ea6 x2\uff1a\u6574\u5c40\u904a\u6232\uff08\u5305\u542b MVP\uff09\u4ee5\u5169\u500d\u901f\u9032\u884c\uff0c\u7bc0\u7701\u6642\u9593\uff08\u5728\u66ab\u505c\u9078\u55ae\u6216\u6e96\u5099\u756b\u9762\u958b\u555f\uff09\u3002\u4e0d\u5f71\u97ff\u734e\u52f5\u8207\u7d00\u9304\uff1a\u4ee5\u904a\u6232\u6642\u9593\u8a08\u7b97\u3002\u7d44\u968a\u6642\u7531\u968a\u9577\u6c7a\u5b9a\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Taekwon: tus Pu\u00f1os ahora est\u00e1n en tu Almac\u00e9n Kafra. Nakurusa los refina y les da grado, Abstract les pone Cartas Eternas, nunca se rompen ni se venden, y al cambiar de clase evolucionan (Pu\u00f1os Estelares o el libro del Soul Linker) con su refinado, cartas y grado.",
+          "en": "Taekwon: your Fists are now in your Kafra Storage. Nakurusa refines and grades them, Abstract adds Eternal Cards, they never break or sell, and at the job change they evolve (Star Fists or the Soul Linker's book) keeping their refine, cards and grade.",
+          "pt": "Taekwon: seus Punhos agora ficam no seu Armaz\u00e9m Kafra. Nakurusa os refina e d\u00e1 grau, Abstract coloca Cartas Eternas, eles nunca quebram nem s\u00e3o vendidos, e na troca de classe evoluem (Punhos Estelares ou o livro do Soul Linker) mantendo refino, cartas e grau.",
+          "ru": "Taekwon: \u0442\u0432\u043e\u0438 \u041a\u0443\u043b\u0430\u043a\u0438 \u0442\u0435\u043f\u0435\u0440\u044c \u043b\u0435\u0436\u0430\u0442 \u0432 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 Kafra. Nakurusa \u0438\u0445 \u0437\u0430\u0442\u0430\u0447\u0438\u0432\u0430\u0435\u0442 \u0438 \u043f\u043e\u0432\u044b\u0448\u0430\u0435\u0442 \u0440\u0430\u043d\u0433, Abstract \u0432\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0412\u0435\u0447\u043d\u044b\u0435 \u043a\u0430\u0440\u0442\u044b, \u043e\u043d\u0438 \u043d\u0435 \u043b\u043e\u043c\u0430\u044e\u0442\u0441\u044f \u0438 \u043d\u0435 \u043f\u0440\u043e\u0434\u0430\u044e\u0442\u0441\u044f, \u0430 \u043f\u0440\u0438 \u0441\u043c\u0435\u043d\u0435 \u043a\u043b\u0430\u0441\u0441\u0430 \u044d\u0432\u043e\u043b\u044e\u0446\u0438\u043e\u043d\u0438\u0440\u0443\u044e\u0442 (\u0417\u0432\u0435\u0437\u0434\u043d\u044b\u0435 \u041a\u0443\u043b\u0430\u043a\u0438 \u0438\u043b\u0438 \u043a\u043d\u0438\u0433\u0430 Soul Linker), \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u044f \u0437\u0430\u0442\u043e\u0447\u043a\u0443, \u043a\u0430\u0440\u0442\u044b \u0438 \u0440\u0430\u043d\u0433.",
+          "de": "Taekwon: Deine F\u00e4uste liegen jetzt in deinem Kafra-Lager. Nakurusa verfeinert und graduiert sie, Abstract setzt Ewige Karten ein, sie brechen nie und lassen sich nicht verkaufen, und beim Jobwechsel entwickeln sie sich (Sternenf\u00e4uste oder das Buch des Soul Linker) mit Verfeinerung, Karten und Grad.",
+          "zh": "\u8dc6\u62f3\uff1a\u4f60\u7684\u62f3\u982d\u73fe\u5728\u5b58\u653e\u5728\u5361\u666e\u62c9\u5009\u5eab\u3002Nakurusa \u53ef\u4ee5\u7cbe\u7149\u4e26\u63d0\u5347\u8a55\u7d1a\uff0cAbstract \u53ef\u4ee5\u9472\u4e0a\u6c38\u6046\u5361\u7247\uff0c\u62f3\u982d\u6c38\u4e0d\u640d\u58de\u4e5f\u7121\u6cd5\u51fa\u552e\uff0c\u8f49\u8077\u6642\u6703\u9032\u5316\uff08\u661f\u4e4b\u62f3\u6216 Soul Linker \u7684\u66f8\uff09\u4e26\u4fdd\u7559\u7cbe\u7149\u3001\u5361\u7247\u8207\u8a55\u7d1a\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Nueva legendaria del Monk y el Champion, Berserk Knuckle: cada golpe del combo suma +5% de da\u00f1o al combo (hasta +25%), el combo sale un 50% m\u00e1s seguido y busca su siguiente monstruo m\u00e1s lejos. El Gunslinger estrena la pasiva Adjustment: menos da\u00f1o mientras te mueves y una peque\u00f1a cura al matar.",
+          "en": "New Monk and Champion legendary, Berserk Knuckle: each combo blow adds +5% damage to the combo (up to +25%), the combo starts 50% more often and reaches farther for its next monster. The Gunslinger gets the passive Adjustment: less damage taken while you move and a small heal on each kill.",
+          "pt": "Nova lend\u00e1ria do Monge e do Champion, Berserk Knuckle: cada golpe do combo soma +5% de dano ao combo (at\u00e9 +25%), o combo sai 50% mais vezes e busca o pr\u00f3ximo monstro mais longe. O Gunslinger ganha a passiva Ajuste: menos dano enquanto voc\u00ea se move e uma pequena cura a cada abate.",
+          "ru": "\u041d\u043e\u0432\u043e\u0435 \u043b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u043e\u0435 \u043e\u0440\u0443\u0436\u0438\u0435 \u041c\u043e\u043d\u0430\u0445\u0430 \u0438 Champion, Berserk Knuckle: \u043a\u0430\u0436\u0434\u044b\u0439 \u0443\u0434\u0430\u0440 \u043a\u043e\u043c\u0431\u043e \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0435\u0442 +5% \u0443\u0440\u043e\u043d\u0430 \u043a\u043e\u043c\u0431\u043e (\u0434\u043e +25%), \u043a\u043e\u043c\u0431\u043e \u0441\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u043d\u0430 50% \u0447\u0430\u0449\u0435 \u0438 \u0434\u0430\u043b\u044c\u0448\u0435 \u0438\u0449\u0435\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0433\u043e \u043c\u043e\u043d\u0441\u0442\u0440\u0430. Gunslinger \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u043f\u0430\u0441\u0441\u0438\u0432\u043a\u0443 Adjustment: \u043c\u0435\u043d\u044c\u0448\u0435 \u0443\u0440\u043e\u043d\u0430, \u043f\u043e\u043a\u0430 \u0434\u0432\u0438\u0436\u0435\u0448\u044c\u0441\u044f, \u0438 \u043d\u0435\u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u043b\u0435\u0447\u0435\u043d\u0438\u0435 \u0437\u0430 \u043a\u0430\u0436\u0434\u043e\u0435 \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u043e.",
+          "de": "Neue Legend\u00e4re f\u00fcr Monk und Champion, Berserk Knuckle: Jeder Kombo-Schlag gibt der Kombo +5% Schaden (bis +25%), die Kombo startet 50% \u00f6fter und sucht ihr n\u00e4chstes Monster weiter entfernt. Der Gunslinger bekommt die Passive Adjustment: weniger Schaden, solange du dich bewegst, und eine kleine Heilung pro Kill.",
+          "zh": "\u6b66\u50e7\u8207 Champion \u7684\u65b0\u50b3\u8aaa\u6b66\u5668 Berserk Knuckle\uff1a\u6bcf\u4e00\u4e0b\u9023\u64ca\u70ba\u9023\u64ca\u589e\u52a0 +5% \u50b7\u5bb3\uff08\u6700\u591a +25%\uff09\uff0c\u9023\u64ca\u89f8\u767c\u983b\u7387\u63d0\u9ad8 50%\uff0c\u4e26\u80fd\u5728\u66f4\u9060\u8655\u5c0b\u627e\u4e0b\u4e00\u500b\u602a\u7269\u3002\u69cd\u624b\u7372\u5f97\u88ab\u52d5\u6280\u80fd Adjustment\uff1a\u79fb\u52d5\u6642\u53d7\u5230\u7684\u50b7\u5bb3\u964d\u4f4e\uff0c\u6bcf\u6b21\u64ca\u6bba\u56de\u5fa9\u5c11\u91cf\u751f\u547d\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Grado del arma: ahora multiplica todo tu da\u00f1o (D x1,03, C x1,06, B x1,10, A x1,15, S x1,20) y cuesta m\u00e1s (S: 400 Oridecon, 6M de zeny y 2 HD Oridecon). Subir de grado tiene animaci\u00f3n, las armas S brillan y Prontera avisa cuando alguien llega a S.",
+          "en": "Weapon grade: it now multiplies all your damage (D x1.03, C x1.06, B x1.10, A x1.15, S x1.20) and costs more (S: 400 Oridecon, 6M zeny and 2 HD Oridecon). Grading up has an animation, S weapons shine, and Prontera announces when someone reaches S.",
+          "pt": "Grau da arma: agora multiplica todo o seu dano (D x1,03, C x1,06, B x1,10, A x1,15, S x1,20) e custa mais (S: 400 Oridecon, 6M de zeny e 2 HD Oridecon). Subir de grau tem anima\u00e7\u00e3o, as armas S brilham e Prontera avisa quando algu\u00e9m chega ao S.",
+          "ru": "\u0420\u0430\u043d\u0433 \u043e\u0440\u0443\u0436\u0438\u044f: \u0442\u0435\u043f\u0435\u0440\u044c \u0443\u043c\u043d\u043e\u0436\u0430\u0435\u0442 \u0432\u0435\u0441\u044c \u0442\u0432\u043e\u0439 \u0443\u0440\u043e\u043d (D x1,03, C x1,06, B x1,10, A x1,15, S x1,20) \u0438 \u0441\u0442\u043e\u0438\u0442 \u0434\u043e\u0440\u043e\u0436\u0435 (S: 400 Oridecon, 6M \u0437\u0435\u043d\u0438 \u0438 2 HD Oridecon). \u041f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0435 \u0440\u0430\u043d\u0433\u0430 \u0430\u043d\u0438\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u043e, \u043e\u0440\u0443\u0436\u0438\u0435 \u0440\u0430\u043d\u0433\u0430 S \u0441\u0438\u044f\u0435\u0442, \u0430 \u041f\u0440\u043e\u043d\u0442\u0435\u0440\u0430 \u043e\u0431\u044a\u044f\u0432\u043b\u044f\u0435\u0442, \u043a\u043e\u0433\u0434\u0430 \u043a\u0442\u043e-\u0442\u043e \u0434\u043e\u0441\u0442\u0438\u0433\u0430\u0435\u0442 S.",
+          "de": "Waffengrad: Er multipliziert jetzt deinen gesamten Schaden (D x1,03, C x1,06, B x1,10, A x1,15, S x1,20) und kostet mehr (S: 400 Oridecon, 6M Zeny und 2 HD Oridecon). Das Aufwerten ist animiert, S-Waffen gl\u00e4nzen, und Prontera verk\u00fcndet, wenn jemand S erreicht.",
+          "zh": "\u6b66\u5668\u8a55\u7d1a\uff1a\u73fe\u5728\u6703\u4e58\u7b97\u4f60\u7684\u5168\u90e8\u50b7\u5bb3\uff08D x1.03\u3001C x1.06\u3001B x1.10\u3001A x1.15\u3001S x1.20\uff09\uff0c\u8cbb\u7528\u4e5f\u66f4\u9ad8\uff08S\uff1a400 Oridecon\u30016M \u91d1\u5e63\u8207 2 \u500b HD Oridecon\uff09\u3002\u63d0\u5347\u8a55\u7d1a\u6709\u52d5\u756b\uff0cS \u7d1a\u6b66\u5668\u6703\u767c\u5149\uff0c\u6709\u4eba\u9054\u5230 S \u6642\u666e\u9686\u5fb7\u62c9\u6703\u5ee3\u64ad\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Inventario y almac\u00e9n: bot\u00f3n Ordenar en la partida, sets en filas propias al ordenar por set, pesta\u00f1a Cartas Eternas, Moradas se queda marcado entre partidas, Legendarios repetidos se venden solos y Acumular cofres (no pausan: se abren todos juntos con Tab).",
+          "en": "Inventory and storage: a Sort button in the run, sets on their own rows when sorting by set, an Eternal Cards tab, Purple stays ticked between runs, Duplicate legendaries sell themselves, and Hold chests (they don't pause: open them all together with Tab).",
+          "pt": "Invent\u00e1rio e armaz\u00e9m: bot\u00e3o Ordenar na partida, sets em linhas pr\u00f3prias ao ordenar por set, aba Cartas Eternas, Roxos fica marcado entre partidas, Lend\u00e1rios repetidos s\u00e3o vendidos sozinhos e Acumular ba\u00fas (n\u00e3o pausam: abra todos juntos com Tab).",
+          "ru": "\u0418\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c \u0438 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435: \u043a\u043d\u043e\u043f\u043a\u0430 \u00ab\u0421\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c\u00bb \u0432 \u0437\u0430\u0431\u0435\u0433\u0435, \u0441\u0435\u0442\u044b \u043d\u0430 \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0445 \u0441\u0442\u0440\u043e\u043a\u0430\u0445 \u043f\u0440\u0438 \u0441\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0435 \u043f\u043e \u0441\u0435\u0442\u0443, \u0432\u043a\u043b\u0430\u0434\u043a\u0430 \u00ab\u0412\u0435\u0447\u043d\u044b\u0435 \u043a\u0430\u0440\u0442\u044b\u00bb, \u00ab\u0424\u0438\u043e\u043b\u0435\u0442\u043e\u0432\u044b\u0435\u00bb \u043e\u0441\u0442\u0430\u044e\u0442\u0441\u044f \u043e\u0442\u043c\u0435\u0447\u0435\u043d\u043d\u044b\u043c\u0438 \u043c\u0435\u0436\u0434\u0443 \u0437\u0430\u0431\u0435\u0433\u0430\u043c\u0438, \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0435 \u043b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043a\u0438 \u043f\u0440\u043e\u0434\u0430\u044e\u0442\u0441\u044f \u0441\u0430\u043c\u0438 \u0438 \u00ab\u041a\u043e\u043f\u0438\u0442\u044c \u0441\u0443\u043d\u0434\u0443\u043a\u0438\u00bb (\u043d\u0435 \u0441\u0442\u0430\u0432\u044f\u0442 \u043d\u0430 \u043f\u0430\u0443\u0437\u0443: \u043e\u0442\u043a\u0440\u043e\u0439 \u0432\u0441\u0435 \u0440\u0430\u0437\u043e\u043c \u043d\u0430 Tab).",
+          "de": "Inventar und Lager: ein Sortieren-Knopf im Lauf, Sets in eigenen Reihen beim Sortieren nach Set, ein Reiter Ewige Karten, Lila bleibt zwischen L\u00e4ufen markiert, doppelte Legend\u00e4re verkaufen sich selbst, und Truhen sammeln (sie pausieren nicht: \u00f6ffne alle zusammen mit Tab).",
+          "zh": "\u80cc\u5305\u8207\u5009\u5eab\uff1a\u904a\u6232\u4e2d\u65b0\u589e\u300c\u6392\u5e8f\u300d\u6309\u9215\uff0c\u4f9d\u5957\u88dd\u6392\u5e8f\u6642\u6bcf\u5957\u5404\u4f54\u4e00\u5217\uff0c\u65b0\u589e\u300c\u6c38\u6046\u5361\u7247\u300d\u5206\u9801\uff0c\u300c\u7d2b\u8272\u300d\u52fe\u9078\u5728\u6bcf\u5c40\u4e4b\u9593\u4fdd\u7559\uff0c\u91cd\u8907\u7684\u50b3\u8aaa\u88dd\u5099\u6703\u81ea\u52d5\u8ce3\u51fa\uff0c\u4ee5\u53ca\u300c\u7d2f\u7a4d\u5bf6\u7bb1\u300d\uff08\u4e0d\u6703\u66ab\u505c\u904a\u6232\uff1a\u6309 Tab \u4e00\u6b21\u5168\u90e8\u958b\u555f\uff09\u3002"
+        },
+        {
+          "t": "new",
+          "es": "M\u00f3vil: flechas grandes para crear y mover personajes, la ventana de equipo por p\u00e1ginas y m\u00e1s grande, y mantener el dedo sobre un objeto deja su informaci\u00f3n fija hasta tocar fuera. En PC y m\u00f3vil los atributos en su tope se pintan en rojo y su descripci\u00f3n dice el tope.",
+          "en": "Mobile: big arrows to create and move characters, the equipment window in pages and larger, and holding a finger on an item keeps its info open until you tap elsewhere. On PC and mobile, stats at their cap turn red and their tooltip shows the cap.",
+          "pt": "Celular: setas grandes para criar e mover personagens, a janela de equipamento em p\u00e1ginas e maior, e segurar o dedo sobre um item deixa a informa\u00e7\u00e3o fixa at\u00e9 tocar fora. No PC e no celular os atributos no limite ficam vermelhos e a descri\u00e7\u00e3o mostra o limite.",
+          "ru": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d: \u0431\u043e\u043b\u044c\u0448\u0438\u0435 \u0441\u0442\u0440\u0435\u043b\u043a\u0438 \u0434\u043b\u044f \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u0438 \u043f\u0435\u0440\u0435\u043c\u0435\u0449\u0435\u043d\u0438\u044f \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u0436\u0435\u0439, \u043e\u043a\u043d\u043e \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u044f \u043f\u043e \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430\u043c \u0438 \u043a\u0440\u0443\u043f\u043d\u0435\u0435, \u0430 \u0435\u0441\u043b\u0438 \u0443\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044c \u043f\u0430\u043b\u0435\u0446 \u043d\u0430 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0435, \u0435\u0433\u043e \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f \u043e\u0442\u043a\u0440\u044b\u0442\u044b\u043c, \u043f\u043e\u043a\u0430 \u043d\u0435 \u043a\u043e\u0441\u043d\u0435\u0448\u044c\u0441\u044f \u0432 \u0434\u0440\u0443\u0433\u043e\u043c \u043c\u0435\u0441\u0442\u0435. \u041d\u0430 \u041f\u041a \u0438 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0435 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438 \u043d\u0430 \u043f\u0440\u0435\u0434\u0435\u043b\u0435 \u043f\u043e\u0434\u0441\u0432\u0435\u0447\u0438\u0432\u0430\u044e\u0442\u0441\u044f \u043a\u0440\u0430\u0441\u043d\u044b\u043c, \u0430 \u0432 \u043f\u043e\u0434\u0441\u043a\u0430\u0437\u043a\u0435 \u0443\u043a\u0430\u0437\u0430\u043d \u043f\u0440\u0435\u0434\u0435\u043b.",
+          "de": "Mobil: gro\u00dfe Pfeile zum Erstellen und Verschieben von Charakteren, das Ausr\u00fcstungsfenster in Seiten und gr\u00f6\u00dfer, und h\u00e4ltst du den Finger auf einem Gegenstand, bleibt seine Info offen, bis du woanders tippst. Auf PC und Mobil werden Werte an ihrer Obergrenze rot, und ihr Tooltip nennt die Grenze.",
+          "zh": "\u624b\u6a5f\uff1a\u5efa\u7acb\u8207\u79fb\u52d5\u89d2\u8272\u7684\u7bad\u982d\u66f4\u5927\uff0c\u88dd\u5099\u8996\u7a97\u6539\u70ba\u5206\u9801\u4e14\u66f4\u5927\uff0c\u9577\u6309\u7269\u54c1\u6642\u8cc7\u8a0a\u6703\u4fdd\u6301\u986f\u793a\uff0c\u76f4\u5230\u9ede\u64ca\u5176\u4ed6\u5730\u65b9\u3002PC \u8207\u624b\u6a5f\u4e0a\uff0c\u9054\u5230\u4e0a\u9650\u7684\u5c6c\u6027\u6703\u986f\u793a\u70ba\u7d05\u8272\uff0c\u8aaa\u660e\u4e2d\u4e5f\u6703\u6a19\u51fa\u4e0a\u9650\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Opciones: Cantidad de efectos tiene Ninguno (tus habilidades sin efectos; los avisos de los MVP siempre se ven) y tus efectos llegan a 0%. En la pausa, una ruedita junto a Elegir al azar cambia la prioridad de mejoras sin esperar al siguiente nivel.",
+          "en": "Options: Amount of effects has None (your skills with no effects; MVP warnings always show) and your effects go down to 0%. In the pause, a gear next to Pick at random changes the upgrade priority without waiting for the next level.",
+          "pt": "Op\u00e7\u00f5es: Quantidade de efeitos tem Nenhum (suas habilidades sem efeitos; os avisos dos MVPs sempre aparecem) e seus efeitos chegam a 0%. Na pausa, uma engrenagem ao lado de Escolher ao acaso muda a prioridade de melhorias sem esperar o pr\u00f3ximo n\u00edvel.",
+          "ru": "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438: \u0432 \u00ab\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u0435 \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u0432\u00bb \u0435\u0441\u0442\u044c \u00ab\u041d\u0435\u0442\u00bb (\u0442\u0432\u043e\u0438 \u043d\u0430\u0432\u044b\u043a\u0438 \u0431\u0435\u0437 \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u0432; \u043f\u0440\u0435\u0434\u0443\u043f\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u044f MVP \u0432\u0438\u0434\u043d\u044b \u0432\u0441\u0435\u0433\u0434\u0430), \u0430 \u0442\u0432\u043e\u0438 \u044d\u0444\u0444\u0435\u043a\u0442\u044b \u043c\u043e\u0436\u043d\u043e \u043e\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u0434\u043e 0%. \u0412 \u043f\u0430\u0443\u0437\u0435 \u0448\u0435\u0441\u0442\u0435\u0440\u0435\u043d\u043a\u0430 \u0440\u044f\u0434\u043e\u043c \u0441 \u00ab\u0412\u044b\u0431\u0438\u0440\u0430\u0442\u044c \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u00bb \u043c\u0435\u043d\u044f\u0435\u0442 \u043f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u0439, \u043d\u0435 \u0434\u043e\u0436\u0438\u0434\u0430\u044f\u0441\u044c \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044f.",
+          "de": "Optionen: Effektmenge hat jetzt Keine (deine F\u00e4higkeiten ohne Effekte; MVP-Warnungen sind immer sichtbar), und deine Effekte gehen bis 0%. In der Pause \u00e4ndert ein Zahnrad neben Zuf\u00e4llig w\u00e4hlen die Upgrade-Priorit\u00e4t, ohne aufs n\u00e4chste Level zu warten.",
+          "zh": "\u9078\u9805\uff1a\u300c\u7279\u6548\u6578\u91cf\u300d\u65b0\u589e\u300c\u7121\u300d\uff08\u4f60\u7684\u6280\u80fd\u4e0d\u986f\u793a\u7279\u6548\uff1bMVP \u7684\u8b66\u793a\u6c38\u9060\u6703\u986f\u793a\uff09\uff0c\u4f60\u7684\u7279\u6548\u900f\u660e\u5ea6\u53ef\u964d\u81f3 0%\u3002\u66ab\u505c\u6642\uff0c\u300c\u96a8\u6a5f\u9078\u64c7\u300d\u65c1\u7684\u9f52\u8f2a\u53ef\u76f4\u63a5\u8abf\u6574\u5347\u7d1a\u512a\u5148\u9806\u5e8f\uff0c\u4e0d\u5fc5\u7b49\u5230\u4e0b\u4e00\u7d1a\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Tres idiomas nuevos: ruso, alem\u00e1n y chino tradicional (en Opciones o el bot\u00f3n Idioma).",
+          "en": "Three new languages: Russian, German and Traditional Chinese (in Options or the Language button).",
+          "pt": "Tr\u00eas idiomas novos: russo, alem\u00e3o e chin\u00eas tradicional (em Op\u00e7\u00f5es ou no bot\u00e3o Idioma).",
+          "ru": "\u0422\u0440\u0438 \u043d\u043e\u0432\u044b\u0445 \u044f\u0437\u044b\u043a\u0430: \u0440\u0443\u0441\u0441\u043a\u0438\u0439, \u043d\u0435\u043c\u0435\u0446\u043a\u0438\u0439 \u0438 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u043a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439 (\u0432 \u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430\u0445 \u0438\u043b\u0438 \u043a\u043d\u043e\u043f\u043a\u043e\u0439 \u00ab\u042f\u0437\u044b\u043a\u00bb).",
+          "de": "Drei neue Sprachen: Russisch, Deutsch und traditionelles Chinesisch (in den Optionen oder \u00fcber die Sprache-Schaltfl\u00e4che).",
+          "zh": "\u65b0\u589e\u4e09\u7a2e\u8a9e\u8a00\uff1a\u4fc4\u6587\u3001\u5fb7\u6587\u8207\u7e41\u9ad4\u4e2d\u6587\uff08\u5728\u8a2d\u5b9a\u6216\u8a9e\u8a00\u6309\u9215\u4e2d\u5207\u63db\uff09\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Arrow Shower vuelve al Archer: una lluvia de flechas sobre el grupo m\u00e1s denso, con el elemento de tu flecha. Su EX lanza dos andanadas m\u00e1s grandes.",
+          "en": "Arrow Shower is back for the Archer: a rain of arrows on the densest group, with your arrow's element. Its EX fires two bigger volleys.",
+          "pt": "Arrow Shower volta para o Archer: uma chuva de flechas sobre o grupo mais denso, com o elemento da sua flecha. A EX dispara duas saraivadas maiores.",
+          "ru": "Arrow Shower \u0441\u043d\u043e\u0432\u0430 \u0443 \u041b\u0443\u0447\u043d\u0438\u043a\u0430: \u0434\u043e\u0436\u0434\u044c \u0441\u0442\u0440\u0435\u043b \u043f\u043e \u0441\u0430\u043c\u043e\u0439 \u043f\u043b\u043e\u0442\u043d\u043e\u0439 \u0433\u0440\u0443\u043f\u043f\u0435 \u0441\u043e \u0441\u0442\u0438\u0445\u0438\u0435\u0439 \u0442\u0432\u043e\u0435\u0439 \u0441\u0442\u0440\u0435\u043b\u044b. EX \u0432\u044b\u043f\u0443\u0441\u043a\u0430\u0435\u0442 \u0434\u0432\u0430 \u0431\u043e\u043b\u0435\u0435 \u043c\u043e\u0449\u043d\u044b\u0445 \u0437\u0430\u043b\u043f\u0430.",
+          "de": "Arrow Shower ist zur\u00fcck beim Archer: ein Pfeilregen auf die dichteste Gruppe, mit dem Element deines Pfeils. Die EX-Version feuert zwei gr\u00f6\u00dfere Salven.",
+          "zh": "Arrow Shower \u56de\u5230\u5f13\u7bad\u624b\u8eab\u4e0a\uff1a\u5c0d\u6700\u5bc6\u96c6\u7684\u6575\u7fa4\u964d\u4e0b\u7bad\u96e8\uff0c\u5e36\u6709\u4f60\u7bad\u77e2\u7684\u5c6c\u6027\u3002EX \u6703\u5c04\u51fa\u5169\u6ce2\u66f4\u5927\u7684\u7bad\u96e8\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Summoner: con la manada llena el animal nuevo se fusiona con el m\u00e1s joven y suma su da\u00f1o, Picky y Tarou atacan m\u00e1s r\u00e1pido con tu velocidad de ataque, Arclouse pega y corre m\u00e1s con tu velocidad de movimiento, +20% de da\u00f1o y crecen m\u00e1s por encima del nivel m\u00e1ximo.",
+          "en": "Summoner: with a full pack the new animal merges into the youngest one and adds its damage, Picky and Tarou attack faster with your attack speed, Arclouse hits and runs harder with your move speed, +20% damage and more growth past the level cap.",
+          "pt": "Summoner: com a matilha cheia o animal novo se funde ao mais jovem e soma seu dano, Picky e Tarou atacam mais r\u00e1pido com sua velocidade de ataque, Arclouse bate e corre mais com sua velocidade de movimento, +20% de dano e crescem mais acima do n\u00edvel m\u00e1ximo.",
+          "ru": "Summoner: \u043f\u0440\u0438 \u043f\u043e\u043b\u043d\u043e\u0439 \u0441\u0442\u0430\u0435 \u043d\u043e\u0432\u044b\u0439 \u0437\u0432\u0435\u0440\u0435\u043a \u0441\u043b\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0441 \u0441\u0430\u043c\u044b\u043c \u043c\u043e\u043b\u043e\u0434\u044b\u043c \u0438 \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0435\u0442 \u0441\u0432\u043e\u0439 \u0443\u0440\u043e\u043d, Picky \u0438 Tarou \u0430\u0442\u0430\u043a\u0443\u044e\u0442 \u0431\u044b\u0441\u0442\u0440\u0435\u0435 \u0441 \u0442\u0432\u043e\u0435\u0439 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u044c\u044e \u0430\u0442\u0430\u043a\u0438, Arclouse \u0431\u044c\u0435\u0442 \u0438 \u0431\u0435\u0433\u0430\u0435\u0442 \u0441\u0438\u043b\u044c\u043d\u0435\u0435 \u0441 \u0442\u0432\u043e\u0435\u0439 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u044c\u044e \u043f\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u0435\u043d\u0438\u044f, +20% \u0443\u0440\u043e\u043d\u0430 \u0438 \u0431\u043e\u043b\u044c\u0448\u0438\u0439 \u0440\u043e\u0441\u0442 \u0432\u044b\u0448\u0435 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044f.",
+          "de": "Summoner: Bei vollem Rudel verschmilzt das neue Tier mit dem j\u00fcngsten und addiert seinen Schaden, Picky und Tarou greifen mit deinem Angriffstempo schneller an, Arclouse trifft und rennt st\u00e4rker mit deinem Lauftempo, +20% Schaden und mehr Wachstum \u00fcber der Stufenobergrenze.",
+          "zh": "\u53ec\u559a\u5e2b\uff1a\u968a\u4f0d\u5df2\u6eff\u6642\uff0c\u65b0\u53ec\u559a\u7684\u52d5\u7269\u6703\u8207\u6700\u5e74\u8f15\u7684\u4e00\u96bb\u878d\u5408\u4e26\u758a\u52a0\u50b7\u5bb3\uff1bPicky \u8207 Tarou \u6703\u96a8\u4f60\u7684\u653b\u64ca\u901f\u5ea6\u653b\u64ca\u66f4\u5feb\uff1bArclouse \u6703\u96a8\u4f60\u7684\u79fb\u52d5\u901f\u5ea6\u6253\u5f97\u66f4\u91cd\u3001\u8dd1\u5f97\u66f4\u5feb\uff1b\u50b7\u5bb3 +20%\uff0c\u8d85\u904e\u7b49\u7d1a\u4e0a\u9650\u5f8c\u6210\u9577\u66f4\u591a\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Champion: Steel Body da +5% de da\u00f1o por nivel a lo que lanzan solos tus cartas y equipo, y Critical Explosion da +30% de da\u00f1o cr\u00edtico (+10% por nivel) y cada cr\u00edtico puede encadenar un golpe de ki. Signum Crucis crece con DES y el poder de tus buffs.",
+          "en": "Champion: Steel Body gives +5% damage per level to what your cards and gear cast on their own, and Critical Explosion gives +30% critical damage (+10% per level) and each critical can chain a ki blow. Signum Crucis grows with DEX and your buff power.",
+          "pt": "Champion: Steel Body d\u00e1 +5% de dano por n\u00edvel ao que suas cartas e equipamentos lan\u00e7am sozinhos, e Critical Explosion d\u00e1 +30% de dano cr\u00edtico (+10% por n\u00edvel) e cada cr\u00edtico pode encadear um golpe de ki. Signum Crucis cresce com DES e o poder dos seus buffs.",
+          "ru": "Champion: Steel Body \u0434\u0430\u0435\u0442 +5% \u0443\u0440\u043e\u043d\u0430 \u0437\u0430 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0442\u043e\u043c\u0443, \u0447\u0442\u043e \u0442\u0432\u043e\u0438 \u043a\u0430\u0440\u0442\u044b \u0438 \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u0435 \u043f\u0440\u0438\u043c\u0435\u043d\u044f\u044e\u0442 \u0441\u0430\u043c\u0438, \u0430 Critical Explosion \u0434\u0430\u0435\u0442 +30% \u043a\u0440\u0438\u0442. \u0443\u0440\u043e\u043d\u0430 (+10% \u0437\u0430 \u0443\u0440\u043e\u0432\u0435\u043d\u044c), \u0438 \u043a\u0430\u0436\u0434\u044b\u0439 \u043a\u0440\u0438\u0442 \u043c\u043e\u0436\u0435\u0442 \u043f\u0435\u0440\u0435\u043a\u0438\u043d\u0443\u0442\u044c \u0443\u0434\u0430\u0440 \u043a\u0438. Signum Crucis \u0440\u0430\u0441\u0442\u0435\u0442 \u0441 DEX \u0438 \u0441\u0438\u043b\u043e\u0439 \u0442\u0432\u043e\u0438\u0445 \u0431\u0430\u0444\u0444\u043e\u0432.",
+          "de": "Champion: Steel Body gibt +5% Schaden pro Level auf alles, was deine Karten und Ausr\u00fcstung selbst wirken, und Critical Explosion gibt +30% Krit-Schaden (+10% pro Level), und jeder kritische Treffer kann einen Ki-Schlag weiterleiten. Signum Crucis w\u00e4chst mit DEX und deiner Buff-St\u00e4rke.",
+          "zh": "Champion\uff1aSteel Body \u8b93\u5361\u7247\u8207\u88dd\u5099\u81ea\u52d5\u65bd\u653e\u7684\u6548\u679c\u6bcf\u7d1a\u50b7\u5bb3 +5%\uff0cCritical Explosion \u63d0\u4f9b +30% \u7206\u64ca\u50b7\u5bb3\uff08\u6bcf\u7d1a +10%\uff09\uff0c\u4e14\u6bcf\u6b21\u7206\u64ca\u90fd\u53ef\u80fd\u9023\u9396\u4e00\u8a18\u771f\u6c23\u3002Signum Crucis \u6703\u96a8 DEX \u8207\u4f60\u7684\u589e\u76ca\u5f37\u5ea6\u6210\u9577\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Los bonos de da\u00f1o con riesgo (Pacto de Hel, altares de Hel y Baldur, ruleta de Lucile, buffs de la torre) multiplican aparte y ya no se diluyen en el da\u00f1o de tu equipo. La Fuerza da +20% de ATK al ataque b\u00e1sico y los procs del b\u00e1sico vuelven a salir tan seguido como antes.",
+          "en": "Risky damage bonuses (Hel's Pact, Hel's and Baldur's altars, Lucile's wheel, tower buffs) multiply on their own and no longer get diluted in your gear's damage. Strength gives +20% basic attack ATK, and basic-attack procs fire as often as before again.",
+          "pt": "Os b\u00f4nus de dano com risco (Pacto de Hel, altares de Hel e Baldur, roleta de Lucile, buffs da torre) multiplicam \u00e0 parte e n\u00e3o se diluem mais no dano do seu equipamento. A For\u00e7a d\u00e1 +20% de ATK ao ataque b\u00e1sico e os procs do b\u00e1sico voltam a sair com a mesma frequ\u00eancia de antes.",
+          "ru": "\u0420\u0438\u0441\u043a\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0431\u043e\u043d\u0443\u0441\u044b \u0443\u0440\u043e\u043d\u0430 (\u041f\u0430\u043a\u0442 \u0425\u0435\u043b\u044c, \u0430\u043b\u0442\u0430\u0440\u0438 \u0425\u0435\u043b\u044c \u0438 \u0411\u0430\u043b\u044c\u0434\u0440\u0430, \u0440\u0443\u043b\u0435\u0442\u043a\u0430 \u041b\u044e\u0441\u0438\u043b\u044c, \u0431\u0430\u0444\u0444\u044b \u0431\u0430\u0448\u043d\u0438) \u0443\u043c\u043d\u043e\u0436\u0430\u044e\u0442\u0441\u044f \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u043e \u0438 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0440\u0430\u0441\u0442\u0432\u043e\u0440\u044f\u044e\u0442\u0441\u044f \u0432 \u0443\u0440\u043e\u043d\u0435 \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u044f. \u0421\u0438\u043b\u0430 \u0434\u0430\u0435\u0442 +20% ATK \u043e\u0431\u044b\u0447\u043d\u043e\u0439 \u0430\u0442\u0430\u043a\u0438, \u0430 \u043f\u0440\u043e\u043a\u0438 \u043e\u0431\u044b\u0447\u043d\u043e\u0439 \u0430\u0442\u0430\u043a\u0438 \u0441\u043d\u043e\u0432\u0430 \u0441\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u044e\u0442 \u0442\u0430\u043a \u0436\u0435 \u0447\u0430\u0441\u0442\u043e, \u043a\u0430\u043a \u0440\u0430\u043d\u044c\u0448\u0435.",
+          "de": "Riskante Schadensboni (Hels Pakt, Hels und Baldurs Alt\u00e4re, Luciles Rad, Turm-Buffs) multiplizieren eigenst\u00e4ndig und verw\u00e4ssern nicht mehr im Schaden deiner Ausr\u00fcstung. St\u00e4rke gibt +20% ATK f\u00fcr den Standardangriff, und Procs des Standardangriffs l\u00f6sen wieder so oft aus wie fr\u00fcher.",
+          "zh": "\u6709\u98a8\u96aa\u7684\u50b7\u5bb3\u52a0\u6210\uff08Hel \u5951\u7d04\u3001Hel \u8207 Baldur \u796d\u58c7\u3001Lucile \u8f2a\u76e4\u3001\u5854\u7684\u589e\u76ca\uff09\u6539\u70ba\u7368\u7acb\u4e58\u7b97\uff0c\u4e0d\u518d\u88ab\u88dd\u5099\u50b7\u5bb3\u7a00\u91cb\u3002\u529b\u91cf\u8b93\u666e\u901a\u653b\u64ca ATK +20%\uff0c\u666e\u901a\u653b\u64ca\u7684\u89f8\u767c\u6548\u679c\u6062\u5fa9\u6210\u4ee5\u524d\u7684\u983b\u7387\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Hom\u00fanculos: pegan con el ATK de tu arma y tu INT, y su habilidad especial se recarga m\u00e1s r\u00e1pido con tu reducci\u00f3n de recarga. Niveles por encima del tope de una habilidad: enteros hasta Nv 10, la mitad hasta Nv 80 y un cuarto desde ah\u00ed.",
+          "en": "Homunculi: they hit with your weapon's ATK and your INT, and their special skill recharges faster with your cooldown reduction. Levels past a skill's cap: whole up to Lv 10, half up to Lv 80 and a quarter beyond.",
+          "pt": "Hom\u00fanculos: atacam com o ATK da sua arma e sua INT, e a habilidade especial recarrega mais r\u00e1pido com sua redu\u00e7\u00e3o de recarga. N\u00edveis acima do limite de uma habilidade: inteiros at\u00e9 Nv 10, metade at\u00e9 Nv 80 e um quarto depois disso.",
+          "ru": "\u0413\u043e\u043c\u0443\u043d\u043a\u0443\u043b\u044b: \u0431\u044c\u044e\u0442 \u0441 ATK \u0442\u0432\u043e\u0435\u0433\u043e \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0442\u0432\u043e\u0438\u043c INT, \u0430 \u0438\u0445 \u043e\u0441\u043e\u0431\u044b\u0439 \u043d\u0430\u0432\u044b\u043a \u043f\u0435\u0440\u0435\u0437\u0430\u0440\u044f\u0436\u0430\u0435\u0442\u0441\u044f \u0431\u044b\u0441\u0442\u0440\u0435\u0435 \u0441 \u0442\u0432\u043e\u0438\u043c \u0441\u043e\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u0435\u043c \u043f\u0435\u0440\u0435\u0437\u0430\u0440\u044f\u0434\u043a\u0438. \u0423\u0440\u043e\u0432\u043d\u0438 \u0432\u044b\u0448\u0435 \u043f\u0440\u0435\u0434\u0435\u043b\u0430 \u043d\u0430\u0432\u044b\u043a\u0430: \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0434\u043e \u0423\u0440. 10, \u043d\u0430\u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0443 \u0434\u043e \u0423\u0440. 80 \u0438 \u043d\u0430 \u0447\u0435\u0442\u0432\u0435\u0440\u0442\u044c \u0434\u0430\u043b\u044c\u0448\u0435.",
+          "de": "Homunkuli: Sie treffen mit dem ATK deiner Waffe und deiner INT, und ihre Spezialf\u00e4higkeit l\u00e4dt mit deiner Abklingzeitverringerung schneller. Level \u00fcber der Obergrenze einer F\u00e4higkeit: voll bis Lv 10, halb bis Lv 80 und danach ein Viertel.",
+          "zh": "\u751f\u547d\u9ad4\uff1a\u4ee5\u4f60\u6b66\u5668\u7684 ATK \u8207 INT \u653b\u64ca\uff0c\u7279\u6b8a\u6280\u80fd\u6703\u96a8\u4f60\u7684\u51b7\u537b\u7e2e\u6e1b\u66f4\u5feb\u51b7\u537b\u3002\u6280\u80fd\u8d85\u904e\u4e0a\u9650\u5f8c\u7684\u7b49\u7d1a\uff1aLv 10 \u4ee5\u524d\u5b8c\u6574\u8a08\u7b97\uff0cLv 80 \u4ee5\u524d\u8a08\u7b97\u4e00\u534a\uff0c\u4e4b\u5f8c\u8a08\u7b97\u56db\u5206\u4e4b\u4e00\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Los efectos al recibir golpes (Venganza, autocasts al ser golpeado, Auto Counter, reflejos, Counter Kick) salen como mucho una vez cada 0,5 s; los reflejos guardan el da\u00f1o y lo devuelven junto. El Emperium hace 1 de da\u00f1o cada 1,5 s a quien lo toca.",
+          "en": "On-hit effects (Vengeance, autocasts when hit, Auto Counter, reflects, Counter Kick) fire at most once every 0.5 s; reflects store the damage and send it back together. The Emperium deals 1 damage every 1.5 s to whoever touches it.",
+          "pt": "Os efeitos ao receber golpes (Vingan\u00e7a, autocasts ao ser atingido, Auto Counter, reflexos, Counter Kick) saem no m\u00e1ximo uma vez a cada 0,5 s; os reflexos guardam o dano e devolvem junto. O Emperium causa 1 de dano a cada 1,5 s em quem o toca.",
+          "ru": "\u042d\u0444\u0444\u0435\u043a\u0442\u044b \u043f\u0440\u0438 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0438 \u0443\u0434\u0430\u0440\u0430 (\u041c\u0435\u0441\u0442\u044c, \u0430\u0432\u0442\u043e\u043a\u0430\u0441\u0442\u044b \u043f\u0440\u0438 \u0443\u0434\u0430\u0440\u0435, Auto Counter, \u043e\u0442\u0440\u0430\u0436\u0435\u043d\u0438\u044f, Counter Kick) \u0441\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u044e\u0442 \u043d\u0435 \u0447\u0430\u0449\u0435 \u0440\u0430\u0437\u0430 \u0432 0,5 \u0441; \u043e\u0442\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u043a\u043e\u043f\u044f\u0442 \u0443\u0440\u043e\u043d \u0438 \u0432\u043e\u0437\u0432\u0440\u0430\u0449\u0430\u044e\u0442 \u0435\u0433\u043e \u0440\u0430\u0437\u043e\u043c. \u042d\u043c\u043f\u0435\u0440\u0438\u0443\u043c \u043d\u0430\u043d\u043e\u0441\u0438\u0442 1 \u0443\u0440\u043e\u043d\u0430 \u043a\u0430\u0436\u0434\u044b\u0435 1,5 \u0441 \u0442\u043e\u043c\u0443, \u043a\u0442\u043e \u0435\u0433\u043e \u043a\u0430\u0441\u0430\u0435\u0442\u0441\u044f.",
+          "de": "Effekte bei erlittenen Treffern (Rache, Autocasts bei Treffern, Auto Counter, Reflexionen, Counter Kick) l\u00f6sen h\u00f6chstens einmal alle 0,5 s aus; Reflexionen speichern den Schaden und geben ihn gesammelt zur\u00fcck. Das Emperium macht jedem, der es ber\u00fchrt, alle 1,5 s 1 Schaden.",
+          "zh": "\u53d7\u64ca\u6548\u679c\uff08\u5fa9\u4ec7\u3001\u53d7\u64ca\u81ea\u52d5\u65bd\u653e\u3001Auto Counter\u3001\u53cd\u5c04\u3001Counter Kick\uff09\u6bcf 0.5 \u79d2\u6700\u591a\u89f8\u767c\u4e00\u6b21\uff1b\u53cd\u5c04\u6703\u7d2f\u7a4d\u50b7\u5bb3\u4e26\u4e00\u6b21\u53cd\u5f48\u3002\u89f8\u78b0\u83ef\u9e97\u91d1\u5c6c\uff08Emperium\uff09\u7684\u4eba\u6bcf 1.5 \u79d2\u53d7\u5230 1 \u9ede\u50b7\u5bb3\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Ajustes: Token of Siegfried dura 2,5 s (antes 5), Mysteltainn crece m\u00e1s despacio con sus muertes (+316% a las 3000, antes +562%) y Star of Blessing ya no es infinita (la Uni\u00f3n dura el triple, no cuesta vida y vuelve en la mitad de su recarga). Cartas de los monstruos que invoca el MVP: segura tras 25 muertes sin ella.",
+          "en": "Tuning: Token of Siegfried lasts 2.5 s (was 5), Mysteltainn grows slower with its kills (+316% at 3000, was +562%) and Star of Blessing is no longer infinite (the Union lasts three times as long, costs no life and comes back in half its cooldown). Cards of the monsters an MVP summons: guaranteed after 25 kills without one.",
+          "pt": "Ajustes: Token of Siegfried dura 2,5 s (antes 5), Mysteltainn cresce mais devagar com os abates (+316% aos 3000, antes +562%) e Star of Blessing n\u00e3o \u00e9 mais infinita (a Uni\u00e3o dura o triplo, n\u00e3o custa vida e volta na metade da recarga). Cartas dos monstros que o MVP invoca: garantida ap\u00f3s 25 abates sem ela.",
+          "ru": "\u041f\u0440\u0430\u0432\u043a\u0438: Token of Siegfried \u0434\u043b\u0438\u0442\u0441\u044f 2,5 \u0441 (\u0431\u044b\u043b\u043e 5), Mysteltainn \u0440\u0430\u0441\u0442\u0435\u0442 \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u0435\u0435 \u0441 \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u0430\u043c\u0438 (+316% \u043f\u0440\u0438 3000, \u0431\u044b\u043b\u043e +562%), \u0430 Star of Blessing \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0431\u0435\u0441\u043a\u043e\u043d\u0435\u0447\u043d\u0430 (\u0421\u043e\u044e\u0437 \u0434\u043b\u0438\u0442\u0441\u044f \u0432\u0442\u0440\u043e\u0435 \u0434\u043e\u043b\u044c\u0448\u0435, \u043d\u0435 \u0442\u0440\u0430\u0442\u0438\u0442 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435 \u0438 \u0432\u043e\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0441\u044f \u0437\u0430 \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0443 \u043f\u0435\u0440\u0435\u0437\u0430\u0440\u044f\u0434\u043a\u0438). \u041a\u0430\u0440\u0442\u044b \u043c\u043e\u043d\u0441\u0442\u0440\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u043f\u0440\u0438\u0437\u044b\u0432\u0430\u0435\u0442 MVP: \u0433\u0430\u0440\u0430\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u044b \u043f\u043e\u0441\u043b\u0435 25 \u0443\u0431\u0438\u0439\u0441\u0442\u0432 \u0431\u0435\u0437 \u043d\u0438\u0445.",
+          "de": "Anpassungen: Token of Siegfried h\u00e4lt 2,5 s (vorher 5), Mysteltainn w\u00e4chst langsamer mit seinen Kills (+316% bei 3000, vorher +562%), und Star of Blessing ist nicht mehr unendlich (die Vereinigung h\u00e4lt dreimal so lange, kostet kein Leben und ist nach der halben Abklingzeit zur\u00fcck). Karten der Monster, die ein MVP beschw\u00f6rt: garantiert nach 25 Kills ohne sie.",
+          "zh": "\u8abf\u6574\uff1aToken of Siegfried \u6301\u7e8c 2.5 \u79d2\uff08\u539f\u70ba 5 \u79d2\uff09\uff0cMysteltainn \u96a8\u64ca\u6bba\u6578\u6210\u9577\u8b8a\u6162\uff083000 \u96bb\u6642 +316%\uff0c\u539f\u70ba +562%\uff09\uff0cStar of Blessing \u4e0d\u518d\u7121\u9650\uff08\u7d50\u5408\u6301\u7e8c\u6642\u9593\u4e09\u500d\u3001\u4e0d\u6d88\u8017\u751f\u547d\uff0c\u4e26\u5728\u51b7\u537b\u6e1b\u534a\u5f8c\u6062\u5fa9\uff09\u3002MVP \u53ec\u559a\u51fa\u7684\u602a\u7269\u5361\u7247\uff1a\u9023\u7e8c 25 \u6b21\u64ca\u6bba\u672a\u6389\u843d\u6642\u5fc5\u5b9a\u6389\u843d\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Velocidad de ataque: los golpes por ataque ya no se quedan en x40; m\u00e1s velocidad sigue sumando golpes.",
+          "en": "Attack speed: hits per attack no longer stop at x40; more speed keeps adding hits.",
+          "pt": "Velocidade de ataque: os golpes por ataque n\u00e3o param mais em x40; mais velocidade continua somando golpes.",
+          "ru": "\u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0430\u0442\u0430\u043a\u0438: \u0447\u0438\u0441\u043b\u043e \u0443\u0434\u0430\u0440\u043e\u0432 \u0437\u0430 \u0430\u0442\u0430\u043a\u0443 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0443\u043f\u0438\u0440\u0430\u0435\u0442\u0441\u044f \u0432 x40; \u0447\u0435\u043c \u0432\u044b\u0448\u0435 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u044c, \u0442\u0435\u043c \u0431\u043e\u043b\u044c\u0448\u0435 \u0443\u0434\u0430\u0440\u043e\u0432.",
+          "de": "Angriffsgeschwindigkeit: Die Treffer pro Angriff bleiben nicht mehr bei x40 stehen; mehr Tempo bringt weitere Treffer.",
+          "zh": "\u653b\u64ca\u901f\u5ea6\uff1a\u6bcf\u6b21\u653b\u64ca\u7684\u547d\u4e2d\u6578\u4e0d\u518d\u5361\u5728 x40\uff0c\u653b\u901f\u8d8a\u9ad8\u547d\u4e2d\u6578\u8d8a\u591a\u3002"
+        },
+        {
+          "t": "up",
+          "es": "M\u00e1s FPS: Meteor Assault, las builds con muchos autocasts en Infierno y el High Wizard dibujan menos efectos por golpe. Las grietas de Meteor Assault ya no tapan la pantalla.",
+          "en": "Better FPS: Meteor Assault, autocast-heavy builds in Infierno and the High Wizard draw fewer effects per hit. Meteor Assault's cracks no longer cover the screen.",
+          "pt": "Mais FPS: Meteor Assault, builds com muitos autocasts no Inferno e o High Wizard desenham menos efeitos por golpe. As rachaduras do Meteor Assault n\u00e3o cobrem mais a tela.",
+          "ru": "\u0411\u043e\u043b\u044c\u0448\u0435 FPS: Meteor Assault, \u0441\u0431\u043e\u0440\u043a\u0438 \u0441 \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u043e\u043c \u0430\u0432\u0442\u043e\u043a\u0430\u0441\u0442\u043e\u0432 \u0432 \u0410\u0434\u0443 \u0438 High Wizard \u0440\u0438\u0441\u0443\u044e\u0442 \u043c\u0435\u043d\u044c\u0448\u0435 \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u0432 \u043d\u0430 \u0443\u0434\u0430\u0440. \u0422\u0440\u0435\u0449\u0438\u043d\u044b Meteor Assault \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0437\u0430\u043a\u0440\u044b\u0432\u0430\u044e\u0442 \u044d\u043a\u0440\u0430\u043d.",
+          "de": "Mehr FPS: Meteor Assault, Builds mit vielen Autocasts in der H\u00f6lle und der High Wizard zeichnen weniger Effekte pro Treffer. Die Risse von Meteor Assault verdecken nicht mehr den Bildschirm.",
+          "zh": "\u66f4\u9ad8 FPS\uff1aMeteor Assault\u3001\u5730\u7344\u4e2d\u5927\u91cf\u81ea\u52d5\u65bd\u653e\u7684\u914d\u88dd\u8207 High Wizard \u6bcf\u6b21\u547d\u4e2d\u7e6a\u88fd\u7684\u7279\u6548\u66f4\u5c11\u3002Meteor Assault \u7684\u88c2\u75d5\u4e0d\u518d\u906e\u4f4f\u756b\u9762\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "Taekwon: al cambiar de clase el arma ya no se queda como estaba. Sets: con las 4 piezas la ventana de equipo vuelve a mostrar los sets. Canales de Prontera: ya no te quedas en \u00abEntrando al canal...\u00bb. Ninja Aura muestra su Fuerza e Inteligencia en la ventana de estado. Los velos rojo y dorado de la balanza son m\u00e1s sutiles.",
+          "en": "Taekwon: the weapon no longer stays as it was at the job change. Sets: with all 4 pieces the equipment window shows the sets again. Prontera channels: you no longer get stuck on \"Entering the channel...\". Ninja Aura shows its Strength and Intelligence in the status window. The scale's red and gold screen veils are subtler.",
+          "pt": "Taekwon: na troca de classe a arma n\u00e3o fica mais como estava. Sets: com as 4 pe\u00e7as a janela de equipamento volta a mostrar os sets. Canais de Prontera: voc\u00ea n\u00e3o fica mais preso em \"Entrando no canal...\". Ninja Aura mostra sua For\u00e7a e Intelig\u00eancia na janela de status. Os v\u00e9us vermelho e dourado da balan\u00e7a est\u00e3o mais sutis.",
+          "ru": "Taekwon: \u043f\u0440\u0438 \u0441\u043c\u0435\u043d\u0435 \u043a\u043b\u0430\u0441\u0441\u0430 \u043e\u0440\u0443\u0436\u0438\u0435 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f \u043f\u0440\u0435\u0436\u043d\u0438\u043c. \u0421\u0435\u0442\u044b: \u043f\u0440\u0438 \u0432\u0441\u0435\u0445 4 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0430\u0445 \u043e\u043a\u043d\u043e \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u044f \u0441\u043d\u043e\u0432\u0430 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u0441\u0435\u0442\u044b. \u041a\u0430\u043d\u0430\u043b\u044b \u041f\u0440\u043e\u043d\u0442\u0435\u0440\u044b: \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0437\u0430\u0432\u0438\u0441\u0430\u0435\u0448\u044c \u043d\u0430 \u00ab\u0412\u0445\u043e\u0434 \u0432 \u043a\u0430\u043d\u0430\u043b...\u00bb. Ninja Aura \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u0441\u0432\u043e\u044e \u0421\u0438\u043b\u0443 \u0438 \u0418\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442 \u0432 \u043e\u043a\u043d\u0435 \u0441\u0442\u0430\u0442\u0443\u0441\u0430. \u041a\u0440\u0430\u0441\u043d\u0430\u044f \u0438 \u0437\u043e\u043b\u043e\u0442\u0430\u044f \u043f\u0435\u043b\u0435\u043d\u0430 \u0432\u0435\u0441\u043e\u0432 \u0441\u0442\u0430\u043b\u0430 \u043c\u044f\u0433\u0447\u0435.",
+          "de": "Taekwon: Beim Jobwechsel bleibt die Waffe nicht mehr unver\u00e4ndert. Sets: Mit allen 4 Teilen zeigt das Ausr\u00fcstungsfenster die Sets wieder an. Prontera-Kan\u00e4le: Du bleibst nicht mehr bei \"Betrete den Kanal...\" h\u00e4ngen. Ninja Aura zeigt ihre St\u00e4rke und Intelligenz im Statusfenster. Die roten und goldenen Schleier der Waage sind dezenter.",
+          "zh": "\u8dc6\u62f3\uff1a\u8f49\u8077\u6642\u6b66\u5668\u4e0d\u6703\u518d\u7dad\u6301\u539f\u6a23\u3002\u5957\u88dd\uff1a\u7a7f\u9f4a 4 \u4ef6\u6642\uff0c\u88dd\u5099\u8996\u7a97\u6703\u518d\u6b21\u986f\u793a\u5957\u88dd\u3002\u666e\u9686\u5fb7\u62c9\u983b\u9053\uff1a\u4e0d\u6703\u518d\u5361\u5728\u300c\u9032\u5165\u983b\u9053\u4e2d...\u300d\u3002Ninja Aura \u6703\u5728\u72c0\u614b\u8996\u7a97\u986f\u793a\u5176\u529b\u91cf\u8207\u667a\u529b\u3002\u5929\u79e4\u7684\u7d05\u8272\u8207\u91d1\u8272\u756b\u9762\u8584\u7d17\u66f4\u67d4\u548c\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "Las Sword Wings ya no se pueden vender. Quien las vendi\u00f3 por error las recibe de regalo al abrir el juego.",
+          "en": "The Sword Wings can no longer be sold. Players who sold them by mistake get them back as a gift when they open the game.",
+          "pt": "As Sword Wings n\u00e3o podem mais ser vendidas. Quem as vendeu por engano as recebe de presente ao abrir o jogo.",
+          "ru": "Sword Wings \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435\u043b\u044c\u0437\u044f \u043f\u0440\u043e\u0434\u0430\u0442\u044c. \u0422\u0435, \u043a\u0442\u043e \u043f\u0440\u043e\u0434\u0430\u043b \u0438\u0445 \u043f\u043e \u043e\u0448\u0438\u0431\u043a\u0435, \u043f\u043e\u043b\u0443\u0447\u0430\u0442 \u0438\u0445 \u0432 \u043f\u043e\u0434\u0430\u0440\u043e\u043a \u043f\u0440\u0438 \u0437\u0430\u043f\u0443\u0441\u043a\u0435 \u0438\u0433\u0440\u044b.",
+          "de": "Die Sword Wings k\u00f6nnen nicht mehr verkauft werden. Wer sie versehentlich verkauft hat, bekommt sie beim Spielstart als Geschenk zur\u00fcck.",
+          "zh": "Sword Wings \u7121\u6cd5\u518d\u51fa\u552e\u3002\u8aa4\u8ce3\u7684\u73a9\u5bb6\u958b\u555f\u904a\u6232\u6642\u6703\u6536\u5230\u5b83\u5011\u4f5c\u70ba\u79ae\u7269\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "\u00c1lbum: Evoluciones muestra tambi\u00e9n las pasivas que evolucionan (Blitz Beat EX) y la barra de fusi\u00f3n ya no dibuja l\u00edneas doradas.",
+          "en": "Album: Evolutions also lists passives that evolve (Blitz Beat EX), and the fusion bar no longer draws gold lines.",
+          "pt": "\u00c1lbum: Evolu\u00e7\u00f5es tamb\u00e9m mostra as passivas que evoluem (Blitz Beat EX) e a barra de fus\u00e3o n\u00e3o desenha mais linhas douradas.",
+          "ru": "\u0410\u043b\u044c\u0431\u043e\u043c: \u0432 \u00ab\u042d\u0432\u043e\u043b\u044e\u0446\u0438\u044f\u0445\u00bb \u0442\u0435\u043f\u0435\u0440\u044c \u0435\u0441\u0442\u044c \u0438 \u044d\u0432\u043e\u043b\u044e\u0446\u0438\u043e\u043d\u0438\u0440\u0443\u044e\u0449\u0438\u0435 \u043f\u0430\u0441\u0441\u0438\u0432\u043a\u0438 (Blitz Beat EX), \u0430 \u043f\u043e\u043b\u043e\u0441\u0430 \u0441\u043b\u0438\u044f\u043d\u0438\u044f \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0440\u0438\u0441\u0443\u0435\u0442 \u0437\u043e\u043b\u043e\u0442\u044b\u0435 \u043b\u0438\u043d\u0438\u0438.",
+          "de": "Album: Unter Entwicklungen stehen jetzt auch Passive, die sich entwickeln (Blitz Beat EX), und die Fusionsleiste zeichnet keine goldenen Linien mehr.",
+          "zh": "\u5716\u9451\uff1a\u9032\u5316\u5206\u9801\u4e5f\u6703\u5217\u51fa\u53ef\u9032\u5316\u7684\u88ab\u52d5\u6280\u80fd\uff08Blitz Beat EX\uff09\uff0c\u878d\u5408\u689d\u4e0d\u518d\u756b\u51fa\u91d1\u8272\u7dda\u689d\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "Medidor de da\u00f1o: los buffs ya no aparecen haciendo da\u00f1o. Storm Bow activa los efectos de cartas y equipo, tambi\u00e9n contra MVPs.",
+          "en": "Damage meter: buffs no longer show damage. Storm Bow triggers card and gear effects, also against MVPs.",
+          "pt": "Medidor de dano: os buffs n\u00e3o aparecem mais causando dano. Storm Bow ativa os efeitos de cartas e equipamentos, tamb\u00e9m contra MVPs.",
+          "ru": "\u0421\u0447\u0435\u0442\u0447\u0438\u043a \u0443\u0440\u043e\u043d\u0430: \u0431\u0430\u0444\u0444\u044b \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u044e\u0442 \u0443\u0440\u043e\u043d. Storm Bow \u0430\u043a\u0442\u0438\u0432\u0438\u0440\u0443\u0435\u0442 \u044d\u0444\u0444\u0435\u043a\u0442\u044b \u043a\u0430\u0440\u0442 \u0438 \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u044f, \u0432 \u0442\u043e\u043c \u0447\u0438\u0441\u043b\u0435 \u043f\u0440\u043e\u0442\u0438\u0432 MVP.",
+          "de": "Schadensmesser: Buffs zeigen keinen Schaden mehr an. Storm Bow l\u00f6st Karten- und Ausr\u00fcstungseffekte aus, auch gegen MVPs.",
+          "zh": "\u50b7\u5bb3\u8a08\u91cf\uff1a\u589e\u76ca\u6280\u80fd\u4e0d\u518d\u986f\u793a\u9020\u6210\u50b7\u5bb3\u3002Storm Bow \u6703\u89f8\u767c\u5361\u7247\u8207\u88dd\u5099\u6548\u679c\uff0c\u5c0d MVP \u4e5f\u4e00\u6a23\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "Endless Tower: la build ya no duplica equipo ni EXP de clase, y el Golden Poring de la torre se puede matar.",
+          "en": "Endless Tower: builds no longer duplicate gear or class EXP, and the tower's Golden Poring can be killed.",
+          "pt": "Endless Tower: a build n\u00e3o duplica mais equipamento nem EXP de classe, e o Golden Poring da torre pode ser morto.",
+          "ru": "Endless Tower: \u0441\u0431\u043e\u0440\u043a\u0430 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0434\u0443\u0431\u043b\u0438\u0440\u0443\u0435\u0442 \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u0435 \u0438 \u043e\u043f\u044b\u0442 \u043a\u043b\u0430\u0441\u0441\u0430, \u0430 Golden Poring \u0432 \u0431\u0430\u0448\u043d\u0435 \u043c\u043e\u0436\u043d\u043e \u0443\u0431\u0438\u0442\u044c.",
+          "de": "Endless Tower: Builds verdoppeln keine Ausr\u00fcstung und keine Klassen-EXP mehr, und der Golden Poring im Turm kann besiegt werden.",
+          "zh": "Endless Tower\uff1a\u914d\u88dd\u4e0d\u518d\u91cd\u8907\u7372\u5f97\u88dd\u5099\u6216\u8077\u696d\u7d93\u9a57\uff0c\u5854\u4e2d\u7684 Golden Poring \u4e5f\u80fd\u88ab\u64ca\u6bba\u4e86\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "Holy Water: lo desterrado ya no vuelve al cambiar de job ni en co-op. Las mascotas de las Valquirias ahora caen.",
+          "en": "Holy Water: banished picks no longer come back at the job change or in co-op. The Valkyries' pets now drop.",
+          "pt": "Holy Water: o que foi banido n\u00e3o volta mais na troca de job nem no co-op. Os mascotes das Valqu\u00edrias agora caem.",
+          "ru": "Holy Water: \u0438\u0437\u0433\u043d\u0430\u043d\u043d\u044b\u0435 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0432\u043e\u0437\u0432\u0440\u0430\u0449\u0430\u044e\u0442\u0441\u044f \u043f\u0440\u0438 \u0441\u043c\u0435\u043d\u0435 \u043a\u043b\u0430\u0441\u0441\u0430 \u0438 \u0432 \u043a\u043e\u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u0435. \u041f\u0438\u0442\u043e\u043c\u0446\u044b \u0432\u0430\u043b\u044c\u043a\u0438\u0440\u0438\u0439 \u0442\u0435\u043f\u0435\u0440\u044c \u0432\u044b\u043f\u0430\u0434\u0430\u044e\u0442.",
+          "de": "Holy Water: Verbannte Optionen kehren beim Jobwechsel und im Koop nicht mehr zur\u00fcck. Die Begleiter der Walk\u00fcren fallen jetzt.",
+          "zh": "Holy Water\uff1a\u88ab\u653e\u9010\u7684\u9078\u9805\u5728\u8f49\u8077\u8207\u5408\u4f5c\u6a21\u5f0f\u4e2d\u4e0d\u518d\u51fa\u73fe\u3002\u5973\u6b66\u795e\u7684\u5bf5\u7269\u73fe\u5728\u6703\u6389\u843d\u4e86\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "Assassin: Sonic Blow ya no obliga a usar katar y la segunda daga se equipa en el equipo inicial. Back Stab con Ginnungagap vuelve a encadenarse sin espera extra.",
+          "en": "Assassin: Sonic Blow no longer forces a katar, and the second dagger can be set in the starting gear. Back Stab with Ginnungagap chains again without the extra wait.",
+          "pt": "Assassin: Sonic Blow n\u00e3o obriga mais a usar katar e a segunda adaga pode ir no equipamento inicial. Back Stab com Ginnungagap volta a encadear sem espera extra.",
+          "ru": "Assassin: Sonic Blow \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0437\u0430\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0431\u0440\u0430\u0442\u044c \u043a\u0430\u0442\u0430\u0440, \u0430 \u0432\u0442\u043e\u0440\u043e\u0439 \u043a\u0438\u043d\u0436\u0430\u043b \u043c\u043e\u0436\u043d\u043e \u043f\u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0432 \u0441\u0442\u0430\u0440\u0442\u043e\u0432\u043e\u0435 \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u0435. Back Stab \u0441 Ginnungagap \u0441\u043d\u043e\u0432\u0430 \u0438\u0434\u0435\u0442 \u0446\u0435\u043f\u043e\u0447\u043a\u043e\u0439 \u0431\u0435\u0437 \u043b\u0438\u0448\u043d\u0435\u0439 \u0437\u0430\u0434\u0435\u0440\u0436\u043a\u0438.",
+          "de": "Assassin: Sonic Blow erzwingt kein Katar mehr, und der zweite Dolch l\u00e4sst sich in der Startausr\u00fcstung anlegen. Back Stab mit Ginnungagap verkettet sich wieder ohne zus\u00e4tzliche Wartezeit.",
+          "zh": "Assassin\uff1aSonic Blow \u4e0d\u518d\u5f37\u5236\u4f7f\u7528\u62f3\u5203\uff0c\u7b2c\u4e8c\u628a\u5315\u9996\u4e5f\u80fd\u653e\u9032\u521d\u59cb\u88dd\u5099\u3002Back Stab \u642d\u914d Ginnungagap \u53c8\u80fd\u7121\u984d\u5916\u5ef6\u9072\u5730\u9023\u64ca\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "Pacto Venenoso: el veneno de tus habilidades vuelve a pegar. Ankle Snare vuelve a atrapar jefes al terminar su inmunidad.",
+          "en": "Venom Pact: your skills' poison deals damage again. Ankle Snare catches bosses again once their immunity ends.",
+          "pt": "Pacto Venenoso: o veneno das suas habilidades volta a causar dano. Ankle Snare volta a prender chefes quando a imunidade acaba.",
+          "ru": "\u042f\u0434\u043e\u0432\u0438\u0442\u044b\u0439 \u043f\u0430\u043a\u0442: \u044f\u0434 \u0442\u0432\u043e\u0438\u0445 \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0441\u043d\u043e\u0432\u0430 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0443\u0440\u043e\u043d. Ankle Snare \u0441\u043d\u043e\u0432\u0430 \u043b\u043e\u0432\u0438\u0442 \u0431\u043e\u0441\u0441\u043e\u0432 \u043f\u043e\u0441\u043b\u0435 \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u0438\u0445 \u0438\u043c\u043c\u0443\u043d\u0438\u0442\u0435\u0442\u0430.",
+          "de": "Gift-Pakt: Das Gift deiner F\u00e4higkeiten verursacht wieder Schaden. Ankle Snare f\u00e4ngt Bosse wieder, sobald ihre Immunit\u00e4t endet.",
+          "zh": "\u5287\u6bd2\u5951\u7d04\uff1a\u6280\u80fd\u7684\u6bd2\u53c8\u80fd\u9020\u6210\u50b7\u5bb3\u4e86\u3002Ankle Snare \u5728\u9996\u9818\u514d\u75ab\u7d50\u675f\u5f8c\u53c8\u80fd\u56f0\u4f4f\u5b83\u5011\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "Lord of the Dead recibe Magnus Exorcismus como debe. Heaven's Drive y Earth Spike se ven bien. El hom\u00fanculo muestra su ataque entero.",
+          "en": "Lord of the Dead takes Magnus Exorcismus as it should. Heaven's Drive and Earth Spike are visible. The homunculus shows its whole attack.",
+          "pt": "Lord of the Dead recebe Magnus Exorcismus como deveria. Heaven's Drive e Earth Spike aparecem direito. O hom\u00fanculo mostra o ataque inteiro.",
+          "ru": "Lord of the Dead \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0443\u0440\u043e\u043d \u043e\u0442 Magnus Exorcismus \u043a\u0430\u043a \u043f\u043e\u043b\u043e\u0436\u0435\u043d\u043e. Heaven's Drive \u0438 Earth Spike \u0441\u043d\u043e\u0432\u0430 \u0432\u0438\u0434\u043d\u044b. \u0413\u043e\u043c\u0443\u043d\u043a\u0443\u043b \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u0430\u0442\u0430\u043a\u0443 \u0446\u0435\u043b\u0438\u043a\u043e\u043c.",
+          "de": "Lord of the Dead nimmt Magnus Exorcismus wie vorgesehen Schaden. Heaven's Drive und Earth Spike sind sichtbar. Der Homunkulus zeigt seinen ganzen Angriff.",
+          "zh": "Lord of the Dead \u6703\u6b63\u5e38\u53d7\u5230 Magnus Exorcismus \u7684\u50b7\u5bb3\u3002Heaven's Drive \u8207 Earth Spike \u80fd\u770b\u6e05\u695a\u4e86\u3002\u751f\u547d\u9ad4\u6703\u5b8c\u6574\u986f\u793a\u653b\u64ca\u52d5\u4f5c\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "Amigos: sin conexi\u00f3n la ventana ya no se cuelga, cerrarla nunca deja la pantalla vac\u00eda y Esc la cierra.",
+          "en": "Friends: the window no longer hangs without a connection, closing it never leaves a blank screen, and Esc closes it.",
+          "pt": "Amigos: a janela n\u00e3o trava mais sem conex\u00e3o, fech\u00e1-la nunca deixa a tela vazia e Esc a fecha.",
+          "ru": "\u0414\u0440\u0443\u0437\u044c\u044f: \u043e\u043a\u043d\u043e \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0437\u0430\u0432\u0438\u0441\u0430\u0435\u0442 \u0431\u0435\u0437 \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u044f, \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u043a\u0440\u044b\u0442\u0438\u044f \u044d\u043a\u0440\u0430\u043d \u043d\u0435 \u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f \u043f\u0443\u0441\u0442\u044b\u043c, \u0430 Esc \u0435\u0433\u043e \u0437\u0430\u043a\u0440\u044b\u0432\u0430\u0435\u0442.",
+          "de": "Freunde: Das Fenster h\u00e4ngt ohne Verbindung nicht mehr, nach dem Schlie\u00dfen bleibt der Bildschirm nie leer, und Esc schlie\u00dft es.",
+          "zh": "\u597d\u53cb\uff1a\u6c92\u6709\u7db2\u8def\u6642\u8996\u7a97\u4e0d\u518d\u5361\u4f4f\uff0c\u95dc\u9589\u5f8c\u4e0d\u6703\u7559\u4e0b\u7a7a\u767d\u756b\u9762\uff0c\u4e5f\u80fd\u7528 Esc \u95dc\u9589\u3002"
+        }
+      ],
+      "date": "2026-11-11"
+    },
+    {
       "version": "0.1.272",
       "date": "2026-11-10",
       "items": [
@@ -60,37 +333,55 @@
           "t": "new",
           "es": "Cartas de minijefes con garant\u00eda: si matas 5 veces a un minijefe sin que suelte su carta, la siguiente vez la suelta seguro.",
           "en": "Mini-boss cards have a pity: kill a mini-boss 5 times without its card and the next kill drops it for sure.",
-          "pt": "Cartas de minichefes com garantia: se voc\u00ea matar um minichefe 5 vezes sem a carta, a pr\u00f3xima vez ela cai com certeza."
+          "pt": "Cartas de minichefes com garantia: se voc\u00ea matar um minichefe 5 vezes sem a carta, a pr\u00f3xima vez ela cai com certeza.",
+          "ru": "\u0413\u0430\u0440\u0430\u043d\u0442\u0438\u044f \u043d\u0430 \u043a\u0430\u0440\u0442\u044b \u043c\u0438\u043d\u0438-\u0431\u043e\u0441\u0441\u043e\u0432: \u0435\u0441\u043b\u0438 \u043c\u0438\u043d\u0438-\u0431\u043e\u0441\u0441 5 \u0440\u0430\u0437 \u043d\u0435 \u0443\u0440\u043e\u043d\u0438\u043b \u0441\u0432\u043e\u044e \u043a\u0430\u0440\u0442\u0443, \u043f\u0440\u0438 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u043c \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u0435 \u043e\u043d\u0430 \u0432\u044b\u043f\u0430\u0434\u0435\u0442 \u043d\u0430\u0432\u0435\u0440\u043d\u044f\u043a\u0430.",
+          "de": "Minibosskarten mit Garantie: Besiegst du einen Miniboss 5-mal ohne seine Karte, l\u00e4sst er sie beim n\u00e4chsten Mal sicher fallen.",
+          "zh": "\u5c0f\u9996\u9818\u5361\u7247\u52a0\u5165\u4fdd\u5e95\uff1a\u64ca\u6557\u540c\u4e00\u96bb\u5c0f\u9996\u9818 5 \u6b21\u90fd\u6c92\u6389\u5361\uff0c\u4e0b\u4e00\u6b21\u5fc5\u5b9a\u6389\u843d\u3002"
         },
         {
           "t": "fix",
           "es": "Nakurusa: las armas +10 ya aparecen para darles grado. El grado ahora pide un arma +10.",
           "en": "Nakurusa: +10 weapons now show up for grading. Grading now needs a +10 weapon.",
-          "pt": "Nakurusa: as armas +10 agora aparecem para receber grau. O grau agora pede uma arma +10."
+          "pt": "Nakurusa: as armas +10 agora aparecem para receber grau. O grau agora pede uma arma +10.",
+          "ru": "Nakurusa: \u043e\u0440\u0443\u0436\u0438\u0435 +10 \u0442\u0435\u043f\u0435\u0440\u044c \u043f\u043e\u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0432 \u0441\u043f\u0438\u0441\u043a\u0435 \u0434\u043b\u044f \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u044f \u0440\u0430\u043d\u0433\u0430. \u0414\u043b\u044f \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u044f \u0440\u0430\u043d\u0433\u0430 \u0442\u0435\u043f\u0435\u0440\u044c \u043d\u0443\u0436\u043d\u043e \u043e\u0440\u0443\u0436\u0438\u0435 +10.",
+          "de": "Nakurusa: +10-Waffen werden jetzt zum Erh\u00f6hen des Grads angezeigt. Um den Grad zu erh\u00f6hen, brauchst du jetzt eine +10-Waffe.",
+          "zh": "Nakurusa\uff1a+10 \u6b66\u5668\u73fe\u5728\u6703\u51fa\u73fe\u5728\u8a55\u7d1a\u6e05\u55ae\u4e2d\u3002\u8a55\u7d1a\u73fe\u5728\u9700\u8981 +10 \u6b66\u5668\u3002"
         },
         {
           "t": "up",
           "es": "Nakurusa tiene un men\u00fa propio: elige Refinar, Grado del arma o Transmutar, y cambia entre Refinar y Grado con pesta\u00f1as.",
           "en": "Nakurusa has its own menu: pick Refine, Weapon grade or Transmute, and switch between Refine and Grade with tabs.",
-          "pt": "Nakurusa tem um menu pr\u00f3prio: escolha Refinar, Grau da arma ou Transmutar, e alterne entre Refinar e Grau com abas."
+          "pt": "Nakurusa tem um menu pr\u00f3prio: escolha Refinar, Grau da arma ou Transmutar, e alterne entre Refinar e Grau com abas.",
+          "ru": "\u0423 Nakurusa \u0441\u0432\u043e\u0451 \u043c\u0435\u043d\u044e: \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u00ab\u0417\u0430\u0442\u043e\u0447\u043a\u0430\u00bb, \u00ab\u0420\u0430\u043d\u0433 \u043e\u0440\u0443\u0436\u0438\u044f\u00bb \u0438\u043b\u0438 \u00ab\u0422\u0440\u0430\u043d\u0441\u043c\u0443\u0442\u0430\u0446\u0438\u044f\u00bb, \u0430 \u043c\u0435\u0436\u0434\u0443 \u0437\u0430\u0442\u043e\u0447\u043a\u043e\u0439 \u0438 \u0440\u0430\u043d\u0433\u043e\u043c \u043f\u0435\u0440\u0435\u043a\u043b\u044e\u0447\u0430\u0439\u0442\u0435\u0441\u044c \u0432\u043a\u043b\u0430\u0434\u043a\u0430\u043c\u0438.",
+          "de": "Nakurusa hat ein eigenes Men\u00fc: W\u00e4hle Verfeinern, Waffengrad oder Transmutieren und wechsle per Tabs zwischen Verfeinern und Grad.",
+          "zh": "Nakurusa \u6709\u4e86\u5c08\u5c6c\u9078\u55ae\uff1a\u53ef\u9078\u64c7\u7cbe\u7149\u3001\u6b66\u5668\u8a55\u7d1a\u6216\u8f49\u5316\uff0c\u4e26\u7528\u5206\u9801\u5728\u7cbe\u7149\u8207\u8a55\u7d1a\u4e4b\u9593\u5207\u63db\u3002"
         },
         {
           "t": "fix",
           "es": "La letra del grado ya no se corta en la primera fila del almac\u00e9n.",
           "en": "The grade letter is no longer cut off on the storage's first row.",
-          "pt": "A letra do grau n\u00e3o \u00e9 mais cortada na primeira linha do armaz\u00e9m."
+          "pt": "A letra do grau n\u00e3o \u00e9 mais cortada na primeira linha do armaz\u00e9m.",
+          "ru": "\u0411\u0443\u043a\u0432\u0430 \u0440\u0430\u043d\u0433\u0430 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043e\u0431\u0440\u0435\u0437\u0430\u0435\u0442\u0441\u044f \u0432 \u043f\u0435\u0440\u0432\u043e\u043c \u0440\u044f\u0434\u0443 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0430.",
+          "de": "Der Grad-Buchstabe wird in der ersten Reihe des Lagers nicht mehr abgeschnitten.",
+          "zh": "\u5009\u5eab\u7b2c\u4e00\u5217\u7684\u8a55\u7d1a\u5b57\u6bcd\u4e0d\u518d\u88ab\u5207\u6389\u3002"
         },
         {
           "t": "up",
           "es": "Los cr\u00edticos m\u00e1gicos grandes tambi\u00e9n se ven en azul, y el carcaj dice cu\u00e1ntos tipos de munici\u00f3n tienes y de d\u00f3nde salen los dem\u00e1s.",
           "en": "Big magic crits are blue too, and the quiver shows how many ammo types you have and where to get the rest.",
-          "pt": "Cr\u00edticos m\u00e1gicos grandes tamb\u00e9m ficam azuis, e a aljava mostra quantos tipos de muni\u00e7\u00e3o voc\u00ea tem e de onde v\u00eam os outros."
+          "pt": "Cr\u00edticos m\u00e1gicos grandes tamb\u00e9m ficam azuis, e a aljava mostra quantos tipos de muni\u00e7\u00e3o voc\u00ea tem e de onde v\u00eam os outros.",
+          "ru": "\u041a\u0440\u0443\u043f\u043d\u044b\u0435 \u043c\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043a\u0440\u0438\u0442\u044b \u0442\u0435\u043f\u0435\u0440\u044c \u0442\u043e\u0436\u0435 \u0441\u0438\u043d\u0438\u0435, \u0430 \u043a\u043e\u043b\u0447\u0430\u043d \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442, \u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0443 \u0432\u0430\u0441 \u0432\u0438\u0434\u043e\u0432 \u0431\u043e\u0435\u043f\u0440\u0438\u043f\u0430\u0441\u043e\u0432 \u0438 \u0433\u0434\u0435 \u0434\u043e\u0431\u044b\u0442\u044c \u043e\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u0435.",
+          "de": "Gro\u00dfe magische Krits sind jetzt auch blau, und der K\u00f6cher zeigt, wie viele Munitionsarten du hast und wo du den Rest bekommst.",
+          "zh": "\u9b54\u6cd5\u5927\u7206\u64ca\u4e5f\u6703\u4ee5\u85cd\u8272\u986f\u793a\uff1b\u7bad\u7b52\u6703\u986f\u793a\u4f60\u64c1\u6709\u5e7e\u7a2e\u5f48\u85e5\uff0c\u4ee5\u53ca\u5176\u9918\u5f48\u85e5\u7684\u53d6\u5f97\u65b9\u5f0f\u3002"
         },
         {
           "t": "fix",
           "es": "La Kafra de Discord responde en el idioma de tu pregunta.",
           "en": "The Discord Kafra answers in the language of your question.",
-          "pt": "A Kafra do Discord responde no idioma da sua pergunta."
+          "pt": "A Kafra do Discord responde no idioma da sua pergunta.",
+          "ru": "Kafra \u0432 Discord \u043e\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u043d\u0430 \u044f\u0437\u044b\u043a\u0435 \u0432\u0430\u0448\u0435\u0433\u043e \u0432\u043e\u043f\u0440\u043e\u0441\u0430.",
+          "de": "Die Discord-Kafra antwortet in der Sprache deiner Frage.",
+          "zh": "Discord \u4e0a\u7684 Kafra \u6703\u7528\u4f60\u63d0\u554f\u7684\u8a9e\u8a00\u56de\u7b54\u3002"
         }
       ]
     },
@@ -100,120 +391,366 @@
       "items": [
         {
           "t": "new",
-          "es": "Armas nuevas del Swordsman, solo moradas: lanzas (Pike, Trident, Glaive, Partizan) para Knight y Crusader, y espadas a dos manos (Slayer, Bastard Sword, Two-Handed Sword, Dragon Slayer). Las habilidades de lanza pegan +20% con una lanza en mano.",
-          "en": "New Swordsman weapons, purple only: spears (Pike, Trident, Glaive, Partizan) for Knight and Crusader, and two-handed swords (Slayer, Bastard Sword, Two-Handed Sword, Dragon Slayer). Spear skills deal +20% with a spear in hand.",
-          "pt": "Armas novas do Swordsman, s\u00f3 roxas: lan\u00e7as (Pike, Trident, Glaive, Partizan) para Knight e Crusader, e espadas de duas m\u00e3os (Slayer, Bastard Sword, Two-Handed Sword, Dragon Slayer). Habilidades de lan\u00e7a causam +20% com uma lan\u00e7a na m\u00e3o."
+          "es": "Armas nuevas del Swordsman, solo moradas: lanzas (Pike, Trident, Glaive, Partizan) para Knight y Crusader, y espadas a dos manos (Slayer, Bastard Sword, Two-Handed Sword, Dragon Slayer) para todo el oficio. Las habilidades de lanza pegan +20% con una lanza en mano.",
+          "en": "New Swordsman weapons, purple only: spears (Pike, Trident, Glaive, Partizan) for Knight and Crusader, and two-handed swords (Slayer, Bastard Sword, Two-Handed Sword, Dragon Slayer) for the whole line. Spear skills deal +20% with a spear in hand.",
+          "pt": "Armas novas do Swordsman, s\u00f3 roxas: lan\u00e7as (Pike, Trident, Glaive, Partizan) para Knight e Crusader, e espadas de duas m\u00e3os (Slayer, Bastard Sword, Two-Handed Sword, Dragon Slayer) para toda a linha. Habilidades de lan\u00e7a causam +20% com uma lan\u00e7a na m\u00e3o.",
+          "ru": "\u041d\u043e\u0432\u043e\u0435 \u043e\u0440\u0443\u0436\u0438\u0435 Swordsman, \u0442\u043e\u043b\u044c\u043a\u043e \u0444\u0438\u043e\u043b\u0435\u0442\u043e\u0432\u043e\u0435: \u043a\u043e\u043f\u044c\u044f (Pike, Trident, Glaive, Partizan) \u0434\u043b\u044f Knight \u0438 Crusader \u0438 \u0434\u0432\u0443\u0440\u0443\u0447\u043d\u044b\u0435 \u043c\u0435\u0447\u0438 (Slayer, Bastard Sword, Two-Handed Sword, Dragon Slayer) \u0434\u043b\u044f \u0432\u0441\u0435\u0439 \u0432\u0435\u0442\u043a\u0438. \u041d\u0430\u0432\u044b\u043a\u0438 \u043a\u043e\u043f\u044c\u044f \u043d\u0430\u043d\u043e\u0441\u044f\u0442 +20% \u0443\u0440\u043e\u043d\u0430, \u0435\u0441\u043b\u0438 \u0432 \u0440\u0443\u043a\u0430\u0445 \u043a\u043e\u043f\u044c\u0451.",
+          "de": "Neue Swordsman-Waffen, nur lila: Speere (Pike, Trident, Glaive, Partizan) f\u00fcr Knight und Crusader und Zweihandschwerter (Slayer, Bastard Sword, Two-Handed Sword, Dragon Slayer) f\u00fcr die ganze Klassenlinie. Speerf\u00e4higkeiten machen +20 % Schaden mit einem Speer in der Hand.",
+          "zh": "Swordsman \u65b0\u6b66\u5668\uff08\u50c5\u9650\u7d2b\u8272\uff09\uff1aKnight \u8207 Crusader \u5c08\u7528\u7684\u9577\u77db\uff08Pike\u3001Trident\u3001Glaive\u3001Partizan\uff09\uff0c\u4ee5\u53ca\u6574\u500b\u8077\u696d\u7cfb\u90fd\u80fd\u7528\u7684\u96d9\u624b\u528d\uff08Slayer\u3001Bastard Sword\u3001Two-Handed Sword\u3001Dragon Slayer\uff09\u3002\u624b\u6301\u9577\u77db\u6642\uff0c\u9577\u77db\u6280\u80fd\u50b7\u5bb3 +20%\u3002"
         },
         {
           "t": "new",
-          "es": "Gungnir, lanza legendaria: Spear Boomerang busca al monstruo m\u00e1s fuerte y cae como el Juicio de Od\u00edn. Montado en Peco se ve la lanza o la espada que llevas.",
-          "en": "Gungnir, legendary spear: Spear Boomerang seeks the strongest monster and lands as Odin's Judgment. Riding a Peco now shows the spear or sword you hold.",
-          "pt": "Gungnir, lan\u00e7a lend\u00e1ria: Spear Boomerang busca o monstro mais forte e cai como o Julgamento de Odin. Montado no Peco aparece a lan\u00e7a ou espada que voc\u00ea usa.",
-          "img": "0.1.271_gungnir.webp"
+          "es": "Gungnir, lanza legendaria: Spear Boomerang busca al monstruo m\u00e1s fuerte y cae como el Juicio de Od\u00edn.",
+          "en": "Gungnir, legendary spear: Spear Boomerang seeks the strongest monster and lands as Odin's Judgment.",
+          "pt": "Gungnir, lan\u00e7a lend\u00e1ria: Spear Boomerang busca o monstro mais forte e cai como o Julgamento de Odin.",
+          "img": "0.1.271_gungnir.webp",
+          "ru": "Gungnir, \u043b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u043e\u0435 \u043a\u043e\u043f\u044c\u0451: Spear Boomerang \u043b\u0435\u0442\u0438\u0442 \u0432 \u0441\u0430\u043c\u043e\u0433\u043e \u0441\u0438\u043b\u044c\u043d\u043e\u0433\u043e \u043c\u043e\u043d\u0441\u0442\u0440\u0430 \u0438 \u043e\u0431\u0440\u0443\u0448\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0430 \u043d\u0435\u0433\u043e, \u043a\u0430\u043a \u0421\u0443\u0434 Odin.",
+          "de": "Gungnir, legend\u00e4rer Speer: Spear Boomerang sucht sich das st\u00e4rkste Monster und schl\u00e4gt als Odins Urteil ein.",
+          "zh": "\u50b3\u8aaa\u9577\u77db Gungnir\uff1aSpear Boomerang \u6703\u8ffd\u8e64\u6700\u5f37\u7684\u602a\u7269\uff0c\u4e26\u5316\u70ba Odin \u7684\u5be9\u5224\u5f9e\u5929\u800c\u964d\u3002"
         },
         {
           "t": "new",
-          "es": "Juperos Railgun: la \u00fanica del Gunslinger ahora carga el Ca\u00f1\u00f3n Apocalipsis con tus ataques (barra bajo los pies) y F dispara un rayo que cruza el mapa.",
-          "en": "Juperos Railgun: the Gunslinger's unique now charges the Apocalypse Cannon with your attacks (bar under your feet) and F fires a beam across the map.",
-          "pt": "Juperos Railgun: a \u00fanica do Gunslinger agora carrega o Canh\u00e3o Apocalipse com seus ataques (barra sob os p\u00e9s) e F dispara um raio que cruza o mapa.",
-          "img": "0.1.271_cannon.webp"
+          "es": "Montado en Peco, el Knight y el Crusader muestran la lanza o la espada a dos manos que llevan.",
+          "en": "Riding a Peco, Knights and Crusaders now show the spear or two-handed sword they hold.",
+          "pt": "Montados no Peco, Knight e Crusader mostram a lan\u00e7a ou a espada de duas m\u00e3os que usam.",
+          "ru": "Knight \u0438 Crusader \u0432\u0435\u0440\u0445\u043e\u043c \u043d\u0430 Peco \u0442\u0435\u043f\u0435\u0440\u044c \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u044e\u0442\u0441\u044f \u0441 \u043a\u043e\u043f\u044c\u0451\u043c \u0438\u043b\u0438 \u0434\u0432\u0443\u0440\u0443\u0447\u043d\u044b\u043c \u043c\u0435\u0447\u043e\u043c, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0443 \u043d\u0438\u0445 \u0432 \u0440\u0443\u043a\u0430\u0445.",
+          "de": "Auf dem Peco zeigen Knights und Crusader jetzt den Speer oder das Zweihandschwert, das sie f\u00fchren.",
+          "zh": "\u9a0e\u4e58 Peco Peco \u6642\uff0cKnight \u8207 Crusader \u73fe\u5728\u6703\u986f\u793a\u624b\u4e2d\u7684\u9577\u77db\u6216\u96d9\u624b\u528d\u3002"
         },
         {
           "t": "new",
-          "es": "Infiltrator, \u00fanica de katar del Assassin, y Meteor Assault para el Assassin Cross (con su versi\u00f3n EX).",
-          "en": "Infiltrator, an Assassin katar unique, and Meteor Assault for the Assassin Cross (with its EX version).",
-          "pt": "Infiltrator, \u00fanica de katar do Assassin, e Meteor Assault para o Assassin Cross (com sua vers\u00e3o EX)."
+          "es": "Juperos Railgun: la \u00fanica del Gunslinger ahora da el Ca\u00f1\u00f3n Apocalipsis. Tus ataques b\u00e1sicos lo cargan (8 niveles, barra bajo los pies, hasta x10) y F dispara un rayo que cruza el mapa hacia el monstruo m\u00e1s fuerte. Sus sonidos se escuchan siempre.",
+          "en": "Juperos Railgun: the Gunslinger's unique now grants the Apocalypse Cannon. Your basic attacks charge it (8 levels, bar under your feet, up to x10) and F fires a beam across the map at the strongest monster. Its sounds always play.",
+          "pt": "Juperos Railgun: a \u00fanica do Gunslinger agora d\u00e1 o Canh\u00e3o Apocalipse. Seus ataques b\u00e1sicos carregam (8 n\u00edveis, barra sob os p\u00e9s, at\u00e9 x10) e F dispara um raio que cruza o mapa at\u00e9 o monstro mais forte. Seus sons sempre tocam.",
+          "img": "0.1.271_cannon.webp",
+          "ru": "Juperos Railgun: \u0443\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u043e\u0440\u0443\u0436\u0438\u0435 Gunslinger \u0442\u0435\u043f\u0435\u0440\u044c \u0434\u0430\u0451\u0442 \u041f\u0443\u0448\u043a\u0443 \u0410\u043f\u043e\u043a\u0430\u043b\u0438\u043f\u0441\u0438\u0441\u0430. \u041e\u0431\u044b\u0447\u043d\u044b\u0435 \u0430\u0442\u0430\u043a\u0438 \u0437\u0430\u0440\u044f\u0436\u0430\u044e\u0442 \u0435\u0451 (8 \u0443\u0440\u043e\u0432\u043d\u0435\u0439, \u0448\u043a\u0430\u043b\u0430 \u043f\u043e\u0434 \u043d\u043e\u0433\u0430\u043c\u0438, \u0434\u043e x10), \u0430 \u043a\u043b\u0430\u0432\u0438\u0448\u0430 F \u0432\u044b\u043f\u0443\u0441\u043a\u0430\u0435\u0442 \u043b\u0443\u0447 \u0447\u0435\u0440\u0435\u0437 \u0432\u0441\u044e \u043b\u043e\u043a\u0430\u0446\u0438\u044e \u0432 \u0441\u0430\u043c\u043e\u0433\u043e \u0441\u0438\u043b\u044c\u043d\u043e\u0433\u043e \u043c\u043e\u043d\u0441\u0442\u0440\u0430. \u0417\u0432\u0443\u043a\u0438 \u043f\u0443\u0448\u043a\u0438 \u0441\u043b\u044b\u0448\u043d\u044b \u0432\u0441\u0435\u0433\u0434\u0430.",
+          "de": "Juperos Railgun: Die einzigartige Waffe des Gunslingers gew\u00e4hrt jetzt die Apokalypse-Kanone. Deine Standardangriffe laden sie auf (8 Stufen, Leiste unter deinen F\u00fc\u00dfen, bis zu x10), und mit F feuerst du einen Strahl quer durch das Gebiet auf das st\u00e4rkste Monster. Ihre Sounds sind immer zu h\u00f6ren.",
+          "zh": "Juperos Railgun\uff1aGunslinger \u7684\u7368\u7279\u88dd\u5099\u73fe\u5728\u8ce6\u4e88\u300c\u672b\u65e5\u7832\u300d\u3002\u666e\u901a\u653b\u64ca\u6703\u70ba\u5b83\u5145\u80fd\uff08\u5171 8 \u7d1a\uff0c\u80fd\u91cf\u689d\u5728\u8173\u4e0b\uff0c\u6700\u9ad8 x10\uff09\uff0c\u6309 F \u767c\u5c04\u4e00\u9053\u6a6b\u8d8a\u5730\u5716\u7684\u5149\u675f\uff0c\u76f4\u64ca\u6700\u5f37\u7684\u602a\u7269\u3002\u5b83\u7684\u97f3\u6548\u4e00\u5f8b\u6703\u64ad\u653e\u3002"
         },
         {
           "t": "new",
-          "es": "Grados de arma con Nakurusa: desde cierto refinamiento, tu arma puede subir de grado con Oridecon para ganar da\u00f1o. Si falla, solo pierdes lo pagado.",
-          "en": "Weapon grades with Nakurusa: past a certain refine, your weapon can be graded up with Oridecon for more damage. A failure only costs what you paid.",
-          "pt": "Graus de arma com Nakurusa: a partir de certo refino, sua arma pode subir de grau com Oridecon para ganhar dano. Se falhar, voc\u00ea s\u00f3 perde o que pagou."
+          "es": "Heat Barrel sin bot\u00f3n: quieto, el ca\u00f1\u00f3n se calienta hasta el rojo vivo y pega hasta el doble; al moverte se enfr\u00eda. Su calor se ve en el arma, en el suelo y en la barra de buffs.",
+          "en": "Heat Barrel has no button now: standing still, the barrel heats up to red-hot and hits up to twice as hard; moving cools it down. The heat shows on the gun, the ground and the buff row.",
+          "pt": "Heat Barrel sem bot\u00e3o: parado, o cano esquenta at\u00e9 ficar em brasa e bate at\u00e9 o dobro; ao se mover, esfria. O calor aparece na arma, no ch\u00e3o e na fila de buffs.",
+          "ru": "Heat Barrel \u0442\u0435\u043f\u0435\u0440\u044c \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0431\u0435\u0437 \u043a\u043d\u043e\u043f\u043a\u0438: \u043f\u043e\u043a\u0430 \u0432\u044b \u0441\u0442\u043e\u0438\u0442\u0435 \u043d\u0430 \u043c\u0435\u0441\u0442\u0435, \u0441\u0442\u0432\u043e\u043b \u0440\u0430\u0441\u043a\u0430\u043b\u044f\u0435\u0442\u0441\u044f \u0434\u043e\u043a\u0440\u0430\u0441\u043d\u0430 \u0438 \u0431\u044c\u0451\u0442 \u0432\u043f\u043b\u043e\u0442\u044c \u0434\u043e \u0434\u0432\u0443\u0445 \u0440\u0430\u0437 \u0441\u0438\u043b\u044c\u043d\u0435\u0435, \u0430 \u0432 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0438 \u043e\u0441\u0442\u044b\u0432\u0430\u0435\u0442. \u0416\u0430\u0440 \u0432\u0438\u0434\u0435\u043d \u043d\u0430 \u043e\u0440\u0443\u0436\u0438\u0438, \u043d\u0430 \u0437\u0435\u043c\u043b\u0435 \u0438 \u043d\u0430 \u043f\u0430\u043d\u0435\u043b\u0438 \u0431\u0430\u0444\u0444\u043e\u0432.",
+          "de": "Heat Barrel braucht keine Taste mehr: Wenn du stillstehst, heizt sich der Lauf bis zur Rotglut auf und trifft bis zu doppelt so hart; Bewegung k\u00fchlt ihn ab. Die Hitze siehst du an der Waffe, am Boden und in der Buff-Leiste.",
+          "zh": "Heat Barrel \u4e0d\u518d\u9700\u8981\u6309\u9375\uff1a\u7ad9\u8457\u4e0d\u52d5\u6642\u69cd\u7ba1\u6703\u9010\u6f38\u71d2\u5230\u901a\u7d05\uff0c\u50b7\u5bb3\u6700\u9ad8\u7ffb\u500d\uff1b\u79fb\u52d5\u5247\u6703\u51b7\u537b\u3002\u71b1\u5ea6\u6703\u986f\u793a\u5728\u69cd\u4e0a\u3001\u5730\u9762\u548c\u589e\u76ca\u5217\u4e2d\u3002"
         },
         {
           "t": "new",
-          "es": "Mascotas MVP con habilidades nuevas: ondas, golpes, curas, escudos, buffs para la party y marcas sobre los monstruos.",
-          "en": "MVP pets have new skills: novas, strikes, heals, shields, party buffs and marks on monsters.",
-          "pt": "Mascotes MVP com habilidades novas: ondas, golpes, curas, escudos, buffs para a party e marcas nos monstros."
+          "es": "Infiltrator, \u00fanica de katar del Assassin: cada Sonic Blow graba tajos en su objetivo y con 8 la marca estalla con el doble de todo.",
+          "en": "Infiltrator, an Assassin katar unique: each Sonic Blow carves slashes into its target, and at 8 the mark bursts for double everything.",
+          "pt": "Infiltrator, \u00fanica de katar do Assassin: cada Sonic Blow grava cortes no alvo e com 8 a marca explode com o dobro de tudo.",
+          "ru": "Infiltrator, \u0443\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u0442\u0430\u0440 Assassin: \u043a\u0430\u0436\u0434\u044b\u0439 Sonic Blow \u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043d\u0430 \u0446\u0435\u043b\u0438 \u043f\u043e\u0440\u0435\u0437\u044b, \u0430 \u043d\u0430 8-\u043c \u043c\u0435\u0442\u043a\u0430 \u0432\u0437\u0440\u044b\u0432\u0430\u0435\u0442\u0441\u044f, \u0438 \u0432\u0441\u0451 \u0435\u0451 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0443\u0434\u0432\u0430\u0438\u0432\u0430\u0435\u0442\u0441\u044f.",
+          "de": "Infiltrator, ein einzigartiger Katar f\u00fcr den Assassin: Jeder Sonic Blow ritzt Schnitte in sein Ziel, und bei 8 Schnitten explodiert das Mal: alles doppelt.",
+          "zh": "Infiltrator\uff0cAssassin \u7684\u62f3\u5203\u7368\u7279\u88dd\u5099\uff1a\u6bcf\u6b21 Sonic Blow \u90fd\u6703\u5728\u76ee\u6a19\u8eab\u4e0a\u523b\u4e0b\u5200\u75d5\uff0c\u7d2f\u7a4d 8 \u9053\u6642\u5370\u8a18\u7206\u767c\uff0c\u4e00\u5207\u6548\u679c\u52a0\u500d\u3002"
         },
         {
           "t": "new",
-          "es": "Ventana Novedades en el juego (login y pausa) y Minimapa con zoom (clic o rueda).",
-          "en": "In-game News window (login and pause) and a zoomable minimap (click or mouse wheel).",
-          "pt": "Janela Novidades no jogo (login e pausa) e minimapa com zoom (clique ou roda do mouse)."
+          "es": "Meteor Assault para el Assassin Cross: una onda oscura que aturde, ciega y hace sangrar, y revienta la sangre de los que ya sangraban. Su EX lanza dos ondas.",
+          "en": "Meteor Assault for the Assassin Cross: a dark wave that stuns, blinds and makes monsters bleed, and bursts the blood of those already bleeding. Its EX sends two waves.",
+          "pt": "Meteor Assault para o Assassin Cross: uma onda sombria que atordoa, cega e faz sangrar, e estoura o sangue de quem j\u00e1 sangrava. A vers\u00e3o EX lan\u00e7a duas ondas.",
+          "ru": "Meteor Assault \u0434\u043b\u044f Assassin Cross: \u0442\u0451\u043c\u043d\u0430\u044f \u0432\u043e\u043b\u043d\u0430 \u043e\u0433\u043b\u0443\u0448\u0430\u0435\u0442, \u043e\u0441\u043b\u0435\u043f\u043b\u044f\u0435\u0442 \u0438 \u0432\u044b\u0437\u044b\u0432\u0430\u0435\u0442 \u043a\u0440\u043e\u0432\u043e\u0442\u0435\u0447\u0435\u043d\u0438\u0435, \u0430 \u0443 \u043c\u043e\u043d\u0441\u0442\u0440\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0443\u0436\u0435 \u0438\u0441\u0442\u0435\u043a\u0430\u044e\u0442 \u043a\u0440\u043e\u0432\u044c\u044e, \u043a\u0440\u043e\u0432\u044c \u0432\u0437\u0440\u044b\u0432\u0430\u0435\u0442\u0441\u044f. EX-\u0432\u0435\u0440\u0441\u0438\u044f \u0432\u044b\u043f\u0443\u0441\u043a\u0430\u0435\u0442 \u0434\u0432\u0435 \u0432\u043e\u043b\u043d\u044b.",
+          "de": "Meteor Assault f\u00fcr den Assassin Cross: eine dunkle Welle, die bet\u00e4ubt, blendet und Monster bluten l\u00e4sst und bei bereits blutenden Monstern das Blut zum Platzen bringt. Die EX-Version schickt zwei Wellen los.",
+          "zh": "Assassin Cross \u65b0\u6280\u80fd Meteor Assault\uff1a\u91cb\u653e\u4e00\u9053\u6697\u9ed1\u885d\u64ca\u6ce2\uff0c\u9020\u6210\u6688\u7729\u3001\u9ed1\u6697\u8207\u51fa\u8840\uff0c\u4e26\u5f15\u7206\u5df2\u51fa\u8840\u602a\u7269\u8eab\u4e0a\u7684\u8840\u3002EX \u7248\u672c\u6703\u653e\u51fa\u5169\u9053\u885d\u64ca\u6ce2\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Grados de arma con Nakurusa: tu arma puede subir de grado (D, C, B, A, S) con Oridecon para ganar da\u00f1o. Si falla, solo pierdes lo pagado.",
+          "en": "Weapon grades with Nakurusa: your weapon can go up in grade (D, C, B, A, S) with Oridecon for more damage. A failure only costs what you paid.",
+          "pt": "Graus de arma com Nakurusa: sua arma pode subir de grau (D, C, B, A, S) com Oridecon para ganhar dano. Se falhar, voc\u00ea s\u00f3 perde o que pagou.",
+          "ru": "\u0420\u0430\u043d\u0433\u0438 \u043e\u0440\u0443\u0436\u0438\u044f \u0443 Nakurusa: \u043f\u043e\u0432\u044b\u0448\u0430\u0439\u0442\u0435 \u0440\u0430\u043d\u0433 \u043e\u0440\u0443\u0436\u0438\u044f (D, C, B, A, S) \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e Oridecon, \u0447\u0442\u043e\u0431\u044b \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0442\u044c \u0443\u0440\u043e\u043d. \u041f\u0440\u0438 \u043d\u0435\u0443\u0434\u0430\u0447\u0435 \u0432\u044b \u0442\u0435\u0440\u044f\u0435\u0442\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0443\u043f\u043b\u0430\u0447\u0435\u043d\u043d\u043e\u0435.",
+          "de": "Waffengrade bei Nakurusa: Mit Oridecon kann deine Waffe im Grad aufsteigen (D, C, B, A, S) und mehr Schaden machen. Geht es schief, verlierst du nur, was du bezahlt hast.",
+          "zh": "Nakurusa \u6b66\u5668\u8a55\u7d1a\uff1a\u7528 Oridecon \u63d0\u5347\u6b66\u5668\u8a55\u7d1a\uff08D\u3001C\u3001B\u3001A\u3001S\uff09\u4ee5\u7372\u5f97\u66f4\u9ad8\u50b7\u5bb3\u3002\u5931\u6557\u6642\u53ea\u6703\u640d\u5931\u652f\u4ed8\u7684\u6750\u6599\u8207\u8cbb\u7528\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Mascotas MVP con habilidades nuevas: ondas, golpes a los m\u00e1s fuertes, curas, escudos, buffs para la party, marcas de Lex Aeterna, maldiciones y Memory of Thanatos que repite tus habilidades.",
+          "en": "MVP pets have new skills: novas, strikes on the toughest, heals, shields, party buffs, Lex Aeterna marks, curses, and Memory of Thanatos casting your skills again.",
+          "pt": "Mascotes MVP com habilidades novas: ondas, golpes nos mais fortes, curas, escudos, buffs para a party, marcas de Lex Aeterna, maldi\u00e7\u00f5es e Memory of Thanatos repetindo suas habilidades.",
+          "ru": "\u0423 \u043f\u0438\u0442\u043e\u043c\u0446\u0435\u0432-MVP \u043d\u043e\u0432\u044b\u0435 \u043d\u0430\u0432\u044b\u043a\u0438: \u0432\u043e\u043b\u043d\u044b, \u0443\u0434\u0430\u0440\u044b \u043f\u043e \u0441\u0430\u043c\u044b\u043c \u0441\u0438\u043b\u044c\u043d\u044b\u043c \u0432\u0440\u0430\u0433\u0430\u043c, \u043b\u0435\u0447\u0435\u043d\u0438\u0435, \u0449\u0438\u0442\u044b, \u0431\u0430\u0444\u0444\u044b \u0434\u043b\u044f \u0433\u0440\u0443\u043f\u043f\u044b, \u043c\u0435\u0442\u043a\u0438 Lex Aeterna, \u043f\u0440\u043e\u043a\u043b\u044f\u0442\u0438\u044f \u0438 Memory of Thanatos, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043f\u043e\u0432\u0442\u043e\u0440\u044f\u0435\u0442 \u0432\u0430\u0448\u0438 \u043d\u0430\u0432\u044b\u043a\u0438.",
+          "de": "MVP-Begleiter haben neue F\u00e4higkeiten: Novas, Treffer gegen die st\u00e4rksten Gegner, Heilungen, Schilde, Party-Buffs, Lex-Aeterna-Male, Fl\u00fcche und Memory of Thanatos, das deine F\u00e4higkeiten wiederholt.",
+          "zh": "MVP \u5bf5\u7269\u65b0\u6280\u80fd\uff1a\u885d\u64ca\u6ce2\u3001\u653b\u64ca\u6700\u5f37\u6575\u4eba\u3001\u6cbb\u7642\u3001\u8b77\u76fe\u3001\u968a\u4f0d\u589e\u76ca\u3001Lex Aeterna \u5370\u8a18\u3001\u8a5b\u5492\uff0c\u4ee5\u53ca\u80fd\u91cd\u8907\u65bd\u653e\u4f60\u6280\u80fd\u7684 Memory of Thanatos\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Prontera: la Valkyrie tiene un men\u00fa para Renacer o Cambiar de h\u00e9roe sin salir de la plaza (sin perder canal ni party). Arriba a la izquierda, Personaje (C) y tu canal.",
+          "en": "Prontera: the Valkyrie has a menu to Rebirth or Switch hero without leaving the plaza (you keep your channel and party). Top left: Character (C) and your channel.",
+          "pt": "Prontera: a Valkyrie tem um menu para Renascer ou Trocar de her\u00f3i sem sair da pra\u00e7a (sem perder canal nem party). No canto superior esquerdo: Personagem (C) e seu canal.",
+          "ru": "Prontera: \u0443 Valkyrie \u0435\u0441\u0442\u044c \u043c\u0435\u043d\u044e, \u0447\u0442\u043e\u0431\u044b \u043f\u0435\u0440\u0435\u0440\u043e\u0434\u0438\u0442\u044c\u0441\u044f \u0438\u043b\u0438 \u0441\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u0435\u0440\u043e\u044f, \u043d\u0435 \u043f\u043e\u043a\u0438\u0434\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c (\u043a\u0430\u043d\u0430\u043b \u0438 \u0433\u0440\u0443\u043f\u043f\u0430 \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u044e\u0442\u0441\u044f). \u0421\u043b\u0435\u0432\u0430 \u0432\u0432\u0435\u0440\u0445\u0443: \u00ab\u041f\u0435\u0440\u0441\u043e\u043d\u0430\u0436\u00bb (C) \u0438 \u0432\u0430\u0448 \u043a\u0430\u043d\u0430\u043b.",
+          "de": "Prontera: Die Valkyrie hat ein Men\u00fc f\u00fcr \u201eWiedergeburt\u201c oder \u201eHeld wechseln\u201c, ohne dass du den Platz verlassen musst (du beh\u00e4ltst Kanal und Party). Oben links: Charakter (C) und dein Kanal.",
+          "zh": "Prontera\uff1aValkyrie \u6709\u4e86\u65b0\u9078\u55ae\uff0c\u4e0d\u5fc5\u96e2\u958b\u5ee3\u5834\u5c31\u80fd\u8f49\u751f\u6216\u66f4\u63db\u82f1\u96c4\uff08\u983b\u9053\u8207\u968a\u4f0d\u90fd\u6703\u4fdd\u7559\uff09\u3002\u5de6\u4e0a\u89d2\u65b0\u589e\u89d2\u8272 (C) \u6309\u9215\u4e26\u986f\u793a\u4f60\u7684\u983b\u9053\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Ventana Novedades en el juego (login y pausa) con las notas de cada parche, y Minimapa con zoom x1, x2 y x3 (clic o rueda) que se\u00f1ala lo que queda fuera de vista.",
+          "en": "In-game News window (login and pause) with every patch's notes, and a minimap zoom (x1, x2, x3: click or mouse wheel) that points at what is out of view.",
+          "pt": "Janela Novidades no jogo (login e pausa) com as notas de cada patch, e minimapa com zoom x1, x2 e x3 (clique ou roda) que aponta o que est\u00e1 fora de vista.",
+          "ru": "\u041e\u043a\u043d\u043e \u00ab\u041d\u043e\u0432\u043e\u0441\u0442\u0438\u00bb \u0432 \u0438\u0433\u0440\u0435 (\u043f\u0440\u0438 \u0432\u0445\u043e\u0434\u0435 \u0438 \u0432 \u043f\u0430\u0443\u0437\u0435) \u0441 \u0437\u0430\u043c\u0435\u0442\u043a\u0430\u043c\u0438 \u043a \u043a\u0430\u0436\u0434\u043e\u043c\u0443 \u043f\u0430\u0442\u0447\u0443, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043c\u0430\u0441\u0448\u0442\u0430\u0431 \u043c\u0438\u043d\u0438\u043a\u0430\u0440\u0442\u044b (x1, x2, x3: \u043a\u043b\u0438\u043a \u0438\u043b\u0438 \u043a\u043e\u043b\u0435\u0441\u043e \u043c\u044b\u0448\u0438) \u0441 \u0443\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044f\u043c\u0438 \u043d\u0430 \u0442\u043e, \u0447\u0442\u043e \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432\u043d\u0435 \u043f\u043e\u043b\u044f \u0437\u0440\u0435\u043d\u0438\u044f.",
+          "de": "Neues Fenster \u201eNeuigkeiten\u201c im Spiel (Login und Pause) mit den Patchnotes jedes Updates, und eine Minimap mit Zoom (x1, x2, x3: Klick oder Mausrad), die anzeigt, was au\u00dferhalb des Sichtfelds liegt.",
+          "zh": "\u904a\u6232\u5167\u65b0\u589e\u300c\u66f4\u65b0\u5167\u5bb9\u300d\u8996\u7a97\uff08\u767b\u5165\u8207\u66ab\u505c\u756b\u9762\uff09\uff0c\u6536\u9304\u6bcf\u6b21\u66f4\u65b0\u7684\u8aaa\u660e\uff1b\u5c0f\u5730\u5716\u53ef\u7e2e\u653e x1\u3001x2\u3001x3\uff08\u9ede\u64ca\u6216\u6efe\u8f2a\uff09\uff0c\u4e26\u6a19\u793a\u8996\u91ce\u5916\u7684\u76ee\u6a19\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Medidor de da\u00f1o: bot\u00f3n Reiniciar en sus detalles (cuenta desde ese momento; el total de la partida y los r\u00e9cords no cambian).",
+          "en": "Damage meter: a Reset button in its details (counts from that moment; the run's total and records don't change).",
+          "pt": "Medidor de dano: bot\u00e3o Reiniciar nos detalhes (conta a partir daquele momento; o total da partida e os recordes n\u00e3o mudam).",
+          "ru": "\u0421\u0447\u0435\u0442\u0447\u0438\u043a \u0443\u0440\u043e\u043d\u0430: \u043a\u043d\u043e\u043f\u043a\u0430 \u00ab\u0421\u0431\u0440\u043e\u0441\u00bb \u0432 \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u043e\u0439 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0435 (\u043e\u0442\u0441\u0447\u0451\u0442 \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442\u0441\u044f \u0441 \u044d\u0442\u043e\u0433\u043e \u043c\u043e\u043c\u0435\u043d\u0442\u0430; \u043e\u0431\u0449\u0438\u0439 \u0438\u0442\u043e\u0433 \u0437\u0430\u0431\u0435\u0433\u0430 \u0438 \u0440\u0435\u043a\u043e\u0440\u0434\u044b \u043d\u0435 \u043c\u0435\u043d\u044f\u044e\u0442\u0441\u044f).",
+          "de": "Schadensmesser: ein Zur\u00fccksetzen-Button in den Details (z\u00e4hlt ab diesem Moment; die Gesamtwerte des Runs und die Rekorde bleiben unver\u00e4ndert).",
+          "zh": "\u50b7\u5bb3\u8a08\u91cf\u8868\uff1a\u8a73\u7d30\u8cc7\u8a0a\u4e2d\u65b0\u589e\u91cd\u7f6e\u6309\u9215\uff08\u5f9e\u6309\u4e0b\u6642\u91cd\u65b0\u8a08\u7b97\uff1b\u672c\u5c40\u7e3d\u50b7\u5bb3\u8207\u7d00\u9304\u4e0d\u53d7\u5f71\u97ff\uff09\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Golden Poring autom\u00e1tico con Ko-fi: el bot\u00f3n C\u00f3mprame un caf\u00e9 muestra tu c\u00f3digo de amigo; ponlo en el mensaje de Ko-fi y recibes el t\u00edtulo solo.",
+          "en": "Automatic Golden Poring with Ko-fi: the Buy me a coffee button shows your friend code; put it in your Ko-fi message and the title arrives by itself.",
+          "pt": "Golden Poring autom\u00e1tico com Ko-fi: o bot\u00e3o Me pague um caf\u00e9 mostra seu c\u00f3digo de amigo; coloque-o na mensagem do Ko-fi e o t\u00edtulo chega sozinho.",
+          "ru": "\u0422\u0438\u0442\u0443\u043b Golden Poring \u0442\u0435\u043f\u0435\u0440\u044c \u0432\u044b\u0434\u0430\u0451\u0442\u0441\u044f \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0447\u0435\u0440\u0435\u0437 Ko-fi: \u043a\u043d\u043e\u043f\u043a\u0430 \u00ab\u041a\u0443\u043f\u0438 \u043c\u043d\u0435 \u043a\u043e\u0444\u0435\u00bb \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u0432\u0430\u0448 \u043a\u043e\u0434 \u0434\u0440\u0443\u0433\u0430; \u0443\u043a\u0430\u0436\u0438\u0442\u0435 \u0435\u0433\u043e \u0432 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0438 \u043d\u0430 Ko-fi, \u0438 \u0442\u0438\u0442\u0443\u043b \u043f\u0440\u0438\u0434\u0451\u0442 \u0441\u0430\u043c.",
+          "de": "Automatischer Golden Poring \u00fcber Ko-fi: Der Button \u201eSpendier mir einen Kaffee\u201c zeigt deinen Freundescode; schreib ihn in deine Ko-fi-Nachricht, und der Titel kommt von ganz allein.",
+          "zh": "Ko-fi \u81ea\u52d5\u767c\u653e Golden Poring \u7a31\u865f\uff1a\u300c\u8acb\u6211\u559d\u676f\u5496\u5561\u300d\u6309\u9215\u6703\u986f\u793a\u4f60\u7684\u597d\u53cb\u4ee3\u78bc\uff0c\u628a\u5b83\u5beb\u9032 Ko-fi \u7559\u8a00\uff0c\u7a31\u865f\u5c31\u6703\u81ea\u52d5\u9001\u9054\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Gu\u00eda: pesta\u00f1a Elementos con la tabla de da\u00f1o de cada elemento, y pesta\u00f1a Opciones \u00fatiles (\u00bfpocos FPS?).",
+          "en": "Guide: an Elements tab with each element's damage table, and a Useful options tab (low FPS?).",
+          "pt": "Guia: aba Elementos com a tabela de dano de cada elemento, e aba Op\u00e7\u00f5es \u00fateis (poucos FPS?).",
+          "ru": "\u0421\u043f\u0440\u0430\u0432\u043a\u0430: \u0432\u043a\u043b\u0430\u0434\u043a\u0430 \u00ab\u0421\u0442\u0438\u0445\u0438\u0438\u00bb \u0441 \u0442\u0430\u0431\u043b\u0438\u0446\u0435\u0439 \u0443\u0440\u043e\u043d\u0430 \u043a\u0430\u0436\u0434\u043e\u0439 \u0441\u0442\u0438\u0445\u0438\u0438 \u0438 \u0432\u043a\u043b\u0430\u0434\u043a\u0430 \u00ab\u041f\u043e\u043b\u0435\u0437\u043d\u044b\u0435 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438\u00bb (\u043d\u0438\u0437\u043a\u0438\u0439 FPS?).",
+          "de": "Guide: ein Elemente-Tab mit der Schadenstabelle jedes Elements und ein Tab \u201eN\u00fctzliche Optionen\u201c (zu wenig FPS?).",
+          "zh": "\u6307\u5357\uff1a\u65b0\u589e\u300c\u5c6c\u6027\u300d\u5206\u9801\uff0c\u5217\u51fa\u5404\u5c6c\u6027\u7684\u50b7\u5bb3\u8868\uff0c\u4ee5\u53ca\u300c\u5be6\u7528\u8a2d\u5b9a\u300d\u5206\u9801\uff08FPS \u592a\u4f4e\uff1f\uff09\u3002"
+        },
+        {
+          "t": "new",
+          "es": "Opci\u00f3n Estados sobre los monstruos (veneno, quemadura, sangrado y Juicio sobre su cabeza), para ocultarlos si quieres.",
+          "en": "New option Status over monsters (poison, burn, bleed and Judgment over their heads), to hide them if you want.",
+          "pt": "Nova op\u00e7\u00e3o Estados sobre os monstros (veneno, queimadura, sangramento e Julgamento sobre a cabe\u00e7a), para escond\u00ea-los se quiser.",
+          "ru": "\u041d\u043e\u0432\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u00ab\u042d\u0444\u0444\u0435\u043a\u0442\u044b \u043d\u0430\u0434 \u043c\u043e\u043d\u0441\u0442\u0440\u0430\u043c\u0438\u00bb (\u043e\u0442\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435, \u043e\u0436\u043e\u0433, \u043a\u0440\u043e\u0432\u043e\u0442\u0435\u0447\u0435\u043d\u0438\u0435 \u0438 \u0421\u0443\u0434 \u043d\u0430\u0434 \u0433\u043e\u043b\u043e\u0432\u043e\u0439): \u0438\u0445 \u043c\u043e\u0436\u043d\u043e \u0441\u043a\u0440\u044b\u0442\u044c, \u0435\u0441\u043b\u0438 \u0445\u043e\u0442\u0438\u0442\u0435.",
+          "de": "Neue Option \u201eStatuseffekte \u00fcber Monstern\u201c (Gift, Verbrennung, Blutung und Urteil \u00fcber ihren K\u00f6pfen), damit du sie ausblenden kannst, wenn du willst.",
+          "zh": "\u65b0\u589e\u300c\u602a\u7269\u982d\u4e0a\u7684\u72c0\u614b\u300d\u9078\u9805\uff08\u4e2d\u6bd2\u3001\u71c3\u71d2\u3001\u51fa\u8840\u8207\u5be9\u5224\u986f\u793a\u5728\u602a\u7269\u982d\u4e0a\uff09\uff0c\u4e0d\u60f3\u770b\u53ef\u4ee5\u95dc\u9589\u3002"
         },
         {
           "t": "up",
-          "es": "Cofre Corrupto redise\u00f1ado: cada lado muestra lo que ganas y lo que cuesta. La fila de buffs cuenta tus Marcas de Hel, Plumas de Valquiria y Valquirias vencidas.",
-          "en": "Corrupt Chest redesigned: each side shows what you gain and what it costs. The buff row counts your Marks of Hel, Valkyrie's Feathers and Valkyries defeated.",
-          "pt": "Arca Corrompida redesenhada: cada lado mostra o que voc\u00ea ganha e o que custa. A fila de buffs conta suas Marcas de Hel, Penas de Valqu\u00edria e Valqu\u00edrias derrotadas.",
-          "img": "0.1.271_corrupt_chest.webp"
+          "es": "Cofre Corrupto redise\u00f1ado: cada lado muestra lo que ganas, lo que cuesta y lo que se guarda en tu build.",
+          "en": "Corrupt Chest redesigned: each side shows what you gain, what it costs and what stays in your build.",
+          "pt": "Arca Corrompida redesenhada: cada lado mostra o que voc\u00ea ganha, o que custa e o que fica na sua build.",
+          "img": "0.1.271_corrupt_chest.webp",
+          "ru": "\u041e\u0441\u043a\u0432\u0435\u0440\u043d\u0435\u043d\u043d\u044b\u0439 \u0441\u0443\u043d\u0434\u0443\u043a \u043f\u0435\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u0430\u043d: \u043a\u0430\u0436\u0434\u0430\u044f \u0441\u0442\u043e\u0440\u043e\u043d\u0430 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442, \u0447\u0442\u043e \u0432\u044b \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442\u0435, \u0447\u0435\u043c \u043f\u043b\u0430\u0442\u0438\u0442\u0435 \u0438 \u0447\u0442\u043e \u043e\u0441\u0442\u0430\u0451\u0442\u0441\u044f \u0432 \u0432\u0430\u0448\u0435\u043c \u0431\u0438\u043b\u0434\u0435.",
+          "de": "Verderbte Truhe neu gestaltet: Jede Seite zeigt, was du bekommst, was es kostet und was in deinem Build bleibt.",
+          "zh": "\u8150\u5316\u5bf6\u7bb1\u91cd\u65b0\u8a2d\u8a08\uff1a\u6bcf\u4e00\u5074\u90fd\u6703\u986f\u793a\u4f60\u7372\u5f97\u4ec0\u9ebc\u3001\u4ee3\u50f9\u662f\u4ec0\u9ebc\uff0c\u4ee5\u53ca\u54ea\u4e9b\u6703\u4fdd\u7559\u5728\u4f60\u7684\u914d\u88dd\u4e2d\u3002"
         },
         {
           "t": "up",
-          "es": "Infinito e Infierno: los monstruos de otros mapas ahora sueltan cartas del mapa en que est\u00e1s. Las cartas en general caen un 5% menos.",
-          "en": "Endless and Infierno: monsters from other maps now drop the cards of the map you are on. Cards overall drop 5% less.",
-          "pt": "Infinito e Inferno: monstros de outros mapas agora soltam cartas do mapa em que voc\u00ea est\u00e1. As cartas no geral caem 5% menos."
+          "es": "La fila de buffs cuenta tus Marcas de Hel, Plumas de Valquiria y Valquirias vencidas (al pasar el mouse, lo que dan y lo que pagan los monstruos).",
+          "en": "The buff row counts your Marks of Hel, Valkyrie's Feathers and Valkyries defeated (hover for what they give and what monsters pay).",
+          "pt": "A fila de buffs conta suas Marcas de Hel, Penas de Valqu\u00edria e Valqu\u00edrias derrotadas (passe o mouse para ver o que d\u00e3o e o que os monstros pagam).",
+          "ru": "\u041f\u0430\u043d\u0435\u043b\u044c \u0431\u0430\u0444\u0444\u043e\u0432 \u0441\u0447\u0438\u0442\u0430\u0435\u0442 \u0432\u0430\u0448\u0438 \u041c\u0435\u0442\u043a\u0438 Hel, \u041f\u0435\u0440\u044c\u044f \u0432\u0430\u043b\u044c\u043a\u0438\u0440\u0438\u0438 \u0438 \u043f\u043e\u0431\u0435\u0436\u0434\u0451\u043d\u043d\u044b\u0445 \u0432\u0430\u043b\u044c\u043a\u0438\u0440\u0438\u0439 (\u043d\u0430\u0432\u0435\u0434\u0438\u0442\u0435 \u043a\u0443\u0440\u0441\u043e\u0440, \u0447\u0442\u043e\u0431\u044b \u0443\u0432\u0438\u0434\u0435\u0442\u044c, \u0447\u0442\u043e \u043e\u043d\u0438 \u0434\u0430\u044e\u0442 \u0438 \u0447\u0435\u043c \u0437\u0430 \u044d\u0442\u043e \u043f\u043b\u0430\u0442\u044f\u0442 \u043c\u043e\u043d\u0441\u0442\u0440\u044b).",
+          "de": "Die Buff-Leiste z\u00e4hlt deine Male der Hel, Walk\u00fcrenfedern und besiegten Walk\u00fcren (fahr mit der Maus dar\u00fcber, um zu sehen, was sie dir bringen und was die Monster daf\u00fcr zahlen).",
+          "zh": "\u589e\u76ca\u5217\u6703\u7d71\u8a08\u4f60\u7684 Hel \u4e4b\u5370\u3001\u5973\u6b66\u795e\u4e4b\u7fbd\u8207\u64ca\u6557\u7684\u5973\u6b66\u795e\u6578\u91cf\uff08\u6ed1\u9f20\u79fb\u4e0a\u53bb\u53ef\u67e5\u770b\u5b83\u5011\u7d66\u4f60\u7684\u52a0\u6210\uff0c\u4ee5\u53ca\u602a\u7269\u4ed8\u51fa\u7684\u4ee3\u50f9\uff09\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Infinito e Infierno: los monstruos y jefes de otros mapas sueltan cartas del mapa en que est\u00e1s. Las cartas en general caen un 5% menos.",
+          "en": "Endless and Infierno: monsters and bosses from other maps drop the cards of the map you are on. Cards overall drop 5% less.",
+          "pt": "Infinito e Inferno: monstros e chefes de outros mapas soltam cartas do mapa em que voc\u00ea est\u00e1. As cartas no geral caem 5% menos.",
+          "ru": "\u0411\u0435\u0441\u043a\u043e\u043d\u0435\u0447\u043d\u044b\u0439 \u0440\u0435\u0436\u0438\u043c \u0438 \u0410\u0434: \u043c\u043e\u043d\u0441\u0442\u0440\u044b \u0438 \u0431\u043e\u0441\u0441\u044b \u0441 \u0434\u0440\u0443\u0433\u0438\u0445 \u043b\u043e\u043a\u0430\u0446\u0438\u0439 \u0440\u043e\u043d\u044f\u044e\u0442 \u043a\u0430\u0440\u0442\u044b \u0442\u043e\u0439 \u043b\u043e\u043a\u0430\u0446\u0438\u0438, \u0433\u0434\u0435 \u0432\u044b \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0435\u0441\u044c. \u0412 \u0446\u0435\u043b\u043e\u043c \u043a\u0430\u0440\u0442\u044b \u0432\u044b\u043f\u0430\u0434\u0430\u044e\u0442 \u043d\u0430 5% \u0440\u0435\u0436\u0435.",
+          "de": "Endlosmodus und H\u00f6lle: Monster und Bosse aus anderen Gebieten droppen die Karten des Gebiets, in dem du gerade bist. Karten droppen insgesamt 5 % seltener.",
+          "zh": "\u7121\u76e1\u6a21\u5f0f\u8207\u5730\u7344\uff1a\u4f86\u81ea\u5176\u4ed6\u5730\u5716\u7684\u602a\u7269\u8207\u9996\u9818\u6703\u6389\u843d\u4f60\u76ee\u524d\u6240\u5728\u5730\u5716\u7684\u5361\u7247\u3002\u6574\u9ad4\u5361\u7247\u6389\u843d\u7387\u964d\u4f4e 5%\u3002"
         },
         {
           "t": "up",
           "es": "Pactos mejorados: Pastor (+120% invocaciones), Manada (+25% invocaciones, halc\u00f3n +15%), Contraataque (25%, 6x ataque b\u00e1sico) y Venganza (+8% por golpe, hasta +80%).",
           "en": "Pacts buffed: Shepherd (+120% summons), Pack (+25% summons, falcon +15%), Counter (25%, 6x basic attack) and Vengeance (+8% per hit, up to +80%).",
-          "pt": "Pactos melhorados: Pastor (+120% invoca\u00e7\u00f5es), Matilha (+25% invoca\u00e7\u00f5es, falc\u00e3o +15%), Contra-ataque (25%, 6x ataque b\u00e1sico) e Vingan\u00e7a (+8% por golpe, at\u00e9 +80%)."
+          "pt": "Pactos melhorados: Pastor (+120% invoca\u00e7\u00f5es), Matilha (+25% invoca\u00e7\u00f5es, falc\u00e3o +15%), Contra-ataque (25%, 6x ataque b\u00e1sico) e Vingan\u00e7a (+8% por golpe, at\u00e9 +80%).",
+          "ru": "\u041f\u0430\u043a\u0442\u044b \u0443\u0441\u0438\u043b\u0435\u043d\u044b: \u00ab\u041f\u0430\u043a\u0442 \u043f\u0430\u0441\u0442\u044b\u0440\u044f\u00bb (+120% \u043a \u043f\u0440\u0438\u0437\u044b\u0432\u0430\u043c), \u00ab\u041f\u0430\u043a\u0442 \u0441\u0442\u0430\u0438\u00bb (+25% \u043a \u043f\u0440\u0438\u0437\u044b\u0432\u0430\u043c, \u0441\u043e\u043a\u043e\u043b +15%), \u00ab\u041f\u0430\u043a\u0442 \u043a\u043e\u043d\u0442\u0440\u0430\u0442\u0430\u043a\u0438\u00bb (25%, \u043e\u0431\u044b\u0447\u043d\u0430\u044f \u0430\u0442\u0430\u043a\u0430 x6) \u0438 \u00ab\u041f\u0430\u043a\u0442 \u043c\u0435\u0441\u0442\u0438\u00bb (+8% \u0437\u0430 \u0443\u0434\u0430\u0440, \u0434\u043e +80%).",
+          "de": "Pakte verst\u00e4rkt: Hirte (+120 % Beschw\u00f6rungen), Rudel (+25 % Beschw\u00f6rungen, Falke +15 %), Konter (25 %, 6x Standardangriff) und Rache (+8 % pro Treffer, bis zu +80 %).",
+          "zh": "\u5951\u7d04\u5f37\u5316\uff1a\u7267\u8005\u5951\u7d04\uff08\u53ec\u559a\u7269 +120%\uff09\u3001\u7378\u7fa4\u5951\u7d04\uff08\u53ec\u559a\u7269 +25%\u3001\u7375\u9df9 +15%\uff09\u3001\u53cd\u64ca\u5951\u7d04\uff0825% \u6a5f\u7387\uff0c6 \u500d\u666e\u901a\u653b\u64ca\uff09\u8207\u5fa9\u4ec7\u5951\u7d04\uff08\u6bcf\u6b21\u53d7\u64ca +8%\uff0c\u6700\u9ad8 +80%\uff09\u3002"
         },
         {
           "t": "up",
-          "es": "Merchant: toda la l\u00ednea gana da\u00f1o seg\u00fan el zeny guardado. Stalker: Preserve sale m\u00e1s seguido. Sniper: Blitz Beat crece con el nivel y evoluciona con Steel Crow.",
-          "en": "Merchant: the whole line gains damage from your stored zeny. Stalker: Preserve procs more often. Sniper: Blitz Beat grows with level and evolves with Steel Crow.",
-          "pt": "Merchant: toda a linha ganha dano conforme o zeny guardado. Stalker: Preserve sai mais vezes. Sniper: Blitz Beat cresce com o n\u00edvel e evolui com Steel Crow."
+          "es": "Merchant: toda la l\u00ednea gana da\u00f1o seg\u00fan el zeny guardado en tu cuenta (hasta +40%). Mammonite pega m\u00e1s y Mammonite EX y Golden Axe crecen con el zeny.",
+          "en": "Merchant: the whole line gains damage from your account's stored zeny (up to +40%). Mammonite hits harder, and Mammonite EX and Golden Axe grow with zeny.",
+          "pt": "Merchant: toda a linha ganha dano conforme o zeny guardado na conta (at\u00e9 +40%). Mammonite bate mais, e Mammonite EX e Golden Axe crescem com o zeny.",
+          "ru": "Merchant: \u0432\u0441\u044f \u0432\u0435\u0442\u043a\u0430 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0443\u0440\u043e\u043d\u0443 \u0437\u0430 \u0437\u0435\u043d\u0438, \u043d\u0430\u043a\u043e\u043f\u043b\u0435\u043d\u043d\u044b\u0435 \u043d\u0430 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0435 (\u0434\u043e +40%). Mammonite \u0431\u044c\u0451\u0442 \u0441\u0438\u043b\u044c\u043d\u0435\u0435, \u0430 Mammonite EX \u0438 Golden Axe \u0443\u0441\u0438\u043b\u0438\u0432\u0430\u044e\u0442\u0441\u044f \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u0437\u0430\u043f\u0430\u0441\u043e\u043c \u0437\u0435\u043d\u0438.",
+          "de": "Merchant: Die ganze Klassenlinie macht mehr Schaden, je mehr Zeny auf deinem Konto gelagert ist (bis zu +40 %). Mammonite trifft h\u00e4rter, und Mammonite EX und Golden Axe wachsen mit dem Zeny.",
+          "zh": "Merchant\uff1a\u6574\u500b\u8077\u696d\u7cfb\u6703\u4f9d\u5e33\u865f\u5b58\u653e\u7684 Zeny \u63d0\u5347\u50b7\u5bb3\uff08\u6700\u9ad8 +40%\uff09\u3002Mammonite \u50b7\u5bb3\u63d0\u5347\uff0cMammonite EX \u8207 Golden Axe \u4e5f\u6703\u96a8 Zeny \u8b8a\u5f37\u3002"
         },
         {
           "t": "up",
-          "es": "Mysteltainn: el bono de Bash sigue creciendo, pero cada vez m\u00e1s lento. Lich's Bone Wand: un jefe en Coma recibe m\u00e1s da\u00f1o de todos por un rato.",
-          "en": "Mysteltainn: Bash's bonus keeps growing, but slower and slower. Lich's Bone Wand: a boss in a Coma takes more damage from everyone for a while.",
-          "pt": "Mysteltainn: o b\u00f4nus do Bash continua crescendo, mas cada vez mais devagar. Lich's Bone Wand: um chefe em Coma recebe mais dano de todos por um tempo."
+          "es": "Stalker: Preserve sale m\u00e1s seguido y descansa menos; Intimidate pega m\u00e1s. Las habilidades copiadas (Plagiarism) crecen con el m\u00e1s alto entre FUE e INT.",
+          "en": "Stalker: Preserve procs more often and rests less; Intimidate hits harder. Copied skills (Plagiarism) grow with the higher of STR and INT.",
+          "pt": "Stalker: Preserve sai mais vezes e descansa menos; Intimidate bate mais. Habilidades copiadas (Plagiarism) crescem com o maior entre FOR e INT.",
+          "ru": "Stalker: Preserve \u0441\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0447\u0430\u0449\u0435 \u0438 \u0431\u044b\u0441\u0442\u0440\u0435\u0435 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u0442\u0441\u044f; Intimidate \u0431\u044c\u0451\u0442 \u0441\u0438\u043b\u044c\u043d\u0435\u0435. \u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043d\u0430\u0432\u044b\u043a\u0438 (Plagiarism) \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u0438\u0440\u0443\u044e\u0442\u0441\u044f \u043e\u0442 \u0431\u043e\u043b\u044c\u0448\u0435\u0433\u043e \u0438\u0437 \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0435\u0439 STR \u0438 INT.",
+          "de": "Stalker: Preserve l\u00f6st \u00f6fter aus und hat k\u00fcrzere Pausen; Intimidate trifft h\u00e4rter. Kopierte F\u00e4higkeiten (Plagiarism) skalieren mit dem h\u00f6heren Wert von STR und INT.",
+          "zh": "Stalker\uff1aPreserve \u89f8\u767c\u66f4\u983b\u7e41\u3001\u9593\u9694\u66f4\u77ed\uff1bIntimidate \u50b7\u5bb3\u63d0\u5347\u3002\u7528 Plagiarism \u6284\u8972\u7684\u6280\u80fd\u6703\u4f9d\u529b\u91cf\u8207\u667a\u529b\u4e2d\u8f03\u9ad8\u8005\u6210\u9577\u3002"
         },
         {
           "t": "up",
-          "es": "Cr\u00edticos f\u00edsicos (estrella roja) y m\u00e1gicos (estrella azul) se distinguen. Medidor de da\u00f1o con bot\u00f3n Reiniciar. Gu\u00eda con tabla de elementos y opciones \u00fatiles.",
-          "en": "Physical (red star) and magic (blue star) crits look different. Damage meter has a Reset button. The Guide has an element table and useful options.",
-          "pt": "Cr\u00edticos f\u00edsicos (estrela vermelha) e m\u00e1gicos (estrela azul) se diferenciam. Medidor de dano com bot\u00e3o Reiniciar. Guia com tabela de elementos e op\u00e7\u00f5es \u00fateis."
+          "es": "Sniper y Clown: trampas y halc\u00f3n crecen con el m\u00e1s alto entre FUE e INT. Blitz Beat pasivo crece con el nivel, guarda m\u00e1s picadas, ataca a la presa de tu flecha y evoluciona con Steel Crow. Falcon Assault EX +50% contra jefes.",
+          "en": "Sniper and Clown: traps and falcon grow with the higher of STR and INT. Passive Blitz Beat grows with level, stores more dives, attacks your arrow's target and evolves with Steel Crow. Falcon Assault EX +50% against bosses.",
+          "pt": "Sniper e Clown: armadilhas e falc\u00e3o crescem com o maior entre FOR e INT. Blitz Beat passivo cresce com o n\u00edvel, guarda mais ataques, ataca o alvo da sua flecha e evolui com Steel Crow. Falcon Assault EX +50% contra chefes.",
+          "ru": "Sniper \u0438 Clown: \u043b\u043e\u0432\u0443\u0448\u043a\u0438 \u0438 \u0441\u043e\u043a\u043e\u043b \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u0438\u0440\u0443\u044e\u0442\u0441\u044f \u043e\u0442 \u0431\u043e\u043b\u044c\u0448\u0435\u0433\u043e \u0438\u0437 \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0435\u0439 STR \u0438 INT. \u041f\u0430\u0441\u0441\u0438\u0432\u043d\u044b\u0439 Blitz Beat \u0440\u0430\u0441\u0442\u0451\u0442 \u0441 \u0443\u0440\u043e\u0432\u043d\u0435\u043c, \u043d\u0430\u043a\u0430\u043f\u043b\u0438\u0432\u0430\u0435\u0442 \u0431\u043e\u043b\u044c\u0448\u0435 \u043f\u0438\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0439, \u0430\u0442\u0430\u043a\u0443\u0435\u0442 \u0446\u0435\u043b\u044c \u0432\u0430\u0448\u0435\u0439 \u0441\u0442\u0440\u0435\u043b\u044b \u0438 \u044d\u0432\u043e\u043b\u044e\u0446\u0438\u043e\u043d\u0438\u0440\u0443\u0435\u0442 \u0441\u043e Steel Crow. Falcon Assault EX: +50% \u043f\u0440\u043e\u0442\u0438\u0432 \u0431\u043e\u0441\u0441\u043e\u0432.",
+          "de": "Sniper und Clown: Fallen und Falke skalieren mit dem h\u00f6heren Wert von STR und INT. Das passive Blitz Beat skaliert mit dem Level, speichert mehr Sturzfl\u00fcge, greift das Ziel deines Pfeils an und entwickelt sich mit Steel Crow weiter. Falcon Assault EX +50 % gegen Bosse.",
+          "zh": "Sniper \u8207 Clown\uff1a\u9677\u9631\u8207\u7375\u9df9\u6703\u4f9d\u529b\u91cf\u8207\u667a\u529b\u4e2d\u8f03\u9ad8\u8005\u6210\u9577\u3002\u88ab\u52d5 Blitz Beat \u96a8\u7b49\u7d1a\u6210\u9577\u3001\u53ef\u5132\u5b58\u66f4\u591a\u6b21\u4fef\u885d\u3001\u653b\u64ca\u4f60\u7bad\u77e2\u7684\u76ee\u6a19\uff0c\u4e26\u53ef\u642d\u914d Steel Crow \u9032\u5316\u3002Falcon Assault EX \u5c0d\u9996\u9818\u50b7\u5bb3 +50%\u3002"
         },
         {
           "t": "up",
-          "es": "Veneno: el tinte de los monstruos envenenados es m\u00e1s sutil. Opci\u00f3n para ocultar los estados sobre los monstruos.",
-          "en": "Poison: the tint on poisoned monsters is subtler. New option to hide status marks over monsters.",
-          "pt": "Veneno: a cor dos monstros envenenados \u00e9 mais sutil. Nova op\u00e7\u00e3o para esconder os estados sobre os monstros."
+          "es": "Creator: Acid Demonstration EX vuelve a dejar zonas y su \u00e1cido se acumula (hasta +40% de da\u00f1o recibido, +60% en jefes). Hom\u00fanculos +50% de da\u00f1o.",
+          "en": "Creator: Acid Demonstration EX leaves zones again and its acid stacks (up to +40% damage taken, +60% on bosses). Homunculi +50% damage.",
+          "pt": "Creator: Acid Demonstration EX volta a deixar zonas e o \u00e1cido acumula (at\u00e9 +40% de dano recebido, +60% em chefes). Hom\u00fanculos +50% de dano.",
+          "ru": "Creator: Acid Demonstration EX \u0441\u043d\u043e\u0432\u0430 \u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0437\u043e\u043d\u044b, \u0430 \u0435\u0433\u043e \u043a\u0438\u0441\u043b\u043e\u0442\u0430 \u043d\u0430\u043a\u0430\u043f\u043b\u0438\u0432\u0430\u0435\u0442\u0441\u044f (\u0434\u043e +40% \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u043c\u043e\u0433\u043e \u0443\u0440\u043e\u043d\u0430, +60% \u0443 \u0431\u043e\u0441\u0441\u043e\u0432). \u0413\u043e\u043c\u0443\u043d\u043a\u0443\u043b\u044b: +50% \u0443\u0440\u043e\u043d\u0430.",
+          "de": "Creator: Acid Demonstration EX hinterl\u00e4sst wieder Zonen, und seine S\u00e4ure stapelt sich (bis zu +40 % erlittener Schaden, +60 % bei Bossen). Homunkuli +50 % Schaden.",
+          "zh": "Creator\uff1aAcid Demonstration EX \u91cd\u65b0\u6703\u7559\u4e0b\u9178\u6db2\u5340\u57df\uff0c\u9178\u6db2\u6548\u679c\u53ef\u758a\u52a0\uff08\u53d7\u5230\u7684\u50b7\u5bb3\u6700\u9ad8 +40%\uff0c\u9996\u9818 +60%\uff09\u3002\u751f\u547d\u9ad4\u50b7\u5bb3 +50%\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Mysteltainn: el bono de Bash sigue creciendo con lo que matas, pero cada vez m\u00e1s lento.",
+          "en": "Mysteltainn: Bash's bonus keeps growing with your kills, but slower and slower.",
+          "pt": "Mysteltainn: o b\u00f4nus do Bash continua crescendo com suas mortes, mas cada vez mais devagar.",
+          "ru": "Mysteltainn: \u0431\u043e\u043d\u0443\u0441 Bash \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u0435\u0442 \u0440\u0430\u0441\u0442\u0438 \u0441 \u043a\u0430\u0436\u0434\u044b\u043c \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u043e\u043c, \u043d\u043e \u0432\u0441\u0451 \u043c\u0435\u0434\u043b\u0435\u043d\u043d\u0435\u0435.",
+          "de": "Mysteltainn: Der Bonus von Bash w\u00e4chst weiter mit deinen Kills, aber immer langsamer.",
+          "zh": "Mysteltainn\uff1aBash \u7684\u52a0\u6210\u4ecd\u6703\u96a8\u64ca\u6bba\u6578\u6210\u9577\uff0c\u4f46\u6210\u9577\u901f\u5ea6\u6703\u8d8a\u4f86\u8d8a\u6162\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Lich's Bone Wand: un jefe en Coma recibe m\u00e1s da\u00f1o de todos por un rato, en vez de perder un porcentaje de su vida.",
+          "en": "Lich's Bone Wand: a boss in a Coma takes more damage from everyone for a while, instead of losing a share of its HP.",
+          "pt": "Lich's Bone Wand: um chefe em Coma recebe mais dano de todos por um tempo, em vez de perder uma parte da vida.",
+          "ru": "Lich's Bone Wand: \u0431\u043e\u0441\u0441 \u0432 \u041a\u043e\u043c\u0435 \u043d\u0430 \u0432\u0440\u0435\u043c\u044f \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043b\u044c\u0448\u0435 \u0443\u0440\u043e\u043d\u0430 \u043e\u0442 \u0432\u0441\u0435\u0445, \u0432\u043c\u0435\u0441\u0442\u043e \u0442\u043e\u0433\u043e \u0447\u0442\u043e\u0431\u044b \u0442\u0435\u0440\u044f\u0442\u044c \u0434\u043e\u043b\u044e HP.",
+          "de": "Lich's Bone Wand: Ein Boss im Koma erleidet eine Weile mehr Schaden von allen, statt einen Teil seiner HP zu verlieren.",
+          "zh": "Lich's Bone Wand\uff1a\u9677\u5165\u660f\u8ff7\u7684\u9996\u9818\u6703\u5728\u4e00\u6bb5\u6642\u9593\u5167\u627f\u53d7\u6240\u6709\u4eba\u66f4\u591a\u7684\u50b7\u5bb3\uff0c\u800c\u4e0d\u518d\u662f\u76f4\u63a5\u640d\u5931\u4e00\u5b9a\u6bd4\u4f8b\u7684 HP\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Legendarias algo m\u00e1s raras: equipo de cara de la Endless Tower (3% +0,3% por piso, hasta 25%), cofre de Satan Morroc y cofres de jefes y \u00e9lites.",
+          "en": "Legendaries a bit rarer: Endless Tower face gear (3% +0.3% per floor, up to 25%), Satan Morroc's chest, and boss and elite chests.",
+          "pt": "Lend\u00e1rias um pouco mais raras: equipamento de rosto da Endless Tower (3% +0,3% por andar, at\u00e9 25%), arca do Satan Morroc e arcas de chefes e elites.",
+          "ru": "\u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u044b \u0441\u0442\u0430\u043b\u0438 \u0447\u0443\u0442\u044c \u0440\u0435\u0436\u0435: \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0438\u0437 Endless Tower (3% + 0,3% \u0437\u0430 \u044d\u0442\u0430\u0436, \u0434\u043e 25%), \u0441\u0443\u043d\u0434\u0443\u043a Satan Morroc \u0438 \u0441\u0443\u043d\u0434\u0443\u043a\u0438 \u0431\u043e\u0441\u0441\u043e\u0432 \u0438 \u044d\u043b\u0438\u0442\u043d\u044b\u0445 \u043c\u043e\u043d\u0441\u0442\u0440\u043e\u0432.",
+          "de": "Legend\u00e4re Gegenst\u00e4nde etwas seltener: Gesichtsausr\u00fcstung aus dem Endless Tower (3 % +0,3 % pro Etage, bis zu 25 %), die Truhe von Satan Morroc sowie Truhen von Bossen und Elitegegnern.",
+          "zh": "\u50b3\u8aaa\u88dd\u5099\u7a0d\u5fae\u66f4\u7a00\u6709\uff1aEndless Tower \u81c9\u90e8\u88dd\u5099\uff083%\uff0c\u6bcf\u5c64 +0.3%\uff0c\u6700\u9ad8 25%\uff09\u3001Satan Morroc \u7684\u5bf6\u7bb1\uff0c\u4ee5\u53ca\u9996\u9818\u8207\u83c1\u82f1\u5bf6\u7bb1\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Alas: sus huecos solo aceptan cartas de MVP (tambi\u00e9n las Eternas) y brillan con el color de ese MVP. El Almac\u00e9n tiene pesta\u00f1a Alas.",
+          "en": "Wings: their slots only take MVP cards (Eternal Cards too) and glow with that MVP's color. The Storage has a Wings tab.",
+          "pt": "Asas: seus encaixes s\u00f3 aceitam cartas de MVP (tamb\u00e9m as Eternas) e brilham com a cor desse MVP. O Armaz\u00e9m tem aba Asas.",
+          "ru": "\u041a\u0440\u044b\u043b\u044c\u044f: \u0432 \u0438\u0445 \u0441\u043b\u043e\u0442\u044b \u0432\u0441\u0442\u0430\u0432\u043b\u044f\u044e\u0442\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u043a\u0430\u0440\u0442\u044b MVP (\u0432\u043a\u043b\u044e\u0447\u0430\u044f \u0412\u0435\u0447\u043d\u044b\u0435 \u043a\u0430\u0440\u0442\u044b), \u0438 \u0441\u043b\u043e\u0442\u044b \u0441\u0432\u0435\u0442\u044f\u0442\u0441\u044f \u0446\u0432\u0435\u0442\u043e\u043c \u044d\u0442\u043e\u0433\u043e MVP. \u0412 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 \u043f\u043e\u044f\u0432\u0438\u043b\u0430\u0441\u044c \u0432\u043a\u043b\u0430\u0434\u043a\u0430 \u00ab\u041a\u0440\u044b\u043b\u044c\u044f\u00bb.",
+          "de": "Fl\u00fcgel: Ihre Slots nehmen nur MVP-Karten auf (auch Ewige Karten) und leuchten in der Farbe dieses MVPs. Das Lager hat einen Fl\u00fcgel-Tab.",
+          "zh": "\u7fc5\u8180\uff1a\u5361\u69fd\u53ea\u63a5\u53d7 MVP \u5361\u7247\uff08\u6c38\u6046\u5361\u7247\u4e5f\u53ef\u4ee5\uff09\uff0c\u4e26\u6703\u767c\u51fa\u8a72 MVP \u4ee3\u8868\u8272\u7684\u5149\u8292\u3002\u5009\u5eab\u65b0\u589e\u7fc5\u8180\u5206\u9801\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Recoger: Greed llega a 10 niveles; cartas, objetos y cofres se atraen desde m\u00e1s lejos, y el Bubble Gum tambi\u00e9n los trae.",
+          "en": "Pickup: Greed goes up to 10 levels; cards, items and chests are pulled from farther away, and Bubble Gum pulls them too.",
+          "pt": "Coleta: Greed vai at\u00e9 10 n\u00edveis; cartas, itens e arcas s\u00e3o atra\u00eddos de mais longe, e o Bubble Gum tamb\u00e9m os traz.",
+          "ru": "\u041f\u043e\u0434\u0431\u043e\u0440: Greed \u043f\u0440\u043e\u043a\u0430\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0434\u043e 10 \u0443\u0440\u043e\u0432\u043d\u044f; \u043a\u0430\u0440\u0442\u044b, \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u044b \u0438 \u0441\u0443\u043d\u0434\u0443\u043a\u0438 \u043f\u0440\u0438\u0442\u044f\u0433\u0438\u0432\u0430\u044e\u0442\u0441\u044f \u0441 \u0431\u043e\u043b\u044c\u0448\u0435\u0433\u043e \u0440\u0430\u0441\u0441\u0442\u043e\u044f\u043d\u0438\u044f, \u0438 Bubble Gum \u0442\u043e\u0436\u0435 \u0438\u0445 \u043f\u0440\u0438\u0442\u044f\u0433\u0438\u0432\u0430\u0435\u0442.",
+          "de": "Aufsammeln: Greed geht bis Level 10; Karten, Gegenst\u00e4nde und Truhen werden aus gr\u00f6\u00dferer Entfernung angezogen, und Bubble Gum zieht sie ebenfalls an.",
+          "zh": "\u62fe\u53d6\uff1aGreed \u6700\u9ad8\u53ef\u5347\u5230 10 \u7d1a\uff1b\u5361\u7247\u3001\u9053\u5177\u8207\u5bf6\u7bb1\u80fd\u5f9e\u66f4\u9060\u8655\u5438\u904e\u4f86\uff0cBubble Gum \u4e5f\u6703\u628a\u5b83\u5011\u5438\u904e\u4f86\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Cr\u00edticos f\u00edsicos (estrella roja) y m\u00e1gicos (estrella azul) se distinguen.",
+          "en": "Physical (red star) and magic (blue star) crits look different.",
+          "pt": "Cr\u00edticos f\u00edsicos (estrela vermelha) e m\u00e1gicos (estrela azul) se diferenciam.",
+          "ru": "\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 (\u043a\u0440\u0430\u0441\u043d\u0430\u044f \u0437\u0432\u0435\u0437\u0434\u0430) \u0438 \u043c\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0435 (\u0441\u0438\u043d\u044f\u044f \u0437\u0432\u0435\u0437\u0434\u0430) \u043a\u0440\u0438\u0442\u044b \u0442\u0435\u043f\u0435\u0440\u044c \u0440\u0430\u0437\u043b\u0438\u0447\u0430\u044e\u0442\u0441\u044f.",
+          "de": "Physische Krits (roter Stern) und magische Krits (blauer Stern) sehen jetzt unterschiedlich aus.",
+          "zh": "\u7269\u7406\u7206\u64ca\uff08\u7d05\u661f\uff09\u8207\u9b54\u6cd5\u7206\u64ca\uff08\u85cd\u661f\uff09\u73fe\u5728\u4e00\u773c\u5c31\u80fd\u5206\u8fa8\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Las ventanas dicen lo que un buff da de verdad con tu DES; Efectos autom\u00e1ticos muestra los topes de Doble ataque y Doble lanzamiento; el equipo inicial explica el l\u00edmite de legendarias.",
+          "en": "Windows show what a buff really gives with your DEX; Auto effects shows the Double Attack and Double Cast caps; the starting gear explains the legendary limit.",
+          "pt": "As janelas mostram o que um buff d\u00e1 de verdade com sua DES; Efeitos autom\u00e1ticos mostra os limites de Ataque duplo e Lan\u00e7amento duplo; o equipamento inicial explica o limite de lend\u00e1rias.",
+          "ru": "\u041e\u043a\u043d\u0430 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u044e\u0442, \u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0431\u0430\u0444\u0444 \u043d\u0430 \u0441\u0430\u043c\u043e\u043c \u0434\u0435\u043b\u0435 \u0434\u0430\u0451\u0442 \u0441 \u0432\u0430\u0448\u0435\u0439 DEX; \u00ab\u0410\u0432\u0442\u043e\u044d\u0444\u0444\u0435\u043a\u0442\u044b\u00bb \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u044e\u0442 \u043f\u0440\u0435\u0434\u0435\u043b\u044b \u0434\u0432\u043e\u0439\u043d\u043e\u0439 \u0430\u0442\u0430\u043a\u0438 \u0438 \u0434\u0432\u043e\u0439\u043d\u043e\u0433\u043e \u043a\u0430\u0441\u0442\u0430; \u0441\u0442\u0430\u0440\u0442\u043e\u0432\u043e\u0435 \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u0435 \u043e\u0431\u044a\u044f\u0441\u043d\u044f\u0435\u0442 \u043b\u0438\u043c\u0438\u0442 \u043b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u044b\u0445 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u043e\u0432.",
+          "de": "Fenster zeigen jetzt, was ein Buff mit deiner DEX wirklich bringt; \u201eAutomatische Effekte\u201c zeigt die Obergrenzen von Double Attack und Doppelwirken; die Startausr\u00fcstung erkl\u00e4rt das Legend\u00e4r-Limit.",
+          "zh": "\u8996\u7a97\u6703\u986f\u793a\u589e\u76ca\u5728\u4f60\u76ee\u524d\u9748\u5de7\u4e0b\u7684\u5be6\u969b\u6548\u679c\uff1b\u300c\u81ea\u52d5\u6548\u679c\u300d\u6703\u986f\u793a\u4e8c\u5200\u9023\u64ca\u8207\u96d9\u91cd\u65bd\u653e\u7684\u4e0a\u9650\uff1b\u521d\u59cb\u88dd\u5099\u6703\u8aaa\u660e\u50b3\u8aaa\u88dd\u5099\u7684\u6578\u91cf\u9650\u5236\u3002"
+        },
+        {
+          "t": "up",
+          "es": "Veneno: el tinte de los monstruos envenenados es m\u00e1s sutil. Hurricane Fury tiene su propio \u00edcono.",
+          "en": "Poison: the tint on poisoned monsters is subtler. Hurricane Fury has its own icon.",
+          "pt": "Veneno: a cor dos monstros envenenados \u00e9 mais sutil. Hurricane Fury tem seu pr\u00f3prio \u00edcone.",
+          "ru": "\u042f\u0434: \u043e\u0442\u0442\u0435\u043d\u043e\u043a \u043e\u0442\u0440\u0430\u0432\u043b\u0435\u043d\u043d\u044b\u0445 \u043c\u043e\u043d\u0441\u0442\u0440\u043e\u0432 \u0441\u0442\u0430\u043b \u043c\u0435\u043d\u0435\u0435 \u0437\u0430\u043c\u0435\u0442\u043d\u044b\u043c. \u0423 Hurricane Fury \u043f\u043e\u044f\u0432\u0438\u043b\u0430\u0441\u044c \u0441\u0432\u043e\u044f \u0438\u043a\u043e\u043d\u043a\u0430.",
+          "de": "Gift: Die F\u00e4rbung vergifteter Monster ist dezenter. Hurricane Fury hat ein eigenes Icon.",
+          "zh": "\u4e2d\u6bd2\uff1a\u4e2d\u6bd2\u602a\u7269\u7684\u67d3\u8272\u8b8a\u5f97\u66f4\u67d4\u548c\u3002Hurricane Fury \u6709\u4e86\u5c08\u5c6c\u5716\u793a\u3002"
+        },
+        {
+          "t": "up",
+          "es": "El campo de entrenamiento presta su equipo (no se lo lleva nadie) y las monedas de zeny en el suelo se dibujan mucho m\u00e1s r\u00e1pido.",
+          "en": "The training ground lends its gear (nobody takes it home) and zeny coins on the ground draw much faster.",
+          "pt": "O campo de treino empresta o equipamento (ningu\u00e9m leva) e as moedas de zeny no ch\u00e3o s\u00e3o desenhadas muito mais r\u00e1pido.",
+          "ru": "\u0422\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0430 \u0432\u044b\u0434\u0430\u0451\u0442 \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u0435 \u0432\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 (\u0437\u0430\u0431\u0440\u0430\u0442\u044c \u0435\u0433\u043e \u043d\u0435\u043b\u044c\u0437\u044f), \u0430 \u043c\u043e\u043d\u0435\u0442\u044b \u0437\u0435\u043d\u0438 \u043d\u0430 \u0437\u0435\u043c\u043b\u0435 \u043e\u0442\u0440\u0438\u0441\u043e\u0432\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u0433\u043e\u0440\u0430\u0437\u0434\u043e \u0431\u044b\u0441\u0442\u0440\u0435\u0435.",
+          "de": "Das Trainingsgel\u00e4nde leiht dir seine Ausr\u00fcstung nur aus (niemand nimmt sie mit nach Hause), und Zeny-M\u00fcnzen am Boden werden viel schneller gerendert.",
+          "zh": "\u8a13\u7df4\u5834\u7684\u88dd\u5099\u6539\u70ba\u501f\u7528\uff08\u4e0d\u6703\u88ab\u5e36\u8d70\uff09\uff0c\u5730\u4e0a\u7684 Zeny \u91d1\u5e63\u7e6a\u88fd\u901f\u5ea6\u4e5f\u5927\u5e45\u63d0\u5347\u3002"
         },
         {
           "t": "fix",
-          "es": "Preserve y Blitz Beat ya funcionan en las peleas de MVP y Satan Morroc.",
-          "en": "Preserve and Blitz Beat now work in MVP and Satan Morroc fights.",
-          "pt": "Preserve e Blitz Beat agora funcionam nas lutas de MVP e Satan Morroc."
+          "es": "Preserve y Blitz Beat ya funcionan en las peleas de MVP y Satan Morroc, y los temporizadores que depend\u00edan del reloj de la partida ya terminan ah\u00ed.",
+          "en": "Preserve and Blitz Beat now work in MVP and Satan Morroc fights, and timers tied to the run clock now end there.",
+          "pt": "Preserve e Blitz Beat agora funcionam nas lutas de MVP e Satan Morroc, e os temporizadores ligados ao rel\u00f3gio da partida agora terminam l\u00e1.",
+          "ru": "Preserve \u0438 Blitz Beat \u0442\u0435\u043f\u0435\u0440\u044c \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442 \u0432 \u0431\u043e\u044f\u0445 \u0441 MVP \u0438 Satan Morroc, \u0430 \u0442\u0430\u0439\u043c\u0435\u0440\u044b, \u043f\u0440\u0438\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u043a \u0447\u0430\u0441\u0430\u043c \u0437\u0430\u0431\u0435\u0433\u0430, \u0442\u0435\u043f\u0435\u0440\u044c \u0442\u0430\u043c \u043a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u043e \u0437\u0430\u043a\u0430\u043d\u0447\u0438\u0432\u0430\u044e\u0442\u0441\u044f.",
+          "de": "Preserve und Blitz Beat funktionieren jetzt in MVP- und Satan-Morroc-K\u00e4mpfen, und Timer, die an die Run-Uhr gebunden sind, laufen dort jetzt korrekt ab.",
+          "zh": "Preserve \u8207 Blitz Beat \u73fe\u5728\u5728 MVP \u8207 Satan Morroc \u6230\u4e2d\u4e5f\u80fd\u904b\u4f5c\uff0c\u4f9d\u8cf4\u672c\u5c40\u8a08\u6642\u7684\u6548\u679c\u5728\u9019\u4e9b\u6230\u9b25\u4e2d\u4e5f\u6703\u6b63\u5e38\u7d50\u675f\u3002"
         },
         {
           "t": "fix",
-          "es": "Co-op: la Old Blue Box da sus mejoras a todos, los que se unen ven las invocaciones, y lo que guardan al final cuenta como guardado en la Endless Tower.",
-          "en": "Co-op: the Old Blue Box gives its perks to everyone, joiners see summons, and what they keep at the end counts as stored in the Endless Tower.",
-          "pt": "Co-op: a Old Blue Box d\u00e1 suas melhorias a todos, quem entra v\u00ea as invoca\u00e7\u00f5es, e o que guardam no final conta como guardado na Endless Tower."
+          "es": "Co-op: la Old Blue Box da sus mejoras a todos, los que se unen ven las plantas e invocaciones, y lo que guardan al final cuenta como guardado en su build de la Endless Tower.",
+          "en": "Co-op: the Old Blue Box gives its perks to everyone, joiners see plants and summons, and what they keep at the end counts as stored in their Endless Tower build.",
+          "pt": "Co-op: a Old Blue Box d\u00e1 suas melhorias a todos, quem entra v\u00ea plantas e invoca\u00e7\u00f5es, e o que guardam no final conta como guardado na build da Endless Tower.",
+          "ru": "\u041a\u043e\u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432: Old Blue Box \u0434\u0430\u0451\u0442 \u0431\u043e\u043d\u0443\u0441\u044b \u0432\u0441\u0435\u043c, \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0438 \u0432\u0438\u0434\u044f\u0442 \u0440\u0430\u0441\u0442\u0435\u043d\u0438\u044f \u0438 \u043f\u0440\u0438\u0437\u044b\u0432\u044b, \u0430 \u0442\u043e, \u0447\u0442\u043e \u043e\u043d\u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u044e\u0442 \u0432 \u043a\u043e\u043d\u0446\u0435, \u0437\u0430\u0441\u0447\u0438\u0442\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0432 \u0438\u0445 \u0431\u0438\u043b\u0434 \u0434\u043b\u044f Endless Tower.",
+          "de": "Koop: Die Old Blue Box gibt ihre Boni allen, beigetretene Mitspieler sehen Pflanzen und Beschw\u00f6rungen, und was sie am Ende behalten, z\u00e4hlt als in ihrem Endless-Tower-Build gespeichert.",
+          "zh": "\u5408\u4f5c\u6a21\u5f0f\uff1aOld Blue Box \u7684\u52a0\u6210\u6703\u7d66\u6240\u6709\u4eba\uff0c\u52a0\u5165\u8005\u80fd\u770b\u5230\u690d\u7269\u8207\u53ec\u559a\u7269\uff0c\u7d50\u675f\u6642\u4fdd\u7559\u7684\u6771\u897f\u4e5f\u6703\u7b97\u4f5c\u5b58\u5165\u4ed6\u5011\u7684 Endless Tower \u914d\u88dd\u3002"
         },
         {
           "t": "fix",
           "es": "Prontera: cerrar Amigos o hacer clic en el chat ya no deja al h\u00e9roe sin poder moverse.",
           "en": "Prontera: closing Friends or clicking the chat no longer leaves your hero unable to move.",
-          "pt": "Prontera: fechar Amigos ou clicar no chat n\u00e3o deixa mais o her\u00f3i sem poder se mover."
+          "pt": "Prontera: fechar Amigos ou clicar no chat n\u00e3o deixa mais o her\u00f3i sem poder se mover.",
+          "ru": "Prontera: \u0437\u0430\u043a\u0440\u044b\u0442\u0438\u0435 \u043e\u043a\u043d\u0430 \u00ab\u0414\u0440\u0443\u0437\u044c\u044f\u00bb \u0438\u043b\u0438 \u043a\u043b\u0438\u043a \u043f\u043e \u0447\u0430\u0442\u0443 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043e\u0431\u0435\u0437\u0434\u0432\u0438\u0436\u0438\u0432\u0430\u0435\u0442 \u0433\u0435\u0440\u043e\u044f.",
+          "de": "Prontera: Wenn du das Freunde-Fenster schlie\u00dft oder in den Chat klickst, bleibt dein Held nicht mehr bewegungsunf\u00e4hig.",
+          "zh": "Prontera\uff1a\u95dc\u9589\u597d\u53cb\u8996\u7a97\u6216\u9ede\u64ca\u804a\u5929\u6b04\u5f8c\uff0c\u82f1\u96c4\u4e0d\u518d\u7121\u6cd5\u79fb\u52d5\u3002"
         },
         {
           "t": "fix",
           "es": "Tirones de la PC tras horas de juego: el cursor ya no se regenera sin parar y los FPS tienen un techo con VSync apagado.",
           "en": "PC stutter after hours of play: the cursor no longer rebuilds nonstop, and FPS are capped with VSync off.",
-          "pt": "Travadas no PC ap\u00f3s horas de jogo: o cursor n\u00e3o \u00e9 mais recriado sem parar e os FPS t\u00eam um limite com VSync desligado."
+          "pt": "Travadas no PC ap\u00f3s horas de jogo: o cursor n\u00e3o \u00e9 mais recriado sem parar e os FPS t\u00eam um limite com VSync desligado.",
+          "ru": "\u041f\u043e\u0434\u0442\u043e\u0440\u043c\u0430\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u043d\u0430 \u041f\u041a \u043f\u043e\u0441\u043b\u0435 \u0434\u043e\u043b\u0433\u043e\u0439 \u0438\u0433\u0440\u044b: \u043a\u0443\u0440\u0441\u043e\u0440 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043f\u0435\u0440\u0435\u0441\u043e\u0437\u0434\u0430\u0451\u0442\u0441\u044f \u0431\u0435\u0437 \u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438, \u0430 FPS \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d \u043f\u0440\u0438 \u0432\u044b\u043a\u043b\u044e\u0447\u0435\u043d\u043d\u043e\u043c VSync.",
+          "de": "PC-Ruckler nach stundenlangem Spielen: Der Cursor wird nicht mehr ununterbrochen neu aufgebaut, und die FPS sind bei ausgeschaltetem VSync begrenzt.",
+          "zh": "\u4fee\u6b63 PC \u9577\u6642\u9593\u904a\u73a9\u5f8c\u7684\u5361\u9813\uff1a\u6e38\u6a19\u4e0d\u518d\u4e0d\u65b7\u91cd\u5efa\uff0c\u95dc\u9589 VSync \u6642 FPS \u4e5f\u6709\u4e0a\u9650\u3002"
         },
         {
           "t": "fix",
-          "es": "Endless Tower: los minerales de una build guardada ya no se duplican. Satan Morroc ya no te empuja a lugares sin salida. El \u00c1lbum ya no queda vac\u00edo.",
-          "en": "Endless Tower: a saved build's ores no longer duplicate. Satan Morroc no longer pushes you into dead ends. The Album no longer goes empty.",
-          "pt": "Endless Tower: os min\u00e9rios de uma build salva n\u00e3o duplicam mais. Satan Morroc n\u00e3o te empurra mais para lugares sem sa\u00edda. O \u00c1lbum n\u00e3o fica mais vazio."
+          "es": "Endless Tower: los minerales de una build guardada ya no se duplican.",
+          "en": "Endless Tower: a saved build's ores no longer duplicate.",
+          "pt": "Endless Tower: os min\u00e9rios de uma build salva n\u00e3o duplicam mais.",
+          "ru": "Endless Tower: \u0440\u0443\u0434\u0430 \u0438\u0437 \u0441\u043e\u0445\u0440\u0430\u043d\u0451\u043d\u043d\u043e\u0433\u043e \u0431\u0438\u043b\u0434\u0430 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0434\u0443\u0431\u043b\u0438\u0440\u0443\u0435\u0442\u0441\u044f.",
+          "de": "Endless Tower: Die Erze eines gespeicherten Builds verdoppeln sich nicht mehr.",
+          "zh": "Endless Tower\uff1a\u5df2\u5b58\u914d\u88dd\u4e2d\u7684\u7926\u77f3\u4e0d\u518d\u88ab\u91cd\u8907\u8907\u88fd\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "Satan Morroc ya no te empuja a lugares sin salida, y el Hom\u00fanculo ya no aparece atascado fuera del suelo.",
+          "en": "Satan Morroc no longer pushes you into dead ends, and the Homunculus no longer spawns stuck off the ground.",
+          "pt": "Satan Morroc n\u00e3o te empurra mais para lugares sem sa\u00edda, e o Hom\u00fanculo n\u00e3o aparece mais preso fora do ch\u00e3o.",
+          "ru": "Satan Morroc \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0437\u0430\u0433\u043e\u043d\u044f\u0435\u0442 \u0432\u0430\u0441 \u0432 \u0442\u0443\u043f\u0438\u043a\u0438, \u0430 \u0433\u043e\u043c\u0443\u043d\u043a\u0443\u043b \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043f\u043e\u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0437\u0430\u0441\u0442\u0440\u044f\u0432\u0448\u0438\u043c \u0437\u0430 \u043f\u0440\u0435\u0434\u0435\u043b\u0430\u043c\u0438 \u043f\u0440\u043e\u0445\u043e\u0434\u0438\u043c\u043e\u0439 \u0437\u043e\u043d\u044b.",
+          "de": "Satan Morroc schiebt dich nicht mehr in Sackgassen, und der Homunkulus spawnt nicht mehr festgeklemmt neben dem begehbaren Boden.",
+          "zh": "Satan Morroc \u4e0d\u518d\u628a\u4f60\u63a8\u9032\u6b7b\u89d2\uff0c\u751f\u547d\u9ad4\u4e5f\u4e0d\u518d\u51fa\u751f\u5728\u5730\u9762\u5916\u800c\u5361\u4f4f\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "\u00c1lbum: la lista de cartas ya no queda vac\u00eda. Plagiarism avisa cuando un jefe da otra habilidad en otra victoria. El Hipnotista puede olvidar Call Homunculus.",
+          "en": "Album: the card list no longer goes empty. Plagiarism tells you when a boss gives another skill on another win. The Hypnotist can forget Call Homunculus.",
+          "pt": "\u00c1lbum: a lista de cartas n\u00e3o fica mais vazia. Plagiarism avisa quando um chefe d\u00e1 outra habilidade em outra vit\u00f3ria. O Hipnotista pode esquecer Call Homunculus.",
+          "ru": "\u0410\u043b\u044c\u0431\u043e\u043c: \u0441\u043f\u0438\u0441\u043e\u043a \u043a\u0430\u0440\u0442 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043f\u0443\u0441\u0442\u0435\u0435\u0442. Plagiarism \u0441\u043e\u043e\u0431\u0449\u0430\u0435\u0442, \u043a\u043e\u0433\u0434\u0430 \u0431\u043e\u0441\u0441 \u043f\u0440\u0438 \u043d\u043e\u0432\u043e\u0439 \u043f\u043e\u0431\u0435\u0434\u0435 \u0434\u0430\u0451\u0442 \u0434\u0440\u0443\u0433\u043e\u0439 \u043d\u0430\u0432\u044b\u043a. \u0423 Hypnotist \u0442\u0435\u043f\u0435\u0440\u044c \u043c\u043e\u0436\u043d\u043e \u0437\u0430\u0431\u044b\u0442\u044c Call Homunculus.",
+          "de": "Album: Die Kartenliste bleibt nicht mehr leer. Plagiarism sagt dir Bescheid, wenn ein Boss bei einem weiteren Sieg eine andere F\u00e4higkeit gibt. Der Hypnotiseur kann Call Homunculus vergessen lassen.",
+          "zh": "\u5716\u9451\uff1a\u5361\u7247\u6e05\u55ae\u4e0d\u518d\u8b8a\u6210\u7a7a\u767d\u3002\u9996\u9818\u5728\u53e6\u4e00\u6b21\u52dd\u5229\u4e2d\u7d66\u51fa\u4e0d\u540c\u6280\u80fd\u6642\uff0cPlagiarism \u6703\u63d0\u793a\u4f60\u3002\u50ac\u7720\u5e2b\u53ef\u4ee5\u907a\u5fd8 Call Homunculus\u3002"
+        },
+        {
+          "t": "fix",
+          "es": "Descripciones m\u00e1s claras: Raging Trifecta Blow, Bible of the Fallen Bishop y Trap Research.",
+          "en": "Clearer descriptions: Raging Trifecta Blow, Bible of the Fallen Bishop and Trap Research.",
+          "pt": "Descri\u00e7\u00f5es mais claras: Raging Trifecta Blow, Bible of the Fallen Bishop e Trap Research.",
+          "ru": "\u0411\u043e\u043b\u0435\u0435 \u043f\u043e\u043d\u044f\u0442\u043d\u044b\u0435 \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u044f: Raging Trifecta Blow, Bible of the Fallen Bishop \u0438 Trap Research.",
+          "de": "Klarere Beschreibungen: Raging Trifecta Blow, Bible of the Fallen Bishop und Trap Research.",
+          "zh": "\u8aaa\u660e\u66f4\u6e05\u695a\uff1aRaging Trifecta Blow\u3001Bible of the Fallen Bishop \u8207 Trap Research\u3002"
         }
       ]
     },
@@ -225,61 +762,91 @@
           "t": "fix",
           "es": "Pactos de Gray: ya no se pueden tomar todos a la vez (con 20 pactos, los que pasaban de tus ranuras sal\u00edan gratis).",
           "en": "Gray's pacts: you can no longer take them all at once (with 20 pacts, the ones past your skill slots came free).",
-          "pt": "Pactos do Gray: n\u00e3o d\u00e1 mais para pegar todos de uma vez (com 20 pactos, os que passavam dos seus espa\u00e7os sa\u00edam de gra\u00e7a)."
+          "pt": "Pactos do Gray: n\u00e3o d\u00e1 mais para pegar todos de uma vez (com 20 pactos, os que passavam dos seus espa\u00e7os sa\u00edam de gra\u00e7a).",
+          "ru": "\u041f\u0430\u043a\u0442\u044b Gray: \u0438\u0445 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435\u043b\u044c\u0437\u044f \u0432\u0437\u044f\u0442\u044c \u0432\u0441\u0435 \u0441\u0440\u0430\u0437\u0443 (\u043f\u0440\u0438 20 \u043f\u0430\u043a\u0442\u0430\u0445 \u0442\u0435, \u0447\u0442\u043e \u043d\u0435 \u043f\u043e\u043c\u0435\u0449\u0430\u043b\u0438\u0441\u044c \u0432 \u0441\u043b\u043e\u0442\u044b \u043d\u0430\u0432\u044b\u043a\u043e\u0432, \u0434\u043e\u0441\u0442\u0430\u0432\u0430\u043b\u0438\u0441\u044c \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e).",
+          "de": "Grays Pakte: Du kannst nicht mehr alle auf einmal nehmen (mit 20 Pakten waren die, die \u00fcber deine F\u00e4higkeitsslots hinausgingen, gratis).",
+          "zh": "Gray \u7684\u5951\u7d04\uff1a\u4e0d\u80fd\u518d\u4e00\u6b21\u5168\u90e8\u63a5\u4e0b\uff08\u6709 20 \u500b\u5951\u7d04\u6642\uff0c\u8d85\u51fa\u6280\u80fd\u6b04\u4f4d\u7684\u90e8\u5206\u7b49\u65bc\u514d\u8cbb\u53d6\u5f97\uff09\u3002"
         },
         {
           "t": "up",
           "es": "Pactos de Gray: ya no cuestan ranuras de habilidad; puedes tener hasta 3 a la vez.",
           "en": "Gray's pacts: they no longer cost skill slots; you can have up to 3 at once.",
-          "pt": "Pactos do Gray: n\u00e3o custam mais espa\u00e7os de habilidade; voc\u00ea pode ter at\u00e9 3 ao mesmo tempo."
+          "pt": "Pactos do Gray: n\u00e3o custam mais espa\u00e7os de habilidade; voc\u00ea pode ter at\u00e9 3 ao mesmo tempo.",
+          "ru": "\u041f\u0430\u043a\u0442\u044b Gray: \u043e\u043d\u0438 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0437\u0430\u043d\u0438\u043c\u0430\u044e\u0442 \u0441\u043b\u043e\u0442\u044b \u043d\u0430\u0432\u044b\u043a\u043e\u0432; \u043e\u0434\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e \u043c\u043e\u0436\u043d\u043e \u0438\u043c\u0435\u0442\u044c \u0434\u043e 3.",
+          "de": "Grays Pakte: Sie kosten keine F\u00e4higkeitsslots mehr; du kannst bis zu 3 gleichzeitig haben.",
+          "zh": "Gray \u7684\u5951\u7d04\uff1a\u4e0d\u518d\u4f54\u7528\u6280\u80fd\u6b04\u4f4d\uff0c\u6700\u591a\u53ef\u540c\u6642\u64c1\u6709 3 \u500b\u3002"
         },
         {
           "t": "new",
           "es": "Soledad y Devoci\u00f3n se ven en la barra de habilidades: cada ranura libre brilla con su bonus. Obsesi\u00f3n marca tu \u00fanica habilidad de ataque con x2.",
           "en": "Solitude and Devotion show on the skill bar: every free slot glows with its bonus. Obsession marks your only attack skill with x2.",
-          "pt": "Solid\u00e3o e Devo\u00e7\u00e3o aparecem na barra de habilidades: cada espa\u00e7o livre brilha com o b\u00f4nus. Obsess\u00e3o marca sua \u00fanica habilidade de ataque com x2."
+          "pt": "Solid\u00e3o e Devo\u00e7\u00e3o aparecem na barra de habilidades: cada espa\u00e7o livre brilha com o b\u00f4nus. Obsess\u00e3o marca sua \u00fanica habilidade de ataque com x2.",
+          "ru": "\u00ab\u041f\u0430\u043a\u0442 \u043e\u0434\u0438\u043d\u043e\u0447\u0435\u0441\u0442\u0432\u0430\u00bb \u0438 \u00ab\u041f\u0430\u043a\u0442 \u043f\u0440\u0435\u0434\u0430\u043d\u043d\u043e\u0441\u0442\u0438\u00bb \u0432\u0438\u0434\u043d\u044b \u043d\u0430 \u043f\u0430\u043d\u0435\u043b\u0438 \u043d\u0430\u0432\u044b\u043a\u043e\u0432: \u043a\u0430\u0436\u0434\u044b\u0439 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439 \u0441\u043b\u043e\u0442 \u043f\u043e\u0434\u0441\u0432\u0435\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0438 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u0441\u0432\u043e\u0439 \u0431\u043e\u043d\u0443\u0441. \u00ab\u041f\u0430\u043a\u0442 \u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0441\u0442\u0438\u00bb \u043e\u0442\u043c\u0435\u0447\u0430\u0435\u0442 \u0432\u0430\u0448 \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0430\u0442\u0430\u043a\u0443\u044e\u0449\u0438\u0439 \u043d\u0430\u0432\u044b\u043a \u0437\u043d\u0430\u0447\u043a\u043e\u043c x2.",
+          "de": "Einsamkeit und Hingabe sind jetzt in der F\u00e4higkeitsleiste zu sehen: Jeder freie Slot leuchtet mit seinem Bonus. Besessenheit markiert deine einzige Angriffsf\u00e4higkeit mit x2.",
+          "zh": "\u5b64\u7368\u5951\u7d04\u8207\u5949\u737b\u5951\u7d04\u6703\u986f\u793a\u5728\u6280\u80fd\u5217\u4e0a\uff1a\u6bcf\u500b\u7a7a\u6b04\u4f4d\u90fd\u6703\u4eae\u8d77\u4e26\u986f\u793a\u52a0\u6210\u3002\u57f7\u5ff5\u5951\u7d04\u6703\u5728\u4f60\u552f\u4e00\u7684\u653b\u64ca\u6280\u80fd\u4e0a\u6a19\u793a x2\u3002"
         },
         {
           "t": "up",
           "es": "M\u00e1s FPS con hordas grandes: el juego calcula los monstruos casi el doble de r\u00e1pido.",
           "en": "Higher FPS with big hordes: monsters are processed almost twice as fast.",
-          "pt": "Mais FPS com hordas grandes: os monstros s\u00e3o processados quase duas vezes mais r\u00e1pido."
+          "pt": "Mais FPS com hordas grandes: os monstros s\u00e3o processados quase duas vezes mais r\u00e1pido.",
+          "ru": "\u0411\u043e\u043b\u044c\u0448\u0435 FPS \u043f\u0440\u0438 \u0431\u043e\u043b\u044c\u0448\u0438\u0445 \u043e\u0440\u0434\u0430\u0445: \u043c\u043e\u043d\u0441\u0442\u0440\u044b \u043e\u0431\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u043f\u043e\u0447\u0442\u0438 \u0432\u0434\u0432\u043e\u0435 \u0431\u044b\u0441\u0442\u0440\u0435\u0435.",
+          "de": "Mehr FPS bei gro\u00dfen Horden: Monster werden fast doppelt so schnell berechnet.",
+          "zh": "\u5927\u6279\u602a\u6f6e\u6642 FPS \u66f4\u9ad8\uff1a\u602a\u7269\u904b\u7b97\u901f\u5ea6\u63d0\u5347\u5c07\u8fd1\u4e00\u500d\u3002"
         },
         {
           "t": "fix",
           "es": "Al evolucionar, la habilidad EX conserva los niveles que subiste pasado el tope.",
           "en": "When a skill evolves, the EX keeps the levels you raised it past its cap.",
-          "pt": "Ao evoluir, a habilidade EX mant\u00e9m os n\u00edveis que voc\u00ea subiu al\u00e9m do limite."
+          "pt": "Ao evoluir, a habilidade EX mant\u00e9m os n\u00edveis que voc\u00ea subiu al\u00e9m do limite.",
+          "ru": "\u041f\u0440\u0438 \u044d\u0432\u043e\u043b\u044e\u0446\u0438\u0438 \u043d\u0430\u0432\u044b\u043a\u0430 EX-\u0432\u0435\u0440\u0441\u0438\u044f \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u0435\u0442 \u0443\u0440\u043e\u0432\u043d\u0438, \u043f\u0440\u043e\u043a\u0430\u0447\u0430\u043d\u043d\u044b\u0435 \u0441\u0432\u0435\u0440\u0445 \u043f\u0440\u0435\u0434\u0435\u043b\u0430.",
+          "de": "Wenn sich eine F\u00e4higkeit entwickelt, beh\u00e4lt die EX-Version die Level, die du \u00fcber die Obergrenze hinaus erreicht hast.",
+          "zh": "\u6280\u80fd\u9032\u5316\u6642\uff0cEX \u6280\u80fd\u6703\u4fdd\u7559\u4f60\u8d85\u904e\u4e0a\u9650\u5f8c\u984d\u5916\u63d0\u5347\u7684\u7b49\u7d1a\u3002"
         },
         {
           "t": "new",
           "es": "Almac\u00e9n Kafra: buscador, orden por set y pesta\u00f1a 'Mi build' con el equipo inicial de tu h\u00e9roe.",
           "en": "Kafra Storage: search, sort by set and a 'My build' tab with your hero's starting gear.",
-          "pt": "Armaz\u00e9m Kafra: busca, ordenar por set e aba 'Minha build' com o equipamento inicial do seu her\u00f3i."
+          "pt": "Armaz\u00e9m Kafra: busca, ordenar por set e aba 'Minha build' com o equipamento inicial do seu her\u00f3i.",
+          "ru": "\u0425\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 Kafra: \u043f\u043e\u0438\u0441\u043a, \u0441\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0430 \u043f\u043e \u0441\u0435\u0442\u0430\u043c \u0438 \u0432\u043a\u043b\u0430\u0434\u043a\u0430 \u00ab\u041c\u043e\u0439 \u0431\u0438\u043b\u0434\u00bb \u0441\u043e \u0441\u0442\u0430\u0440\u0442\u043e\u0432\u044b\u043c \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u0435\u043c \u0432\u0430\u0448\u0435\u0433\u043e \u0433\u0435\u0440\u043e\u044f.",
+          "de": "Kafra-Lager: Suche, Sortierung nach Set und ein Tab \u201eMein Build\u201c mit der Startausr\u00fcstung deines Helden.",
+          "zh": "Kafra \u5009\u5eab\uff1a\u65b0\u589e\u641c\u5c0b\u3001\u4f9d\u5957\u88dd\u6392\u5e8f\uff0c\u4ee5\u53ca\u986f\u793a\u82f1\u96c4\u521d\u59cb\u88dd\u5099\u7684\u300c\u6211\u7684\u914d\u88dd\u300d\u5206\u9801\u3002"
         },
         {
           "t": "up",
           "es": "Comparar equipo: lo que mejora en verde y lo que empeora en rojo.",
           "en": "Gear comparison: what improves in green, what gets worse in red.",
-          "pt": "Comparar equipamento: o que melhora em verde e o que piora em vermelho."
+          "pt": "Comparar equipamento: o que melhora em verde e o que piora em vermelho.",
+          "ru": "\u0421\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0435 \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u044f: \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u044f \u0437\u0435\u043b\u0451\u043d\u044b\u043c, \u0443\u0445\u0443\u0434\u0448\u0435\u043d\u0438\u044f \u043a\u0440\u0430\u0441\u043d\u044b\u043c.",
+          "de": "Ausr\u00fcstungsvergleich: Verbesserungen in Gr\u00fcn, Verschlechterungen in Rot.",
+          "zh": "\u88dd\u5099\u6bd4\u8f03\uff1a\u63d0\u5347\u7684\u6578\u503c\u986f\u793a\u70ba\u7da0\u8272\uff0c\u4e0b\u964d\u7684\u986f\u793a\u70ba\u7d05\u8272\u3002"
         },
         {
           "t": "fix",
           "es": "Afinidad y Bradium Shield tambi\u00e9n valen contra la marca de congelado o petrificado de jefes y MVP.",
           "en": "Affinity and Bradium Shield also work against the frozen or petrified mark on bosses and MVPs.",
-          "pt": "Afinidade e Bradium Shield tamb\u00e9m valem contra a marca de congelado ou petrificado de chefes e MVPs."
+          "pt": "Afinidade e Bradium Shield tamb\u00e9m valem contra a marca de congelado ou petrificado de chefes e MVPs.",
+          "ru": "\u00ab\u041f\u0430\u043a\u0442 \u0441\u0440\u043e\u0434\u0441\u0442\u0432\u0430\u00bb \u0438 Bradium Shield \u0442\u0435\u043f\u0435\u0440\u044c \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442 \u0438 \u043f\u0440\u043e\u0442\u0438\u0432 \u043c\u0435\u0442\u043a\u0438 \u0437\u0430\u043c\u043e\u0440\u043e\u0437\u043a\u0438 \u0438\u043b\u0438 \u043e\u043a\u0430\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0443 \u0431\u043e\u0441\u0441\u043e\u0432 \u0438 MVP.",
+          "de": "Affinit\u00e4t und Bradium Shield wirken auch gegen das Frost- oder Versteinerungsmal auf Bossen und MVPs.",
+          "zh": "\u89aa\u548c\u5951\u7d04\u8207 Bradium Shield \u5c0d\u9996\u9818\u548c MVP \u8eab\u4e0a\u7684\u51b0\u51cd\u6216\u77f3\u5316\u5370\u8a18\u540c\u6a23\u6709\u6548\u3002"
         },
         {
           "t": "fix",
           "es": "Los consejos de las pantallas de carga y lo que hace cada jugador en Prontera ya salen en tu idioma.",
           "en": "Loading screen tips and what each player is doing in Prontera now show in your language.",
-          "pt": "As dicas das telas de carregamento e o que cada jogador est\u00e1 fazendo em Prontera agora aparecem no seu idioma."
+          "pt": "As dicas das telas de carregamento e o que cada jogador est\u00e1 fazendo em Prontera agora aparecem no seu idioma.",
+          "ru": "\u0421\u043e\u0432\u0435\u0442\u044b \u043d\u0430 \u044d\u043a\u0440\u0430\u043d\u0430\u0445 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u0438 \u0442\u043e, \u0447\u0435\u043c \u0437\u0430\u043d\u044f\u0442 \u043a\u0430\u0436\u0434\u044b\u0439 \u0438\u0433\u0440\u043e\u043a \u0432 Prontera, \u0442\u0435\u043f\u0435\u0440\u044c \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u044e\u0442\u0441\u044f \u043d\u0430 \u0432\u0430\u0448\u0435\u043c \u044f\u0437\u044b\u043a\u0435.",
+          "de": "Tipps auf den Ladebildschirmen und was jeder Spieler in Prontera gerade macht, werden jetzt in deiner Sprache angezeigt.",
+          "zh": "\u8f09\u5165\u756b\u9762\u7684\u63d0\u793a\uff0c\u4ee5\u53ca Prontera \u4e2d\u6bcf\u4f4d\u73a9\u5bb6\u6b63\u5728\u505a\u7684\u4e8b\uff0c\u73fe\u5728\u90fd\u6703\u4ee5\u4f60\u7684\u8a9e\u8a00\u986f\u793a\u3002"
         },
         {
           "t": "up",
           "es": "T\u00edtulos: los especiales llegan a todos tus dispositivos con la nube, y los que a\u00fan no tienes se ven en gris.",
           "en": "Titles: special titles reach all your devices with cloud save, and the ones you don't have yet show in grey.",
-          "pt": "T\u00edtulos: os especiais chegam a todos os seus dispositivos com a nuvem, e os que voc\u00ea ainda n\u00e3o tem aparecem em cinza."
+          "pt": "T\u00edtulos: os especiais chegam a todos os seus dispositivos com a nuvem, e os que voc\u00ea ainda n\u00e3o tem aparecem em cinza.",
+          "ru": "\u0422\u0438\u0442\u0443\u043b\u044b: \u043e\u0441\u043e\u0431\u044b\u0435 \u0442\u0438\u0442\u0443\u043b\u044b \u043f\u0440\u0438\u0445\u043e\u0434\u044f\u0442 \u043d\u0430 \u0432\u0441\u0435 \u0432\u0430\u0448\u0438 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0447\u0435\u0440\u0435\u0437 \u043e\u0431\u043b\u0430\u0447\u043d\u043e\u0435 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435, \u0430 \u0435\u0449\u0451 \u043d\u0435 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u043d\u044b\u0435 \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u044e\u0442\u0441\u044f \u0441\u0435\u0440\u044b\u043c.",
+          "de": "Titel: Spezialtitel landen per Cloud-Speicher auf all deinen Ger\u00e4ten, und die, die du noch nicht hast, werden grau angezeigt.",
+          "zh": "\u7a31\u865f\uff1a\u7279\u6b8a\u7a31\u865f\u6703\u900f\u904e\u96f2\u7aef\u5b58\u6a94\u540c\u6b65\u5230\u4f60\u6240\u6709\u7684\u88dd\u7f6e\uff0c\u5c1a\u672a\u53d6\u5f97\u7684\u7a31\u865f\u6703\u4ee5\u7070\u8272\u986f\u793a\u3002"
         }
       ]
     },
@@ -904,54 +1471,6 @@
           "es": "Renacer: en Valhalla ya puedes caminar con el joystick del celular y con clic.",
           "en": "Rebirth: in Valhalla you can now walk with the phone's joystick and by clicking.",
           "pt": "Renascer: em Valhalla agora d\u00e1 para andar com o joystick do celular e com clique."
-        }
-      ]
-    },
-    {
-      "version": "0.1.261",
-      "date": "2026-11-07",
-      "items": [
-        {
-          "t": "new",
-          "es": "Prontera: tu mascota te sigue por la plaza, chiquitita, y en los canales online ves las de los dem\u00e1s.",
-          "en": "Prontera: your pet follows you around the plaza, tiny, and in the online channels you see everyone else's.",
-          "pt": "Prontera: seu mascote te segue pela pra\u00e7a, pequenininho, e nos canais online voc\u00ea v\u00ea os dos outros."
-        },
-        {
-          "t": "new",
-          "es": "Cu\u00e1ntos jugadores hay en l\u00ednea, en la pantalla de inicio y en la web.",
-          "en": "How many players are online, on the login screen and on the website.",
-          "pt": "Quantos jogadores est\u00e3o online, na tela inicial e no site."
-        },
-        {
-          "t": "new",
-          "es": "\u00c1lbum: un (?) junto a Eternas explica qu\u00e9 son las Cartas Eternas.",
-          "en": "Album: a (?) next to Eternal explains what Eternal Cards are.",
-          "pt": "\u00c1lbum: um (?) ao lado de Eternas explica o que s\u00e3o as Cartas Eternas."
-        },
-        {
-          "t": "up",
-          "es": "Legendarios m\u00e1s raros: el cofre de Satan Morroc da m\u00e1s o menos la mitad, y los dem\u00e1s cofres un poco menos.",
-          "en": "Rarer legendaries: Satan Morroc's chest gives about half as many, and other chests a bit fewer.",
-          "pt": "Lend\u00e1rios mais raros: o ba\u00fa de Satan Morroc d\u00e1 mais ou menos a metade, e os outros ba\u00fas um pouco menos."
-        },
-        {
-          "t": "fix",
-          "es": "Co-op: tras cambiar el idioma o bajar el guardado de la nube ya no falla la conexi\u00f3n con Epic.",
-          "en": "Co-op: changing the language or loading your cloud save no longer breaks the connection to Epic.",
-          "pt": "Co-op: mudar o idioma ou baixar o salvamento da nuvem n\u00e3o quebra mais a conex\u00e3o com a Epic."
-        },
-        {
-          "t": "fix",
-          "es": "Cavalier Mastery solo aparece si ya tienes Peco Peco Ride (sin montar no hac\u00eda nada).",
-          "en": "Cavalier Mastery only shows up once you have Peco Peco Ride (it did nothing without the mount).",
-          "pt": "Cavalier Mastery s\u00f3 aparece se voc\u00ea j\u00e1 tiver Peco Peco Ride (sem montaria n\u00e3o fazia nada)."
-        },
-        {
-          "t": "fix",
-          "es": "El cofre de Satan Morroc ya no se llama \u00abTesoro del Poring Dorado\u00bb.",
-          "en": "Satan Morroc's chest is no longer called \"Golden Poring's Treasure\".",
-          "pt": "O ba\u00fa de Satan Morroc n\u00e3o se chama mais \"Tesouro do Poring Dourado\"."
         }
       ]
     }
