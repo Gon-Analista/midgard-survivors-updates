@@ -22,26 +22,26 @@
     }
   },
   "android": {
-    "base": "0.1.259",
+    "base": "0.1.271",
     "page": "https://nearq.itch.io/midgard-survivors",
-    "patch": {
-      "version": "0.1.270",
-      "file": "patches/android_patch_0.1.270.bin",
-      "size": 31543692,
-      "sha256": "304a85e4ac51fa9d9c9779a6a3a682926ea907766d922d9ca626099c13e6473b"
-    },
     "legacy": {
       "0.1.251": {
-        "version": "0.1.259",
-        "file": "patches/android_bridge_0.1.251_to_0.1.259.bin",
-        "size": 3626108,
-        "sha256": "770ddf75ec2e49cbe1e60d4071405aef66ed172b8b098693fc3eaeaa8ce7cfde"
+        "version": "0.1.271",
+        "file": "patches/android_bridge_0.1.251_to_0.1.271.bin",
+        "size": 52590908,
+        "sha256": "c1d813dea4e34472fdf288bc38f9952aec3e72b1546f7cd06a7a32e66dad61bd"
       },
       "0.1.257": {
-        "version": "0.1.259",
-        "file": "patches/android_bridge_0.1.257_to_0.1.259.bin",
-        "size": 2541340,
-        "sha256": "aeff25edc42796dc1c5f7d90a057f4c304d1454be87445c878f2a5ffa48214fb"
+        "version": "0.1.271",
+        "file": "patches/android_bridge_0.1.257_to_0.1.271.bin",
+        "size": 52518364,
+        "sha256": "d610b68c55e16fe15008031fdb4b3121fc4079b6b06b18037601e509be3e08fb"
+      },
+      "0.1.259": {
+        "version": "0.1.271",
+        "file": "patches/android_bridge_0.1.259_to_0.1.271.bin",
+        "size": 52452460,
+        "sha256": "e0ec4296d0ca657e25d9a9a5706b8579c67fbdaa7a7cec106428062b0574a49f"
       }
     }
   },
