@@ -2,10 +2,10 @@
   "base": "0.1.259",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.270",
-    "file": "patches/patch_0.1.270.bin",
-    "size": 31496124,
-    "sha256": "723f19b577869236e36bd2e2fd7672cd0bde0bb936d16934f097bbc7327473f5"
+    "version": "0.1.271",
+    "file": "patches/patch_0.1.271.bin",
+    "size": 52392012,
+    "sha256": "584d5b9466f976b5b4d17a1d7d1113dffb0ed9f687e3bcd24c20472b9f4db8fa"
   },
   "legacy": {
     "0.1.219": {
@@ -47,7 +47,131 @@
   },
   "notes": [
     {
+      "version": "0.1.271",
+      "date": "2026-11-10",
+      "items": [
+        {
+          "t": "new",
+          "es": "Armas nuevas del Swordsman, solo moradas: lanzas (Pike, Trident, Glaive, Partizan) para Knight y Crusader, y espadas a dos manos (Slayer, Bastard Sword, Two-Handed Sword, Dragon Slayer). Las habilidades de lanza pegan +20% con una lanza en mano.",
+          "en": "New Swordsman weapons, purple only: spears (Pike, Trident, Glaive, Partizan) for Knight and Crusader, and two-handed swords (Slayer, Bastard Sword, Two-Handed Sword, Dragon Slayer). Spear skills deal +20% with a spear in hand.",
+          "pt": "Armas novas do Swordsman, s\u00f3 roxas: lan\u00e7as (Pike, Trident, Glaive, Partizan) para Knight e Crusader, e espadas de duas m\u00e3os (Slayer, Bastard Sword, Two-Handed Sword, Dragon Slayer). Habilidades de lan\u00e7a causam +20% com uma lan\u00e7a na m\u00e3o."
+        },
+        {
+          "t": "new",
+          "es": "Gungnir, lanza legendaria: Spear Boomerang busca al monstruo m\u00e1s fuerte y cae como el Juicio de Od\u00edn. Montado en Peco se ve la lanza o la espada que llevas.",
+          "en": "Gungnir, legendary spear: Spear Boomerang seeks the strongest monster and lands as Odin's Judgment. Riding a Peco now shows the spear or sword you hold.",
+          "pt": "Gungnir, lan\u00e7a lend\u00e1ria: Spear Boomerang busca o monstro mais forte e cai como o Julgamento de Odin. Montado no Peco aparece a lan\u00e7a ou espada que voc\u00ea usa.",
+          "img": "0.1.271_gungnir.webp"
+        },
+        {
+          "t": "new",
+          "es": "Juperos Railgun: la \u00fanica del Gunslinger ahora carga el Ca\u00f1\u00f3n Apocalipsis con tus ataques (barra bajo los pies) y F dispara un rayo que cruza el mapa.",
+          "en": "Juperos Railgun: the Gunslinger's unique now charges the Apocalypse Cannon with your attacks (bar under your feet) and F fires a beam across the map.",
+          "pt": "Juperos Railgun: a \u00fanica do Gunslinger agora carrega o Canh\u00e3o Apocalipse com seus ataques (barra sob os p\u00e9s) e F dispara um raio que cruza o mapa.",
+          "img": "0.1.271_cannon.webp"
+        },
+        {
+          "t": "new",
+          "es": "Infiltrator, \u00fanica de katar del Assassin, y Meteor Assault para el Assassin Cross (con su versi\u00f3n EX).",
+          "en": "Infiltrator, an Assassin katar unique, and Meteor Assault for the Assassin Cross (with its EX version).",
+          "pt": "Infiltrator, \u00fanica de katar do Assassin, e Meteor Assault para o Assassin Cross (com sua vers\u00e3o EX)."
+        },
+        {
+          "t": "new",
+          "es": "Grados de arma con Nakurusa: desde cierto refinamiento, tu arma puede subir de grado con Oridecon para ganar da\u00f1o. Si falla, solo pierdes lo pagado.",
+          "en": "Weapon grades with Nakurusa: past a certain refine, your weapon can be graded up with Oridecon for more damage. A failure only costs what you paid.",
+          "pt": "Graus de arma com Nakurusa: a partir de certo refino, sua arma pode subir de grau com Oridecon para ganhar dano. Se falhar, voc\u00ea s\u00f3 perde o que pagou."
+        },
+        {
+          "t": "new",
+          "es": "Mascotas MVP con habilidades nuevas: ondas, golpes, curas, escudos, buffs para la party y marcas sobre los monstruos.",
+          "en": "MVP pets have new skills: novas, strikes, heals, shields, party buffs and marks on monsters.",
+          "pt": "Mascotes MVP com habilidades novas: ondas, golpes, curas, escudos, buffs para a party e marcas nos monstros."
+        },
+        {
+          "t": "new",
+          "es": "Ventana Novedades en el juego (login y pausa) y Minimapa con zoom (clic o rueda).",
+          "en": "In-game News window (login and pause) and a zoomable minimap (click or mouse wheel).",
+          "pt": "Janela Novidades no jogo (login e pausa) e minimapa com zoom (clique ou roda do mouse)."
+        },
+        {
+          "t": "up",
+          "es": "Cofre Corrupto redise\u00f1ado: cada lado muestra lo que ganas y lo que cuesta. La fila de buffs cuenta tus Marcas de Hel, Plumas de Valquiria y Valquirias vencidas.",
+          "en": "Corrupt Chest redesigned: each side shows what you gain and what it costs. The buff row counts your Marks of Hel, Valkyrie's Feathers and Valkyries defeated.",
+          "pt": "Arca Corrompida redesenhada: cada lado mostra o que voc\u00ea ganha e o que custa. A fila de buffs conta suas Marcas de Hel, Penas de Valqu\u00edria e Valqu\u00edrias derrotadas.",
+          "img": "0.1.271_corrupt_chest.webp"
+        },
+        {
+          "t": "up",
+          "es": "Infinito e Infierno: los monstruos de otros mapas ahora sueltan cartas del mapa en que est\u00e1s. Las cartas en general caen un 5% menos.",
+          "en": "Endless and Infierno: monsters from other maps now drop the cards of the map you are on. Cards overall drop 5% less.",
+          "pt": "Infinito e Inferno: monstros de outros mapas agora soltam cartas do mapa em que voc\u00ea est\u00e1. As cartas no geral caem 5% menos."
+        },
+        {
+          "t": "up",
+          "es": "Pactos mejorados: Pastor (+120% invocaciones), Manada (+25% invocaciones, halc\u00f3n +15%), Contraataque (25%, 6x ataque b\u00e1sico) y Venganza (+8% por golpe, hasta +80%).",
+          "en": "Pacts buffed: Shepherd (+120% summons), Pack (+25% summons, falcon +15%), Counter (25%, 6x basic attack) and Vengeance (+8% per hit, up to +80%).",
+          "pt": "Pactos melhorados: Pastor (+120% invoca\u00e7\u00f5es), Matilha (+25% invoca\u00e7\u00f5es, falc\u00e3o +15%), Contra-ataque (25%, 6x ataque b\u00e1sico) e Vingan\u00e7a (+8% por golpe, at\u00e9 +80%)."
+        },
+        {
+          "t": "up",
+          "es": "Merchant: toda la l\u00ednea gana da\u00f1o seg\u00fan el zeny guardado. Stalker: Preserve sale m\u00e1s seguido. Sniper: Blitz Beat crece con el nivel y evoluciona con Steel Crow.",
+          "en": "Merchant: the whole line gains damage from your stored zeny. Stalker: Preserve procs more often. Sniper: Blitz Beat grows with level and evolves with Steel Crow.",
+          "pt": "Merchant: toda a linha ganha dano conforme o zeny guardado. Stalker: Preserve sai mais vezes. Sniper: Blitz Beat cresce com o n\u00edvel e evolui com Steel Crow."
+        },
+        {
+          "t": "up",
+          "es": "Mysteltainn: el bono de Bash sigue creciendo, pero cada vez m\u00e1s lento. Lich's Bone Wand: un jefe en Coma recibe m\u00e1s da\u00f1o de todos por un rato.",
+          "en": "Mysteltainn: Bash's bonus keeps growing, but slower and slower. Lich's Bone Wand: a boss in a Coma takes more damage from everyone for a while.",
+          "pt": "Mysteltainn: o b\u00f4nus do Bash continua crescendo, mas cada vez mais devagar. Lich's Bone Wand: um chefe em Coma recebe mais dano de todos por um tempo."
+        },
+        {
+          "t": "up",
+          "es": "Cr\u00edticos f\u00edsicos (estrella roja) y m\u00e1gicos (estrella azul) se distinguen. Medidor de da\u00f1o con bot\u00f3n Reiniciar. Gu\u00eda con tabla de elementos y opciones \u00fatiles.",
+          "en": "Physical (red star) and magic (blue star) crits look different. Damage meter has a Reset button. The Guide has an element table and useful options.",
+          "pt": "Cr\u00edticos f\u00edsicos (estrela vermelha) e m\u00e1gicos (estrela azul) se diferenciam. Medidor de dano com bot\u00e3o Reiniciar. Guia com tabela de elementos e op\u00e7\u00f5es \u00fateis."
+        },
+        {
+          "t": "up",
+          "es": "Veneno: el tinte de los monstruos envenenados es m\u00e1s sutil. Opci\u00f3n para ocultar los estados sobre los monstruos.",
+          "en": "Poison: the tint on poisoned monsters is subtler. New option to hide status marks over monsters.",
+          "pt": "Veneno: a cor dos monstros envenenados \u00e9 mais sutil. Nova op\u00e7\u00e3o para esconder os estados sobre os monstros."
+        },
+        {
+          "t": "fix",
+          "es": "Preserve y Blitz Beat ya funcionan en las peleas de MVP y Satan Morroc.",
+          "en": "Preserve and Blitz Beat now work in MVP and Satan Morroc fights.",
+          "pt": "Preserve e Blitz Beat agora funcionam nas lutas de MVP e Satan Morroc."
+        },
+        {
+          "t": "fix",
+          "es": "Co-op: la Old Blue Box da sus mejoras a todos, los que se unen ven las invocaciones, y lo que guardan al final cuenta como guardado en la Endless Tower.",
+          "en": "Co-op: the Old Blue Box gives its perks to everyone, joiners see summons, and what they keep at the end counts as stored in the Endless Tower.",
+          "pt": "Co-op: a Old Blue Box d\u00e1 suas melhorias a todos, quem entra v\u00ea as invoca\u00e7\u00f5es, e o que guardam no final conta como guardado na Endless Tower."
+        },
+        {
+          "t": "fix",
+          "es": "Prontera: cerrar Amigos o hacer clic en el chat ya no deja al h\u00e9roe sin poder moverse.",
+          "en": "Prontera: closing Friends or clicking the chat no longer leaves your hero unable to move.",
+          "pt": "Prontera: fechar Amigos ou clicar no chat n\u00e3o deixa mais o her\u00f3i sem poder se mover."
+        },
+        {
+          "t": "fix",
+          "es": "Tirones de la PC tras horas de juego: el cursor ya no se regenera sin parar y los FPS tienen un techo con VSync apagado.",
+          "en": "PC stutter after hours of play: the cursor no longer rebuilds nonstop, and FPS are capped with VSync off.",
+          "pt": "Travadas no PC ap\u00f3s horas de jogo: o cursor n\u00e3o \u00e9 mais recriado sem parar e os FPS t\u00eam um limite com VSync desligado."
+        },
+        {
+          "t": "fix",
+          "es": "Endless Tower: los minerales de una build guardada ya no se duplican. Satan Morroc ya no te empuja a lugares sin salida. El \u00c1lbum ya no queda vac\u00edo.",
+          "en": "Endless Tower: a saved build's ores no longer duplicate. Satan Morroc no longer pushes you into dead ends. The Album no longer goes empty.",
+          "pt": "Endless Tower: os min\u00e9rios de uma build salva n\u00e3o duplicam mais. Satan Morroc n\u00e3o te empurra mais para lugares sem sa\u00edda. O \u00c1lbum n\u00e3o fica mais vazio."
+        }
+      ]
+    },
+    {
       "version": "0.1.270",
+      "date": "2026-11-09",
       "items": [
         {
           "t": "fix",
@@ -113,6 +237,7 @@
     },
     {
       "version": "0.1.269",
+      "date": "2026-11-09",
       "items": [
         {
           "t": "new",
@@ -304,6 +429,7 @@
     },
     {
       "version": "0.1.268",
+      "date": "2026-11-09",
       "items": [
         {
           "t": "fix",
@@ -327,6 +453,7 @@
     },
     {
       "version": "0.1.267",
+      "date": "2026-11-08",
       "items": [
         {
           "t": "new",
@@ -452,6 +579,7 @@
     },
     {
       "version": "0.1.266",
+      "date": "2026-11-08",
       "items": [
         {
           "t": "fix",
@@ -469,6 +597,7 @@
     },
     {
       "version": "0.1.265",
+      "date": "2026-11-08",
       "items": [
         {
           "t": "new",
@@ -600,6 +729,7 @@
     },
     {
       "version": "0.1.264",
+      "date": "2026-11-08",
       "items": [
         {
           "t": "new",
@@ -653,6 +783,7 @@
     },
     {
       "version": "0.1.263",
+      "date": "2026-11-07",
       "items": [
         {
           "t": "new",
@@ -712,6 +843,7 @@
     },
     {
       "version": "0.1.262",
+      "date": "2026-11-07",
       "items": [
         {
           "t": "new",
@@ -729,6 +861,7 @@
     },
     {
       "version": "0.1.261",
+      "date": "2026-11-07",
       "items": [
         {
           "t": "new",
@@ -776,6 +909,7 @@
     },
     {
       "version": "0.1.260",
+      "date": "2026-11-07",
       "items": [
         {
           "t": "new",
@@ -820,23 +954,6 @@
           "pt": "Nomes de Prontera mais leg\u00edveis, os p\u00e9s n\u00e3o afundam mais com a c\u00e2mera perto, as janelas cabem em celulares pequenos e o medidor mostra o b\u00f4nus de Mysteltainn."
         }
       ]
-    },
-    {
-      "version": "0.1.259",
-      "items": [
-        {
-          "t": "new",
-          "es": "Nuevo peinado: calvo (el 43), para todas las clases menos los Doram.",
-          "en": "New hairstyle: bald (number 43), for every class except the Doram.",
-          "pt": "Novo penteado: careca (o 43), para todas as classes menos os Doram."
-        }
-      ]
     }
-  ],
-  "broadcast": {
-    "id": "1794279816",
-    "es": "Votaci\u00f3n en nuestro Discord: \u00bfreiniciamos los rankings ma\u00f1ana o esperamos a fin de mes? Vota en discord.gg/YD4mqwysRb",
-    "en": "Vote on our Discord: should the leaderboards reset tomorrow or wait until the end of the month? Vote at discord.gg/YD4mqwysRb",
-    "pt": "Vota\u00e7\u00e3o no nosso Discord: reiniciamos os rankings amanh\u00e3 ou esperamos o fim do m\u00eas? Vote em discord.gg/YD4mqwysRb"
-  }
+  ]
 }
