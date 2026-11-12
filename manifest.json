@@ -37,10 +37,10 @@
     "base": "0.1.273",
     "page": "https://nearq.itch.io/midgard-survivors",
     "patch": {
-      "version": "0.1.275",
-      "file": "patches/android_patch_0.1.275.bin",
-      "size": 7029964,
-      "sha256": "37b6f72683c4082a073cee884608b99d9104b625f9dcdd83bfc3dea8558383ee"
+      "version": "0.1.276",
+      "file": "patches/android_patch_0.1.276.bin",
+      "size": 7210860,
+      "sha256": "c064ede22b97ae78a45066659d3605e0c61fdf5ee301ec04fdb27c9137cb5ee0"
     },
     "legacy": {
       "0.1.251": {
