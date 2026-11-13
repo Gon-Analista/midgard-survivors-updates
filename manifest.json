@@ -2043,5 +2043,10 @@
         }
       ]
     }
-  ]
+  ],
+  "relay": {
+    "url": "wss://relay.midgardsurvivors.com",
+    "bridge": true,
+    "town": false
+  }
 }
