@@ -2048,5 +2048,9 @@
     "url": "wss://relay.midgardsurvivors.com",
     "bridge": true,
     "town": false
+  },
+  "mac": {
+    "base": "0.1.279",
+    "page": "https://nearq.itch.io/midgard-survivors"
   }
 }
