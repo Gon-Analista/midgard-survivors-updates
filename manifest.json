@@ -2,10 +2,10 @@
   "base": "0.1.273",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.279",
-    "file": "patches/patch_0.1.279.bin",
-    "size": 15924396,
-    "sha256": "2450ac0e9542b46b60ba5dfbb4a2af84ac1a4f5e23cd1871c2f1cdbe2f2ab6ec"
+    "version": "0.1.280",
+    "file": "patches/patch_0.1.280.bin",
+    "size": 15931628,
+    "sha256": "c97cc6dfaedd1b61eebd36050b3442c3424ee985893837abb2d2030285037572"
   },
   "legacy": {
     "0.1.219": {
@@ -69,7 +69,42 @@
       }
     }
   },
+  "mac": {
+    "base": "0.1.279",
+    "page": "https://nearq.itch.io/midgard-survivors"
+  },
+  "relay": {
+    "url": "wss://relay.midgardsurvivors.com",
+    "bridge": true,
+    "town": false
+  },
   "notes": [
+    {
+      "version": "0.1.280",
+      "date": "2026-11-14",
+      "items": [
+        {
+          "t": "fix",
+          "es": "iPhone y iPad: el teclado ya se abre al tocar un campo de texto (entrar a tu cuenta, el nombre del personaje, el chat, el reporte de bugs). Lo que escribes aparece en una barra arriba de la pantalla; Intro lo confirma.",
+          "en": "iPhone and iPad: the keyboard now opens when you tap a text field (logging in, your character's name, the chat, bug reports). What you type shows in a bar at the top of the screen; Return confirms it.",
+          "pt": "iPhone e iPad: o teclado agora abre ao tocar num campo de texto (entrar na conta, nome do personagem, chat, relat\u00f3rio de bugs). O que voc\u00ea digita aparece numa barra no topo da tela; Enter confirma.",
+          "ru": "iPhone \u0438 iPad: \u043a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0430 \u0442\u0435\u043f\u0435\u0440\u044c \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u043f\u0440\u0438 \u043d\u0430\u0436\u0430\u0442\u0438\u0438 \u043d\u0430 \u0442\u0435\u043a\u0441\u0442\u043e\u0432\u043e\u0435 \u043f\u043e\u043b\u0435 (\u0432\u0445\u043e\u0434 \u0432 \u0430\u043a\u043a\u0430\u0443\u043d\u0442, \u0438\u043c\u044f \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u0436\u0430, \u0447\u0430\u0442, \u043e\u0442\u0447\u0451\u0442 \u043e\u0431 \u043e\u0448\u0438\u0431\u043a\u0435). \u0412\u0432\u043e\u0434\u0438\u043c\u044b\u0439 \u0442\u0435\u043a\u0441\u0442 \u0432\u0438\u0434\u043d\u043e \u0432 \u0441\u0442\u0440\u043e\u043a\u0435 \u0432\u0432\u0435\u0440\u0445\u0443 \u044d\u043a\u0440\u0430\u043d\u0430; \u0412\u0432\u043e\u0434 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442.",
+          "de": "iPhone und iPad: Die Tastatur \u00f6ffnet sich jetzt beim Tippen auf ein Textfeld (Anmelden, Name des Charakters, Chat, Fehlerberichte). Was du tippst, steht in einer Leiste oben am Bildschirm; Return best\u00e4tigt.",
+          "zh": "iPhone \u8207 iPad\uff1a\u9ede\u64ca\u6587\u5b57\u6b04\u4f4d\u6642\u9375\u76e4\u73fe\u5728\u6703\u6b63\u5e38\u5f48\u51fa\uff08\u767b\u5165\u5e33\u865f\u3001\u89d2\u8272\u540d\u7a31\u3001\u804a\u5929\u3001\u56de\u5831 Bug\uff09\u3002\u8f38\u5165\u7684\u5167\u5bb9\u6703\u986f\u793a\u5728\u756b\u9762\u4e0a\u65b9\u7684\u6b04\u4f4d\uff0c\u6309\u4e0b\u63db\u884c\u9375\u78ba\u8a8d\u3002",
+          "fr": "iPhone et iPad : le clavier s'ouvre maintenant quand tu touches un champ de texte (connexion au compte, nom du personnage, chat, rapport de bug). Ce que tu tapes s'affiche dans une barre en haut de l'\u00e9cran ; Retour valide."
+        },
+        {
+          "t": "up",
+          "es": "Grado (Nakurusa): las armaduras, escudos, prendas, calzados, cascos y accesorios se grad\u00faan con Elunium (y HD Elunium en A y S), el mismo mineral con que se refinan. Las armas siguen con Oridecon.",
+          "en": "Grade (Nakurusa): armour, shields, garments, shoes, headgear and accessories are now graded with Elunium (and HD Elunium for A and S), the same ore that refines them. Weapons still use Oridecon.",
+          "pt": "Grau (Nakurusa): armaduras, escudos, capas, cal\u00e7ados, chap\u00e9us e acess\u00f3rios agora recebem grau com Elunium (e HD Elunium em A e S), o mesmo min\u00e9rio que os refina. As armas continuam com Oridecon.",
+          "ru": "\u0420\u0430\u043d\u0433 (Nakurusa): \u0431\u0440\u043e\u043d\u044f, \u0449\u0438\u0442\u044b, \u043f\u043b\u0430\u0449\u0438, \u043e\u0431\u0443\u0432\u044c, \u0433\u043e\u043b\u043e\u0432\u043d\u044b\u0435 \u0443\u0431\u043e\u0440\u044b \u0438 \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b \u0442\u0435\u043f\u0435\u0440\u044c \u043f\u043e\u0432\u044b\u0448\u0430\u044e\u0442\u0441\u044f \u0437\u0430 Elunium (\u0438 HD Elunium \u0434\u043b\u044f A \u0438 S) \u2014 \u0442\u043e\u0439 \u0436\u0435 \u0440\u0443\u0434\u043e\u0439, \u0447\u0442\u043e \u0438\u0445 \u0442\u043e\u0447\u0438\u0442. \u041e\u0440\u0443\u0436\u0438\u0435 \u043f\u043e-\u043f\u0440\u0435\u0436\u043d\u0435\u043c\u0443 \u0437\u0430 Oridecon.",
+          "de": "Grad (Nakurusa): R\u00fcstungen, Schilde, Umh\u00e4nge, Schuhe, Kopfbedeckungen und Accessoires werden jetzt mit Elunium (und HD Elunium f\u00fcr A und S) aufgewertet, demselben Erz, mit dem sie verfeinert werden. Waffen weiterhin mit Oridecon.",
+          "zh": "\u8a55\u7d1a\uff08Nakurusa\uff09\uff1a\u76d4\u7532\u3001\u76fe\u724c\u3001\u62ab\u80a9\u3001\u978b\u5b50\u3001\u982d\u98fe\u8207\u98fe\u54c1\u6539\u7528 Elunium \u63d0\u5347\u8a55\u7d1a\uff08A \u8207 S \u9700\u8981 HD Elunium\uff09\uff0c\u8207\u7cbe\u7149\u6642\u7528\u7684\u7926\u77f3\u76f8\u540c\u3002\u6b66\u5668\u4ecd\u4f7f\u7528 Oridecon\u3002",
+          "fr": "Grade (Nakurusa) : armures, boucliers, capes, chaussures, couvre-chefs et accessoires se gradent d\u00e9sormais avec de l'Elunium (et de l'Elunium HD pour A et S), le m\u00eame minerai qui les raffine. Les armes restent \u00e0 l'Oridecon."
+        }
+      ]
+    },
     {
       "version": "0.1.279",
       "date": "2026-11-13",
@@ -2018,39 +2053,6 @@
           "pt": "Pacto do Contra-ataque: 20% dos golpes (10% de um MVP) e responde com 4 vezes o seu ataque b\u00e1sico."
         }
       ]
-    },
-    {
-      "version": "0.1.268",
-      "date": "2026-11-09",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Emperium Festival: los r\u00e9cords ya se suben al ranking.",
-          "en": "Emperium Festival: scores now reach the ranking.",
-          "pt": "Festival do Emperium: as pontua\u00e7\u00f5es agora chegam ao ranking."
-        },
-        {
-          "t": "fix",
-          "es": "Fire Wall y las trampas del Hunter ya da\u00f1an al Emperium (y a todo lo que no se mueve): ahora aparecen encima de \u00e9l.",
-          "en": "Fire Wall and Hunter traps now hit the Emperium (and anything that doesn't move): they now appear right on it.",
-          "pt": "Fire Wall e as armadilhas do Hunter agora acertam o Emperium (e tudo que n\u00e3o se move): agora aparecem em cima dele."
-        },
-        {
-          "t": "fix",
-          "es": "Emperium Festival: el veneno calcula su % de vida sobre el primer Emperium. Antes crec\u00eda solo con cada Emperium roto.",
-          "en": "Emperium Festival: poison's % of HP is based on the first Emperium. Before, it grew on its own with every Emperium broken.",
-          "pt": "Festival do Emperium: a % de vida do veneno \u00e9 calculada sobre o primeiro Emperium. Antes crescia sozinha a cada Emperium quebrado."
-        }
-      ]
     }
-  ],
-  "relay": {
-    "url": "wss://relay.midgardsurvivors.com",
-    "bridge": true,
-    "town": false
-  },
-  "mac": {
-    "base": "0.1.279",
-    "page": "https://nearq.itch.io/midgard-survivors"
-  }
+  ]
 }
