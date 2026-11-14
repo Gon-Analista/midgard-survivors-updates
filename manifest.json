@@ -71,7 +71,13 @@
   },
   "mac": {
     "base": "0.1.279",
-    "page": "https://nearq.itch.io/midgard-survivors"
+    "page": "https://nearq.itch.io/midgard-survivors",
+    "patch": {
+      "version": "0.1.280",
+      "file": "patches/mac_patch_0.1.280.bin",
+      "size": 6693884,
+      "sha256": "e1af19bd8d5808c6de84f212df84bd24d85e524e25c3526c5ff460e1d791d9e4"
+    }
   },
   "relay": {
     "url": "wss://relay.midgardsurvivors.com",
