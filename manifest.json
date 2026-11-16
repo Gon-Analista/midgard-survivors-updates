@@ -2380,6 +2380,62 @@
         "patches/bridge_0.1.273_to_0.2.0.bin.000",
         "patches/bridge_0.1.273_to_0.2.0.bin.001"
       ]
+    },
+    "0.1.219": {
+      "version": "0.2.0",
+      "file": "patches/bridge_old_to_0.2.0.bin",
+      "size": 487654556,
+      "sha256": "a5f70a52a81163682958d0911fd6d41039c183d0051d152af9bb78ccafbc6f2f",
+      "parts": [
+        "patches/bridge_old_to_0.2.0.bin.000",
+        "patches/bridge_old_to_0.2.0.bin.001",
+        "patches/bridge_old_to_0.2.0.bin.002",
+        "patches/bridge_old_to_0.2.0.bin.003",
+        "patches/bridge_old_to_0.2.0.bin.004",
+        "patches/bridge_old_to_0.2.0.bin.005"
+      ]
+    },
+    "0.1.257": {
+      "version": "0.2.0",
+      "file": "patches/bridge_old_to_0.2.0.bin",
+      "size": 487654556,
+      "sha256": "a5f70a52a81163682958d0911fd6d41039c183d0051d152af9bb78ccafbc6f2f",
+      "parts": [
+        "patches/bridge_old_to_0.2.0.bin.000",
+        "patches/bridge_old_to_0.2.0.bin.001",
+        "patches/bridge_old_to_0.2.0.bin.002",
+        "patches/bridge_old_to_0.2.0.bin.003",
+        "patches/bridge_old_to_0.2.0.bin.004",
+        "patches/bridge_old_to_0.2.0.bin.005"
+      ]
+    },
+    "0.1.259": {
+      "version": "0.2.0",
+      "file": "patches/bridge_old_to_0.2.0.bin",
+      "size": 487654556,
+      "sha256": "a5f70a52a81163682958d0911fd6d41039c183d0051d152af9bb78ccafbc6f2f",
+      "parts": [
+        "patches/bridge_old_to_0.2.0.bin.000",
+        "patches/bridge_old_to_0.2.0.bin.001",
+        "patches/bridge_old_to_0.2.0.bin.002",
+        "patches/bridge_old_to_0.2.0.bin.003",
+        "patches/bridge_old_to_0.2.0.bin.004",
+        "patches/bridge_old_to_0.2.0.bin.005"
+      ]
+    },
+    "0.1.272": {
+      "version": "0.2.0",
+      "file": "patches/bridge_old_to_0.2.0.bin",
+      "size": 487654556,
+      "sha256": "a5f70a52a81163682958d0911fd6d41039c183d0051d152af9bb78ccafbc6f2f",
+      "parts": [
+        "patches/bridge_old_to_0.2.0.bin.000",
+        "patches/bridge_old_to_0.2.0.bin.001",
+        "patches/bridge_old_to_0.2.0.bin.002",
+        "patches/bridge_old_to_0.2.0.bin.003",
+        "patches/bridge_old_to_0.2.0.bin.004",
+        "patches/bridge_old_to_0.2.0.bin.005"
+      ]
     }
   }
 }
