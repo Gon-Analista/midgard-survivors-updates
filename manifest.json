@@ -2367,5 +2367,17 @@
         }
       ]
     }
-  ]
+  ],
+  "legacy": {
+    "0.1.273": {
+      "version": "0.2.0",
+      "file": "patches/bridge_0.1.273_to_0.2.0.bin",
+      "size": 166723644,
+      "sha256": "234790c2626f7af446bd561f9c0bd48e850df76ca273324f48da7e4b56a5658c",
+      "parts": [
+        "patches/bridge_0.1.273_to_0.2.0.bin.000",
+        "patches/bridge_0.1.273_to_0.2.0.bin.001"
+      ]
+    }
+  }
 }
