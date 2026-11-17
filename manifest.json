@@ -119,10 +119,10 @@
     "base": "0.2.0",
     "page": "https://nearq.itch.io/midgard-survivors",
     "patch": {
-      "version": "0.2.1",
-      "file": "patches/mac_patch_0.2.1.bin",
-      "size": 10989100,
-      "sha256": "4bcb6a33936435b1a89574f4025a2a9bbbfd838f8106846ea33dd21a4c63b910"
+      "version": "0.2.2",
+      "file": "patches/mac_patch_0.2.2.bin",
+      "size": 11561212,
+      "sha256": "eb448d6038b6462527d3422c52239ac0ec5ea00757a92940f961bdd96cd2be9a"
     },
     "legacy": {
       "0.1.279": {
@@ -147,6 +147,39 @@
       "version": "0.2.2",
       "date": "2026-11-17",
       "items": [
+        {
+          "t": "new",
+          "es": "Excalibur nueva para la l\u00ednea del Swordsman; la Excalibur legendaria pasa a ser la Masamune.",
+          "en": "New Excalibur for the Swordsman line; the legendary Excalibur becomes the Masamune.",
+          "pt": "Excalibur nova para a linha do Swordsman; a Excalibur lend\u00e1ria vira a Masamune.",
+          "ru": "\u041d\u043e\u0432\u044b\u0439 Excalibur \u0434\u043b\u044f \u043b\u0438\u043d\u0438\u0438 Swordsman; \u043b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u044b\u0439 Excalibur \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0441\u044f Masamune.",
+          "de": "Neues Excalibur f\u00fcr die Swordsman-Linie; das legend\u00e4re Excalibur wird zur Masamune.",
+          "zh": "Swordsman \u7cfb\u5217\u7684\u5168\u65b0 Excalibur\uff1b\u539f\u672c\u7684\u50b3\u8aaa Excalibur \u8b8a\u6210 Masamune\u3002",
+          "fr": "Nouvelle Excalibur pour la lign\u00e9e Swordsman ; l'Excalibur l\u00e9gendaire devient la Masamune.",
+          "th": "Excalibur \u0e43\u0e2b\u0e21\u0e48\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e2a\u0e32\u0e22 Swordsman; Excalibur \u0e23\u0e30\u0e14\u0e31\u0e1a\u0e15\u0e33\u0e19\u0e32\u0e19\u0e40\u0e14\u0e34\u0e21\u0e01\u0e25\u0e32\u0e22\u0e40\u0e1b\u0e47\u0e19 Masamune"
+        },
+        {
+          "t": "new",
+          "es": "Rasgos tambi\u00e9n en piezas verdes y azules, 21 piezas nuevas y Abstract cambia rasgos.",
+          "en": "Traits on green and blue pieces too, 21 new pieces, and Abstract rerolls traits.",
+          "pt": "Tra\u00e7os tamb\u00e9m em pe\u00e7as verdes e azuis, 21 pe\u00e7as novas e o Abstract troca tra\u00e7os.",
+          "ru": "\u0427\u0435\u0440\u0442\u044b \u0442\u0435\u043f\u0435\u0440\u044c \u0438 \u043d\u0430 \u0437\u0435\u043b\u0451\u043d\u044b\u0445 \u0438 \u0441\u0438\u043d\u0438\u0445 \u0432\u0435\u0449\u0430\u0445, 21 \u043d\u043e\u0432\u0430\u044f \u0432\u0435\u0449\u044c, Abstract \u043c\u0435\u043d\u044f\u0435\u0442 \u0447\u0435\u0440\u0442\u044b.",
+          "de": "Merkmale auch auf gr\u00fcnen und blauen Teilen, 21 neue Teile, und Abstract w\u00fcrfelt Merkmale neu.",
+          "zh": "\u7da0\u8272\u8207\u85cd\u8272\u88dd\u5099\u4e5f\u6709\u7279\u6027\u300121 \u4ef6\u65b0\u88dd\u5099\uff0cAbstract \u53ef\u91cd\u62bd\u7279\u6027\u3002",
+          "fr": "Des traits aussi sur les pi\u00e8ces vertes et bleues, 21 nouvelles pi\u00e8ces, et Abstract relance les traits.",
+          "th": "\u0e04\u0e38\u0e13\u0e25\u0e31\u0e01\u0e29\u0e13\u0e30\u0e1a\u0e19\u0e0a\u0e34\u0e49\u0e19\u0e2a\u0e35\u0e40\u0e02\u0e35\u0e22\u0e27\u0e41\u0e25\u0e30\u0e19\u0e49\u0e33\u0e40\u0e07\u0e34\u0e19\u0e14\u0e49\u0e27\u0e22 \u0e2d\u0e38\u0e1b\u0e01\u0e23\u0e13\u0e4c\u0e43\u0e2b\u0e21\u0e48 21 \u0e0a\u0e34\u0e49\u0e19 \u0e41\u0e25\u0e30 Abstract \u0e2a\u0e38\u0e48\u0e21\u0e04\u0e38\u0e13\u0e25\u0e31\u0e01\u0e29\u0e13\u0e30\u0e43\u0e2b\u0e21\u0e48"
+        },
+        {
+          "t": "up",
+          "es": "El da\u00f1o de habilidades ahora multiplica, y la Gracia de Od\u00edn vuelve al apoyo.",
+          "en": "Skill damage now multiplies, and Odin's Grace goes back to support.",
+          "pt": "O dano de habilidades agora multiplica, e a Gra\u00e7a de Odin volta ao suporte.",
+          "ru": "\u0423\u0440\u043e\u043d \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0442\u0435\u043f\u0435\u0440\u044c \u0443\u043c\u043d\u043e\u0436\u0430\u0435\u0442, \u0430 \u041c\u0438\u043b\u043e\u0441\u0442\u044c Odin \u0441\u043d\u043e\u0432\u0430 \u0434\u043b\u044f \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0438.",
+          "de": "F\u00e4higkeitsschaden multipliziert jetzt, und Odins Gnade geh\u00f6rt wieder dem Support.",
+          "zh": "\u6280\u80fd\u50b7\u5bb3\u73fe\u5728\u662f\u4e58\u7b97\uff0cOdin \u7684\u6069\u5178\u56de\u6b78\u8f14\u52a9\u3002",
+          "fr": "Les d\u00e9g\u00e2ts des comp\u00e9tences multiplient d\u00e9sormais, et la Gr\u00e2ce d'Odin revient au soutien.",
+          "th": "\u0e14\u0e32\u0e40\u0e21\u0e08\u0e2a\u0e01\u0e34\u0e25\u0e15\u0e2d\u0e19\u0e19\u0e35\u0e49\u0e40\u0e1b\u0e47\u0e19\u0e15\u0e31\u0e27\u0e04\u0e39\u0e13 \u0e41\u0e25\u0e30 Odin's Grace \u0e01\u0e25\u0e31\u0e1a\u0e44\u0e1b\u0e40\u0e1b\u0e47\u0e19\u0e02\u0e2d\u0e07\u0e2a\u0e32\u0e22\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15"
+        },
         {
           "t": "new",
           "es": "Excalibur nueva, \u00fanica de Glast Heim (del Dark Lord): espada a dos manos de la l\u00ednea del Swordsman (Swordsman, Knight, Lord Knight, Crusader, Paladin). Cada ataque b\u00e1sico golpea en \u00e1rea y guarda el da\u00f1o hecho al monstruo que atacas, y carga 8 niveles (10, 15, 20, 25, 30, 40, 50 y 60 ataques). F (o \u00ab!\u00bb en pantalla t\u00e1ctil) suelta Excaliblast: una ola de luz que cruza el mapa hacia donde hay m\u00e1s monstruos y descarga lo guardado de x1 a x10 seg\u00fan el nivel, y deja una quemadura del 25% de ese poder que va derritiendo a los MVP. +45% de da\u00f1o (+30% y el +50% de las armas a dos manos).",
