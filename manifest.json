@@ -116,24 +116,24 @@
     }
   },
   "mac": {
-    "base": "0.2.0",
+    "base": "0.2.4",
     "page": "https://nearq.itch.io/midgard-survivors",
-    "patch": {
-      "version": "0.2.3",
-      "file": "patches/mac_patch_0.2.3.bin",
-      "size": 11945196,
-      "sha256": "e609ce10584657c0308668d4cb4659abe89f9cccf93238c12bea302b11095091"
-    },
     "legacy": {
       "0.1.279": {
-        "version": "0.2.0",
-        "file": "patches/mac_bridge_0.1.279_to_0.2.0.bin",
-        "size": 159765788,
-        "sha256": "f6b12668ac3b69e7f115acde2c067694dd5716e8e87e543b5318800298fcf3b1",
+        "version": "0.2.4",
+        "file": "patches/mac_bridge_0.1.279_to_0.2.4.bin",
+        "size": 161107772,
+        "sha256": "2653911f3886cfb8a59ef5a4274d382f53c6ca1a64e5d35af1bf2678bb7497be",
         "parts": [
-          "patches/mac_bridge_0.1.279_to_0.2.0.bin.000",
-          "patches/mac_bridge_0.1.279_to_0.2.0.bin.001"
+          "patches/mac_bridge_0.1.279_to_0.2.4.bin.000",
+          "patches/mac_bridge_0.1.279_to_0.2.4.bin.001"
         ]
+      },
+      "0.2.0": {
+        "version": "0.2.4",
+        "file": "patches/mac_bridge_0.2.0_to_0.2.4.bin",
+        "size": 12987708,
+        "sha256": "433e9bf1dad8d5d7a96b2fdd87ec7cd0fe5316a24b88af2c94e958f3b24d941a"
       }
     }
   },
