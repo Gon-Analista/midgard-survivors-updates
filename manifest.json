@@ -86,13 +86,13 @@
     },
     "legacy": {
       "0.1.273": {
-        "version": "0.2.5",
-        "file": "patches/android_bridge_0.1.273_to_0.2.5.bin",
-        "size": 161320524,
-        "sha256": "8bcc8eeb66cda6a970763183e524ff94ae3eb803cc345b7da83fc07b42279e5f",
+        "version": "0.2.4",
+        "file": "patches/android_patch_0.2.4.bin",
+        "size": 161243900,
+        "sha256": "bfa884e9b01d52be41dd83af16270a1202f1c09a3458b739334220252046c54d",
         "parts": [
-          "patches/android_bridge_0.1.273_to_0.2.5.bin.000",
-          "patches/android_bridge_0.1.273_to_0.2.5.bin.001"
+          "patches/android_patch_0.2.4.bin.000",
+          "patches/android_patch_0.2.4.bin.001"
         ]
       }
     }
