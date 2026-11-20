@@ -3690,5 +3690,11 @@
         }
       ]
     }
-  ]
+  ],
+  "broadcast": {
+    "id": "1795155320",
+    "es": "Quick fix 0.2.5: Almas y Armon\u00eda m\u00e1s claras, \u00fanicas repetidas m\u00e1s raras, m\u00e1s premios del Poring Dorado y varios arreglos. Reinicia el juego para actualizar.",
+    "en": "Quick fix 0.2.5: clearer Souls and Harmony, rarer repeat uniques, more Golden Poring rewards and several fixes. Restart the game to update.",
+    "pt": "Quick fix 0.2.5: Almas e Harmonia mais claras, \u00fanicos repetidos mais raros, mais pr\u00eamios do Poring Dourado e v\u00e1rias corre\u00e7\u00f5es. Reinicie o jogo para atualizar."
+  }
 }
