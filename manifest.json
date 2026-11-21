@@ -101,10 +101,10 @@
     "base": "0.2.4",
     "page": "https://nearq.itch.io/midgard-survivors",
     "patch": {
-      "version": "0.2.6",
-      "file": "patches/mac_patch_0.2.6.bin",
-      "size": 22533468,
-      "sha256": "678d07658248a67e88c78ad5cd6ee92c1826972a602cd7f429e57710ba696c9d"
+      "version": "0.2.7",
+      "file": "patches/mac_patch_0.2.7.bin",
+      "size": 22518748,
+      "sha256": "b50d52b1ea8404bf4ac7f1710a7b41d5e86b3431aa4e01e404d06a71eb2c1753"
     },
     "legacy": {
       "0.1.279": {
