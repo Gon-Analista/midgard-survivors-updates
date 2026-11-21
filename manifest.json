@@ -4227,9 +4227,9 @@
     }
   ],
   "broadcast": {
-    "id": "1795242283",
-    "es": "\u00a1Sali\u00f3 la 0.2.6! Reinicia el juego para actualizar. El Jefe del Mundo se estrena el lunes con Baphomet.",
-    "en": "0.2.6 is out! Restart the game to update. The World Boss opens on Monday with Baphomet.",
-    "pt": "A 0.2.6 saiu! Reinicie o jogo para atualizar. O Chefe Mundial estreia na segunda com Baphomet."
+    "id": "1795245318",
+    "es": "Aviso GM: viene un hotfix de emergencia. La 0.2.6 dio demasiado bot\u00edn por error en los Infiernos; lo arreglamos en unos minutos y lo que ya ganaste se queda. \u00a1Lo sentimos mucho!",
+    "en": "GM notice: an emergency hotfix is coming. 0.2.6 gave too much loot in Hell by mistake; we're fixing it in a few minutes and what you already got stays yours. We're really sorry!",
+    "pt": "Aviso GM: vem um hotfix de emerg\u00eancia. A 0.2.6 deu saque demais nos Infernos por engano; vamos corrigir em poucos minutos e o que voc\u00ea j\u00e1 ganhou continua seu. Sentimos muito!"
   }
 }
