@@ -4225,5 +4225,11 @@
         }
       ]
     }
-  ]
+  ],
+  "broadcast": {
+    "id": "1795242283",
+    "es": "\u00a1Sali\u00f3 la 0.2.6! Reinicia el juego para actualizar. El Jefe del Mundo se estrena el lunes con Baphomet.",
+    "en": "0.2.6 is out! Restart the game to update. The World Boss opens on Monday with Baphomet.",
+    "pt": "A 0.2.6 saiu! Reinicie o jogo para atualizar. O Chefe Mundial estreia na segunda com Baphomet."
+  }
 }
