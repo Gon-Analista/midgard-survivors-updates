@@ -5138,5 +5138,11 @@
         }
       ]
     }
-  ]
+  ],
+  "broadcast": {
+    "id": "1795488393",
+    "es": "Quick hotfix 0.2.10: reinicia el juego para actualizar (Recognized Spell para High Wizard, Thief con arco, m\u00fasica de Prontera a elecci\u00f3n y m\u00e1s).",
+    "en": "Quick hotfix 0.2.10: restart the game to update (Recognized Spell for High Wizard, bow Thief, pick Prontera's music and more).",
+    "pt": "Quick hotfix 0.2.10: reinicie o jogo para atualizar (Recognized Spell para High Wizard, Thief com arco, m\u00fasica de Prontera \u00e0 escolha e mais)."
+  }
 }
