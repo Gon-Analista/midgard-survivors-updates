@@ -1,78 +1,12 @@
 {
-  "base": "0.2.0",
+  "base": "0.2.11",
   "page": "https://nearq.itch.io/midgard-survivors",
-  "patch": {
-    "version": "0.2.11",
-    "file": "patches/patch_0.2.11.bin",
-    "size": 73751820,
-    "sha256": "96828234d04241f749a4753d84cbb2c8aeaeb8762dc8670dbb2a15baf032e253"
-  },
   "legacy": {
-    "0.1.273": {
-      "version": "0.2.0",
-      "file": "patches/bridge_0.1.273_to_0.2.0.bin",
-      "size": 166723644,
-      "sha256": "234790c2626f7af446bd561f9c0bd48e850df76ca273324f48da7e4b56a5658c",
-      "parts": [
-        "patches/bridge_0.1.273_to_0.2.0.bin.000",
-        "patches/bridge_0.1.273_to_0.2.0.bin.001"
-      ]
-    },
-    "0.1.219": {
-      "version": "0.2.0",
-      "file": "patches/bridge_old_to_0.2.0.bin",
-      "size": 487654556,
-      "sha256": "a5f70a52a81163682958d0911fd6d41039c183d0051d152af9bb78ccafbc6f2f",
-      "parts": [
-        "patches/bridge_old_to_0.2.0.bin.000",
-        "patches/bridge_old_to_0.2.0.bin.001",
-        "patches/bridge_old_to_0.2.0.bin.002",
-        "patches/bridge_old_to_0.2.0.bin.003",
-        "patches/bridge_old_to_0.2.0.bin.004",
-        "patches/bridge_old_to_0.2.0.bin.005"
-      ]
-    },
-    "0.1.257": {
-      "version": "0.2.0",
-      "file": "patches/bridge_old_to_0.2.0.bin",
-      "size": 487654556,
-      "sha256": "a5f70a52a81163682958d0911fd6d41039c183d0051d152af9bb78ccafbc6f2f",
-      "parts": [
-        "patches/bridge_old_to_0.2.0.bin.000",
-        "patches/bridge_old_to_0.2.0.bin.001",
-        "patches/bridge_old_to_0.2.0.bin.002",
-        "patches/bridge_old_to_0.2.0.bin.003",
-        "patches/bridge_old_to_0.2.0.bin.004",
-        "patches/bridge_old_to_0.2.0.bin.005"
-      ]
-    },
-    "0.1.259": {
-      "version": "0.2.0",
-      "file": "patches/bridge_old_to_0.2.0.bin",
-      "size": 487654556,
-      "sha256": "a5f70a52a81163682958d0911fd6d41039c183d0051d152af9bb78ccafbc6f2f",
-      "parts": [
-        "patches/bridge_old_to_0.2.0.bin.000",
-        "patches/bridge_old_to_0.2.0.bin.001",
-        "patches/bridge_old_to_0.2.0.bin.002",
-        "patches/bridge_old_to_0.2.0.bin.003",
-        "patches/bridge_old_to_0.2.0.bin.004",
-        "patches/bridge_old_to_0.2.0.bin.005"
-      ]
-    },
-    "0.1.272": {
-      "version": "0.2.0",
-      "file": "patches/bridge_old_to_0.2.0.bin",
-      "size": 487654556,
-      "sha256": "a5f70a52a81163682958d0911fd6d41039c183d0051d152af9bb78ccafbc6f2f",
-      "parts": [
-        "patches/bridge_old_to_0.2.0.bin.000",
-        "patches/bridge_old_to_0.2.0.bin.001",
-        "patches/bridge_old_to_0.2.0.bin.002",
-        "patches/bridge_old_to_0.2.0.bin.003",
-        "patches/bridge_old_to_0.2.0.bin.004",
-        "patches/bridge_old_to_0.2.0.bin.005"
-      ]
+    "0.2.0": {
+      "version": "0.2.11",
+      "file": "patches/bridge_0.2.0_to_0.2.11.bin",
+      "size": 73762492,
+      "sha256": "b00e7c32a00964df1c8ebe6cc0ee65bf1e73e6101e70e92f4ff76de467a429a5"
     }
   },
   "android": {
@@ -5643,11 +5577,5 @@
         }
       ]
     }
-  ],
-  "broadcast": {
-    "id": "1795568812",
-    "es": "\u00a1Ya sali\u00f3 la Actualizaci\u00f3n navide\u00f1a 0.2.11! Antonio, la Gacha de Navidad, la Kafra ambulante y mucho m\u00e1s. Reinicia el juego para actualizar.",
-    "en": "The Christmas Update 0.2.11 is out! Antonio, the Christmas Gacha, the Wandering Kafra and much more. Restart the game to update.",
-    "pt": "A Atualiza\u00e7\u00e3o de Natal 0.2.11 saiu! Antonio, o Gacha de Natal, a Kafra ambulante e muito mais. Reinicie o jogo para atualizar."
-  }
+  ]
 }
