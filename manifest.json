@@ -1,6 +1,12 @@
 {
   "base": "0.2.11",
   "page": "https://nearq.itch.io/midgard-survivors",
+  "patch": {
+    "version": "0.2.12",
+    "file": "patches/patch_0.2.12.bin",
+    "size": 174156,
+    "sha256": "1c27c2dd5dcbed5b15817b6c1819321808da7facd1b3d9571c676a25f8f563dc"
+  },
   "legacy": {
     "0.2.0": {
       "version": "0.2.11",
