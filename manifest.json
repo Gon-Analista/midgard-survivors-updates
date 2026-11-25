@@ -18,6 +18,62 @@
         "patches/bridge_0.1.273_to_0.2.11.bin.001",
         "patches/bridge_0.1.273_to_0.2.11.bin.002"
       ]
+    },
+    "0.1.219": {
+      "version": "0.2.11",
+      "file": "patches/bridge_old_to_0.2.11.bin",
+      "size": 549586908,
+      "sha256": "1f39bd853e70d23f372a068be60f0ba6a6576442e712fd8ef2de71ed39c9a159",
+      "parts": [
+        "patches/bridge_old_to_0.2.11.bin.000",
+        "patches/bridge_old_to_0.2.11.bin.001",
+        "patches/bridge_old_to_0.2.11.bin.002",
+        "patches/bridge_old_to_0.2.11.bin.003",
+        "patches/bridge_old_to_0.2.11.bin.004",
+        "patches/bridge_old_to_0.2.11.bin.005"
+      ]
+    },
+    "0.1.257": {
+      "version": "0.2.11",
+      "file": "patches/bridge_old_to_0.2.11.bin",
+      "size": 549586908,
+      "sha256": "1f39bd853e70d23f372a068be60f0ba6a6576442e712fd8ef2de71ed39c9a159",
+      "parts": [
+        "patches/bridge_old_to_0.2.11.bin.000",
+        "patches/bridge_old_to_0.2.11.bin.001",
+        "patches/bridge_old_to_0.2.11.bin.002",
+        "patches/bridge_old_to_0.2.11.bin.003",
+        "patches/bridge_old_to_0.2.11.bin.004",
+        "patches/bridge_old_to_0.2.11.bin.005"
+      ]
+    },
+    "0.1.259": {
+      "version": "0.2.11",
+      "file": "patches/bridge_old_to_0.2.11.bin",
+      "size": 549586908,
+      "sha256": "1f39bd853e70d23f372a068be60f0ba6a6576442e712fd8ef2de71ed39c9a159",
+      "parts": [
+        "patches/bridge_old_to_0.2.11.bin.000",
+        "patches/bridge_old_to_0.2.11.bin.001",
+        "patches/bridge_old_to_0.2.11.bin.002",
+        "patches/bridge_old_to_0.2.11.bin.003",
+        "patches/bridge_old_to_0.2.11.bin.004",
+        "patches/bridge_old_to_0.2.11.bin.005"
+      ]
+    },
+    "0.1.272": {
+      "version": "0.2.11",
+      "file": "patches/bridge_old_to_0.2.11.bin",
+      "size": 549586908,
+      "sha256": "1f39bd853e70d23f372a068be60f0ba6a6576442e712fd8ef2de71ed39c9a159",
+      "parts": [
+        "patches/bridge_old_to_0.2.11.bin.000",
+        "patches/bridge_old_to_0.2.11.bin.001",
+        "patches/bridge_old_to_0.2.11.bin.002",
+        "patches/bridge_old_to_0.2.11.bin.003",
+        "patches/bridge_old_to_0.2.11.bin.004",
+        "patches/bridge_old_to_0.2.11.bin.005"
+      ]
     }
   },
   "android": {
