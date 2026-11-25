@@ -7,6 +7,17 @@
       "file": "patches/bridge_0.2.0_to_0.2.11.bin",
       "size": 73762492,
       "sha256": "b00e7c32a00964df1c8ebe6cc0ee65bf1e73e6101e70e92f4ff76de467a429a5"
+    },
+    "0.1.273": {
+      "version": "0.2.11",
+      "file": "patches/bridge_0.1.273_to_0.2.11.bin",
+      "size": 228779516,
+      "sha256": "3a3fe3490223220cd3cf49dc156124814791b33851809dd59f5892f3648747af",
+      "parts": [
+        "patches/bridge_0.1.273_to_0.2.11.bin.000",
+        "patches/bridge_0.1.273_to_0.2.11.bin.001",
+        "patches/bridge_0.1.273_to_0.2.11.bin.002"
+      ]
     }
   },
   "android": {
